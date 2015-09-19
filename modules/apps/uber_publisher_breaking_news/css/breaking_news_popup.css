@@ -1,0 +1,66 @@
+.noty_message {
+  text-align: left;
+  font-size: 16px;
+  position: relative;
+  width: auto;
+  padding: 12px 0px;
+}
+
+.noty_message .noty_text {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.noty_message .noty_close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  line-height: 12px;
+  font-size: 40px;
+  color: #fff;
+  opacity: 1;
+}
+
+#noty_bottom_layout_container:before {
+  content: "BREAKING NEWS";
+  display: inline-block;
+  background: #fff;
+  height: 50px;
+  width: auto;
+  color: #000;
+  padding: 15px 12px;
+  font-size: 18px; 
+  position: absolute;
+  left: 15px;
+  top: 0px;
+}
+
+#noty_bottom {
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 9999999;
+  background-color: #ED1C24;
+  border-top: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+#noty_bottom_layout_container {
+  margin-bottom: 0px;
+  padding-left: 15px;
+  position: relative;
+}
+
+#noty_bottom_layout_container .list-group-item,
+#noty_bottom_layout_container .list-group-item:last-child{
+  border-radius: 0px;
+  border: 0px;
+  background: inherit;
+  padding: 0px 0px 0px 190px;
+  height: 50px;
+}

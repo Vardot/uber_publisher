@@ -1,0 +1,93 @@
+body {
+  background: #35505c;
+}
+
+#main-content {
+  width: 960px;
+  display: block;
+  margin: 40px auto 40px auto;
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.28);
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  background: transparent;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+#branding,
+body.in-maintenance #page {
+  width: auto;
+}
+
+#branding {
+  padding: 10px 40px;
+  text-align: center;
+}
+
+#branding h1.page-title {
+  line-height: 90px;
+}
+
+#branding .logo-wrapper {
+  float: left;
+  margin-right: 20px;
+}
+
+#branding #logo {
+  margin-bottom: 0;
+  max-width: 130px;
+}
+
+body.in-maintenance #content {
+  width: 640px;
+}
+
+#sidebar-first ol.task-list {
+  background: transparent url("../images/wizard-bg.png") repeat-y 0 0;
+}
+
+#sidebar-first  ol.task-list li {
+  background: transparent url("../images/tasks-inactive.png") no-repeat 5px 4px;
+  color: #9a9a9a;
+  font: normal 400 16px/18px "Open Sans", Arial, sans-serif;
+  height: 30px;
+  padding: 6px 0 0 40px;
+  margin: 0 0 22px 0;
+  box-sizing: border-box;
+}
+
+#sidebar-first ol.task-list li.active {
+  background: transparent url("../images/tasks-active.png") no-repeat 5px 4px;
+  color: #2e87cd;
+}
+
+#sidebar-first ol.task-list li.done {
+  background: transparent url("../images/tasks-complete.png") no-repeat 5px 4px;
+  color: #75cd27;
+}
+
+.messages {
+  word-wrap: break-word;
+}
+
+/* Install welcome page */
+#eula-installation-welcome {
+  background: #f4f4f4;
+  border: 1px solid #edebeb;
+  padding: 10px 20px 10px;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+input[type="submit"][id^="edit-submit"],
+input#edit-actions-submit, input[id^="save-continue"],
+input[type="submit"][id^="edit-save"], input#edit-save,
+input#edit-submit, input#edit-actions-save,
+#media-browser-page a.button-yes {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}

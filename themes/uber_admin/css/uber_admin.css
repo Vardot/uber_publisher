@@ -1,0 +1,228 @@
+.fixed-pane-left {
+  position: fixed;
+  z-index: 602;
+  left: 60px;
+  top: 42px;
+  bottom: 0;
+  width: 320px;
+  background-color: #f8f8f8;
+  overflow-y: scroll;
+}
+
+.fixed-pane-left input,
+.fixed-pane-left select {
+  max-width: 210px;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+}
+
+.fixed-pane-left input[type='checkbox'] {
+  width: auto;
+}
+
+.fixed-pane-left textarea {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #fff));
+  background: -webkit-linear-gradient(#fafafa, #fff);
+  background: -moz-linear-gradient(#fafafa, #fff);
+  background: linear-gradient(#fafafa,#ffffff);
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  color: #000000;
+}
+
+html.js .fixed-pane-left input.form-autocomplete {
+  background: url(../images/throbber-inactive.png) 100% 7px no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #fff));
+  background: url(../images/throbber-inactive.png) 100% 7px no-repeat, -webkit-linear-gradient(#fafafa, #fff);
+  background: url(../images/throbber-inactive.png) 100% 7px no-repeat, -moz-linear-gradient(#fafafa, #fff);
+  background: url(../images/throbber-inactive.png) 100% 7px no-repeat,  linear-gradient(#fafafa,#ffffff);
+}
+
+#page {
+  padding: 10px 20px 0 20px;
+}
+
+fieldset {
+  background: #fff;
+}
+
+fieldset legend {
+  background: transparent;
+}
+
+.fixed-pane-left a.manage-crop {
+  display: block;
+  width: 210px;
+}
+
+.fixed-pane-left label {
+  font-size: 12px;
+}
+
+.fixed-pane-left .form-item {
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+.fixed-pane-left .form-wrapper {
+  margin: 0px;
+}
+
+.fixed-pane-left a.button.browse {
+  display: inline-block;
+  float: left;
+  margin: 0px;
+}
+
+.fixed-pane-left .workbench-status-msg {
+  margin: -10px -10px 10px -10px;
+  padding: 10px;
+  border-bottom: 1px solid #d5d5d5;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.fixed-pane-left .workbench-status-msg a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.fixed-pane-left .workbench-status-msg.draft {
+  background: #b73939;
+}
+
+.fixed-pane-left .workbench-status-msg.needs_review {
+  background: #FF8209;
+}
+
+.fixed-pane-left .workbench-status-msg.published {
+  background: #4d8f46;
+}
+
+.fixed-pane-left .container-inline-date .date-padding {
+  padding: 0px;
+}
+
+.fixed-pane-left .container-inline-date .form-item .form-item-publish-on-date input {
+  width: 90px;
+  margin-right: 20px;
+}
+
+.fixed-pane-left .container-inline-date .form-item .form-item-publish-on-time input {
+  width: 70px;
+}
+
+.fixed-pane-left .property_box {
+  background: #FFF;
+  border: 1px #d5d5d5 solid;
+  border-radius: 5px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
+}
+
+.node-form .form-actions.form-wrapper {
+  text-align: right;
+}
+
+.node-form .form-actions.form-wrapper input.form-submit {
+  margin: 0em 0em 1em 1em !important;
+}
+
+body.page-node-add,
+body.page-node-edit {
+  padding-left: 380px;
+}
+
+/************* Horizontal tabs **********************/
+div.horizontal-tabs {
+  border: none;
+}
+
+div.horizontal-tabs .horizontal-tabs-panes {
+  border: 1px solid #ccc;
+  border-top: 0px none;
+  clear: both;
+  float: left;
+  padding-top: 20px;
+  width: 100%;
+  background: #fff;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list {
+  overflow-y: hidden;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  padding: 3px 0px 0px;
+  background: #ebebeb;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li {
+  background: none; 
+  border-right: 0px none; 
+  padding: 0px;
+  margin: 0;
+  min-width: 5px;
+  float: left;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li.selected,
+.horizontal-tabs ul.horizontal-tabs-list li.selected:hover {
+  background-color: #fff;
+  border: none;
+  border-top: 3px solid #0074BD;
+  margin-top: -3px;
+  color: #333;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+  position: relative;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+} 
+
+.horizontal-tabs ul.horizontal-tabs-list li a {
+  display: block;
+  float: left;
+  line-height: 18px;
+  font-weight: normal;
+  border: 0;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 12px;
+  color: #797979;
+  background: transparent;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li.selected a {
+  padding: 10px 12px;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li a strong {
+  font-weight: normal !important;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li:hover {
+  background: none;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li a:hover {
+  background: none;
+  color: #0074BD;
+}
+
+/************* Uber Publisher Settings **********************/
+.logo-uploaded {
+  float: left;
+  margin-right: 15px;
+}
+
+body .ui-dialog .ui-dialog-titlebar,
+.upload-dialog.ui-dialog .ui-dialog-titlebar,
+.browse-dialog.ui-dialog .ui-dialog-titlebar {
+  min-height: 22px;
+  height: auto;
+}
+
+body.adminimal-theme .ui-dialog .ui-dialog-title {
+  font-size: 20px;
+  margin: 5px 10px;
+}

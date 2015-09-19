@@ -1,0 +1,8 @@
+name = Uber Publisher Apps
+description = Access apps from Uber Publisher Store
+version = 7.x-1.0
+core = 7.x
+
+dependencies[] = apps
+
+files[] = uber_publisher_apps.module

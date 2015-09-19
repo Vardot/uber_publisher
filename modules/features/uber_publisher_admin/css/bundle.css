@@ -1,0 +1,52 @@
+.form-item .form-type-radio.form-item-uber-publisher-bundle {
+  padding: 0;
+  margin: 0;
+}
+.form-item-uber-publisher-bundle input[type="radio"] {
+  visibility: hidden;
+  position: absolute;
+}
+
+.form-item-uber-publisher-bundle .form-required {
+  display: none;
+}
+
+.form-item-uber-publisher-bundle input[type="radio"] + label {
+  float: left;
+  display: block;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+  border: 2px solid #eee;
+}
+
+.form-item-uber-publisher-bundle input[type="radio"] + label:hover {
+  background: #f2f2f2;
+}
+
+.form-item-uber-publisher-bundle input[type="radio"] + label:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.form-item-uber-publisher-bundle-child(even) input[type="radio"] + label {
+  float: right;
+}
+
+.form-item-uber-publisher-bundle input[type="radio"]:checked + label {
+  border: 2px solid #78a300;
+}
+
+#uber-publisher-bundle .form-actions {
+  clear: both;
+}
+
+/* In profile installation */
+body.in-maintenance .form-item-uber-publisher-bundle input[type="radio"] + label {
+  max-width: 300px;
+}
+
+body.in-maintenance .uber-publisher-bundle-teaser img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,162 @@
+<?php
+/**
+ * @file
+ * Code for the Uber Publisher Admin feature.
+ */
+
+include_once 'uber_publisher_admin.features.inc';
+include_once 'includes/form_alter.inc';
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ */
+function uber_publisher_admin_form_features_export_form_alter(&$form, &$form_state, $form_id) {
+  $component = array(
+    'variable' => '',
+    'defaultconfig' => 'strongarm__58__'
+  );
+  foreach ($component as $key => $prefix) {
+    unset($form['export'][$key]['sources']['selected']['#options'][$prefix.'less_dir']);
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function uber_publisher_admin_theme() {
+  $path = drupal_get_path('module', 'uber_publisher_admin') . '/theme';
+  $theme = array(
+    'uber_publisher_bundle_teaser' => array(
+      'variables' => array('machine_name' => '', 'bundle' => array()),
+      'template' => 'uber-publisher-bundle-teaser',
+      'file' => 'theme.inc',
+      'path' => $path,
+    ),
+  );
+  return $theme;
+}
+
+
+/**
+ * Implements hook_admin_paths().
+ */
+function uber_publisher_admin_admin_paths_alter(&$paths) {
+  // Remove varbase overrides to user page admin path.
+  unset($paths['user']);
+  unset($paths['user/*']);
+}
+
+/**
+ * Implements hook_field_widget_form_alter().
+ */
+function uber_publisher_admin_field_widget_form_alter(&$element, &$form_state, $context) {
+  // Add css improvements to fields widgets
+  drupal_add_css(drupal_get_path('module', 'uber_publisher_admin') . '/css/fields.css');
+}
+
+/**
+ * Implements hook_permission()
+ */
+function uber_publisher_admin_permission() {
+  $perms = array();
+
+  $perms['administer uber_publisher settings'] = array(
+    'title' => t('Administer Uber Publisher settings'),
+    'description' => t('Administer Uber Publisher settings.'),
+  );
+
+  $perms['administer uber_publisher bundle'] = array(
+    'title' => t('Administer Uber Publisher bundle'),
+    'description' => t('Administer Uber Publisher bundle.'),
+  );
+
+  return $perms;
+}
+
+/**
+ * Implements hook_menu()
+ */
+function uber_publisher_admin_menu() {
+  $items = array();
+
+  $items['admin/uber_publisher'] = array(
+    'title' => 'Uber Publisher Settings',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uber_publisher_general'),
+    'access arguments' => array('administer uber_publisher settings'),
+    'file' => 'includes/uber_publisher_admin.page.inc',
+    'menu_name' => 'management',
+    'description' => 'Uber Publisher Settings dashboard',
+    'weight' => -45,
+    'expanded' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/uber_publisher/general'] = array(
+    'title' => 'General',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -10,
+    'access arguments' => array('administer uber_publisher settings'),
+  );
+  $items['admin/uber_publisher/social'] = array(
+    'title' => 'Social',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -9,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uber_publisher_social'),
+    'access arguments' => array('administer uber_publisher settings'),
+    'file' => 'includes/uber_publisher_admin.page.inc',
+  );
+  $items['admin/uber_publisher/appearance'] = array(
+    'title' => 'Appearance',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -8,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uber_publisher_appearance'),
+    'access arguments' => array('administer uber_publisher settings'),
+    'access callback' => 'uber_publisher_exclusive_bundle_access',
+    'file' => 'includes/uber_publisher_admin.page.inc',
+  );
+
+  $items['admin/uber_publisher/bundle'] = array(
+    'title' => 'Uber Publisher bundle',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uber_publisher_bundle_form'),
+    'access arguments' => array('administer uber_publisher bundle'),
+    'access callback' => 'uber_publisher_exclusive_bundle_access',
+    'file' => 'includes/uber_publisher_bundle.inc',
+    'menu_name' => 'management',
+    'description' => 'Uber Publisher bundle',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+
+/*
+ * Prevent users from access to bundle if it is a custom bundle.
+ */
+function uber_publisher_exclusive_bundle_access($string, $account = NULL) {
+  global $user;
+
+  if (!isset($account)) {
+    $account = $user;
+  }
+
+  static $drupal_static_fast;
+  if (!isset($drupal_static_fast)) {
+    $current_bundle = variable_get('uber_publisher_bundle', '');
+    $drupal_static_fast['current_bundle'] = $current_bundle;
+  }
+  $current_bundle = &$drupal_static_fast['current_bundle'];
+
+  if (!empty($current_bundle)) {
+    $info = system_get_info('module', $current_bundle);
+    if (isset($info['bundle']['exclusive']) && $info['bundle']['exclusive'] = TRUE) {
+      return FALSE;
+    }
+  }
+
+  return user_access($string, $account);
+}
+

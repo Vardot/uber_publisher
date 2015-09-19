@@ -1,0 +1,33 @@
+#autocomplete ul li {
+  border-top: 1px solid #000;
+}
+
+#autocomplete ul li:first-child {
+  border-top: 0 none;
+}
+
+#autocomplete ul li .reference-autocomplete {
+  padding: 5px;
+}
+
+.field-name-field-author.field-widget-entityreference-autocomplete .profile-picture {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  max-width: 50px;
+}
+
+.field-name-field-author.field-widget-entityreference-autocomplete .profile-picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.field-name-field-author.field-widget-entityreference-autocomplete .profile-name {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.field-widget-taxonomy-autocomplete {
+  position: relative;
+}

@@ -1,0 +1,36 @@
+.node-uber-publisher-article {
+  position: relative;
+  &.view-mode-mini_teaser {
+    .article-image {
+      float: left;
+      margin-right: 10px;
+    }
+    .article-title {
+      margin-top: 0px;
+    }
+  }
+
+  &.view-mode-teaser {
+    min-width: 100%;
+    .article-image {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+    .article-title {
+      margin: 0px 0px 5px;
+    }
+  }
+  
+  &.view-mode-vertical_teaser {
+    .article-title {
+      margin: 5px 0px;
+    }
+  }
+  
+  &.view-mode-title_only {
+    margin: 5px 0px 8px;
+    padding: 5px 0px 8px 5px;
+    border-bottom: 1px solid @accent-primary;
+  }
+}

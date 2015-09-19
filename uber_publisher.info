@@ -1,0 +1,17 @@
+name = Uber Publisher
+description = The news platform Uber Publisher <a target="_blank" href="http://vardot.com">Vardot</a>.
+core = 7.x
+version = 7.x-1.0
+
+base profile = varbase
+
+files[] = uber_publisher.profile
+
+; System Requirements
+php = 5.3
+php_memory_limit = 256M
+
+; Uber Publisher Modules
+dependencies[] = uber_publisher_varbarse_overrides
+dependencies[] = uber_publisher_default
+dependencies[] = uber_publisher_core

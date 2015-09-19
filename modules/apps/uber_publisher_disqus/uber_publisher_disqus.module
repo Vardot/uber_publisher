@@ -1,0 +1,74 @@
+<?php
+/**
+ * @file
+ * Code for the Uber Publisher Comments feature.
+ */
+
+include_once 'uber_publisher_disqus.features.inc';
+
+/**
+ * Implementation of hook_apps_app_info()
+ */
+function uber_publisher_disqus_apps_app_info() {
+  return array(
+    'configure form' => 'uber_publisher_disqus_configure_form',
+  );
+}
+
+/**
+ * Configuration Form for Uber Publisher Comments.
+ * 
+ * see drupal_get_form example in api.drupal.org/comment/22898#comment-22898
+ */
+function uber_publisher_disqus_configure_form() {
+  $form['disqus'] = _uber_publisher_disqus_form();
+  return system_settings_form($form);
+}
+
+/**
+ * Implementation of hook_form_FORM_ID_alter()
+ *
+ * Configuration Form for Uber Publisher disqus.
+ */
+function uber_publisher_disqus_form_uber_publisher_social_alter(&$form, &$form_state, $form_id) {
+  $form['disqus'] = _uber_publisher_disqus_form();
+}
+
+/**
+ * Implementation of hook_form_FORM_ID_alter()
+ *
+ * Configuration Form for Uber Publisher disqus.
+ */
+function _uber_publisher_disqus_form() {
+  $form = array();
+
+  $form = array(
+    '#type' => 'fieldset',
+    '#group' => 'social_group',
+    '#title' => t('Disqus comments'),
+  );
+
+  $types = node_type_get_types();
+  $options = array();
+  foreach ($types as $type) {
+    $options[$type->type] = $type->name;
+  }
+  $form['disqus_nodetypes'] = array(
+    '#type' => 'checkboxes',
+    '#title' => t('Node Types'),
+    '#description' => t('Apply comments to only the following node types.'),
+    '#default_value' => variable_get('disqus_nodetypes', array()),
+    '#options' => $options,
+  );
+
+  $form['disqus_domain'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Shortname'),
+    '#description' => t('The website shortname that you <a href="@disqus">registered Disqus with</a>. If you registered http://example.disqus.com, you would enter "example" here.', array(
+      '@disqus' => 'https://disqus.com/admin/create/',
+    )),
+    '#default_value' => variable_get('disqus_domain', ''),
+  );
+
+  return $form;
+}

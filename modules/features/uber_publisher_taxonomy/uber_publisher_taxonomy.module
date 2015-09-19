@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * Code for the Uber Publisher Taxonomy feature.
+ */
+
+include_once 'uber_publisher_taxonomy.features.inc';
+
+/**
+ * Implements hook_form_FORM_BASE_ID_alter().
+ * 
+ */
+function uber_publisher_taxonomy_form_taxonomy_form_term_alter(&$form, &$form_state) {
+  $form['description']['#access'] = FALSE;
+
+  if (isset($form['#vocabulary']->machine_name) && $form['#vocabulary']->machine_name == 'dossier') {
+    $form['relations'] = FALSE;
+  }
+}
+
+/**
+ * Implements hook_form_taxonomy_overview_terms_alter().
+ * 
+ */
+function uber_publisher_taxonomy_form_taxonomy_overview_terms_alter(&$form, &$form_state) {
+  if (isset($form['#vocabulary']->machine_name) && $form['#vocabulary']->machine_name == 'dossier') {
+    $form['#parent_fields'] = FALSE;
+  }
+}

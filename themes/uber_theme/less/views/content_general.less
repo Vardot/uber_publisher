@@ -1,0 +1,26 @@
+/************ Content general view (content_general)  *****************/
+.content-list-advance {
+  .views-row {
+    padding: 7px 0;
+    border-top: 1px @accent-primary solid;
+    &:first-child {
+      border-top: 0 none;
+    }
+  }
+  .content-title {
+    margin: 0;
+    float: left;
+    font-size: 112.5%;
+    a:after {
+      content: " ";
+      display: inline-block;
+      height: 17px;
+      width: 70px;
+    }
+  }
+  .post-date {
+    float: right;
+    font-size: 75%;
+    margin-top: ((@font-size-base * -0.75) * @line-height-base);
+  }
+}

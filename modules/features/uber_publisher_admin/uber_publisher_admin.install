@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_install()
+ */
+function uber_publisher_admin_install() {
+  // Push our module weight just by a step.
+  db_update('system')
+    ->fields(array('weight' => 1))
+    ->condition('name', 'uber_publisher_admin', '=')
+    ->execute();
+}

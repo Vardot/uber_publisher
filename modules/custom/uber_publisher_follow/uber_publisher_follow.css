@@ -1,0 +1,76 @@
+.block-uber-publisher-follow ul.platforms,
+.pane-uber-publisher-follow-widget ul.platforms {
+  padding-left: 0;
+}
+
+.block-uber-publisher-follow .horizontal li,
+.pane-uber-publisher-follow-widget .horizontal li {
+  display: inline-block;
+  text-align: center;
+  padding: 3px 8px 2px 8px;
+}
+
+.block-uber-publisher-follow .vertical li,
+.pane-uber-publisher-follow-widget .vertical li {
+  list-style-type: none;
+  margin: 0 0 .5em 0
+}
+
+.block-uber-publisher-follow .vertical li a img,
+.pane-uber-publisher-follow-widget .vertical li a img {
+  vertical-align: middle;
+  margin-right: .5em;
+}
+
+/ * follow backgrounds */
+.uber-publisher-follow .reddit {
+  padding: 8px 7px 8px 1px;
+  background-color: #ff4500;
+}
+.uber-publisher-follow .slideshare {
+  padding: 8px 2px 8px 6px;
+  background-color: #4a6ea9;
+}
+.uber-publisher-follow .yahoo {
+  padding: 8px 8px 8px 0px;
+  background-color: #720e9e;
+}
+.uber-publisher-follow .facebook {
+  background-color: #3b5998;
+}
+.uber-publisher-follow .twitter {
+  background-color: #55acee;
+}
+.uber-publisher-follow .googleplus {
+  background-color: #dc4a38;
+}
+.uber-publisher-follow .linkedin {
+  background-color: #0e76a8;
+}
+.uber-publisher-follow .youtube {
+  background-color: #c4302b;
+}
+.uber-publisher-follow .vimeo {
+  background-color: #44bbff;
+}
+.uber-publisher-follow .delicious {
+  background-color: #222222;
+}
+.uber-publisher-follow .digg {
+  background-color: #7a9ac2;
+}
+.uber-publisher-follow .flickr {
+  background-color: #ff0084;
+}
+.uber-publisher-follow .google {
+  background-color: #4285f4;
+}
+.uber-publisher-follow .myspace {
+  background-color: #6087bb;
+}
+.uber-publisher-follow .pinterest {
+  background-color: #c8232c;
+}
+.uber-publisher-follow li.stumbleupon {
+  background-color: #f74425;
+}

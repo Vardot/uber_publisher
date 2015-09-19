@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ */
+function uber_publisher_article_install() {
+  // services module settings for avilable content types and categories.
+  $node_type = variable_get('service_links_node_types', array());
+  $node_type['uber_publisher_article'] = 'uber_publisher_article';
+  variable_set('uber_publisher_article', $node_type);
+
+  // create a new term Uncategorized to help new users.
+  if(module_exists('taxonomy')) {
+    $categories_vid = taxonomy_vocabulary_machine_name_load('up_category')->vid;
+    $term = taxonomy_get_term_by_name('Uncategorized', 'up_category');
+    if($categories_vid && empty($term)) {
+      $term = new stdClass();
+      $term->vid = $categories_vid;
+      $term->name = 'Uncategorized';
+      taxonomy_term_save($term);
+    }
+  }
+}
+
+/**
+ * Implements hook_post_features_enable_feature().
+ *
+ */
+function uber_publisher_article_post_features_enable_feature($component) {
+  // create a new term Uncategorized to help new users.
+  // @todo we need to check if this does realy work, also what about the translation.
+  // @todo we need to use the machine_name field to check for terms.
+  $categories_vid = taxonomy_vocabulary_machine_name_load('article_type')->vid;
+  if(!$categories_vid) return;
+
+  foreach (array('Standard', 'Opinion') as $term_name) {
+    $term = taxonomy_get_term_by_name($term_name, 'article_type');
+    $term = new stdClass();
+    $term->vid = $categories_vid;
+    $term->name = $term_name;
+    taxonomy_term_save($term);
+  }
+}

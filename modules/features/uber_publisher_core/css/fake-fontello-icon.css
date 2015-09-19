@@ -1,0 +1,76 @@
+/* This file is to replace icons provided by fontello by fonts
+ * provided by fontawesome.
+ */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+
+  speak: none;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* 3D effect */
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+
+/* Service-specific style */
+.icon-facebook:before {
+  content: '\f09a';
+}
+.icon-twitter:before {
+  content: '\f099';
+}
+.icon-vimeo:before {
+  content: '\f194';
+}
+.icon-linkedin:before {
+  content: '\f0e1';
+}
+.icon-youtube:before {
+  content: '\f167';
+}
+.icon-gplus:before {
+  content: '\f0d5';
+}
+.icon-delicious:before {
+  content: '\f1a5';
+}
+.icon-digg:before {
+  content: '\f1a6';
+}
+.icon-flickr:before {
+  content: '\f16e';
+}
+.icon-yahoo:before {
+  content: "\f19e";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-reddit:before {
+  content: "\f1a1";
+}
+.icon-slideshare:before {
+  content: "\f1e7";
+}
+.icon-stumbleupon:before {
+  content: "\f1a4";
+}

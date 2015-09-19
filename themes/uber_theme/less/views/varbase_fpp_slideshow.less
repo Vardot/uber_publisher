@@ -1,0 +1,110 @@
+// General FPP Slideshow
+// @todo delete this file if no one is using it except for the disabled varbase_fpp.
+.varbase-fpp-default .flex-caption,
+.varbase-fpp-highlighted-slides .slide-caption {
+  position: absolute;
+  left: 0;
+  a {
+    color: contrast(@brand-primary);
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.varbase-fpp-default .flex-caption,
+.varbase-fpp-highlighted-slides .slide-caption {
+  padding: 15px;
+  color: contrast(@brand-primary);
+  background-color: @brand-primary;
+  background-color: fade(@brand-primary, 70%);
+}
+
+// Default Slider
+.varbase-fpp-default {
+  .flex-caption {
+    bottom: 15px
+  }
+  .flexslider .flex-direction-nav a {
+    display: block;
+  }
+}
+
+// Highlighted Slider
+.varbase-fpp-highlighted-slides {
+  .highlighted-slide {
+    position: relative;
+  }
+  .highlighted-pager {
+    .slide-caption {
+      .slide-title {
+        margin: 0;
+        font-size: 100%;
+      }
+    }
+    .item-slide {
+      position: relative;
+    }
+    .slide-description {
+      display: none;
+    }
+  }
+  .slide-caption {
+    bottom: 0;
+    padding: 6px;
+  }
+  @media (min-width: @grid-float-breakpoint) {
+    position: relative;
+    .highlighted-slide {
+      width: 70%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+      border-right: 3px solid transparent;
+      img {
+        height: 100%;
+        width: auto;
+        max-width: none;
+      }
+    }
+    .highlighted-pager {
+      width: 30%;
+      .item-slide {
+        border-top: 3px solid transparent;
+        &:first-child {
+          border-top: 0 none;
+        }
+      }
+      .slide-title {
+        display: inline;
+      }
+    }
+  }
+  @media (max-width: @grid-float-breakpoint-max) {
+    .highlighted-slide {
+      border-bottom: 3px solid transparent;
+    }
+    .highlighted-pager {
+      .slide-caption {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        background-color: @brand-primary;
+        .slide-title {
+
+        }
+      }
+      .item-slide {
+        width: 33%;
+        float: left;
+        margin-left: 0.333333%;
+        &:first-child {
+          width: 33.333333%;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

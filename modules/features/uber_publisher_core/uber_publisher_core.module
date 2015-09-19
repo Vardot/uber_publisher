@@ -1,0 +1,63 @@
+<?php
+/**
+ * @file
+ * Code for the Uber Publisher Core feature.
+ */
+
+include_once 'uber_publisher_core.features.inc';
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ */
+function uber_publisher_core_form_features_export_form_alter(&$form, &$form_state, $form_id) {
+  $component = array(
+    'variable' => '',
+    'defaultconfig' => 'strongarm__58__'
+  );
+  foreach ($component as $key => $prefix) {
+    // Never save services links in a feature settings.
+    unset($form['export'][$key]['sources']['selected']['#options'][$prefix.'service_links_node_types']);
+    unset($form['export'][$key]['sources']['selected']['#options'][$prefix.'apps_client_id']);
+  }
+}
+
+/**
+ * Implements hook_ctools_plugin_directory()
+ *
+ */
+function uber_publisher_core_ctools_plugin_directory($module, $plugin) {
+  if ($module == "panels" && in_array($plugin, array('layouts'))) {
+    return "plugins/$plugin";
+  }
+}
+
+/**
+ * Implements hook_menu_block_blocks().
+ */
+function uber_publisher_core_menu_block_blocks() {
+  // The array key is the block delta used by menu block.
+  return array(
+    'secondary-menu-block' => array(
+      'parent'      => 'menu-secondary-menu:0',
+      'title_link'  => 0,
+      'admin_title' => 'Uber publisher secondary menu',
+      'level'       => 1,
+      'follow'      => '0',
+      'depth'       => 1,
+      'expanded'    => 0,
+      'sort'        => 0,
+    ),
+  );
+}
+
+/**
+ * Implements hook_block_view_alter().
+ * 
+ * Prevent block default title from beind printed if title is empty.
+ */
+function uber_publisher_core_block_view_alter(&$data, $block) {
+  if (empty($block->title)){
+    $block->title = '<none>';
+  }
+}

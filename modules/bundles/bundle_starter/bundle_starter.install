@@ -1,0 +1,14 @@
+<?php
+
+
+/**
+ * Implements hook_enable().
+ */
+function bundle_starter_enable() {
+  // Every bundle should make it self the default bundle
+  variable_set('uber_publisher_bundle', 'bundle_starter');
+
+  // Set the most suitable theme with this bundle.
+  theme_enable(array('uber_sparkle'));
+  variable_set('theme_default', 'uber_sparkle');
+}
