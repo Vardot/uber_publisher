@@ -21,7 +21,7 @@ projects[drupal][patch][2531762] = "http://www.drupal.org/files/issues/misc_impr
 projects[uber_publisher][type] = profile
 projects[uber_publisher][download][type] = git
 projects[uber_publisher][download][branch] = 7.x-1.x
-projects[uber_publisher][download][url] = "/Users/mkhamash/Work/varbase/uber_publisher"
+projects[uber_publisher][download][url] = "http://git.drupal.org/project/uber_publisher.git"
 
 ; Varbase profile
 projects[varbase][type] = profile
