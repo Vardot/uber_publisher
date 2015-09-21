@@ -16,8 +16,6 @@ function uber_publisher_article_flexslider_default_presets() {
   $preset->name = 'classic_slider';
   $preset->title = 'Classic slider';
   $preset->theme = 'classic';
-  $preset->imagestyle_normal = 'flexslider_default';
-  $preset->imagestyle_thumbnail = '';
   $preset->options = array(
     'namespace' => 'flex-',
     'selector' => '.slides > li',

@@ -855,7 +855,7 @@ function uber_publisher_article_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Cover image */
+  /* Field: Content: Promo */
   $handler->display->display_options['fields']['field_promo']['id'] = 'field_promo';
   $handler->display->display_options['fields']['field_promo']['table'] = 'field_data_field_promo';
   $handler->display->display_options['fields']['field_promo']['field'] = 'field_promo';
@@ -970,7 +970,7 @@ function uber_publisher_article_views_default_views() {
   $handler->display->display_options['filters']['language']['value'] = array(
     '***CURRENT_LANGUAGE***' => '***CURRENT_LANGUAGE***',
   );
-  /* Filter criterion: Content: Cover image (field_promo:fid) */
+  /* Filter criterion: Content: Promo (field_promo:fid) */
   $handler->display->display_options['filters']['field_promo_fid']['id'] = 'field_promo_fid';
   $handler->display->display_options['filters']['field_promo_fid']['table'] = 'field_data_field_promo';
   $handler->display->display_options['filters']['field_promo_fid']['field'] = 'field_promo_fid';
@@ -1004,7 +1004,7 @@ function uber_publisher_article_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Cover image */
+  /* Field: Content: Promo */
   $handler->display->display_options['fields']['field_promo']['id'] = 'field_promo';
   $handler->display->display_options['fields']['field_promo']['table'] = 'field_data_field_promo';
   $handler->display->display_options['fields']['field_promo']['field'] = 'field_promo';
@@ -1125,7 +1125,7 @@ function uber_publisher_article_views_default_views() {
     '***CURRENT_LANGUAGE***' => '***CURRENT_LANGUAGE***',
   );
   $handler->display->display_options['filters']['language']['group'] = 1;
-  /* Filter criterion: Content: Cover image (field_promo:fid) */
+  /* Filter criterion: Content: Promo (field_promo:fid) */
   $handler->display->display_options['filters']['field_promo_fid']['id'] = 'field_promo_fid';
   $handler->display->display_options['filters']['field_promo_fid']['table'] = 'field_data_field_promo';
   $handler->display->display_options['filters']['field_promo_fid']['field'] = 'field_promo_fid';

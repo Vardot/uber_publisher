@@ -14,6 +14,7 @@ function uber_publisher_core_defaultconfig_features() {
     ),
   );
 }
+
 /**
  * Implements hook_defaultconfig_user_default_permissions().
  */

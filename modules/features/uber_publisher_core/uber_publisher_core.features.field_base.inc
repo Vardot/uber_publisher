@@ -10,13 +10,13 @@
 function uber_publisher_core_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_up_thumbnail'
-  $field_bases['field_up_thumbnail'] = array(
+  // Exported field_base: 'field_promo'
+  $field_bases['field_promo'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_up_thumbnail',
+    'field_name' => 'field_promo',
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -32,13 +32,13 @@ function uber_publisher_core_field_default_field_bases() {
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_promo'
-  $field_bases['field_promo'] = array(
+  // Exported field_base: 'field_up_thumbnail'
+  $field_bases['field_up_thumbnail'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_promo',
+    'field_name' => 'field_up_thumbnail',
     'indexes' => array(
       'fid' => array(
         0 => 'fid',

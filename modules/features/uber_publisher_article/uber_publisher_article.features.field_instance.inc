@@ -45,10 +45,12 @@ function uber_publisher_article_field_default_field_instances() {
           'more_text' => 'Read more',
           'summary_handler' => 'trim',
           'trim_length' => 400,
+          'trim_link' => FALSE,
           'trim_options' => array(
-            'text' => 'text',
             'media' => 'media',
+            'text' => 'text',
           ),
+          'trim_preserve_tags' => '',
           'trim_suffix' => '...',
           'trim_type' => 'chars',
         ),

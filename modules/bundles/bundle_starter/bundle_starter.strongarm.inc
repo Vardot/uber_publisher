@@ -14,7 +14,7 @@ function bundle_starter_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'default_theme';
-  $strongarm->value = 'uber_sparkle';
+  $strongarm->value = 'uber_starter';
   $export['default_theme'] = $strongarm;
 
   $strongarm = new stdClass();
