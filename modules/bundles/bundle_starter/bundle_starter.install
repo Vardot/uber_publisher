@@ -9,6 +9,6 @@ function bundle_starter_enable() {
   variable_set('uber_publisher_bundle', 'bundle_starter');
 
   // Set the most suitable theme with this bundle.
-  theme_enable(array('uber_sparkle'));
+  theme_enable(array('uber_starter'));
   variable_set('theme_default', 'uber_starter');
 }
