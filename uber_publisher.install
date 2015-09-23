@@ -11,6 +11,9 @@ function uber_publisher_install() {
   theme_enable(array('uber_starter'));
   theme_disable(array('bartik', 'vartheme_admin', 'vartheme'));
   variable_set('admin_theme', 'uber_admin');
+
+  // @todo this should be set in a feature.
+  variable_set('default_theme', 'uber_starter');
 }
 
 /**

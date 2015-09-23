@@ -10,5 +10,5 @@ function bundle_starter_enable() {
 
   // Set the most suitable theme with this bundle.
   theme_enable(array('uber_sparkle'));
-  variable_set('theme_default', 'uber_sparkle');
+  variable_set('theme_default', 'uber_starter');
 }
