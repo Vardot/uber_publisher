@@ -60,12 +60,12 @@ function uber_publisher_follow_uber_publisher_follow_platform_info() {
 
   $platforms['rss'] = array(
     'title' => t('RSS'),
-    'base url' => url(NULL, array('absolute' => TRUE)) . (variable_get('clean_url', 0) ? '' : '?q='),
+    'base url' => '',
   );
 
   $platforms['contact'] = array(
     'title' => t('Contact'),
-    'base url' => url(NULL, array('absolute' => TRUE)) . (variable_get('clean_url', 0) ? '' : '?q='),
+    'base url' => '',
     'link attributes' => FALSE,
   );
 

@@ -64,7 +64,7 @@ projects[views_slideshow][do_recursion] = 0
 projects[disqus][version] = 1.12
 projects[disqus][subdir] = apps_contrib
 
-projects[mailchimp][version] = 3.4
+projects[mailchimp][version] = 3.6
 projects[mailchimp][subdir] = apps_contrib
 
 projects[socialfield][version] = "1.x-dev"
@@ -98,9 +98,6 @@ projects[media_feeds][subdir] = migrate
 ;; Libraries
 ;;;;;;;;;;;;;;;;;;;;;
 
-libraries[ace][download][type] = "get"
-libraries[ace][download][url] = "http://github.com/ajaxorg/ace-builds/archive/v1.2.0.tar.gz"
-
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://github.com/twbs/bootstrap/archive/v3.3.4.tar.gz"
 libraries[bootstrap][destination] = "themes/uber_theme/lib/"
@@ -115,11 +112,6 @@ libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorp
 libraries[disqusapi][download][type] = "get"
 libraries[disqusapi][download][subtree] = "disqus-php-b1149196ec8aaa9d4dac35a4a28c5647c17ef8af/disqusapi/"
 libraries[disqusapi][download][url] = "http://github.com/disqus/disqus-php/archive/b1149196ec8aaa9d4dac35a4a28c5647c17ef8af.tar.gz"
-
-libraries[fontawesome][download][type] = "get"
-libraries[fontawesome][download][url] = "http://github.com/FortAwesome/Font-Awesome/archive/master.zip"
-libraries[fontawesome][directory_name] = "fontawesome"
-libraries[fontawesome][destination] = "libraries"
 
 libraries[jQuery.Marquee][download][type] = "get"
 libraries[jQuery.Marquee][download][url] = "http://github.com/aamirafridi/jQuery.Marquee/archive/1.3.1.zip"
