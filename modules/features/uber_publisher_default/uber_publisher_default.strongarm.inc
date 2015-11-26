@@ -20,34 +20,6 @@ function uber_publisher_default_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'date_format_long_date';
-  $strongarm->value = 'l, F j, Y';
-  $export['date_format_long_date'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'date_format_medium_date';
-  $strongarm->value = 'D, d/m/Y';
-  $export['date_format_medium_date'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'date_format_varbase_date_and_time';
-  $strongarm->value = 'm/d/Y - H:i';
-  $export['date_format_varbase_date_and_time'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'date_format_varbase_time';
-  $strongarm->value = 'h:i a';
-  $export['date_format_varbase_time'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'extlink_alert';
   $strongarm->value = 0;
   $export['extlink_alert'] = $strongarm;
