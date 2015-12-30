@@ -8,7 +8,7 @@ api = 2
 ;; Uber Publisher Core contrib modules.
 ;;;;;;;;;;;;;;;;;;;;;
 
-projects[hierarchical_select][version] = 3.0-beta2
+projects[hierarchical_select][version] = 3.0-beta3
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][patch][2456075] = "http://www.drupal.org/files/issues/hs-double-encoding-fix.patch"
 
