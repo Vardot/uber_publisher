@@ -12,6 +12,4 @@ php = 5.3
 php_memory_limit = 256M
 
 ; Uber Publisher Modules
-dependencies[] = uber_publisher_varbarse_overrides
-dependencies[] = uber_publisher_default
 dependencies[] = uber_publisher_core

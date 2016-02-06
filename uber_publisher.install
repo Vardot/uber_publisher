@@ -112,8 +112,10 @@ function uber_publisher_install_tasks_alter(&$tasks, $install_state) {
 function uber_publisher_install_load_profile_extra(&$install_state) {
   // Add extra feature as a dependancey only if the installation profile is
   // uber_publisher.
-  $install_state['profile_info']['dependencies'][] = 'uber_publisher_taxonomy';
   $install_state['profile_info']['dependencies'][] = 'uber_publisher_article';
+  $install_state['profile_info']['dependencies'][] = 'uber_publisher_apps';
+  $install_state['profile_info']['dependencies'][] = 'uber_publisher_taxonomy';
+  $install_state['profile_info']['dependencies'][] = 'uber_publisher_varbarse_overrides';
 }
 
 /**
