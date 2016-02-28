@@ -15,7 +15,7 @@ projects[hierarchical_select][patch][2456075] = "http://www.drupal.org/files/iss
 projects[less][version] = 4.0
 projects[less][subdir] = contrib
 
-projects[menu_attributes][version] = 1.0-rc3
+projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
 
 projects[menu_minipanels][version] = 2.0-beta1
@@ -78,7 +78,7 @@ projects[socialfield][subdir] = apps_contrib
 ;; Uber Publisher migration modules.
 ;;;;;;;;;;;;;;;;;;;;;
 
-projects[feeds][version] = 2.0-beta1
+projects[feeds][version] = 2.0-beta2
 projects[feeds][subdir] = migrate
 projects[feeds][patch][856316] = "http://www.drupal.org/files/issues/feeds-optional_source-856316-63.patch"
 
@@ -87,6 +87,7 @@ projects[feeds_crawler][subdir] = migrate
 
 projects[feeds_tamper][version] = 1.1
 projects[feeds_tamper][subdir] = migrate
+projects[feeds_tamper][patch][2632056] = "http://www.drupal.org/files/issues/rewrite_value_only_if_empty-2632056-10.patch"
 
 projects[feeds_ex][version] = 1.0-beta2
 projects[feeds_ex][subdir] = migrate
