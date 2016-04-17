@@ -1,0 +1,19 @@
+#branding .logo-wrapper {
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+#sidebar-first  ol.task-list li {
+  padding: 6px 40px 0 0px;
+}
+
+input[type="submit"][id^="edit-submit"],
+input#edit-actions-submit, input[id^="save-continue"],
+input[type="submit"][id^="edit-save"], input#edit-save,
+input#edit-submit, input#edit-actions-save,
+#media-browser-page a.button-yes {
+  float: left;
+  margin-right: 1em;
+  margin-left: 0;
+}

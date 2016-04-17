@@ -41,14 +41,6 @@ html.js .fixed-pane-left input.form-autocomplete {
   padding: 10px 20px 0 20px;
 }
 
-fieldset {
-  background: #fff;
-}
-
-fieldset legend {
-  background: transparent;
-}
-
 .fixed-pane-left a.manage-crop {
   display: block;
   width: 210px;
