@@ -85,6 +85,12 @@ function uber_admin_form_node_form_alter(&$form, &$form_state, $form_id) {
         $form['revision_information']['workbench_moderation_state_new'] = $form['options']['workbench_moderation_state_new'];
         unset($form['options']['workbench_moderation_state_new']);
       }
+      else {
+        if (isset($form['options']['status'])) {
+          $form['revision_information']['status'] = $form['options']['status'];
+          unset($form['options']['status']);
+        }
+      }
     }
 
     //Format panelizer Settings
