@@ -31,7 +31,7 @@ projects[panels_mini_ipe][subdir] = contrib
 projects[rules][version] = 2.9
 projects[rules][subdir] = contrib
 
-projects[scheduler][version] = 1.3
+projects[scheduler][version] = 1.4
 projects[scheduler][subdir] = contrib
 
 projects[service_links][version] = 2.3
