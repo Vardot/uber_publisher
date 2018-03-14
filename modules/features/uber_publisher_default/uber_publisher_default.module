@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Varbase Default Settings feature.
- */
-
-include_once 'uber_publisher_default.features.inc';

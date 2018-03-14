@@ -1,8 +1,0 @@
-name = Uber Publisher Navbar
-description = Uber Publisher Navbar is greatest admin navbar there is. 
-core = 7.x
-package = Uber Publisher
-version = 7.x-1.0
-
-dependencies[] = menu
-dependencies[] = fontawesome

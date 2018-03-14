@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Bundle Starter feature.
- */
-
-include_once 'bundle_starter.features.inc';

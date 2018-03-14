@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Uber publisher varbarse overrides feature.
- */
-
-include_once 'uber_publisher_varbarse_overrides.features.inc';

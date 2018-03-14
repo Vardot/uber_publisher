@@ -1,6 +1,0 @@
-name = Uber publisher follow
-description = The Module provides a block that display links (icons) to your profiles on various social networking sites.
-core = 7.x
-php = 5.3
-package = Uber Publisher
-configure = admin/structure/block/manage/uber_publisher_follow/uber-publisher-follow/configure
