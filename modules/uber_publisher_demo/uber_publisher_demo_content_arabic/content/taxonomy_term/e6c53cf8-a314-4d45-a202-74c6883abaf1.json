@@ -1,0 +1,54 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/tags\/%D9%83%D8%B1%D9%87-%D9%82%D8%AF%D9%85?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+        }
+    },
+    "tid": [
+        {
+            "value": 34
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e6c53cf8-a314-4d45-a202-74c6883abaf1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0643\u0631\u0647 \u0642\u062f\u0645",
+            "lang": "ar"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": 1497874846,
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ]
+}

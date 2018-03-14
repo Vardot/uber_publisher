@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: caricature
+label: Caricature
+type: 'canonical_entities:node'
+pattern: 'cartoons/[node:field_date:date:custom:Y-m-d]/[node:title]'
+selection_criteria:
+  c0d77c6c-295e-4ad1-b2ae-5e8ac765be68:
+    id: node_type
+    bundles:
+      caricature: caricature
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c0d77c6c-295e-4ad1-b2ae-5e8ac765be68
+selection_logic: and
+weight: -5
+relationships: {  }

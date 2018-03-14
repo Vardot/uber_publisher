@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year_month
+    - node.type.caricature
+id: node.caricature.field_year_month
+field_name: field_year_month
+entity_type: node
+bundle: caricature
+label: 'Year month'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,208 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/82?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/kope.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/kope.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 82
+        }
+    ],
+    "uuid": [
+        {
+            "value": "54d107df-adc0-4013-8e57-2b6f62a5238b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 82
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0643\u0648\u0628\u064a \u0628\u0631\u0627\u064a\u0646\u062a"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/kope.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e72a3927-e6fd-4573-8037-dea0ad33e14c"
+                    }
+                ],
+                "alt": "\u0627\u0644\u0646\u0633\u062e\u0629 \u0627\u0644\u0645\u0635\u063a\u0631\u0629",
+                "title": "\u0643\u0648\u0628\u064a \u0628\u0631\u0627\u064a\u0646\u062a",
+                "width": "644",
+                "height": "366"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/kope.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e72a3927-e6fd-4573-8037-dea0ad33e14c"
+                    }
+                ],
+                "alt": "\u0643\u0648\u0628\u064a \u0628\u0631\u0627\u064a\u0646\u062a",
+                "title": "",
+                "width": "644",
+                "height": "366"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1506419840
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506419840
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506419840
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new \u0627\u0644\u0635\u0648\u0631\u0629"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "| Varbase",
+                "shortlink": null,
+                "twitter_cards_type": "summary",
+                "canonical_url": null,
+                "og_site_name": "Varbase",
+                "schema_web_site_name": "Varbase",
+                "og_type": "website",
+                "schema_web_site_url": "http:\/\/default\/",
+                "twitter_cards_title": "| Varbase",
+                "google_plus_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "og_title": " | Varbase",
+                "rights": "\u00a92017 Varbase. All rights reserved.",
+                "referrer": "origin",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "twitter_cards_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "og_image_url": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "\u0646\u0639\u0645"
+            }
+        }
+    ]
+}

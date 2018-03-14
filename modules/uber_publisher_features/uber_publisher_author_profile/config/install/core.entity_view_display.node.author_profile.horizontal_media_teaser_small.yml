@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.horizontal_media_teaser_small
+    - field.field.node.author_profile.body
+    - field.field.node.author_profile.field_description
+    - field.field.node.author_profile.field_image
+    - field.field.node.author_profile.field_linked_user
+    - field.field.node.author_profile.field_meta_tags
+    - field.field.node.author_profile.field_profile_image
+    - node.type.author_profile
+    - responsive_image.styles.d1_square
+  module:
+    - ds
+    - panelizer
+    - responsive_image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_small
+      library: vmi/horizontal_media_teaser_small
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: content
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_profile_image
+      right:
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h5
+          class: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.author_profile.horizontal_media_teaser_small
+targetEntityType: node
+bundle: author_profile
+mode: horizontal_media_teaser_small
+content:
+  field_profile_image:
+    type: responsive_image
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      responsive_image_style: d1_square
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            classes:
+              - circle-img
+            lb-col: false
+hidden:
+  body: true
+  field_description: true
+  field_image: true
+  field_linked_user: true
+  field_meta_tags: true
+  langcode: true
+  links: true

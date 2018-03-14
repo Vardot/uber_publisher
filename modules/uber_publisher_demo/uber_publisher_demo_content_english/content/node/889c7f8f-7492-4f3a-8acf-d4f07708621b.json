@@ -1,0 +1,303 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/technology\/what-happens-instacart-amazon-whole-foods-deal?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/technology?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/48?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/amazon?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/shoppers?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/whole-foods?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/money?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "889c7f8f-7492-4f3a-8acf-d4f07708621b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What happens to Instacart in the Amazon-Whole Foods deal?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7765ed7d-06d6-4f37-a26f-c5ac4a05c9f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/48?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1a8a1d61-ce06-4888-b54b-8ad4fe79670e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c643bcf5-0a5c-40a9-b1fd-8034e4a313f2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/amazon?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "594a7b72-6fc2-4077-ae4f-c93eea8c3f45"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/shoppers?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "54d511cd-30dd-4378-af1e-d53bca1b88c8"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/whole-foods?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "932fb04f-1b89-4710-97e2-52028e0b509f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/money?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32dc8d7c-a690-4def-b02d-ffc0a9f3dca5"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498045118,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498132838,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498132838
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h3>Amazon is buying Whole Foods for $13.7 billion, and that could be bad news for Instacart.<\/h3>\r\n\r\n<p>Instacart is the on-demand delivery startup that promises grocery deliveries in as little as one hour.<\/p>\r\n\r\n<p>Customers are assigned a personal shopper who scours the aisles, purchases and delivers items from retailers like Whole Foods.<\/p>\r\n\r\n<p>The relationship between Instacart and&nbsp;Whole Foods&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=WFM&amp;source=story_quote_link\">WFM<\/a>)&nbsp;dates back to 2014 but deepened in 2016, when they announced<strong>&nbsp;<\/strong>a new five year deal. That made Instacart an exclusive partner for Whole Foods' perishable business. At the time, Whole Foods called Instacart its largest partner for online ordering and delivery. According to&nbsp;multiple<a href=\"https:\/\/www.bloomberg.com\/news\/articles\/2016-09-23\/whole-foods-invests-in-instacart-at-2014-valuation\" target=\"_blank\"> <\/a>reports<a href=\"https:\/\/www.bloomberg.com\/news\/articles\/2016-09-23\/whole-foods-invests-in-instacart-at-2014-valuation\" target=\"_blank\">,<\/a>&nbsp;Whole Foods also invested in<a href=\"https:\/\/www.recode.net\/2016\/2\/23\/11588138\/whole-foods-to-invest-in-instacart-signs-new-multi-year-delivery-deal\" target=\"_blank\">&nbsp;<\/a>Instacart<a href=\"https:\/\/www.recode.net\/2016\/2\/23\/11588138\/whole-foods-to-invest-in-instacart-signs-new-multi-year-delivery-deal\" target=\"_blank\">.<\/a><\/p>\r\n\r\n<p>But Instacart is also a competitor to Amazon's growing grocery delivery service, AmazonFresh. Amazon is also experimenting with a \"click and collect\" model that lets customers buy groceries online and pick them up at new AmazonFresh locations.<\/p>\r\n\r\n<p>Cooper Smith, head of Amazon research at L2, said it's likely that Instacart will be the loser in Friday's deal.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/ZkEtMReUSXA.jpg?itok=1J2fKBKZ\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=ZkEtMReUSXA\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>\"The first thing Amazon is going to do in this acquisition is to remove all those third party vendor services. Why would it keep Instacart?\" said Smith. \"Amazon is the master at keeping as much margin as possible. Why is Amazon going to let a third party vendor take margin off of their sale?\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Shoppers will continue to have access to Whole Foods through Instacart while the&nbsp;Amazon(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=AMZN&amp;source=story_quote_link\">AMZN<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;deal is going through the approval process, a source familiar with the partnerships told CNN Tech. The same goes for Shipt, an Alabama-based grocery delivery service that's also a Whole Foods partner.<\/p>\r\n\r\n<p>Revenue from Whole Foods accounts for less than 10% of Instacart's revenues, according to a different source familiar with the partnership. Instacart allows some retail partners to take small investments in the company, and Whole Foods owns less than 1%, the source said. However, Whole Foods does not have access to Instacart's financial numbers and analytics.<\/p>\r\n\r\n<p>Similarly, Instacart was not privy to the news that Amazon was acquiring Whole Foods until the deal became public on Friday. According to the source, Whole Foods reaffirmed its partnership with Instacart on Friday.<\/p>\r\n\r\n<p>\"From the beginning, we've been committed to helping grocers compete online,\" an Instacart spokesperson said in a statement. \"That's more important than ever given Amazon just declared war on every supermarket and corner store in America.\"<\/p>\r\n\r\n<p>Whole Foods did not immediately respond to request for comment.<\/p>\r\n\r\n<p>Hrach Simonian, an investor in Instacart and general partner at Canaan Partners, stressed that Instacart has many other partners.<\/p>\r\n\r\n<blockquote>\r\n<p>\"As far as Instacart's partnership with Whole Foods is concerned, their business is far diversified away from any single grocery chain,\" Simonian told CNNTech.<\/p>\r\n<\/blockquote>\r\n\r\n<p>When it raised $400 million in March, Instacart&nbsp;said it operated in 35 markets and had 135 partnerships&nbsp;with grocery retailers around the country. That includes major chains like&nbsp;Costco(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=COST&amp;source=story_quote_link\">COST<\/a>),&nbsp;Supervalu&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=SVU&amp;source=story_quote_link\">SVU<\/a>)&nbsp;and Wegmens, which was just announced this week. The company gets a revenue share from retailers based on the size of each basket. It also charges customers delivery fees. In addition, Instacart has a number of advertising partnerships with consumer packaged goods companies that pay to reach out to Instacart customers as they're shopping digitally.<\/p>\r\n\r\n<p>Simonian said he believes Friday's deal \"lights a fire under WalMart to make a big move here.\"<\/p>\r\n\r\n<p>WalMart bought Jet, an ecommerce site trying to compete with Amazon,<a href=\"http:\/\/money.cnn.com\/2016\/08\/08\/technology\/walmart-jet-deal-amazon\/index.html?iid=EL\">&nbsp;<\/a>for $3.3 billion in 2016. On Friday, WalMart announced it is buying men's online clothing retailer<a href=\"http:\/\/money.cnn.com\/2017\/06\/16\/technology\/business\/walmart-bonobos\/index.html?iid=EL\">&nbsp;<\/a>Bonobos for $310 million<a href=\"http:\/\/money.cnn.com\/2017\/06\/16\/technology\/business\/walmart-bonobos\/index.html?iid=EL\">.<\/a><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497785731,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

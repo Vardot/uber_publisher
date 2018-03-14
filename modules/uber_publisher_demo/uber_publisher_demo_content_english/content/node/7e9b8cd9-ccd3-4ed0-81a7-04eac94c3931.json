@@ -1,0 +1,345 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/how-safe-are-americas-biggest-banks?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/61?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/money?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/banks?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/america?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/united-states?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/safe?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/yellen?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7e9b8cd9-ccd3-4ed0-81a7-04eac94c3931"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How safe are America's biggest banks?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/61?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76fca2bd-cb5f-4849-8aea-b9f1e808fad4"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2830fc00-001d-4c90-83f2-7e3dafb752d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/money?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32dc8d7c-a690-4def-b02d-ffc0a9f3dca5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/banks?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cba2e301-9528-4168-a5e1-988f0386738b"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/america?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "972dd50d-5795-42ef-b90a-2ac1ba01bc5b"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/united-states?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de627cff-1c98-481b-b737-87c7900edd8f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/safe?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29459d5b-8e14-4c09-9d63-d2e0f004acd9"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/yellen?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d312b46f-930d-421e-bb25-94a1331c61f9"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498124386,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498119059,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498119059
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>The nation's biggest<strong>&nbsp;<\/strong>banks are set to get the results of their annual<strong>&nbsp;<\/strong>financial health checkup.<\/h2>\r\n\r\n<p>On Thursday, the Federal Reserve will release the results of round one of its \"stress tests,\" which determine whether banks are financially strong enough to weather a severe recession.<\/p>\r\n\r\n<p>The more closely watched day by investors will come next Wednesday, when the Fed tells banks whether they showed good enough judgment this year to buy back stock or pay dividends to shareholders.<\/p>\r\n\r\n<p>Regulators are sizing up 34 institutions,<strong>&nbsp;<\/strong>including&nbsp;Bank of America&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=BAC&amp;source=story_quote_link\">BAC<\/a>),&nbsp;JPMorgan Chase&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=JPM&amp;source=story_quote_link\">JPM<\/a>), and&nbsp;Citigroup&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=C&amp;source=story_quote_link\">C<\/a>).&nbsp;CIT Group&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=CIT&amp;source=story_quote_link\">CIT<\/a>)&nbsp;will be a newcomer to the exercise.<\/p>\r\n\r\n<p>Banks will be assessed on slightly tougher economic conditions than in the past. The exam imagines a grim scenario -- a 10% unemployment rate, a sharp decline in housing prices and a severe recession in the eurozone.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/ZuR8TobG96U.jpg?itok=Vd2hrqVP\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=ZuR8TobG96U\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>Regulators are looking for two key pieces of information. One is whether the banks have enough capital to survive economic turmoil in the financial system. And two, whether firms are good at identifying and measuring risk when they craft their plans.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Regulators can reject a bank's capital plan for either reason.<\/p>\r\n\r\n<p>This is the seventh year in a row the Fed has run stress tests, which were put in place after the financial crisis.<\/p>\r\n\r\n<p>Each year, regulators tweak the exam to keep banks on their toes. Regulators also want to test each bank's ability to guard against potential financial shocks.<\/p>\r\n\r\n<p>That means even if a bank passed last year, there's no guarantee it will do so again.<\/p>\r\n\r\n<p>HSBC North American Holdings and RBS Citizens Financial Group, for example, passed in 2013, but were rejected the following year.<\/p>\r\n\r\n<p>Banks will get the chance to revise their capital plans before next week's results are released. But any bank that fails will have to draw up new plans and won't be allowed to pay dividends to shareholders until it has been approved by regulators.<\/p>\r\n\r\n<p>Wall Street executives describe stress tests as a black box, purposely left opaque to keep banks from gaming the exercise. Regulators contend they have continued to provide additional guidance to financial institutions to better set expectations.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>President Trump has vowed to scrap many regulations on banks, particularly those that he says have suppressed lending. Trump has promised to undo various restrictions on financial firms that were put into place after the 2008 financial crisis, including the 2010 Dodd-Frank Act.<\/p>\r\n\r\n<p>\"I have so many people, friends of mine, that had nice businesses,\" Trump&nbsp;said in February. \"They can't borrow money. They just can't get any money because the banks just won't let them borrow it because of the rules and regulations in Dodd-Frank.\"<\/p>\r\n\r\n<p>Revising the Fed's annual stress tests is one of<strong>&nbsp;<\/strong>more than 100 recommendations the administration has suggested to lessen the burden on banks, including limiting the number of financial firms that must face the exams.<\/p>\r\n\r\n<p>Even though some bankers<strong>&nbsp;<\/strong>say they would be lending more without the Dodd-Frank rules, lending has grown. Data suggests it has been a lack of demand, not supply, that is tamping down borrowing by U.S. companies.<\/p>\r\n\r\n<p>\"Lending has expanded overall by the banking system, and also to small businesses,\" Federal Reserve Chair Janet Yellen said in February. Compared with their global competitors, American banks are \"generally considered quite strong. They've built up quite a bit of capital, partly as a result of our insistence that they do so,\" she added<\/p>\r\n\r\n<h2>&nbsp;<\/h2>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497778990,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

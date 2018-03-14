@@ -1,0 +1,291 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sport\/french-open-was-turning-point-world-no1-andy-murray?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/sport?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/51?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/andry-murray?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/turning-point?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/world-no-1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3adfef93-667e-4bbf-873f-2d8cc2f0315a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "French Open was a 'turning point' for world No.1 Andy Murray",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60c9208d-6a19-4e6c-a880-9ea9a6639eaa"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/51?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d790ff51-1bb2-4e67-b2ae-480b22475065"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1572d446-10e9-49e8-935d-730b238b859e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/andry-murray?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4363abaa-3091-47ef-a95a-d9cf16fb8b45"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/turning-point?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f50db9d3-866d-4757-a41c-1e322bf41967"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/world-no-1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89f14bea-ca2d-4a78-8b0b-e04e64a34e65"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498128872,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498119513,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498119513
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>He didn't win, nor did he reach the final -- but world No.1 Andy Murray says the French Open was a \"turning point\" for him after an indifferent start to the season.<\/p>\r\n\r\n<p>The Briton,&nbsp;who recently renewed his coaching partnership with Ivan Lendl<a href=\"http:\/\/www.cnn.com\/2016\/06\/12\/tennis\/tennis-murray-lendl-wimbledon\/index.html\">,<\/a>&nbsp;was&nbsp;ousted in the semi-finals&nbsp;at Roland-Garros in a bruising, five-set encounter with Switzerland's Stan Wawrinka.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/kEIF5l02u5c.jpg?itok=9sGta_Oy\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=kEIF5l02u5c\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>And although the Scot failed to see out the match after leading 2-1 going into the fourth set, he admitted that the tournament was an improvement on his recent form.<\/p>\r\n\r\n<p>After&nbsp;a shock fourth-round defeat&nbsp;to German Mischa Zverev at the Australian Open in January, the 30-year-old suffered early losses at ATP tournaments in Rome, Madrid, Monte Carlo, and Indian Wells.<\/p>\r\n\r\n<blockquote>\r\n<p>\"I felt really good at the start of the year and the Australian Open was really disappointing,\" Murray, who is playing his first full season as world No. 1, told CNN.<\/p>\r\n<\/blockquote>\r\n\r\n<p>\"The slams are my priorities and I've always wanted to perform in those and sometimes, with the gap between the Australian and the French, I've lost my way. I hope the French Open is a turning point.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>\"It takes a lot of time to build up your confidence and you can lose it quickly. So, I'm back on the right track, not quite where I want to be yet -- there are a lot of things I feel I need to work on -- but I'm getting there and hopefully, the French Open is a step in the right direction.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497783680,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: contactinfo
+theme: uber_publisher_vanilla
+region: footer_four
+weight: 0
+provider: null
+plugin: 'block_content:e2c0123c-da98-4732-a608-987e6dd0295b'
+settings:
+  id: 'block_content:e2c0123c-da98-4732-a608-987e6dd0295b'
+  label: 'Contact info'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

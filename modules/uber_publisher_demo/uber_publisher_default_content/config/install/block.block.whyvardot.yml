@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: whyvardot
+theme: uber_publisher_vanilla
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:1db93226-a322-4895-adcc-a930fbe72f1a'
+settings:
+  id: 'block_content:1db93226-a322-4895-adcc-a930fbe72f1a'
+  label: 'Why Vardot?'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

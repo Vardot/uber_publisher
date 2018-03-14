@@ -1,0 +1,103 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.horizontal_media_teaser_xlarge
+    - field.field.node.in_pictures.body
+    - field.field.node.in_pictures.field_images
+    - field.field.node.in_pictures.field_meta_tags
+    - node.type.in_pictures
+  module:
+    - ds
+    - panelizer
+    - smart_trim
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_xlarge
+      library: vmi/horizontal_media_teaser_xlarge
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_images
+      right:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.in_pictures.horizontal_media_teaser_xlarge
+targetEntityType: node
+bundle: in_pictures
+mode: horizontal_media_teaser_xlarge
+content:
+  body:
+    type: smart_trim
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: '120'
+      trim_type: words
+      trim_suffix: ' ...'
+      more_link: '0'
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+    region: right
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: s8_standard
+      link: false
+    third_party_settings: {  }
+    region: left
+  field_images:
+    type: entity_reference_entity_view
+    weight: 0
+    region: left
+    label: hidden
+    settings:
+      view_mode: s7
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: '1'
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  field_meta_tags: true
+  langcode: true
+  links: true

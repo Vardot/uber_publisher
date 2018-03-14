@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cartoons
+label: Cartoons
+description: ''
+use_admin_theme: false
+path: /cartoons
+access_logic: and
+access_conditions: {  }
+parameters: {  }

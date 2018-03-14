@@ -1,0 +1,327 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/culture-and-art\/japans-tsukiji-fish-market-become-food-theme-park?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/culture-and-art?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/67?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/cultureandart?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/tokyo?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/japan?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/fishmarket?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/fish?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/tsukji?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4dd5c7b7-51e3-45cb-8275-6ac0d4357454"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Japan's Tsukiji Fish Market to become a food theme park?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/culture-and-art?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44ba090b-70ff-4c01-bcf5-3b0a3ecd7e95"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/67?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49f71134-339e-481e-99f9-018f2b71682d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/cultureandart?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f58aec75-21aa-41cf-bb1a-a2dcee9b4628"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/tokyo?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6828fa2a-ca5d-4dbb-99b2-ab640c8b3458"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/japan?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2cc924f3-a1e5-47d6-9a4e-3b5cc0c800fd"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/fishmarket?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2a3ae62-bbad-46a9-b712-d6b8ffb66ec1"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/fish?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a758055-4c69-4d54-a0b2-496006b70c29"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/tsukji?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f9be974-76a2-4cd4-a290-cd4c03454af0"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498128183,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498123735,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498123735
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Are tuna carousels and spinning matcha cups the future of Tokyo's beloved Tsukiji Fish Market?<\/p>\r\n\r\n<p>The fate of the famed Tsukiji market took another turn Tuesday, as the capital's governor Yuriko Koike announced she may scrap plans to close down and sell the original site.<\/p>\r\n\r\n<p>Instead, the 82-year-old fish market in central&nbsp;Tokyo&nbsp;may be redeveloped and reopened as a food theme park within the next five years.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/_Q-CqnTSvUo.jpg?itok=IaTnBoB-\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=_Q-CqnTSvUo\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>Koike also confirmed that the government will carry on with the relocation plan -- the main wholesale market will be moved to the planned Toyosu site on the outskirts of town.<\/p>\r\n\r\n<p>\"I have concluded that using both sites would be the wisest decision,\"&nbsp;Koike said in a news conference, citing a responsibility to promote and protect the world-class Tsukiji brand as a reason behind the decision.<\/p>\r\n\r\n<p>What makes Tokyo the world's greatest food city?<\/p>\r\n\r\n<drupal-entity alt=\"The new market will be situated on the outskirts of Tokyo\" data-align=\"right\" data-caption=\"The new market will be situated on the outskirts of Tokyo\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"75577ef9-c823-4be6-af1b-35f8c83619ec\" title=\"The new market will be situated on the outskirts of Tokyo\"><\/drupal-entity>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The popular Tsukiji market was originally scheduled to move into a newly renovated facility in Toyosu last November.<\/p>\r\n\r\n<p>Koike halted the plan last August after safety concerns were raised over levels of toxic substances in soil and groundwater at the new site, which was formerly home to a gas plant.<\/p>\r\n\r\n<p>However, neither a concrete date for the move or a plan for the food theme park were provided by the governor on Tuesday.<\/p>\r\n\r\n<p>More than 70% of Tsukiji fish wholesalers still opposed the relocation plan,&nbsp;according to the Japan Times.<\/p>\r\n\r\n<p>In addition to being the world's largest fish and seafood wholesale market, Tsukiji's bustling tuna auctions and fresh dining options have made the market one of the most popular tourist attractions in Tokyo.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497782810,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

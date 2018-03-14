@@ -1,0 +1,46 @@
+name: 'Uber Publisher Opinion Articles'
+description: 'Uber Publisher opinion article content type with its dependents.'
+type: module
+core: 8.x
+dependencies:
+  - autocomplete_deluxe
+  - comment
+  - content_moderation
+  - ctools
+  - ds
+  - entity_browser
+  - entityqueue
+  - features
+  - field
+  - field_group
+  - file
+  - image
+  - language
+  - menu_ui
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - pathauto
+  - rabbit_hole
+  - smart_trim
+  - taxonomy
+  - text
+  - uber_publisher_amp
+  - uber_publisher_article
+  - uber_publisher_author_profile
+  - uber_publisher_core
+  - user
+  - varbase_media
+  - varbase_seo
+  - views
+  - views_bootstrap
+  - views_exclude_previous
+  - views_infinite_scroll
+  - yoast_seo
+version: 8.x-1.x-dev
+package: 'Uber Publisher'
+'interface translation project': uber_publisher_opinion_articles
+'interface translation server pattern': profiles/uber_publisher/modules/uber_publisher_features/uber_publisher_opinion_articles/translations/%language.po

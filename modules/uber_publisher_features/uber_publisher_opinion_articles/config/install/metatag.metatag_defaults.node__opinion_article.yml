@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies: {  }
+id: node__opinion_article
+label: 'Content: Opinion article'
+tags:
+  abstract: '[node:summary]'
+  description: '[node:summary]'
+  keywords: '[node:field_tags]'
+  title: '[node:title] | [site:name]'
+  google_plus_image: '[node:field_image:entity:field_image:1200x630:url]'
+  og_description: '[node:summary]'
+  og_image: '[node:field_image:entity:field_image:1200x630:url]'
+  og_image_url: '[node:field_image:entity:field_image:1200x630:url]'
+  og_type: article
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_image: '[node:field_image:entity:field_image:280x150:url]'
+  twitter_cards_type: summary_large_image

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url
+    - node.type.breaking_news
+  module:
+    - link
+id: node.breaking_news.field_url
+field_name: field_url
+entity_type: node
+bundle: breaking_news
+label: URL
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

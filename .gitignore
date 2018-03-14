@@ -1,0 +1,24 @@
+# Mac
+.DS_Store
+
+# IDEs
+nbproject
+.classpath
+.project
+.settings
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+bin
+docroot
+vendor
+node_modules
+bower_components
+.sass-cache
+
+# Intellij
+.idea/
+*.iml
+*.iws

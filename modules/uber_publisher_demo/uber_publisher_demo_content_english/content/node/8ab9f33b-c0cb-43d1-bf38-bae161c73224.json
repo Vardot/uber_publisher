@@ -1,0 +1,417 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health\/study-says-bad-marriage-could-literally-break-your-heart?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/health?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/31?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/health?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/marriage?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/heart?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/bad-marriage?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/unhappy-marriage?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/cardiologist?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/sociallife?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/couples?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/heart-broken?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/surveys?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8ab9f33b-c0cb-43d1-bf38-bae161c73224"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Study says a bad marriage could literally break your heart",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4226f65-a221-4983-8745-9e5948742d54"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/31?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5559b5be-ddb2-4f7b-bfeb-1a2131856478"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c13aaeb-413c-475b-bb8b-cb3b8ea3235e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/marriage?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1f95639e-707e-4996-9996-fce5b6bdcf92"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "94913178-0119-4672-8708-cf1d9dc92fff"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/heart?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a5d08bb-4bc2-4a1a-9cf3-a39be7436a2c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/bad-marriage?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "91623d60-5d2b-46e0-bc91-eca5f1cbfd59"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/unhappy-marriage?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2388cc1a-172f-4fe9-8b4a-372cde0005d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/cardiologist?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d156fb15-f03b-47d1-ad05-6693c37a6fcb"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/sociallife?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a05c51df-958e-4e93-a5e5-72116ff40e20"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/couples?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "df811b19-3dd2-4d78-8eb4-94be070bc6a3"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/heart-broken?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "107909de-8f80-40a5-b030-c10711b2e08c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/surveys?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0fadc12b-56af-4f3f-a036-4cf3cf163903"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1497957804,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498036074,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498036074
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>If you are in an unhappy marriage, you may want to check in with a cardiologist.<\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>A study led by a Michigan State University sociologist has found that older couples in bad marriages, especially wives, have a higher risk for heart disease than those who are happily wed.<\/p>\r\n\r\n<p>The study, funded by the National Institute of Aging, was recently published in the Journal of Health and Social Behavior and sought to examine whether marital quality is related to risk of heart disease. It also looked at whether gender or age influenced the relationship between marriage and heart health.<\/p>\r\n\r\n<p>Michigan State's Hui Liu and co-researcher Linda Waite, a sociology professor at the University of Chicago, analyzed five years of data from more than 1,000 married men and women who were participants in the National Social Life, Health and Aging Project. The participants ranged in age from 57 to 85.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Respondents completed surveys about the state of their marriages as well as lab tests and information concerning their heart health, including strokes, high blood pressure and heart attacks.<\/p>\r\n\r\n<p>The researchers found that a bad marriage causes more harm to the heart than a good marriage offers positive benefits to cardiovascular health. The risks increase the older you are, according to the study, and the quality of the marriage has more of an effect on women -- possibly because they tend to internalize unhappiness more.<\/p>\r\n\r\n<p>And because the immune system declines as we age, heart issues due to marital stress can be even more severe, it seems. Those sad love songs about heartbreak aren't just for young lovers.<\/p>\r\n\r\n<blockquote>\r\n<p>\"Marriage counseling is focused largely on younger couples,\"<a href=\"http:\/\/msutoday.msu.edu\/news\/2014\/bad-marriage-broken-heart\/\" target=\"_blank\">&nbsp;<\/a>Liu said on her university's website.&nbsp;\"But these results show that marital quality is just as important at older ages, even when the couple has been married 40 or 50 years.\"<\/p>\r\n<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497785151,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

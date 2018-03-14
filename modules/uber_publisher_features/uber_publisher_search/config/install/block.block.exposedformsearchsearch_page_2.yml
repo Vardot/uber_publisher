@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: exposedformsearchsearch_page_2
+theme: uber_publisher_vanilla
+region: content
+weight: -11
+provider: null
+plugin: 'views_exposed_filter_block:search-search_page'
+settings:
+  id: 'views_exposed_filter_block:search-search_page'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/search\r\n/search/*"
+    negate: false
+    context_mapping: {  }

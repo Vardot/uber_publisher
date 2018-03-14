@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_image
+    - node.type.author_profile
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: node.author_profile.field_profile_image
+field_name: field_profile_image
+entity_type: node
+bundle: author_profile
+label: 'Profile image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 8c0decd7-9fe7-4520-b559-1ac02550732c
+    alt: ''
+    title: ''
+    width: 512
+    height: 512
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

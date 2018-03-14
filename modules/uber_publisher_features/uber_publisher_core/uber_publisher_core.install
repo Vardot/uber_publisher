@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the uber_publisher_core module.
+ */
+
+ /**
+  * Implements hook_install().
+  */
+function uber_publisher_core_install() {
+  // Disable Taxonomy term view.
+  $view_id = 'taxonomy_term';
+  \Drupal::entityTypeManager()->getStorage('view')
+  ->load($view_id)
+  ->setStatus(FALSE)
+  ->save();
+
+  // Overide default pathauto settings and disable transliterate to stop URLs transliterate
+  $pathautoConfig = \Drupal::configFactory()->getEditable('pathauto.settings')->set('transliterate', FALSE)->save();
+}

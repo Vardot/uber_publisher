@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: breaking_news
+label: 'Breaking news'
+type: 'canonical_entities:node'
+pattern: 'breaking-news/[node:title]'
+selection_criteria:
+  21e88d9c-55e6-42da-89cf-756805a537c7:
+    id: node_type
+    bundles:
+      breaking_news: breaking_news
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 21e88d9c-55e6-42da-89cf-756805a537c7
+selection_logic: and
+weight: -5
+relationships: {  }

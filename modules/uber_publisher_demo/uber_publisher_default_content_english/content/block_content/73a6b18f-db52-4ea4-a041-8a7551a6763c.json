@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "73a6b18f-db52-4ea4-a041-8a7551a6763c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "Copyright",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1497100562
+        }
+    ],
+    "revision_created": [
+        {
+            "value": 1497100562
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"text-center\">\r\n    Powered by <a href=\"http:\/\/www.vardot.com\">Vardot<\/a>\r\n<\/div>\r\n<div class=\"text-center\">\r\n    Copyright \u00a9 2017 Uber Publisher.  All rights reserved\r\n<\/div>",
+            "format": "code_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

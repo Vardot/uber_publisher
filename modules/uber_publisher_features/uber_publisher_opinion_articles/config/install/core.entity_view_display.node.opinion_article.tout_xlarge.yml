@@ -1,0 +1,97 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tout_xlarge
+    - field.field.node.opinion_article.body
+    - field.field.node.opinion_article.field_author_profile
+    - field.field.node.opinion_article.field_comments
+    - field.field.node.opinion_article.field_image
+    - field.field.node.opinion_article.field_meta_tags
+    - field.field.node.opinion_article.field_section
+    - field.field.node.opinion_article.field_tags
+    - field.field.node.opinion_article.field_yoast_seo
+    - node.type.opinion_article
+  module:
+    - ds
+    - field_group
+    - panelizer
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: tout_xlarge
+      library: vmi/tout_xlarge
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          main: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      main:
+        - group_tout_content
+        - field_image
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 7
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  field_group:
+    group_tout_content:
+      children:
+        - field_image
+        - node_title
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: tout-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Tout content'
+id: node.opinion_article.tout_xlarge
+targetEntityType: node
+bundle: opinion_article
+mode: tout_xlarge
+content:
+  field_image:
+    weight: 6
+    label: hidden
+    settings:
+      view_mode: se2e_standard
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+hidden:
+  body: true
+  field_author_profile: true
+  field_comments: true
+  field_meta_tags: true
+  field_section: true
+  field_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

@@ -1,0 +1,75 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.fb_instant_articles
+    - field.field.node.author_profile.body
+    - field.field.node.author_profile.field_description
+    - field.field.node.author_profile.field_image
+    - field.field.node.author_profile.field_linked_user
+    - field.field.node.author_profile.field_meta_tags
+    - field.field.node.author_profile.field_profile_image
+    - node.type.author_profile
+  module:
+    - image
+    - metatag
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.author_profile.fb_instant_articles
+targetEntityType: node
+bundle: author_profile
+mode: fb_instant_articles
+content:
+  field_description:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_linked_user:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_meta_tags:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_profile_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true

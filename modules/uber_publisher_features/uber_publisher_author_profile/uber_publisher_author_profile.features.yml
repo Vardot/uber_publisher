@@ -1,0 +1,15 @@
+bundle: uber_publisher
+excluded:
+  - core.entity_view_display.node.opinion_article.hero_xlarge
+  - core.entity_view_display.node.opinion_article.horizontal_media_teaser_small
+  - core.entity_view_display.node.opinion_article.horizontal_media_teaser_xlarge
+  - core.entity_view_display.node.opinion_article.horizontal_media_teaser_xsmall
+  - core.entity_view_display.node.opinion_article.teaser
+  - core.entity_view_display.node.opinion_article.tout_large
+  - core.entity_view_display.node.opinion_article.tout_medium
+  - core.entity_view_display.node.opinion_article.tout_xlarge
+  - core.entity_view_display.node.opinion_article.vertical_media_teaser_large
+  - core.entity_view_display.node.opinion_article.vertical_media_teaser_small
+  - core.entity_view_display.node.opinion_article.vertical_media_teaser_xlarge
+  - core.entity_view_display.node.opinion_article.vertical_media_teaser_xsmall
+required: true

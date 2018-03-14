@@ -1,0 +1,282 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/politics\/trump-touts-his-twitter-use-alabama-rally?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/73?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/politics?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/donald-trump?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/twitter?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/alabama?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "211408c1-445c-4b23-83a7-060689920762"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Trump touts his Twitter use at Alabama rally",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/73?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c95bdc4-de7c-4492-ad7a-2ab911596617"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78952062-48f7-4cb2-ba05-66ac4f3694e5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/donald-trump?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a55926c0-734b-4532-be88-4d8fc48c7549"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/twitter?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37113caf-2d6b-40f7-9076-7e01dc33138e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/alabama?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7ea82a8a-11f4-4788-8baf-18ed986e085c"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506265224,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506265391,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506265391
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "Trump touts his Twitter use at Alabama rally | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "(CNN)President Donald Trump touted his Twitter presence while campaigning for fellow Republican Luther Strange on Friday night.",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "(CNN)President Donald Trump touted his Twitter presence while campaigning for fellow Republican Luther Strange on Friday night.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "(CNN)President Donald Trump touted his Twitter presence while campaigning for fellow Republican Luther Strange on Friday night.",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "(CNN)President Donald Trump touted his Twitter presence while campaigning for fellow Republican Luther Strange on Friday night.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<section data-containers=\"15\" data-eq-pts=\"xsmall: 0, medium: 460, large: 780, full16x9: 1100\" data-eq-state=\"xsmall medium large\" data-vr-zone=\"zone-1-0\" data-zn-id=\"body-text\" data-zone-label=\"bodyText\" id=\"body-text\">\r\n<p data-select-like-a-boss=\"1\"><cite data-select-like-a-boss=\"1\">(CNN)<\/cite>President Donald Trump touted his Twitter presence while campaigning for fellow Republican Luther Strange on Friday night.<\/p>\r\n\r\n<p><a href=\"http:\/\/www.cnn.com\/2017\/09\/22\/politics\/trump-alabama-trip-senate-race\/index.html\">At the Alabama rally<\/a>&nbsp;set just days ahead of the state's Senate Republican primary runoff election, the President took a moment to celebrate his ability to speak directly to his base via Twitter.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>\"That is the great thing about Twitter,\" Trump said. \"You know, when the press is dishonest, which is most of the time, and when they say, like, I don't want to build a wall, I can tweet 'That was a false story. Boom. Boom. Boom.' \"<\/p>\r\n\r\n<p>Trump rallies for Strange in GOP Senate race&nbsp;02:28<\/p>\r\n\r\n<p>Trump took aim at the media while talking about his plans to build a wall on the southern border: \"Well every once in a while you hear, 'Well, he doesn't really want to build the wall,' I say, 'Excuse me?'\" Trump said.<\/p>\r\n\r\n<p>Trump's use of Twitter dates back years before he was in the White House and has been one of the more unique and controversial aspects of his presidency.<\/p>\r\n\r\n<p>His Twitter handle,&nbsp;<a href=\"https:\/\/twitter.com\/realDonaldTrump\" target=\"_blank\">@realDonaldTrump<\/a>, now has almost 39 million followers, and his tweets range from calling out the media to announcing White House policies to criticizing foreign leaders, among other topics.<\/p>\r\n\r\n<p>\"Every time he tweets, I am entertained. Sometimes I'm informed. It tells me what to care about today, tells me what he's thinking,\" Scott Adams, creator of the Dilbert comic strip and an early Trump supporter,&nbsp;<a href=\"http:\/\/www.cnn.com\/2017\/08\/17\/politics\/special-report-trump-twitter-man-message-machine\/index.html\">told CNN's Bill Weir<\/a>. \"It's transparent. Sometimes it's provocative. Sometimes it's too provocative. I like that, too.\"<\/p>\r\n\r\n<p>CNN aired a special report \"Twitter and Trump\" on Friday night, which explores the President's prolific and controversial use of the platform.<\/p>\r\n<\/section>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

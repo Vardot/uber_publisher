@@ -1,0 +1,7 @@
+name: 'Uber Publisher Breaking News Demo Content (English)'
+description: 'Uber Publisher breaking news demo content for English language.'
+type: module
+core: 8.x
+package: 'Uber publisher'
+dependencies:
+  - uber_publisher_demo_content

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ads_system
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: adblocktop
+theme: uber_publisher_vanilla
+region: header_right
+weight: 0
+provider: null
+plugin: 'ad_block:top'
+settings:
+  id: 'ad_block:top'
+  label: 'Ad block Top'
+  provider: ads_system
+  label_display: '0'
+visibility: {  }

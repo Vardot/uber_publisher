@@ -1,0 +1,29 @@
+name: 'Uber Publisher Monthly Caricature'
+description: 'Uber Publisher caricature for give fun to the readers.'
+type: module
+core: 8.x
+dependencies:
+  - content_moderation
+  - ctools
+  - datetime
+  - ds
+  - field
+  - image
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - responsive_image
+  - slick_views
+  - text
+  - uber_publisher_core
+  - uber_publisher_daily_caricature
+  - user
+  - varbase_media
+  - views
+  - views_bootstrap
+  - views_infinite_scroll
+  - yoast_seo
+version: 8.x-1.x-dev
+package: 'Uber Publisher'

@@ -1,0 +1,17 @@
+id: cartoons_list
+label: 'Cartoons List'
+ui_limit: caricature|full
+properties:
+  block: 'views_block:cartoons-cartoons_list'
+  use_block_title: true
+  config:
+    id: 'views_block:cartoons-cartoons_list'
+    label: ''
+    provider: views
+    label_display: visible
+    views_label: ''
+    items_per_page: none
+type: block
+type_label: 'Block field'
+entities:
+  node: node

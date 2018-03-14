@@ -1,0 +1,108 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.horizontal_media_teaser_medium
+    - field.field.node.article.body
+    - field.field.node.article.field_comments
+    - field.field.node.article.field_image
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_section
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - ds
+    - panelizer
+    - smart_trim
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_medium
+      library: vmi/horizontal_media_teaser_medium
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_image
+      right:
+        - node_title
+        - field_section
+        - node_post_date
+        - body
+    fields:
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 3
+        label: hidden
+        formatter: ds_post_date_short
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.article.horizontal_media_teaser_medium
+targetEntityType: node
+bundle: article
+mode: horizontal_media_teaser_medium
+content:
+  body:
+    type: smart_trim
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: '30'
+      trim_type: words
+      trim_suffix: ' ...'
+      more_link: '0'
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+    region: right
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: s4_standard
+      link: false
+    third_party_settings: {  }
+    region: left
+  field_section:
+    type: entity_reference_label
+    weight: 2
+    region: right
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  field_comments: true
+  field_meta_tags: true
+  field_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

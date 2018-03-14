@@ -1,0 +1,109 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.fb_instant_articles
+    - field.field.node.opinion_article.body
+    - field.field.node.opinion_article.field_author_profile
+    - field.field.node.opinion_article.field_comments
+    - field.field.node.opinion_article.field_image
+    - field.field.node.opinion_article.field_meta_tags
+    - field.field.node.opinion_article.field_section
+    - field.field.node.opinion_article.field_tags
+    - field.field.node.opinion_article.field_yoast_seo
+    - node.type.opinion_article
+  module:
+    - ds
+    - fb_instant_articles
+    - panelizer
+    - uber_publisher_fbia
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: up_fbia
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      header:
+        - field_image
+      content:
+        - field_section
+        - body
+        - field_tags
+id: node.opinion_article.fb_instant_articles
+targetEntityType: node
+bundle: opinion_article
+mode: fb_instant_articles
+content:
+  body:
+    type: fbia_transformer
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: fbia_erimage
+    weight: 0
+    region: header
+    label: hidden
+    settings:
+      image_style: ''
+      caption: '1'
+      presentation: aspect-fit
+      likes: 0
+      comments: 0
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_section:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  field_author_profile: true
+  field_comments: true
+  field_meta_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

@@ -1,0 +1,4 @@
+opinion.lib:
+  css:
+    theme:
+      css/opinion.css: {}

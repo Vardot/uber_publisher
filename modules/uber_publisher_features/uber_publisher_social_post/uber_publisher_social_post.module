@@ -1,0 +1,45 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function uber_publisher_social_post_form_alter(&$form, &$form_state, $form_id) {
+  if (isset($form['field_post_to_twitter'])) {
+    $form['uberpublisher_social_post'] = [
+      '#type' => 'details',
+      '#group' => 'advanced',
+      '#weight' => -1,
+      '#title' => t('Post to social media accounts'),
+      '#description' => t('Choose from the available social media networks to automatically post this content after saving.'),
+      '#access' => \Drupal::currentUser()->hasPermission('access autotweet'),
+    ];
+
+    $form['uberpublisher_social_post']['uberpublisher_social_post'] = $form['field_post_to_twitter'];
+    hide($form['field_post_to_twitter']);
+  }
+}
+
+/**
+ * Implements hook_entity_insert().
+ */
+function uber_publisher_social_post_node_insert($entity) {
+  $fields = $entity->getfields();
+  if (isset($fields['field_post_to_twitter'])) {
+    $options = ['absolute' => TRUE];
+    $url = \Drupal\Core\Url::fromRoute('entity.node.canonical', ['node' => $entity->id()], $options)->toString();
+    $autotweet = $fields['field_post_to_twitter']->getValue()[0]['value'];
+    if ($autotweet == 1) {
+      $title = $fields['title']->getValue()[0]['value'];
+      $status = $title . " " . $url;
+      $twitterPost = \Drupal::service('plugin.network.manager')->createInstance('social_post_twitter');
+      $twitterEntity = \Drupal::entityTypeManager()->getStorage('social_post_twitter_user');
+      $accounts = $twitterEntity->loadByProperties(['uid' => Drupal::currentUser()->id(),]);
+      foreach ($accounts as $account) {
+        $twitterPost->doPost($account->getAccessToken(), $account->getAccessTokenSecret(), $status);
+      }
+    }
+  }
+}

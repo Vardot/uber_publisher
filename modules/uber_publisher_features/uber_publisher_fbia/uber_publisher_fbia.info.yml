@@ -1,0 +1,21 @@
+name: 'Uber Publisher FBIA'
+description: 'integrates with Facebook Instant Articles, allowing site administrators to publish content into the platform.'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - ds
+  - fb_instant_articles
+  - image
+  - media_entity
+  - metatag
+  - node
+  - panelizer
+  - text
+  - uber_publisher_core
+  - uber_publisher_article
+  - uber_publisher_fbia
+  - user
+  - varbase_media
+version: 8.x-1.x-dev
+package: 'Uber Publisher'

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: uber_publisher_vanilla_breadcrumbs
+theme: uber_publisher_vanilla
+region: breadcrumbs
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

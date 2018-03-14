@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/52?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-06\/img_20170520_141226.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-06\/img_20170520_141226.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 52
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3da07218-7cb4-44bc-8b54-57ea050571c6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 52
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u064a\u0633\u062a\u0642\u0628\u0644 \u062a\u0631\u0627\u0645\u0628"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-06\/img_20170520_141226.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "62888175-fc48-4952-b83d-4113cd87c59b"
+                    }
+                ],
+                "alt": "\u0627\u0644\u0646\u0633\u062e\u0629 \u0627\u0644\u0645\u0635\u063a\u0631\u0629",
+                "title": "\u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u064a\u0633\u062a\u0642\u0628\u0644 \u062a\u0631\u0627\u0645\u0628",
+                "width": "2000",
+                "height": "1494"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-06\/img_20170520_141226.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "62888175-fc48-4952-b83d-4113cd87c59b"
+                    }
+                ],
+                "alt": "\u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u064a\u0633\u062a\u0642\u0628\u0644 \u062a\u0631\u0627\u0645\u0628",
+                "title": "\u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u064a\u0633\u062a\u0642\u0628\u0644 \u062a\u0631\u0627\u0645\u0628",
+                "width": "2000",
+                "height": "1494"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1498072453
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498072453
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498072453
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ]
+}

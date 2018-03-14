@@ -1,0 +1,135 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.fb_instant_articles
+    - field.field.node.article.body
+    - field.field.node.article.field_comments
+    - field.field.node.article.field_image
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_section
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - ds
+    - fb_instant_articles
+    - panelizer
+    - uber_publisher_fbia
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: up_fbia
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      header:
+        - field_image
+      content:
+        - field_section
+        - body
+        - field_tags
+id: node.article.fb_instant_articles
+targetEntityType: node
+bundle: article
+mode: fb_instant_articles
+content:
+  body:
+    label: hidden
+    type: fbia_transformer
+    weight: 2
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      caption: '1'
+      likes: '1'
+      comments: '1'
+      presentation: aspect-fit
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: fbia_erimage
+    region: header
+  field_section:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  field_comments: true
+  field_meta_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

@@ -1,0 +1,110 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.vertical_media_teaser_xlarge
+    - field.field.node.in_pictures.body
+    - field.field.node.in_pictures.field_images
+    - field.field.node.in_pictures.field_meta_tags
+    - node.type.in_pictures
+  module:
+    - ds
+    - field_group
+    - panelizer
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: vertical_media_teaser_xlarge
+      library: vmi/vertical_media_teaser_xlarge
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          main: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: content
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      main:
+        - group_teaser_content
+        - node_title
+        - node_post_date
+        - field_images
+    fields:
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 2
+        label: hidden
+        formatter: ds_post_date_short
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  field_group:
+    group_teaser_content:
+      children:
+        - node_title
+        - node_post_date
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: teaser-content-wrapper
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Teaser content'
+id: node.in_pictures.vertical_media_teaser_xlarge
+targetEntityType: node
+bundle: in_pictures
+mode: vertical_media_teaser_xlarge
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: s8_standard
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+  field_images:
+    type: entity_reference_entity_view
+    weight: 3
+    region: main
+    label: hidden
+    settings:
+      view_mode: s5_standard
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: '1'
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  body: true
+  field_meta_tags: true
+  langcode: true
+  links: true

@@ -1,0 +1,291 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/mcdonalds-and-olympics-are-parting-ways?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/12?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/mcdonalds?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/olympics?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/fastfood?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c6bc1af2-9b3e-4b0c-ae95-e8e44865ea0a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "McDonald's and the Olympics are parting ways",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3967cc07-5b18-41af-9de9-4761b83c854c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2830fc00-001d-4c90-83f2-7e3dafb752d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/mcdonalds?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a50ba286-d1ac-48ee-8c5c-97acce83759c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/olympics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd0c7582-1869-41e9-b3a3-e7157a91283f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/fastfood?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "497e4b3a-4ce8-421a-9711-f88668862fcf"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498035452,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498045729,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498045729
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>McDonald's will no longer be a sponsor of the Olympics.<\/h2>\r\n\r\n<p>The fast food chain is ending its decades-long affiliation with the Games, cutting short a deal that was supposed to run at least through 2020.<\/p>\r\n\r\n<p>McDonald's has worked with the Olympics since 1968, when it delivered hamburgers to athletes competing in the Winter Games in Grenoble, France.<\/p>\r\n\r\n<p>competing in the Winter Games in Grenoble, France.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/CUarPIkRLYY.jpg?itok=CMaLfLpZ\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=CUarPIkRLYY\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>It became an official sponsor of the U.S. Olympic Committee in 1976 and has been linked to the Games ever since -- stamping the Olympic rings on its soda cups and running familiar commercials promoting Team USA.<\/p>\r\n\r\n<p>In 1984, McDonald's ran a promotion called \"When the U.S. Wins, You Win\": Any time an American athlete won a medal, Americans won food. The deal was so popular -- and American athletes so successful -- that some locations reportedly ran out of Big Macs.<\/p>\r\n\r\n<p>The International Olympic Committee said the decision to part ways was mutual.<\/p>\r\n\r\n<p>The split takes effect immediately with one exception:&nbsp;McDonald's&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=MCD&amp;source=story_quote_link\">MCD<\/a>)&nbsp;will still sponsor the 2018 Winter Olympics in PyeongChang, South Korea. McDonald's will operate restaurants in the Olympic Park and the Olympic Village, and can advertise in South Korea as an Olympic sponsor.<\/p>\r\n\r\n<p>But McDonald's Olympic-themed advertising in the United States will end immediately.<\/p>\r\n\r\n<p>Michael Payne, a former IOC marketing director, told CNNMoney he views this split as logical.<\/p>\r\n\r\n<blockquote>\r\n<drupal-entity alt=\"McDonald's \" data-align=\"left\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"27cf19f5-c414-4a27-a91e-6c266c042d36\" title=\"McDonald's \"><\/drupal-entity>\r\n\r\n<p>\"McDonald's has been a partner for a very long time, which is expensive,\" he said. \"It also got to the point where McDonald's was difficult to manage. McDonald's viewed itself as owning the food category. This isn't just a case of the sponsor saying, 'We've decided to move on.'\"<\/p>\r\n<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Payne did note that ending the contract early is odd -- especially in McDonald's case because it has been such an important sponsor for so long.<\/p>\r\n\r\n<p>At the most recent Olympics, last summer in Rio de Janeiro, McDonald's sent 100 children to Brazil to participate in the opening ceremony.<\/p>\r\n\r\n<p>Still, the company has undergone recent changes. A&nbsp;new CEO&nbsp;took office in 2015 and has focused on new features for customers like<a href=\"http:\/\/money.cnn.com\/2017\/03\/01\/technology\/mcdonalds-app-delivery\/index.html?iid=EL\">&nbsp;<\/a>online ordering and delivery.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497776824,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.fb_instant_articles
+    - field.field.node.caricature.body
+    - field.field.node.caricature.field_author_profile
+    - field.field.node.caricature.field_comments
+    - field.field.node.caricature.field_date
+    - field.field.node.caricature.field_image_file
+    - field.field.node.caricature.field_meta_tags
+    - node.type.caricature
+  module:
+    - datetime
+    - ds
+    - fb_instant_articles
+    - metatag
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: up_fbia
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      header:
+        - field_image_file
+      content:
+        - body
+      footer:
+        - field_date
+        - field_meta_tags
+id: node.caricature.fb_instant_articles
+targetEntityType: node
+bundle: caricature
+mode: fb_instant_articles
+content:
+  body:
+    type: fbia_transformer
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_date:
+    type: datetime_time_ago
+    weight: 2
+    region: footer
+    label: hidden
+    settings:
+      future_format: '@interval hence'
+      past_format: '@interval ago'
+      granularity: 2
+    third_party_settings: {  }
+  field_image_file:
+    type: fbia_image
+    weight: 0
+    region: header
+    label: hidden
+    settings:
+      image_style: ''
+      caption: true
+      presentation: aspect-fit
+      likes: false
+      comments: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_meta_tags:
+    type: metatag_empty_formatter
+    weight: 3
+    region: footer
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_author_profile: true
+  field_comments: true
+  langcode: true
+  links: true

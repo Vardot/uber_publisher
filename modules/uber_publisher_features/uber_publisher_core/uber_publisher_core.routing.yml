@@ -1,0 +1,7 @@
+uber_publisher_core.settings:
+  path: '/admin/structure/uber_publisher_core/settings'
+  defaults:
+    _form: '\Drupal\uber_publisher_core\Form\UberPublisherCoreSettingsForm'
+    _title: 'Uber Publisher Article settings'
+  requirements:
+    _permission: 'administer site configuration'

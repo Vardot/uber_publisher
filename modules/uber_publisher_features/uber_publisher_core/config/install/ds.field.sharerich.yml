@@ -1,0 +1,18 @@
+id: sharerich
+label: Sharerich
+ui_limit: '*|full'
+properties:
+  block: sharerich
+  use_block_title: false
+  config:
+    id: sharerich
+    label: ''
+    provider: sharerich
+    label_display: visible
+    sharerich_set: default
+    orientation: horizontal
+    sticky: false
+type: block
+type_label: 'Block field'
+entities:
+  node: node

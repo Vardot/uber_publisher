@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access simple amp'
+  - 'search content'
+  - 'view enabled ad entities'
+  - 'view media'

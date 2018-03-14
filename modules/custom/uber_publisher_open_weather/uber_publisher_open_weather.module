@@ -1,0 +1,8 @@
+<?php
+
+function uber_publisher_open_weather_page_attachments(array &$attachments) {
+  if (\Drupal::service('theme.manager')->getActiveTheme()->getName() == 'uber_publisher_vanilla') {
+    $attachments['#attached']['library'][] = 'uber_publisher_open_weather/up_open_weather.styling';
+  }
+
+}

@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linked_user
+    - node.type.author_profile
+id: node.author_profile.field_linked_user
+field_name: field_linked_user
+entity_type: node
+bundle: author_profile
+label: 'Linked user'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        opinion_writer: opinion_writer
+        editor: '0'
+        content_admin: '0'
+        site_admin: '0'
+        administrator: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

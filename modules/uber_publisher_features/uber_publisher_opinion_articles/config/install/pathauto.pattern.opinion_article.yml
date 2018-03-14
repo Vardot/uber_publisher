@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: opinion_article
+label: 'Opinion article'
+type: 'canonical_entities:node'
+pattern: 'opinions/[node:title]'
+selection_criteria:
+  a8b0da29-c983-4b75-9236-e6b323ba3d1b:
+    id: node_type
+    bundles:
+      opinion_article: opinion_article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a8b0da29-c983-4b75-9236-e6b323ba3d1b
+selection_logic: and
+weight: -5
+relationships: {  }

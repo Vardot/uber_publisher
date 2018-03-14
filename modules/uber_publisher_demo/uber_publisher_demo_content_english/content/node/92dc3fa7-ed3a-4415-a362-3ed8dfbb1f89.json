@@ -1,0 +1,282 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/should-you-let-robot-manage-your-retirement-savings?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/78?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/personal-finance?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/pensions?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/savings?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "92dc3fa7-ed3a-4415-a362-3ed8dfbb1f89"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Should you let a 'robot' manage your retirement savings?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/78?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "50ceed6f-c651-490b-8a68-5f38b9610aea"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/personal-finance?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f5f0160-9cda-4bdf-af18-553e9a90e8b0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/pensions?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6158a2b4-0b61-485f-83d0-a2d959dd22fe"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/savings?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47fa06ac-6dbe-4ea8-832b-0b4dca16e794"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506327126,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506327215,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506327215
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "Should you let a 'robot' manage your retirement savings? | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "Automated financial advice delivered by computer algorithm - often dubbed robo-advice - is a fast-growing business. But should you entrust your life savings to a computer?\n\nFor many of us, talking about money is embarrassing - revealing our income and spending habits can feel like disrobing in public.\n\nSo it's no wonder seeking investment advice from an impersonal, unbiased computer program is proving so popular.",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "Automated financial advice delivered by computer algorithm - often dubbed robo-advice - is a fast-growing business. But should you entrust your life savings to a computer?\n\nFor many of us, talking about money is embarrassing - revealing our income and spending habits can feel like disrobing in public.\n\nSo it's no wonder seeking investment advice from an impersonal, unbiased computer program is proving so popular.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "Automated financial advice delivered by computer algorithm - often dubbed robo-advice - is a fast-growing business. But should you entrust your life savings to a computer?\n\nFor many of us, talking about money is embarrassing - revealing our income and spending habits can feel like disrobing in public.\n\nSo it's no wonder seeking investment advice from an impersonal, unbiased computer program is proving so popular.",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "Automated financial advice delivered by computer algorithm - often dubbed robo-advice - is a fast-growing business. But should you entrust your life savings to a computer?\n\nFor many of us, talking about money is embarrassing - revealing our income and spending habits can feel like disrobing in public.\n\nSo it's no wonder seeking investment advice from an impersonal, unbiased computer program is proving so popular.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Automated financial advice delivered by computer algorithm - often dubbed robo-advice - is a fast-growing business. But should you entrust your life savings to a computer?<\/p>\r\n\r\n<p>For many of us, talking about money is embarrassing - revealing our income and spending habits can feel like disrobing in public.<\/p>\r\n\r\n<p>So it's no wonder seeking investment advice from an impersonal, unbiased computer program is proving so popular.<\/p>\r\n\r\n<p>Consultancy firm Accenture found that 68% of global consumers would be happy to use robo-advice to plan for retirement, with many feeling it would be faster, cheaper, and more impartial than human advice.<\/p>\r\n\r\n<p>\"Many of our clients say they feel awkward in face-to-face meetings, preferring an online experience where they don't feel judged,\" says Lynn Smith, a director of robo-advice firm Wealth Wizards.<\/p>\r\n\r\n<p>So how does robo-advice work and is it really any better than traditional financial advice?<\/p>\r\n\r\n<p>Robo-adviser firms use algorithms to analyse your financial situation and goals and then work out an investment plan to suit you.<\/p>\r\n\r\n<p>Basically, you answer lots of questions online about your income, expenses, family situation, attitude to risk, and so on, and then the algorithm allocates your savings to a mix of investments, from index funds that aim to mimic a particular stock market index or sector, to fixed-income bonds.<\/p>\r\n\r\n<figure>\r\n<p>As some investments are riskier than others, younger investors will generally have their portfolios weighted towards higher-risk, higher-growth investments, whereas older investors approaching retirement will see the balance of their portfolios weighted towards lower-risk, fixed income investments, such as government bonds or gilts.<\/p>\r\n\r\n<p>Joe Ziemer, vice president of communications at Betterment, a US robo-adviser with more than $9bn under management, says: \"The Betterment service takes your information and uses a series of algorithms to create an asset allocation plan, which might be, for example, 90% equities and 10% bonds for a retirement saver.\"<\/p>\r\n\r\n<p>The crucial point is that these algorithms work everything out for you at much lower cost than many traditional wealth advisory firms.<\/p>\r\n\r\n<p>Wealth Wizards, for example, typically charges \u00a365 for investments up to \u00a330,000, and 0.30%, or \u00a3300, on a \u00a3100,000 investment pot. Betterment charges 0.25% a year.<\/p>\r\n\r\n<p>That's peanuts compared to human advisers' fees, which come in at about \u00a3580 for advice on a \u00a3200-a-month pension contribution, or \u00a31,000-\u00a32,000 for guidance on what to do with your \u00a3100,000 pot when your retire, according to UK adviser network Unbiased.<\/p>\r\n\r\n<p>Many of these robo-advisers will offer human advice as well - for any extra fee - if your finances are more complicated or you need tax planning services as well.<\/p>\r\n\r\n<p>\"When a client needs advice spanning a number of different regulatory regimes, human advice will be required,\" says John Perks, managing director of life and pensions at UK insurer LV, which launched its Retirement Wizard robo-advice service two years ago.<\/p>\r\n\r\n<p>So could these cheaper investment services encourage more of us to save more?<\/p>\r\n\r\n<p>The powers that be certainly hope so.<\/p>\r\n\r\n<p>World Economic Forum figures show the collective retirement savings gap of the world's largest economies will hit $400tn (\u00a3307tn) by 2050, meaning a lot of people could be spending their retirements in poverty.<\/p>\r\n\r\n<p>Governments are concerned that this might then place an unsustainable burden on welfare systems.<\/p>\r\n\r\n<p>Robo-advice is certainly growing in popularity.<\/p>\r\n\r\n<p>Market research aggregator Statista says the US market will grow 29% per year between now and 2021, and forecasts that the number of Chinese investors using robo-advice services will jump from two million to 79.4 million in the same period.<\/p>\r\n\r\n<p>While Consultancy AT Kearney forecasts that robo-advisers will be managing $2.2tn within five years, representing a 68% annual growth rate.<\/p>\r\n\r\n<p>And these services are only likely to become more sophisticated as the data from money management and banking apps are fed in to the algorithms and artificial intelligence is added to the mix, experts believe.<\/p>\r\n\r\n<p>\"If you knew everything about a person, you could wire up the back office to do the same as a human adviser. The fact find is the difficult bit,\" says Ms Smith.<\/p>\r\n\r\n<p>But are we really happy to ditch the human adviser completely? No, is the short answer.<\/p>\r\n\r\n<p>Accenture finds that a significant proportion of us still want human interaction, particularly if our finances are complex.<\/p>\r\n\r\n<p>Successful financial services firms will need a strategy \"that seamlessly integrates technology, branch networks and staff\", argues Accenture's Piercarlo Gera, senior managing director, distribution and marketing services.<\/p>\r\n\r\n<p>While Betterment provides 100% of its advice online, clients can still talk to a human being when they want to.<\/p>\r\n\r\n<p>Even those who prefer face-to-face interaction could still benefit from the robo-advice phenomenon, however.<\/p>\r\n\r\n<p>\"Using robo-advice can cut the time it takes an adviser to provide regulated advice for a client from nine hours down to just 90 minutes,\" LV's Mr Perks says.<\/p>\r\n\r\n<p>\"This could transform companies' back office operations, allowing them to offer a cheaper service.\"<\/p>\r\n\r\n<p>But what about investment performance?<\/p>\r\n\r\n<p>Are algorithms choosing cheap investments that merely track markets better at making you money than professional fund managers trying to back winners on your behalf?<\/p>\r\n\r\n<p>The truth is that only about a quarter of funds managed by clever humans outperform the market as a whole, so when you take into account the much higher management fees you pay for that level of service, the performance difference is likely to be marginal for most of us.<\/p>\r\n\r\n<p>The robots may be coming, but in this case at least, they seem to be on the side of the small investor trying to save for a comfortable retirement.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n<\/figure>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies: {  }
+id: opinion_writer
+label: 'Opinion writer'
+weight: 6
+is_admin: null
+permissions:
+  - 'access editor_media_browser entity browser pages'
+  - 'access image_browser entity browser pages'
+  - 'access images_browser entity browser pages'
+  - 'access simple amp'
+  - 'access toolbar'
+  - 'add terms in tags'
+  - 'create media'
+  - 'create opinion_article content'
+  - 'delete media'
+  - 'delete own opinion_article content'
+  - 'edit own opinion_article content'
+  - 'update media'
+  - 'view enabled ad entities'
+  - 'view opinion_article revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

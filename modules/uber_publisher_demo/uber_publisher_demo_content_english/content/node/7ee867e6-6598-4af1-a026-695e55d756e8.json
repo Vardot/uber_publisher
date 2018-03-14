@@ -1,0 +1,321 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/politics\/house-democrat-we-need-new-leadership?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/politics?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/59?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/news?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/united-states?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/democrat?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/leadership?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/moulton?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7ee867e6-6598-4af1-a026-695e55d756e8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "House Democrat: 'We need new leadership'",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78952062-48f7-4cb2-ba05-66ac4f3694e5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/59?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "468fb7d3-9987-4f26-a96d-5ec76bfd8efc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2e8f0cfb-372a-4fa8-806c-e68642f705e5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/news?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "10a3457c-bdd1-4f88-a71d-18664968502d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/united-states?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de627cff-1c98-481b-b737-87c7900edd8f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/democrat?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb3d2838-b8c7-4ef9-a734-55f788f9f70c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/leadership?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bce7cfca-a6d8-40d8-ae93-0313ae08519c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/moulton?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dd5404e1-b2ea-489f-8dc1-736724826a90"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498129294,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498132829,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498132829
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>As&nbsp;rumblings of dissatisfaction&nbsp;with House Minority Leader Nancy Pelosi grow among Democrats, Rep. Seth Moulton said her future \"certainly\" needed to be a topic of discussion.<\/p>\r\n\r\n<p>The Massachusetts Democrat, speaking on CNN's \"The Lead with Jake Tapper\" Wednesday afternoon, made his comments following his party's failure to win a closely watched special election in Georgia.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/Mcgf26D-CUg.jpg?itok=JzHAa8ln\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=Mcgf26D-CUg\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Whether she's a leader or not is up for the (Democratic) caucus to decide,\" Moulton said. \"It's clear, that I think, across the board in the Democratic Party, we need new leadership. It's time for a new generation of leadership.\"<\/p>\r\n\r\n<p>Moulton said the recent election results necessitated a conversation among Democrats about shaking things up.<\/p>\r\n\r\n<blockquote>\r\n<p>\"These are the kinds of discussions that we have to be willing to have as a party if we're going to be able to move forward and earn back the trust of working families across America,\" Moulton said.<\/p>\r\n<\/blockquote>\r\n\r\n<p>Moulton backed a longshot challenge to Pelosi's leadership post from Ohio Rep. Tim Ryan last fall. Pelosi held onto her position by&nbsp;a vote<a href=\"http:\/\/www.cnn.com\/2016\/11\/30\/politics\/house-democrat-election-results-nancy-pelosi-tim-ryan\/index.html\" target=\"_blank\">&nbsp;<\/a>of 134 to 63.<\/p>\r\n\r\n<p>As Moulton raised questions in his Wednesday interview about relitigating that leadership fight, he referred to the need for a \"new generation\" of leaders in the party. Pelosi has led the Democratic caucus in the House since 2003, and&nbsp;in<a href=\"http:\/\/www.cnn.com\/2017\/03\/10\/politics\/nancy-pelosi-hillary-clinton-retirement-plans\/index.html\" target=\"_blank\"> <\/a>March&nbsp;said she would have retired had Hillary Clinton won the election.<\/p>\r\n\r\n<p>Moulton acknowledged there was no candidate at the moment challenging the party leadership.<\/p>\r\n\r\n<blockquote>\r\n<p>\"I don't know that it's possible at this point to change our party leadership,\" Moulton said. \"Someone has got to step up and run.\"<\/p>\r\n<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497784137,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

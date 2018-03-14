@@ -1,0 +1,29 @@
+.node--type-opinion-article.node--view-mode-vertical-media-teaser-medium .node--type-author-profile.node--view-mode-teaser {
+  border-top: 1px solid #dedede;
+  padding-top: 15px;
+  margin: 15px 0px;
+}
+
+.node--type-opinion-article.node--view-mode-full .field--name-field-image {
+  margin-bottom: 10px;
+}
+
+.node--type-opinion-article.node--view-mode-full .field--name-body,
+.node--type-opinion-article.node--view-mode-full .field--name-field-author-profile {
+  margin: 20px 0px;
+}
+
+.node--type-opinion-article.node--view-mode-full .tags-field .field-label-above {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.node--type-opinion-article.node--view-mode-full .tags-field .pager {
+  text-align: left;
+}
+
+.node--type-opinion-article.horizontal-media-teaser-view-mode.anchor-all .field--name-field-author-profile,
+.node--type-opinion-article.vertical-media-teaser-view-mode.anchor-all .field--name-field-author-profile {
+  z-index: 2;
+  position: relative;
+}

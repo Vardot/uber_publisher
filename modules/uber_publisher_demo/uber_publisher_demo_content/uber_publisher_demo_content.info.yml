@@ -1,0 +1,31 @@
+name: 'Uber Publisher Demo Content'
+description: 'Demo content for uber publisher'
+type: module
+core: 8.x
+dependencies:
+  - 'better_normalizers:better_normalizers'
+  - block
+  - block_class
+  - block_content
+  - content_moderation
+  - ctools
+  - 'default_content:default_content'
+  - ds
+  - entityqueue
+  - field
+  - media_entity
+  - node
+  - page_manager
+  - panels
+  - sharerich
+  - system
+  - taxonomy
+  - text
+  - uber_publisher_article
+  - uber_publisher_core
+  - user
+  - varbase_media
+  - views
+  - webform
+version: 8.x-1.0-dev
+package: 'Uber Publisher'

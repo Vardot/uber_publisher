@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.caricature.body
+    - field.field.node.caricature.field_author_profile
+    - field.field.node.caricature.field_comments
+    - field.field.node.caricature.field_date
+    - field.field.node.caricature.field_image_file
+    - field.field.node.caricature.field_meta_tags
+    - node.type.caricature
+    - responsive_image.styles.d4_traditional
+  module:
+    - datetime
+    - ds
+    - panelizer
+    - responsive_image
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - field_image_file
+        - field_date
+id: node.caricature.teaser
+targetEntityType: node
+bundle: caricature
+mode: teaser
+content:
+  field_date:
+    type: datetime_default
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: 'Caricature of the day:'
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+  field_image_file:
+    weight: 0
+    label: hidden
+    settings:
+      responsive_image_style: d4_traditional
+      image_link: content
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+hidden:
+  body: true
+  field_author_profile: true
+  field_comments: true
+  field_meta_tags: true
+  langcode: true
+  links: true

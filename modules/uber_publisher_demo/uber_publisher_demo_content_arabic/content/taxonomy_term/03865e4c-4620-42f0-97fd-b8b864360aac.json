@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/tags\/%D8%B2%D8%AE%D8%A7%D8%B1%D9%81?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+        }
+    },
+    "tid": [
+        {
+            "value": 233
+        }
+    ],
+    "uuid": [
+        {
+            "value": "03865e4c-4620-42f0-97fd-b8b864360aac"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0632\u062e\u0627\u0631\u0641",
+            "lang": "ar"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506424011,
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "\u0632\u062e\u0627\u0631\u0641 | Varbase",
+                "shortlink": null,
+                "og_site_name": "Varbase",
+                "twitter_cards_type": "summary",
+                "schema_web_site_name": "Varbase",
+                "canonical_url": null,
+                "og_type": "website",
+                "schema_web_site_url": "http:\/\/default\/",
+                "twitter_cards_title": "| Varbase",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "google_plus_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_title": " | Varbase",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "referrer": "origin",
+                "rights": "\u00a92017 Varbase. All rights reserved.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "twitter_cards_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "og_image_url": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "\u0646\u0639\u0645"
+            }
+        }
+    ]
+}

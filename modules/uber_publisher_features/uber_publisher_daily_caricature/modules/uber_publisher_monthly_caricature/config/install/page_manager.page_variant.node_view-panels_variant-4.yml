@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - panels
+id: node_view-panels_variant-4
+label: 'Monthly Cartoons'
+variant: panels_variant
+variant_settings:
+  blocks:
+    6e9cce01-af0a-4071-a602-3a677366131d:
+      id: 'entity_view:node'
+      label: 'Entity view (Content)'
+      provider: ctools
+      label_display: '0'
+      view_mode: full
+      region: main
+      weight: 0
+      uuid: 6e9cce01-af0a-4071-a602-3a677366131d
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: e8a29440-0c3f-4110-a59a-649ed8dd00cd
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-4
+  builder: standard
+page: node_view
+weight: -10
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      caricature: caricature
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+static_context: {  }

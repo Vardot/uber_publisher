@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.image_with_caption
+label: 'Image with caption'
+targetEntityType: media
+cache: true

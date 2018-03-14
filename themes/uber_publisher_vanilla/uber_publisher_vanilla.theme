@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Uber_publisher_vanillas.theme.
+ */
+
+use Drupal\Component\Serialization\Json;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function uber_publisher_vanilla_preprocess_html(&$variables) {
+  // Load specific library for pages with html attribute of RTL.
+  if ($variables['html_attributes']['dir'] == 'rtl') {
+    $variables['#attached']['library'][] = 'uber_publisher_vanilla/global-styles-rtl';
+  }
+}
+
+/**
+ * Preprocess variables for slick.html.twig templates.
+ */
+function uber_publisher_vanilla_preprocess_slick(&$variables) {
+
+  $language = \Drupal::languageManager()->getCurrentLanguage();
+  if ($language->getDirection() == 'rtl') {
+    $settings = $variables['content_attributes']->offsetGet('data-slick');
+    if (!empty($settings)) {
+      $settings = Json::decode($settings->value());
+      $settings['rtl'] = TRUE;
+      $settings = Json::encode($settings);
+      $variables['content_attributes']->setAttribute('data-slick', $settings);
+    }
+  }
+}

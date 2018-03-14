@@ -1,0 +1,291 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/internet-censorship-india-rise?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/45?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/money?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/india?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/internet-censorship?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "bc070012-a653-4975-ab90-272e5499a55b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Internet censorship in India is on the rise",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/45?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c68273c2-7832-4b50-a7b4-b560aaef7559"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2830fc00-001d-4c90-83f2-7e3dafb752d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/money?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32dc8d7c-a690-4def-b02d-ffc0a9f3dca5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/india?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d985cc6c-466f-4b9f-82ba-c37f0e56cdc0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/internet-censorship?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "241e9ee7-8c0d-4766-90b7-9570e3eaecab"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1497949701,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498033978,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498033978
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>India is becoming increasingly trigger-happy when it comes to preventing people accessing the internet.<\/h2>\r\n\r\n<p>The nation has shut down the internet in various regions 20 times in the first five months of this year, according to a report from Human Rights Watch. Four of those blackouts have taken place this month, all in states where violent protests took place.<\/p>\r\n\r\n<p>That represents a dramatic uptick from last year, when 31 shutdowns were recorded in total, and an even greater increase since 2012 -- which saw only three shutdowns.<\/p>\r\n\r\n<p>The Indian government did not respond to a request for comment on the report but has argued in the past that restricting access is sometimes necessary to prevent social media rumors from fueling violence.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The disputed and conflict-ridden region of Kashmir, for example, has seen 33 shutdowns in five years.<\/p>\r\n\r\n<blockquote>\r\n<p>\"The lack of transparency and failure to explain these shutdowns only furthers the perception that they are meant to suppress nonviolent reporting and criticism of the government,\" said Meenakshi Ganguly, South Asia director for Human Rights Watch.<\/p>\r\n<\/blockquote>\r\n\r\n<p>While the Indian government doesn't have its own internet-blocking apparatus like China's \"Great Firewall,\" it can order service providers to go offline. That power stems from a law written in 1973, which allows the government to impose various restrictions on the public to prevent everything from riots to \"obstruction, annoyance or injury.\"<\/p>\r\n\r\n<p>India, which is often referred to as the world's largest democracy, has been called out for online censorship before.<\/p>\r\n\r\n<p>A 2016&nbsp;survey of internet freedom&nbsp;in 65 countries by U.S.-based think tank Freedom House gave India a score of 41. China, with a score of 88, came last. Estonia performed best with a score of 6.<\/p>\r\n\r\n<p>In another report by the&nbsp;Brookings Institution&nbsp;last year, India tied for first place with Iraq for the highest number of internet shutdowns among 19 countries (including Saudi Arabia, Pakistan, Syria and North Korea).<\/p>\r\n\r\n<p>Facebook also ranks the Indian government among the top countries asking it to censor content. The social media giant said in its latest&nbsp;Government Requests Report&nbsp;that India ordered 719 pieces of content to be restricted, lower only than Brazil, Turkey and Germany.<\/p>\r\n\r\n<p>India topped Facebook's list for two straight years up to June 2015.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497777236,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

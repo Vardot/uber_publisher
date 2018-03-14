@@ -1,0 +1,264 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/politics\/john-mccain-wont-back-graham-cassidy-bill-likely-ending-gop-health-care-push?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/74?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/politics?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/paul?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/john-mccain?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "5b5c4094-34e7-4476-91d8-db7974d1d2ec"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "John McCain won't back Graham-Cassidy bill, likely ending GOP health care push",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/74?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a4160664-3ed1-4dd6-85b4-a5dde81bb619"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78952062-48f7-4cb2-ba05-66ac4f3694e5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/paul?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "800842b2-5c87-4b03-94a7-19d5dfa5e8e2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/john-mccain?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "40e80354-d40c-42ab-b727-d78b542e1819"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506265675,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506265840,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506265840
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "John McCain won't back Graham-Cassidy bill, likely ending GOP health care push | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "(CNN)Sen. John McCain announced Friday in a statement that he cannot \"in good conscience\" vote for the GOP's latest plan to overhaul Obamacare, likely ending Republicans' latest effort to repeal and replace the Affordable Care Act.",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "(CNN)Sen. John McCain announced Friday in a statement that he cannot \"in good conscience\" vote for the GOP's latest plan to overhaul Obamacare, likely ending Republicans' latest effort to repeal and replace the Affordable Care Act.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "(CNN)Sen. John McCain announced Friday in a statement that he cannot \"in good conscience\" vote for the GOP's latest plan to overhaul Obamacare, likely ending Republicans' latest effort to repeal and replace the Affordable Care Act.",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "(CNN)Sen. John McCain announced Friday in a statement that he cannot \"in good conscience\" vote for the GOP's latest plan to overhaul Obamacare, likely ending Republicans' latest effort to repeal and replace the Affordable Care Act.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><cite>(CNN)<\/cite>Sen. John McCain announced Friday in a statement that he cannot \"in good conscience\" vote for the GOP's latest plan to overhaul Obamacare, likely ending Republicans' latest effort to repeal and replace the Affordable Care Act.<\/p>\r\n\r\n<p>\"I cannot in good conscience vote for the Graham-Cassidy proposal,\" the Arizona Republican said in a statement. \"I believe we could do better working together, Republicans and Democrats, and have not yet really tried. Nor could I support it without knowing how much it will cost, how it will (affect) insurance premiums, and how many people will be helped or hurt by it. Without a full CBO score, which won't be available by the end of the month, we won't have reliable answers to any of those questions.\"<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>McCain's \"no\" vote means it is likely Republicans won't be able to repeal and replace Obamacare before September 30, as Sen. Rand Paul of Kentucky said he would not back Graham-Cassidy and Sen. Susan Collins of Maine has said she is leaning \"no\" on the proposal. But there are still questions as to where Alaska Sen. Lisa Murkowski is at the moment. It's also unclear if senators on the fence would support a procedural motion on the bill even if they decide they are against Graham-Cassidy in the end.<\/p>\r\n\r\n<p>&nbsp;\r\n<p><a href=\"http:\/\/edition.cnn.com\/2017\/09\/19\/politics\/graham-cassidy-whip-list-health-care-bill\/index.html\">How Republicans say they'll vote on the Graham-Cassidy health care bill<\/a><\/p>\r\n<\/p>\r\n\r\n<p>Republicans need at least 50 votes to pass the measure under the process of reconciliation.<\/p>\r\n\r\n<h3 data-select-like-a-boss=\"1\">Murkowski, Paul and Collins also under scrutiny<\/h3>\r\n\r\n<p>McCain was one of three most-watched members on the fence and considered a key vote on the bill. Without his support, Republicans would need to get Murkowski as well as Collins to sign on. It's unlikely considering the fact that Collins said Friday afternoon that she was leaning against the bill and had key concerns that the legislation did not do enough to protect individuals with pre-existing conditions.<\/p>\r\n\r\n<p>\"I'm leaning against the bill,\" Collins said Friday at a Portland, Maine, event, according to The&nbsp;<a href=\"http:\/\/www.pressherald.com\/2017\/09\/22\/collins-says-shes-leaning-against-voting-for-graham-cassidy-health-care-bill\/\" target=\"_blank\">Portland Press Herald.<\/a><\/p>\r\n\r\n<p>A Republican aide involved in the process said Friday afternoon that GOP leaders are at the \"evaluating options\" stage right now.<\/p>\r\n\r\n<p>The aide added, \"I'm not breaking news telling you this isn't good.\"<\/p>\r\n\r\n<p>Paul, the only other Republican other than McCain who has so far definitively come out against Graham-Cassidy, is \"unlikely\" to change his mind even if changes are made to the bill, his spokesman Sergio Gor told CNN.<\/p>\r\n\r\n<p>&nbsp;\r\n<p><a href=\"http:\/\/edition.cnn.com\/2017\/07\/28\/politics\/john-mccain-maverick-health-care\/index.html\">John McCain's maverick moment<\/a><\/p>\r\n<\/p>\r\n\r\n<h3>Graham and McCain's close friendship<\/h3>\r\n\r\n<p>McCain's announcement comes despite that one of the bill's key sponsors -- Sen. Lindsey Graham of South Carolina -- is a close confidant. The thinking was if anyone could convince McCain to vote \"yes,\" it would be Graham.<\/p>\r\n\r\n<p>\"I take no pleasure in announcing my opposition. Far from it,\" McCain said. \"The bill's authors are my dear friends, and I think the world of them. I know they are acting consistently with their beliefs and sense of what is best for the country. So am I.\"<\/p>\r\n\r\n<p>McCain has said for weeks that he would not support health care legislation that had not gone through \"regular order,\" meaning Senate hearings, an amendment process and a rigorous floor debate.<\/p>\r\n\r\n<p>Graham said he \"respectfully\" disagrees with McCain and will \"press on\" with his legislation.<\/p>\r\n\r\n<p>\"My friendship with John McCain is not based on how he votes but respect for how he's lived his life and the person he is,\" Graham said in a statement and on Twitter, adding later, \"I feel an obligation to fix this disaster and intend to push forward for state-centric health care versus Washington-knows-best health care.\"<\/p>\r\n\r\n<blockquote data-twitter-extracted-i150626569892742217=\"true\">\r\n<p dir=\"ltr\" lang=\"en\">My friendship with&nbsp;<a href=\"https:\/\/twitter.com\/SenJohnMcCain\">@SenJohnMcCain<\/a>&nbsp;is not based on how he votes but respect for how he's lived his life and the person he is.<\/p>\r\n\u2014 Lindsey Graham (@LindseyGrahamSC)&nbsp;<a href=\"https:\/\/twitter.com\/LindseyGrahamSC\/status\/911307126190100480\">September 22, 2017<\/a><\/blockquote>\r\n\r\n<p>McCain&nbsp;<a href=\"http:\/\/www.cnn.com\/2017\/07\/27\/politics\/health-care-debate-thursday\/index.html\">voted \"no\" on the last health care proposal&nbsp;<\/a>in July for the same reason. McCain's dramatic floor vote, which happened just weeks after he was diagnosed with brain cancer, came in the early morning and was captured as one of his most \"maverick\" moments in the Senate.<\/p>\r\n\r\n<h3>What the White House is thinking<\/h3>\r\n\r\n<p>A senior White House official told CNN that McCain's opposition \"undeniably hurts\" the effort to repeal and replace Obamacare but that President Donald Trump is not ready to give up on the effort yet.<\/p>\r\n\r\n<p>\"The President has been engaged all along, and I think you will continue to see him reach out,\" the official said. \"We have been having conversations with Graham and Cassidy for a couple months and ... even though there may be members who want to give up, the President does not.\"<\/p>\r\n\r\n<p>Top White House aides have been talking with Graham and Sen. Bill Cassidy for months now, and in between events at the United Nations this week, Trump called senators to talk about the upcoming health care vote, White House officials said. Trump was hoping to solidify Republicans around the deal struck by the two senators and urged many of the lawmakers to stay loyal to him.<\/p>\r\n\r\n<p>The White House official, though, added that even though chances of passing health care look bleak, the White House intends to juggle between Graham-Cassidy and tax reform next week.<\/p>\r\n\r\n<p>Vice President Mike Pence indirectly addressed the decision during a speech Friday afternoon in Anderson, Indiana.<\/p>\r\n\r\n<p>\"The vote could come as early as next week and this is not going to be easy. Even now, the opposition is forming up and some have gone so far to announce their opposition already. But President Trump and I are undeterred,\" Pence said.<\/p>\r\n\r\n<p>\"We cannot in good conscious abandon this cause,\" Pence said to applause in his home state.<\/p>\r\n\r\n<h3>Democrats praise McCain<\/h3>\r\n\r\n<p>Just moments after McCain announced his opposition, Democrats seized on the opportunity to bring back bipartisan talks that had stalled last week.<\/p>\r\n\r\n<p>Democratic Sen. Patty Murray of Washington and Republican Sen. Lamar Alexander of Tennessee had held bipartisan hearings over the last month on how to stabilize Obamacare marketplaces and were making progress in their negotiations. But the House leadership made it clear last week that the chamber probably would not be able to pass such a bill.<\/p>\r\n\r\n<p>As soon as McCain announced his opposition, Murray announced she was still open to reigniting those talks.<\/p>\r\n\r\n<p>\"I agree with Senator McCain that the right way to get things done in the Senate \u2014 especially on an issue as important to families as their health care \u2014 is through regular order and working together to find common ground,\" Murray said. \"I'm still at the table ready to keep working, and I remain confident that we can reach a bipartisan agreement as soon as this latest partisan approach by Republican leaders is finally set aside.\"<\/p>\r\n\r\n<p>Senate Minority Leader Chuck Schumer also praised McCain shortly after his announcement.<\/p>\r\n\r\n<p>\"John McCain shows the same courage in Congress that he showed when he was a naval aviator,\" the New York Democrat said in a statement. \"I have assured Senator McCain that as soon as repeal is off the table, we Democrats are intent on resuming the bipartisan process.\"<\/p>\r\n\r\n<p>For her part, House Minority Leader Nancy Pelosi said her members would continue working \"to put the stake in the heart of this monstrous bill.\"<\/p>\r\n\r\n<p>\"This weekend, we will continue to highlight the devastating costs Republicans are trying to inflict on hard-working Americans,\" she said in a letter to colleagues.<\/p>\r\n\r\n<p><em>This story has been updated and will update with additional developments.<\/em><\/p>\r\n\r\n<p><em>CNN's Dan Merica, Phil Mattingly and MJ Lee contributed to this report.<\/em><\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

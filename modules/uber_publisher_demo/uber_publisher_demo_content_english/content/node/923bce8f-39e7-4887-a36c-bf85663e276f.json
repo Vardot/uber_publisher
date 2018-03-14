@@ -1,0 +1,291 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/technology\/uber-becomes-cautionary-tale-startups?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/technology?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/49?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/uber?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/transportation?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/tech-companies?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "923bce8f-39e7-4887-a36c-bf85663e276f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Uber becomes a cautionary tale for startups",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7765ed7d-06d6-4f37-a26f-c5ac4a05c9f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/49?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f235288-1927-40ac-ab7e-c3b4bfeac60a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c643bcf5-0a5c-40a9-b1fd-8034e4a313f2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/uber?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d37afa57-dd93-4621-96c8-c79f49a08c39"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/transportation?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e68ad23-5d4a-4264-b73c-885e35e2ec11"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/tech-companies?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b641cca-d1dc-4ea7-a013-f6d3ed6d2441"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498124600,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498119277,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498119277
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h3>Uber's day of reckoning has arrived -- and with it perhaps a moment of truth for all technology startups.<\/h3>\r\n\r\n<p>Uber unveiled sweeping recommendations on Tuesday following a months-long investigation into its corporate culture. At the same time, CEO Travis Kalanick&nbsp;stepped aside indefinitely&nbsp;to&nbsp;grieve for his mother&nbsp;and to work on&nbsp;improving leadership&nbsp;at Uber.<\/p>\r\n\r\n<p>The announcements capped off nearly six bruising months of&nbsp;scandals and PR crises. The constant drumbeat of damaging stories has transformed Uber from a poster child of the industry into a cautionary tale for startups trying to grow at all costs while refusing to grow up.<\/p>\r\n\r\n<p>Some of Uber's flaws, highlighted in Tuesday's&nbsp;recommendations, are all too common among companies in Silicon Valley: a founder with too much unchecked control, not enough diversity on staff and charges of sexism. The last of those became painfully apparent when an&nbsp;Uber board member resigned&nbsp;Tuesday night after making a sexist joke at a company meeting about sexism.<\/p>\r\n\r\n<p>But other Uber pitfalls highlight the unique risks facing a new generation of startups.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/P4ZsPWiUYhk.jpg?itok=tiz_baGf\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=P4ZsPWiUYhk\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>In recent years, a growing number of tech companies have raised unprecedented sums of private capital at lofty valuations. Many, including Uber, have used that money to put off going public as long as possible.<\/p>\r\n\r\n<drupal-entity alt=\"Uber Technology\" data-align=\"right\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"370e27fa-4969-4326-ad8e-f675596ef4eb\" title=\"Uber Technology\"><\/drupal-entity>\r\n\r\n<p>While this shields startups from Wall Street scrutiny, it comes with a downside. Going public forces companies to impose more \"discipline and grown up behavior,\" according to Lise Buyer, an IPO expert with Class V Group who helped take&nbsp;Google&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=GOOGL&amp;source=story_quote_link\">GOOGL<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;public.<\/p>\r\n\r\n<p>\"Often, but not always, that 'straighten up and fly right' ethos pervades all elements of the business and culture as successful companies morph from Wild West startups into thriving enterprises,\" Buyer tells CNN Tech.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497779230,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

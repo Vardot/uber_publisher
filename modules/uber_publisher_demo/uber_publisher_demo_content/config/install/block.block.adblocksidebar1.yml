@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ads_system
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: adblocksidebar1
+theme: uber_publisher_vanilla
+region: sidebar_right
+weight: -8
+provider: null
+plugin: 'ad_block:sidebar_1'
+settings:
+  id: 'ad_block:sidebar_1'
+  label: 'Ad block Sidebar 1'
+  provider: ads_system
+  label_display: '0'
+visibility: {  }

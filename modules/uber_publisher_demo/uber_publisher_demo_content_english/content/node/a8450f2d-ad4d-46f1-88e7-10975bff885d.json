@@ -1,0 +1,246 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sport\/nfl-players-deliver-defiant-message-donald-trump-protests?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/88?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/sport?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/trump?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a8450f2d-ad4d-46f1-88e7-10975bff885d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "NFL players deliver defiant message to Donald Trump with protests",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/88?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2a784e6a-0544-45ba-aeab-902d210b4911"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60c9208d-6a19-4e6c-a880-9ea9a6639eaa"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/trump?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b3b4f503-bfc7-491a-adb2-5ad34086ec1f"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506331139,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506331277,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506331277
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "NFL players deliver defiant message to Donald Trump with protests | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "NFL players demonstrated defiance towards Donald Trump on Sunday with various protests during the American national anthem.\n\nA handful of players had previously knelt or raised fists during the national anthem over perceived racial injustice and on Friday Trump attacked those kneeling, calling for club owners to 'fire' those players.",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "NFL players demonstrated defiance towards Donald Trump on Sunday with various protests during the American national anthem.\n\nA handful of players had previously knelt or raised fists during the national anthem over perceived racial injustice and on Friday Trump attacked those kneeling, calling for club owners to 'fire' those players.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "NFL players demonstrated defiance towards Donald Trump on Sunday with various protests during the American national anthem.\n\nA handful of players had previously knelt or raised fists during the national anthem over perceived racial injustice and on Friday Trump attacked those kneeling, calling for club owners to 'fire' those players.",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "NFL players demonstrated defiance towards Donald Trump on Sunday with various protests during the American national anthem.\n\nA handful of players had previously knelt or raised fists during the national anthem over perceived racial injustice and on Friday Trump attacked those kneeling, calling for club owners to 'fire' those players.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p itemprop=\"description\">NFL players demonstrated defiance towards Donald Trump on Sunday with various protests during the American national anthem.<\/p>\r\n\r\n<p>A handful of players had previously knelt or raised fists during the national anthem over perceived racial injustice and on Friday Trump attacked those kneeling, calling for club owners to '<a href=\"http:\/\/www.skysports.com\/nfl\/news\/12118\/11048848\/donald-trump-launches-tirade-at-nfl-players-protesting-during-national-anthem160\">fire<\/a>' those players.<\/p>\r\n\r\n<p>However, week 3 of the NFL season saw widespread protests on Sunday, beginning with over 20 players taking a knee in London, at Wembley, before the Jacksonville Jaguars' victory over the Baltimore Ravens, live on&nbsp;<em>Sky Sports<\/em>.<\/p>\r\n\r\n<p>Back in the States, the anthem was played at the Nissan Stadium in Tennessee where some teams went even further with both the Tennessee Titans and Seattle Seahawks squads remaining in the locker rooms during the singing of 'The Star-Spangled Banner'.<\/p>\r\n\r\n<p>A statement from the Seahawks read: \"As a team, we have decided we will not participate in the national anthem. We will not stand for the injustice that has plagued people of colour in this country.<\/p>\r\n\r\n<p>\"Our of love for our country and in honour of the sacrifices made on our behalf, we unite to oppose those that would deny our most basic freedoms. We remain committed in continuing to work towards equality and justice for all.\"<\/p>\r\n\r\n<p>Meanwhile, the&nbsp;<a href=\"http:\/\/www.skysports.com\/nfl\/news\/12118\/11051939\/pittsburgh-steelers-remain-in-locker-room-during-us-national-anthem\">Pittsburgh Steelers<\/a>&nbsp;players, who emerged to boos from the Chicago crowd, remained in the tunnel prior to their game against the Chicago Bears, although Alejandro Villanueva, who served three tours in Afghanistan with the US Army, stood alone at the end of the tunnel with his hand over his heart as the anthem played.<\/p>\r\n\r\n<p>Steelers head coach Mike Tomlin had earlier told&nbsp;<em>CBS<\/em>: \"We're football players, coaches, we're not participating in the anthem. Not to be disrespectful to the anthem, (but) to remove ourselves from the circumstance.<\/p>\r\n\r\n<p>\"People shouldn't have to choose, if a guy wants to go about his normal business and participate in the anthem, he shouldn't be forced to choose sides. If a guy feels the need to do something he shouldn't be separated from his<br \/>\r\nteam-mate who chooses not to. So we're not participating. That's our decision.\"<\/p>\r\n\r\n<p>In Washington, the vast majority of the Oakland Raiders players sat or knelt on the sideline with their arms locked.<\/p>\r\n\r\n<p>The day had started with the scenes at Wembley, where those who did not kneel stood arm-in-arm on the sidelines with Jags and Fulham owner Shad Khan, who donated one million US dollars to Trump's presidential inauguration, on the field locking arm with members of his side.<\/p>\r\n\r\n<p>Khan later issued a statement through the Jaguars' social media feed in which he called Trump's remarks \"divisive and contentious\" which followed numerous fellow club owners who had issued statements of their own condemning Trump's calls.<\/p>\r\n\r\n<p>The Jags' Malik Jackson referenced free agent Colin Kaepernick,&nbsp;<a href=\"http:\/\/www.skysports.com\/nfl\/news\/12118\/10555671\/kaepernick-refuses-to-stand-for-us-national-anthem\">the first NFL player to kneel<\/a>, and admitted Khan's show of solidarity helped quell any fears about how their actions would be viewed.<\/p>\r\n\r\n<p>\"I think a lot of guys were nervous about doing it (kneeling) because they were worried about the backlash,\" Jackson told&nbsp;<em>Press Association Sport<\/em>.<\/p>\r\n\r\n<figure property=\"associatedMedia\">\r\n<p>\"Guys have been treated unfairly, like the Kaepernick situation, because of his stance, and I think that was a deterrent for a lot of people, but having Mr Khan come down for me was a blessing because you don't have to worry about that backlash.\"<\/p>\r\n\r\n<p>Throughout the day Trump continued to voice his views on social media demanding that players \"respect\" and honour the American flag.<\/p>\r\n\r\n<p>New England Patriots quarterback Tom Brady, who has previously described Trump as a friend, voiced his support for his team mates, who in large numbers took a knee during the national anthem.<\/p>\r\n\r\n<p>Two singers during separate NFL games Sunday joined players' protests, kneeling at the conclusion of their renditions of 'The Star-Spangled Banner'.<\/p>\r\n<\/figure>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

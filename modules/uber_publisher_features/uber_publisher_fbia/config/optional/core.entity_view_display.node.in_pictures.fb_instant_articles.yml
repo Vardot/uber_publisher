@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.fb_instant_articles
+    - field.field.node.in_pictures.body
+    - field.field.node.in_pictures.field_images
+    - field.field.node.in_pictures.field_meta_tags
+    - node.type.in_pictures
+  module:
+    - ds
+    - panelizer
+    - text
+    - uber_publisher_fbia
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: up_fbia
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - body
+        - field_images
+id: node.in_pictures.fb_instant_articles
+targetEntityType: node
+bundle: in_pictures
+mode: fb_instant_articles
+content:
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_images:
+    type: fbia_erimage
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      caption: '1'
+      presentation: aspect-fit
+      likes: 0
+      comments: 0
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  field_meta_tags: true
+  langcode: true
+  links: true

@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains uber_publisher_breaking_news.module..
+ */
+
+/**
+ * Implements hook_install().
+ */
+
+function uber_publisher_default_content_install() {
+  if (\Drupal::languageManager()->getCurrentLanguage()->getId() == 'ar') {
+    \Drupal::service('module_installer')->install(['uber_publisher_default_content_arabic']);
+  } else {
+    \Drupal::service('module_installer')->install(['uber_publisher_default_content_english']);
+  }
+}

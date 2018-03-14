@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: term_view
+label: 'Term view'
+description: ''
+use_admin_theme: false
+path: /taxonomy/term/%
+access_logic: and
+access_conditions: {  }
+parameters: {  }

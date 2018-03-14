@@ -1,0 +1,309 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health\/milk-prompts-recall-chef-boyardee-other-pastas?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/health?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/62?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/health?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/food-photography?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/food?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/chef-boyardee?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/spaghetti?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "9b34c930-9a76-4157-99ae-2e0b2a7d5c0e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milk prompts recall of Chef Boyardee, other pastas",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4226f65-a221-4983-8745-9e5948742d54"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/62?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71586fd8-fa63-455a-b9ba-1bbbdf8155fe"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c13aaeb-413c-475b-bb8b-cb3b8ea3235e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/food-photography?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cdc34798-21fa-4084-ae66-71274aa127de"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/food?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d99f8635-aaf3-4354-885c-551da8fd39b5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/chef-boyardee?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8e97b019-1aeb-4197-a9e1-989a4fa9371f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/spaghetti?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c3b170a-1a2b-4695-bc99-8e8d09609f87"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498132274,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498121707,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498121707
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>About 717,338 pounds of Conagra brands spaghetti and meatball products, including Chef Boyardee, are being recalled, the US Department of Agriculture's&nbsp;Food Safety and Inspection Service says.<\/p>\r\n\r\n<p>The products contain milk, which is an allergen for many consumers, but the labels did not specify that the items contained milk.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>An ingredient supplier notified Conagra on Tuesday that bread crumbs used in the spaghetti and meatballs included milk as an ingredient.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/FlU6z9797y0.jpg?itok=vcQ_s47A\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=FlU6z9797y0\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The recalled items include Libby's, Del Pino's, Hy-Top, Food Hold, Essential Everyday and Chef Boyardee spaghetti and meatballs made with pork, chicken and beef in tomato sauce, as well as Chef Boyardee Mini Pasta Shells &amp; Meatballs.<\/p>\r\n\r\n<drupal-entity alt=\"Spaghetti\" data-align=\"left\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"c2bca6b9-692a-474e-a40e-5e1771404b74\" title=\"Spaghetti\"><\/drupal-entity>\r\n\r\n<p>The items were produced from January 5 to January 12. They can also be identified by \"EST. 794M\" inside the USDA mark of inspection.<\/p>\r\n\r\n<p>There have been no reports of health problems from the products, but the USDA is classifying the recall as a Class I, which means consuming the products could cause serious health consequences or death. Consumers are advised not to eat the products. Instead, throw them away or return them to the purchase location.<\/p>\r\n\r\n<p>\"One of our ingredient suppliers notified us of the allergen and we acted as quickly as possible,\" Conagra said in a statement. \"The safety of our food is a top priority and we apologize for any inconvenience.\"<\/p>\r\n\r\n<drupal-entity alt=\"Conagra Spaghetti\" data-align=\"right\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"18d95b58-b40d-4621-b870-8b2b91fce05a\" title=\"Conagra Spaghetti\"><\/drupal-entity>\r\n\r\n<p>Anyone with recall questions can contact Conagra at 1-866-213-1245.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497786809,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/87?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/_n0y4178_horizontalthumb.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/_n0y4178_horizontalthumb.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 87
+        }
+    ],
+    "uuid": [
+        {
+            "value": "50b0d00a-87c3-4068-bb6f-aacb344c14ff"
+        }
+    ],
+    "vid": [
+        {
+            "value": 87
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Ceballos"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/_n0y4178_horizontalthumb.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b87306a9-bd2f-4d06-9cc9-e19d18635fd6"
+                    }
+                ],
+                "alt": "Thumbnail",
+                "title": "Ceballos",
+                "width": "940",
+                "height": "400"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/_n0y4178_horizontalthumb.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b87306a9-bd2f-4d06-9cc9-e19d18635fd6"
+                    }
+                ],
+                "alt": "Ceballos",
+                "title": "",
+                "width": "940",
+                "height": "400"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1506330864
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506330864
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506330864
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Image"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "| Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary",
+                "canonical_url": null,
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "og_type": "website",
+                "schema_web_site_url": "http:\/\/default\/",
+                "twitter_cards_title": "| Up",
+                "google_plus_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "og_title": " | Up",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "twitter_cards_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "og_image_url": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ]
+}

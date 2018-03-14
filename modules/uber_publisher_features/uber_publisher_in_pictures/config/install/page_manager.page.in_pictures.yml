@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: in_pictures
+label: 'In Pictures'
+description: ''
+use_admin_theme: false
+path: /in-pictures
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,363 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health\/learn-live-it-becoming-stress-free?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/health?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/66?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/health?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/study?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/relaxing?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/stress?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/meditation?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/happy-life?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/pleasure?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "01e7b437-254e-416f-8927-1cfc5b31e617"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Learn to live with it: Becoming stress-free",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4226f65-a221-4983-8745-9e5948742d54"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/66?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c381c3b-8382-42a3-a401-46c91bb098ea"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c13aaeb-413c-475b-bb8b-cb3b8ea3235e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/study?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8dd64a7f-1a32-46dc-8f95-79244accc2d2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "94913178-0119-4672-8708-cf1d9dc92fff"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/relaxing?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e6a99549-1890-478d-9589-7640973d15ad"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/stress?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a6169bf1-fbfe-4f8a-a3db-bd5e2f71e503"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/meditation?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47ddd3b3-16f3-4b4e-9fa1-832c2ab016b7"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/happy-life?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0afbbc31-dc40-46c3-b59e-6b9a85d404d8"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/pleasure?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed3fe164-c079-4eda-94f1-4080256c5cf7"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498125343,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498122226,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498122226
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>People the world over believe that stress comes from external sources.<\/p>\r\n\r\n<p>One complains of a nagging wife or hysterical husband. Another finds fault with the demands of work or the exploitation of management. Someone else grumbles at summer being too hot or winter being too cold.<\/p>\r\n\r\n<p>Everyone thus lives with the belief that factors outside themselves produce stress -- so their entire focus is on correcting the external world. Yet despite our best efforts to fix these external factors, the problems remain unsolved and our minds continue to be consumed by stress.<\/p>\r\n\r\n<p>Pleasure or pain, joy or sorrow, peace or stress -- these are not found in external objects or beings. They are found in the relationship you have with those things.<\/p>\r\n\r\n<p>For example one person finds pleasure in smoking cigarettes. Another detests them. One man may go to his lawyer to divorce his wife while another waits, desperately wanting to marry her. A cigarette produces pleasure to one, pain to another. The same lady produces joy for one, sorrow for another.<\/p>\r\n\r\n<p>In life, be it with business or family, relationships matter. Lack of a proper relationship leads to frustration and builds up stress. Ironically, people take utmost care to choose the \"right partner,\" but fail to set up the \"right relationship\" with that person -- and lose peace and harmony in the process.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/2lsmbQbUmuw.jpg?itok=tZ4GY5sl\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=2lsmbQbUmuw\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>It is not whom or what you meet in life that matters but how you meet it.<\/p>\r\n\r\n<p>Your relationship with the world is entirely dependent on the nature of your inner personality. Your inner personality comprises two things: the mind and the intellect.<\/p>\r\n\r\n<p>The mind desires and feels.<\/p>\r\n\r\n<p>The intellect reasons, judges and decides.<\/p>\r\n\r\n<p>When the intellect loses control over the mind's desires, you become disturbed. Stress is the mental agitation caused by unfulfilled desires. Thus the fundamental requirement for a stress-free life is to develop a strong intellect and control desires.<\/p>\r\n\r\n<p>Intellectual strength is distinct and different from intelligence. Intelligence is mere storage of information -- knowledge<\/p>\r\n\r\n<drupal-entity alt=\"Swami Parthasarthy\" data-align=\"right\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"47072bb6-f654-466b-b29e-c138f4a4c0ba\" title=\"Swami Parthasarthy\"><\/drupal-entity>\r\n\r\n<p>acquired from external sources and educational institutions, from teachers and textbooks. Any amount of intelligence cannot, per se, develop your intellect. The intellect is developed by individual effort through exercising one's faculty of questioning and reasoning.<\/p>\r\n\r\n<p>With the lack of development of the intellect, people fail to understand that every human being is distinct and different from another -- that each is governed by his or her own singular nature.<\/p>\r\n\r\n<p>Therefore, we should assess the nature of each human individually. But few follow this practice in life. Without making individual assessments you are not able to relate to others properly. As a result, you expect one to behave differently from one's fundamental nature.<\/p>\r\n\r\n<p>How can you expect a hysterical boss to conduct himself in a calm and composed manner at office? How can you expect a nagging wife to be understanding and accommodating at home? How can you expect bubbling teenagers to be mature and objective?<\/p>\r\n\r\n<p>Since you fail to assess their individual characters you find them all faulty in their behavior. You attribute these \"faults\" to those who helplessly express their inner nature. You do not realize that you err in expecting them to conduct themselves differently from their basic quality and character.<\/p>\r\n\r\n<p>You expect the impossible.<\/p>\r\n\r\n<p>Your erroneous hopes and expectations cause you stress. All grumbling tantamount to, \"Oh! Why is a lily not an oak?\"<\/p>\r\n\r\n<p>Assessment does not stop with human beings alone. You need to assess the nature of the country you live in, the community you associate with, the company you work for, etc.<\/p>\r\n\r\n<p>A typical example of a wrong assessment is complaining about the weather. Every morning people are either elated over its brightness or depressed by its dullness. The fluctuations of the weather should affect the weather vanes, not humans. Yet people turn schizophrenic over the routine changes in weather. They complain of cold during winter, heat in summer or wetness all through the monsoon. The grumbling never ends.<\/p>\r\n\r\n<p>When something goes wrong in the external world and it can be corrected, do so. If, however, it is not possible to correct it, you must learn to live with it. If you do not, you will feel disappointed -- and therefore, stressed.<\/p>\r\n\r\n<blockquote>\r\n<p>Remember: You make yourself, you mark yourself. You are the architect of your fortune. You are the architect of your misfortune.<\/p>\r\n<\/blockquote>\r\n\r\n<p>Learn to look at persons, beings and things, environments and situations, as what they are and not what you would like them to be. Doing so will help you appreciate the wondrous phenomenon of nature.<\/p>\r\n\r\n<p>And become free from stress.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497780727,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

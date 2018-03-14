@@ -1,0 +1,318 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86\/%D8%AA%D9%85%D8%AF%D9%8A%D8%AF-%D9%86%D8%B3%D9%8A%D8%AC-%D8%A7%D9%84%D8%A5%D9%85%D8%A8%D8%B1%D8%A7%D8%B7%D9%88%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%AD%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A5%D9%82%D8%A8%D8%A7%D9%84-%D9%83%D8%A8%D9%8A%D8%B1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/85?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/%D9%86%D8%B3%D9%8A%D8%AC-%D8%A7%D9%84%D8%A5%D9%85%D8%A8%D8%B1%D8%A7%D8%B7%D9%88%D8%B1%D9%8A%D8%A7%D8%AA?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/%D8%B2%D8%AE%D8%A7%D8%B1%D9%81?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/%D8%AA%D8%B1%D9%83%D9%8A%D8%A7?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/%D8%A7%D9%84%D9%87%D9%86%D8%AF?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4cbff72b-5855-4de1-a56b-df8e00187875"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u062a\u0645\u062f\u064a\u062f \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a\" \u0628\u0627\u0644\u062f\u0648\u062d\u0629 \u0628\u0639\u062f \u0625\u0642\u0628\u0627\u0644 \u0643\u0628\u064a\u0631",
+            "lang": "ar"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/85?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "107fa1d3-4760-49f2-a912-a6c61e7d2eea"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44ba090b-70ff-4c01-bcf5-3b0a3ecd7e95"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D9%86%D8%B3%D9%8A%D8%AC-%D8%A7%D9%84%D8%A5%D9%85%D8%A8%D8%B1%D8%A7%D8%B7%D9%88%D8%B1%D9%8A%D8%A7%D8%AA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "92c1f009-854f-4f36-a6a7-4a611507bee5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%B2%D8%AE%D8%A7%D8%B1%D9%81?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "03865e4c-4620-42f0-97fd-b8b864360aac"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%AA%D8%B1%D9%83%D9%8A%D8%A7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d24926ff-6d7b-427b-b1cc-89f287d015f4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3d6eda6c-fc02-4ef0-99d6-f1692b15faae"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%A7%D9%84%D9%87%D9%86%D8%AF?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b136f7dc-672f-4cc1-82e2-ed1fe9692ece"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506423908,
+            "lang": "ar"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506424011,
+            "lang": "ar"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "ar"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506424011
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new \u0645\u0642\u0627\u0644"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "\u062a\u0645\u062f\u064a\u062f \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a\" \u0628\u0627\u0644\u062f\u0648\u062d\u0629 \u0628\u0639\u062f \u0625\u0642\u0628\u0627\u0644 \u0643\u0628\u064a\u0631 | Varbase",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Varbase",
+                "schema_web_site_name": "Varbase",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "\u0633\u062c\u0644\u062a \u0623\u0639\u062f\u0627\u062f \u0627\u0644\u0632\u0627\u0626\u0631\u064a\u0646 \u0644\u0645\u0639\u0631\u0636 \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a..",
+                "twitter_cards_title": "| Varbase",
+                "twitter_cards_description": "\u0633\u062c\u0644\u062a \u0623\u0639\u062f\u0627\u062f \u0627\u0644\u0632\u0627\u0626\u0631\u064a\u0646 \u0644\u0645\u0639\u0631\u0636 \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a..",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "\u0633\u062c\u0644\u062a \u0623\u0639\u062f\u0627\u062f \u0627\u0644\u0632\u0627\u0626\u0631\u064a\u0646 \u0644\u0645\u0639\u0631\u0636 \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a..",
+                "og_title": " | Varbase",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Varbase. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "\u0633\u062c\u0644\u062a \u0623\u0639\u062f\u0627\u062f \u0627\u0644\u0632\u0627\u0626\u0631\u064a\u0646 \u0644\u0645\u0639\u0631\u0636 \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a..",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "\u0646\u0639\u0645"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u0633\u062c\u0644\u062a \u0623\u0639\u062f\u0627\u062f \u0627\u0644\u0632\u0627\u0626\u0631\u064a\u0646 \u0644\u0645\u0639\u0631\u0636 \"\u0646\u0633\u064a\u062c \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a.. \u0632\u062e\u0627\u0631\u0641 \u0648\u062d\u0631\u0641\u064a\u0648\u0646 \u0628\u064a\u0646&nbsp;<a href=\"http:\/\/www.aljazeera.net\/home\/getpage\/12835b50-a872-4466-b351-a0204482c134\/8a29cf58-8f4a-42b1-ad60-a388807c096d\" target=\"_blank\">\u062a\u0631\u0643\u064a\u0627<\/a>\u060c&nbsp;<a href=\"http:\/\/www.aljazeera.net\/home\/getpage\/12835b50-a872-4466-b351-a0204482c134\/a4085070-86d5-4d20-b1dd-a7cb6214f99a\" target=\"_blank\">\u0625\u064a\u0631\u0627\u0646<\/a>&nbsp;\u0648<a href=\"http:\/\/www.aljazeera.net\/home\/getpage\/12835b50-a872-4466-b351-a0204482c134\/4d7505f3-a8f3-4f2e-8716-3c7ab182d7f3\" target=\"_blank\">\u0627\u0644\u0647\u0646\u062f<\/a>\" \u0641\u064a \u0645\u062a\u062d\u0641 \u0627\u0644\u0641\u0646 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a&nbsp;\u0628\u0627\u0644\u0639\u0627\u0635\u0645\u0629 \u0627\u0644\u0642\u0637\u0631\u064a\u0629&nbsp;<a href=\"http:\/\/www.aljazeera.net\/home\/getpage\/37c0a303-0881-4323-898f-4d28bb5b7cd8\/8660a817-f35f-470f-b71c-d1987ad4b096\" target=\"_blank\">\u0627\u0644\u062f\u0648\u062d\u0629<\/a>&nbsp;\u0631\u0642\u0645\u0627 \u0642\u064a\u0627\u0633\u064a\u0627 \u062a\u062e\u0637\u0649&nbsp;\u062a\u0633\u0639\u064a\u0646 \u0623\u0644\u0641 \u0632\u0627\u0626\u0631 \u0645\u0646\u0630 \u0627\u0646\u0637\u0644\u0627\u0642\u0647 \u062d\u062a\u0649 \u0627\u0644\u0622\u0646.<\/p>\r\n\r\n<p>\u0648\u064a\u0636\u064a\u0641 \u0627\u0644\u0645\u0639\u0631\u0636 \u0645\u0646\u0638\u0648\u0631\u0627 \u062c\u062f\u064a\u062f\u0627 \u0644\u0644\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u062f\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0645\u064a\u0632\u0629 \u0628\u0645\u062a\u062d\u0641 \u0627\u0644\u0641\u0646 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a \u0645\u0646 \u062e\u0644\u0627\u0644 \u062a\u0633\u0644\u064a\u0637 \u0627\u0644\u0636\u0648\u0621 \u0639\u0644\u0649 \u0627\u0644\u0639\u0644\u0627\u0642\u0629 \u0627\u0644\u062a\u064a \u062a\u0631\u0628\u0637 \u0628\u064a\u0646 \u062b\u0644\u0627\u062b \u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a \u0643\u0628\u0631\u0649 \u0645\u064a\u0632\u062a \u0645\u0637\u0644\u0639 \u0627\u0644\u0639\u0635\u0631 \u0627\u0644\u062d\u062f\u064a\u062b \u0641\u064a \u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0641\u0646 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u060c \u0648\u0647\u064a \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a \u0627\u0644\u0639\u062b\u0645\u0627\u0646\u064a\u0629 \u0648\u0627\u0644\u0635\u0641\u0648\u064a\u0629 \u0648\u0627\u0644\u0645\u063a\u0648\u0644\u064a\u0629.<\/p>\r\n\r\n<p>\u0648\u0646\u0638\u0631\u0627 \u0644\u0644\u0625\u0642\u0628\u0627\u0644 \u0627\u0644\u0634\u062f\u064a\u062f \u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u0631\u0636 \u0641\u0642\u062f \u062a\u0642\u0631\u0631 \u062a\u0645\u062f\u064a\u062f\u0647 \u062d\u062a\u0649 27 \u064a\u0646\u0627\u064a\u0631\/\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a 2018 \u0644\u0644\u0633\u0645\u0627\u062d \u0644\u0623\u0643\u0628\u0631 \u0639\u062f\u062f \u0645\u0645\u0643\u0646 \u0645\u0646 \u0627\u0644\u062c\u0645\u0647\u0648\u0631 \u0644\u0627\u0633\u062a\u0643\u0634\u0627\u0641 \u062d\u0631\u0643\u0629 \u0627\u0644\u062a\u0628\u0627\u062f\u0644 \u0627\u0644\u0641\u0646\u064a \u0648\u0627\u0644\u062b\u0642\u0627\u0641\u0627\u062a \u0627\u0644\u0645\u0627\u062f\u064a\u0629 \u0628\u064a\u0646 \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a \u0627\u0644\u062b\u0644\u0627\u062b\u060c \u0648\u0644\u0627 \u0633\u064a\u0645\u0627 \u0641\u064a \u0627\u0644\u0641\u062a\u0631\u0629&nbsp;\u0628\u064a\u0646 \u0627\u0644\u0642\u0631\u0646\u064a\u0646 \u0627\u0644\u064015 \u0648\u0627\u0644\u064017.<\/p>\r\n\r\n<p>\u0643\u0645\u0627 \u064a\u0644\u0642\u064a \u0627\u0644\u0645\u0639\u0631\u0636 \u0627\u0644\u0636\u0648\u0621 \u0639\u0644\u0649 \u0627\u0644\u062e\u0644\u0641\u064a\u0629 \u0627\u0644\u062b\u0642\u0627\u0641\u064a\u0629 \u0648\u0627\u0644\u0641\u0646\u064a\u0629 \u0627\u0644\u062a\u064a \u0627\u062a\u0633\u0645\u062a \u0628\u0647\u0627 \u062a\u0644\u0643 \u0627\u0644\u062d\u0642\u0628 \u0627\u0644\u0632\u0645\u0646\u064a\u0629 \u0639\u0628\u0631 \u0627\u0633\u062a\u0639\u0631\u0627\u0636 \u0623\u0646\u0645\u0627\u0637 \u0645\u062e\u062a\u0644\u0641\u0629 \u0645\u0646 \u0627\u0644\u0633\u062c\u0627\u062f \u0648\u0627\u0644\u0645\u062e\u0637\u0648\u0637\u0627\u062a \u0648\u0627\u0644\u0645\u0634\u063a\u0648\u0644\u0627\u062a \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629 \u0648\u0627\u0644\u062e\u0632\u0641.<\/p>\r\n\r\n<p>\u0648\u0645\u0646 \u0623\u0628\u0631\u0632 \u0627\u0644\u0645\u0639\u0627\u0631\u0636 \u0627\u0644\u0623\u062e\u0631\u0649 \u0641\u064a \u0645\u062a\u062d\u0641 \u0627\u0644\u0641\u0646 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a \u0627\u0644\u062a\u064a \u062a\u0644\u0642\u064a \u0627\u0644\u0636\u0648\u0621 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u0627\u0647\u0645\u0627\u062a \u0627\u0644\u0641\u0646\u064a\u0629 \u0627\u0644\u062a\u064a \u0642\u062f\u0645\u062a\u0647\u0627 \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064a\u0627\u062a \u0627\u0644\u0639\u062b\u0645\u0627\u0646\u064a\u0629 \u0648\u0627\u0644\u0635\u0641\u0648\u064a\u0629 \u0648\u0627\u0644\u0645\u063a\u0648\u0644\u064a\u0629 \u0645\u0639\u0631\u0636 \"\u0627\u0644\u0628\u0627\u0631\u0648\u062f \u0648\u0627\u0644\u062c\u0648\u0647\u0631.. \u0623\u0633\u0644\u062d\u0629 \u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0645\u0646 \u0645\u0642\u062a\u0646\u064a\u0627\u062a \u0641\u0627\u0636\u0644 \u0627\u0644\u0645\u0646\u0635\u0648\u0631\u064a\".<\/p>\r\n\r\n<p>\u0648\u064a\u0636\u0645 \u0627\u0644\u0645\u0639\u0631\u0636 \u0627\u0644\u0630\u064a \u064a\u0633\u062a\u0645\u0631 \u062d\u062a\u0649 12 \u0645\u0627\u064a\u0648\/\u0623\u064a\u0627\u0631 2018 \u0637\u064a\u0641\u0627 \u0648\u0627\u0633\u0639\u0627 \u0645\u0646 \u0627\u0644\u0623\u0633\u0644\u062d\u0629 \u0627\u0644\u0646\u0627\u0631\u064a\u0629 \u0648\u0627\u0644\u0623\u0633\u0644\u062d\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0627\u0644\u062a\u064a \u0635\u0646\u0639 \u0645\u0639\u0638\u0645\u0647\u0627 \u0641\u064a \u062a\u0631\u0643\u064a\u0627 \u0648\u0625\u064a\u0631\u0627\u0646 \u0648\u0627\u0644\u0647\u0646\u062f \u0628\u064a\u0646 \u0645\u0646\u062a\u0635\u0641 \u0627\u0644\u0642\u0631\u0646 \u0627\u0644\u064017 \u0648\u0623\u0648\u0627\u0633\u0637 \u0627\u0644\u0642\u0631\u0646 \u0627\u0644\u064019.<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "ar"
+        }
+    ]
+}

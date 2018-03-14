@@ -1,0 +1,321 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sport\/cristiano-ronaldo-ready-leave-real-madrid?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/sport?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/21?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/cristiano-ronaldo?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/champions?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/real-madrid?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/football?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/spain?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2d1d27d8-32c4-48af-8d7a-20b323abd057"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Is Cristiano Ronaldo ready to leave Real Madrid?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60c9208d-6a19-4e6c-a880-9ea9a6639eaa"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/21?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b550eb4-c6ee-4454-8831-088206d4b57b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1572d446-10e9-49e8-935d-730b238b859e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/cristiano-ronaldo?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ccb6220b-c410-4ea8-897a-b38bd8d28f2a"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/champions?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "efb0c7d0-cfe8-4de2-b879-477635277778"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/real-madrid?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b685fba2-06e7-4e76-816f-826b5848b657"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/football?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9b7784a6-2bde-4a71-8a85-e2b5d5934994"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/spain?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6fe16912-178f-49ad-8b1f-53eaa4f97bc1"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498040125,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498132834,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498132834
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Within a few hours, what had started as a Friday whisper had turned into an unrelenting din. Cristiano Ronaldo, one of the world's greatest footballers, wanted to leave Real Madrid. Cue shock and surprise as social media went into meltdown.<\/p>\r\n\r\n<p>Reports of the four-time Ballon d'Or winner's desire to leave the Spanish champions first surfaced in the Portuguese daily&nbsp;<em>A Bola.<\/em><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/NhF1k_mmOZo.jpg?itok=O46nntqJ\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=NhF1k_mmOZo\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>Real's all-time leading scorer, the newspaper said, no longer wanted to play in Spain. He was, they said, angry at his treatment by Spanish tax authorities.<\/p>\r\n\r\n<p>For those new to the story, here's the backdrop: on Tuesday, prosecutors in Spain accused the player of defrauding Spanish authorities of $16.4 million in tax between 2011 and 2014 and charged him with four crimes against the public treasury.<\/p>\r\n\r\n<p>The footballer had, said prosecutors, used a \"business structure\" -- created in 2010 -- to hide the revenue generated by his image rights from the Spanish treasury, describing the breach as \"voluntary\" and \"conscious.\"<\/p>\r\n\r\n<p>There was no attempt to evade taxes, Ronaldo's management company Gestifute said.<\/p>\r\n\r\n<p>On Wednesday, Real said it was \"absolutely convinced\" that their 32-year-old forward, who is on international duty with Portugal at the Confederations Cup, would prove his \"total innocence.\"<\/p>\r\n\r\n<drupal-entity alt=\"Critiano Ronaldo image\" data-align=\"center\" data-caption=\"Ronaldo is pictured preparing for the Champions League final earlier in June.\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"454e36c9-4c25-42e4-83b7-4d692d7667dc\" title=\"Critiano Ronaldo image\"><\/drupal-entity>\r\n\r\n<h3>Ronaldo 'sad' and 'upset'<\/h3>\r\n\r\n<p>When contacted by CNN to provide comment on Friday's&nbsp;<em>A Bola<\/em>&nbsp;story, Gestifute said they would not be making a statement and rejected the chance to deny the story. Real also did not respond to requests for comment.<\/p>\r\n\r\n<p>Madrid-based newspaper<em>&nbsp;Marca<\/em>&nbsp;added ballast to&nbsp;<em>A Bola's<\/em>&nbsp;initial morning report by saying that the rumors were true, while the BBC later reported that a source close to the player had said Ronaldo was \"sad\" and \"upset\" at being accused of tax fraud.<\/p>\r\n\r\n<p>Could he? Would Ronaldo really want to leave a club he had joined for a then world-record fee of \u00a380 million ($102m) in 2009? Don't forget this is a player that is the very epitome of a Real \"galactico.\"<\/p>\r\n\r\n<p>But this is not the first time Ronaldo -- the world's highest-paid sports star, according to Forbes -- has been linked with a move away from the Bernabeu.<\/p>\r\n\r\n<p>Before he put pen to paper on a five-year deal with Real in November 2016, there was the usual gossip of the player returning to former club Manchester United, or joining the Chinese Super League.<\/p>\r\n\r\n<drupal-entity alt=\"Cristiano Ronaldo sad or upset\" data-align=\"left\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"2209f5aa-5eae-4b21-835a-518e6ded2591\" title=\"Cristiano Ronaldo sad or upset\"><\/drupal-entity>\r\n\r\n<p>The mid-season transfer window opens in China Monday, but would a man who has scored 600 career goals -- named man of the match as he scored twice in this month's Champions League final -- play in a league widely considered to be of a lower standard than Europe's top leagues?<\/p>\r\n\r\n<p>Maybe money does indeed talk, even for a man who, according to Forbes, earned $93m over the last 12 months, with his salary accounting for $58m and endorsements $35m.<\/p>\r\n\r\n<p>A return to Manchester United, for whom he scored 84 goals in 196 Premier League appearances, has also been mooted.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497781392,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

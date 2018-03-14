@@ -1,0 +1,273 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sport\/jelena-ostapenko-stages-huge-comeback-beat-simona-halep-french-open-final?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/sport?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/32?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/jelena-ostapenco?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/woman?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8fa92594-694f-48e0-8e2c-d0fdbc17d896"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Jelena Ostapenko stages huge comeback to beat Simona Halep in French Open final",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60c9208d-6a19-4e6c-a880-9ea9a6639eaa"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b764199d-8c4f-4abf-9d7c-b37ec6d1a8df"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1572d446-10e9-49e8-935d-730b238b859e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/jelena-ostapenco?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3244bdf9-08c0-4047-ac77-eb52ac4d049e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/woman?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37a1859c-c117-4262-afeb-67e1cb9a682d"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498130767,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498119872,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498119872
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Jelena Ostapenko found herself in a huge hole in a first grand slam final but even that didn't unsettle the Latvian as she dazzled with winners from everywhere on the court to defeat Simona Halep at the French Open women's final.<\/p>\r\n\r\n<p>The newly turned 20-year-old trailed by a set and 3-0 -- she had to fend off three break points to avoid falling behind 4-0 -- before rallying for a 4-6 6-4 6-3 victory Saturday on Philippe Chatrier court. Ostapenko also trailed 3-1 in the third.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>The world No. 47 became only the second unseeded woman to win the French Open after Margaret Scriven in 1933 and the first player from her nation -- population of about 2 million -- to claim a major.<\/p>\r\n\r\n<p>Ostapenko suspected that Saturday's match in sunny, warm conditions in Paris was shown on a big screen in the city center in Riga, Latvia's capital city.<\/p>\r\n\r\n<p>\"I think it's quite a big deal in Latvia,\" Ostapenko told reporters.<\/p>\r\n\r\n<article data-scribe=\"component:card\" dir=\"ltr\">\r\n<p>&nbsp;<\/p>\r\n<\/article>\r\n\r\n<blockquote cite=\"https:\/\/twitter.com\/cnnsport\/status\/873657741876842496\">\r\n<p>This was her first top-level title of any kind, emulating the accomplishment of the much loved Gustavo Kuerten at Roland Garros on June 8, 1997.<\/p>\r\n<\/blockquote>\r\n\r\n<p>The Brazilian, who made an appearance at the French Open this week, won the first of his three titles on the Parisian clay the day Ostapenko was born.<\/p>\r\n\r\n<p>\"So I think it's kind of maybe a lucky, lucky number or something,\" Ostapenko told reporters.<\/p>\r\n\r\n<p>Ostapenko -- who seemed to be the crowd favorite Saturday -- chose tennis over ballroom dancing only a few years ago. It looks like it was the right decision.<\/p>\r\n\r\n<p>Her all-out attacking game ultimately got the better of the steady Halep, who lost her second French Open final -- she fell to Maria Sharapova, also in a three-set thriller, in 2014.<\/p>\r\n\r\n<p>Halep said she was deeply affected by nerves leading into the final.<\/p>\r\n\r\n<p>\"This one hurts a lot maybe because I am more...I realize more what is happening,\" said the 25-year-old. \"Three years ago was something new, so now I know. Hurts a lot and I need time just to, I don't know, to go away.\"<\/p>\r\n\r\n<p>Ostapenko struck 54 winners to Halep's eight, never allowing her rival to settle.<\/p>\r\n\r\n<p>\"At some point I was like a spectator on court,\" said Halep. \"She deserved to win.\"<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/B6LhGwx1DoA.jpg?itok=8YqegSjL\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=B6LhGwx1DoA\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<h3><strong>No No. 1 ranking just yet for Halep<\/strong><\/h3>\r\n\r\n<p>Halep, the third seed and pre-tournament favorite, was denied the No. 1 ranking with the loss in a double blow.<\/p>\r\n\r\n<p>The Romanian possesses a counter-punching game and against Ostapenko could do nothing but react to her opponent's booming ground strokes. Ostapenko's average forehand speed topped that of men's No. 1 Andy Murray this fortnight.<\/p>\r\n\r\n<drupal-entity alt=\"Jelena Ostapenko\" data-align=\"center\" data-caption=\"Jelena Ostapenko celebrates during the French Open final against Romania&amp;#039;s Simona Halep.\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"730082aa-c4fb-4aea-8c6f-fe290a07830d\" title=\"Jelena Ostapenko\"><\/drupal-entity>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The problem for the 2014 Wimbledon junior champion, however, was that she was missing too much in the first set.<\/p>\r\n\r\n<p>When Halep won the first after hitting one winner and two unforced errors, it indeed told you most of what you needed to know. Ostapenko was too charitable with her unforced errors, striking 23.<\/p>\r\n\r\n<p>Her task became much more difficult early in the second.<\/p>\r\n\r\n<p>Ostapenko held a 40-0 advantage on the Halep serve but couldn't break, was broken in the ensuing game after holding game point and lost the next game after it went to deuce.<\/p>\r\n\r\n<p>A 3-0 deficit resulted and Halep then had three break points to get to 4-0. If she had taken any of them, most likely that would have finished off Ostapenko.<\/p>\r\n\r\n<p>Ostapenko though hung on and so began a run of four consecutive games won.<\/p>\r\n\r\n<blockquote>\r\n<p>\"When I was losing 6-4, 3-0, in my mind I was just, 'I'm just going to enjoy the match,' and I will try to fight until the last point,\" said Ostapenko.<\/p>\r\n<\/blockquote>\r\n\r\n<p>A reeling Halep surrendered the set when Ostapenko struck a blazing forehand winner down the line, to the crowd's approval.<\/p>\r\n\r\n<p>Her second-set numbers improved drastically: 22 winners and 18 unforced errors.<\/p>\r\n\r\n<p>But the question remained in the third -- could Ostapenko maintain the momentum with that high-risk game?<\/p>\r\n\r\n<p>She continued to apply the pressure yet on the second of two break points on Halep's serve, the latter's forehand stayed just inside baseline.<\/p>\r\n\r\n<p>Halep held and later broke for 3-1.<\/p>\r\n\r\n<p>Time for another Ostapenko resurgence. She stormed to the last five games, officially winning her first grand slam title by crushing a backhand return winner down the line.<\/p>\r\n\r\n<p>She dropped her racket and couldn't stop smiling as she walked to the net.<\/p>\r\n\r\n<p>Halep was gracious in what was a difficult moment, exchanging a hug with her conqueror.<\/p>\r\n\r\n<p>Many would have felt destiny was on Halep's side when she herself pulled off a massive comeback in the quarterfinals, coming back from a set and 5-1 down and saving a match point against Elina Svitolina.<\/p>\r\n\r\n<p>Halep won the second set with a net-cord winner but on Saturday Ostapenko earned the key break of the third at 3-3 with her own slice of luck.<\/p>\r\n\r\n<p>Her backhand down the line was going wide until it hit the top of the net, changed direction and seemed to hang in the air for an eternity. When the ball landed, it dropped inside the line.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<h4>&nbsp;<\/h4>\r\n\r\n<p>Lucky on that point, yes, but Ostapenko -- who will now enter the top 15 -- certainly merited the crown. Not only did she defeat Halep, but she ousted former No. 1 Caroline Wozniacki, former French Open finalist Samantha Stosur and 2015 semifinalist Timea Bacsinszky.<\/p>\r\n\r\n<h3><strong>Nadal to win No. 10?<\/strong><\/h3>\r\n\r\n<p>Like Halep, Rafael Nadal entered the tournament as the favorite. He, too, has made the final.<\/p>\r\n\r\n<p>On Sunday the Spaniard bids for a 10th crown at the French Open when he meets Stan Wawrinka, one of only two players other than the left-hander to have triumphed in Paris since Nadal burst onto the scene in 2005.<\/p>\r\n\r\n<p>No man has ever won the same grand slam on 10 occasions.<\/p>\r\n\r\n<p>Nadal hasn't dropped a set but will be wary of the threat carried by three-time grand slam winner Wawrinka. The Swiss possesses an attacking game that can overwhelm any foe, as evidenced by Friday's five-set win over Murray.<\/p>\r\n\r\n<p>He has yet to lose a grand slam final and beat Nadal in the 2014 Australian Open final, though the latter sustained a back injury in the warmup.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497785523,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

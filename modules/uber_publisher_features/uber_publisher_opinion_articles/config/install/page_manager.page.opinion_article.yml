@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: opinion_article
+label: Opinion
+description: ''
+use_admin_theme: false
+path: /opinions
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,72 @@
+<?php
+/**
+* @file
+* Contains uber_publisher_core.module..
+*/
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
+/**
+* Implements hook_preprocess().
+*/
+function uber_publisher_core_preprocess(&$variables, $hook) {
+  // Sharerich blocks
+  $sharerich_block = \Drupal\block\Entity\Block::load('uber_publisher_vanilla_sharerich_block');
+  if(isset($sharerich_block)){
+    $sharerich_block_view = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($sharerich_block);
+
+    if ($sharerich_block_view) {
+      $variables['sharerich_block'] = $sharerich_block_view;
+    }
+
+    $config = \Drupal::config('uber_publisher_core.settings');
+    if ($config) {
+      $variables['share_buttons_style'] = $config->get('share_buttons_style');
+    }
+  }
+}
+
+/**
+* Implements hook_page_attachments().
+*/
+function uber_publisher_core_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'uber_publisher_core/general-scripts';
+}
+
+/**
+ * Implements hook_FORM_ID_form_alter.
+ */
+function uber_publisher_core_form_node_form_alter(&$form, $form_state) {
+  // Override node form sidebar order.
+  if (isset($form['author'])) {
+    $form['author']['#weight'] = -6;
+  }
+
+  if (isset($form['field_comments'])) {
+    $form['field_comments']['widget'][0]['#weight'] = -5;
+  }
+
+  if (isset($form['path_settings'])) {
+    $form['path_settings']['#weight'] = -4;
+  }
+
+  if (isset($form['field_meta_tags'])) {
+    $form['field_meta_tags']['widget'][0]['#weight'] = -3;
+  }
+
+  if (isset($form['simple_sitemap'])) {
+    $form['simple_sitemap']['#weight'] = -2;
+  }
+
+  if (isset($form['ds_switch_view_mode'])) {
+    $form['ds_switch_view_mode']['#weight'] = 101;
+  }
+
+  $allowed_forms = ['node_in_pictures_form', 'node_in_pictures_edit_form'];
+  if (!in_array($form['#form_id'], $allowed_forms)) {
+    $form['ds_switch_view_mode']['#access'] = FALSE;
+  }
+}

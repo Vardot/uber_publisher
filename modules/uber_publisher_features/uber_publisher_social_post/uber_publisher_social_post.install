@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ */
+
+ /**
+  * Implements hook_install().
+  */
+function uber_publisher_social_post_install() {
+  $config_factory = \Drupal::configFactory();
+
+  // Update cartoons path alias pattern
+  $config_factory->getEditable('core.entity_form_display.node.article.default')->set('content.field_post_to_twitter', ['type' => 'boolean_checkbox', 'weight' => '11', 'region' => 'content', 'settings' => ['display_label' => 'true'], 'third_party_settings' => []] )->save();
+}

@@ -1,0 +1,18 @@
+id: in_pictures_slider_view
+label: 'In Pictures slider view'
+ui_limit: 'in_pictures|*'
+properties:
+  block: 'views_block:in_picture-in_pictures_slider_style'
+  use_block_title: false
+  config:
+    id: 'views_block:in_picture-in_pictures_slider_style'
+    label: ''
+    provider: views
+    label_display: visible
+    views_label: ''
+    items_per_page: '5'
+    context_mapping: {  }
+type: block
+type_label: 'Block field'
+entities:
+  node: node

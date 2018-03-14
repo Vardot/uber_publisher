@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: linkfooter
+theme: uber_publisher_vanilla
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:2841ba79-0a75-4b2f-9ad1-7b2ff2bb1125'
+settings:
+  id: 'block_content:2841ba79-0a75-4b2f-9ad1-7b2ff2bb1125'
+  label: 'Important links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

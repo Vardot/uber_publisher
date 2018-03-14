@@ -1,0 +1,44 @@
+name: 'Uber Publisher In Pictures'
+description: 'News stories told and displayed in a form of picture galleries.'
+type: module
+core: 8.x
+package: 'Uber Publisher'
+dependencies:
+  - blazy
+  - comment
+  - content_moderation
+  - datetime
+  - dropzonejs_eb_widget
+  - ds
+  - ds_switch_view_mode
+  - entity_browser
+  - entityqueue
+  - field
+  - field_group
+  - image
+  - language
+  - media_entity
+  - menu_ui
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - pathauto
+  - rabbit_hole
+  - responsive_image
+  - slick
+  - slick_views
+  - smart_trim
+  - taxonomy
+  - text
+  - uber_publisher_amp
+  - uber_publisher_core
+  - user
+  - varbase_media
+  - varbase_seo
+  - views
+  - views_bootstrap
+  - views_exclude_previous
+  - yoast_seo

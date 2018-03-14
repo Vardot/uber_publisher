@@ -1,0 +1,11 @@
+id: in_pictures_tabs
+label: 'In Pictures tabs'
+ui_limit: ''
+properties:
+  content:
+    value: "<ul id=\"in-pictures\" class=\"nav nav-pills\">\r\n    <li id=\"in-pictures-list\">List</li>\r\n    <li id=\"in-pictures-slider\">Slider</li>\r\n</ul>"
+    format: code_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node

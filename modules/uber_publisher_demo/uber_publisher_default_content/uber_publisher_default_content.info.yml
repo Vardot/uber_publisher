@@ -1,0 +1,11 @@
+name: 'Uber Publisher Default Content'
+description: 'Default content for uber publisher'
+type: module
+core: 8.x
+version: 8.x-1.0-dev
+package: 'Uber Publisher'
+dependencies:
+  - block
+  - block_class
+  - 'default_content:default_content'
+  - system

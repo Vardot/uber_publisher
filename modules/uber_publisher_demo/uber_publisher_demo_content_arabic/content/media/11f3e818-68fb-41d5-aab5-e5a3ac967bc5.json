@@ -1,0 +1,208 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/81?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/sergio-perez.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-09\/sergio-perez.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 81
+        }
+    ],
+    "uuid": [
+        {
+            "value": "11f3e818-68fb-41d5-aab5-e5a3ac967bc5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 81
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u0633\u064a\u0631\u062c\u064a\u0648 \u0628\u064a\u0631\u064a\u0632"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/sergio-perez.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "394675a3-5020-46d0-96ba-d0434a3365d5"
+                    }
+                ],
+                "alt": "\u0627\u0644\u0646\u0633\u062e\u0629 \u0627\u0644\u0645\u0635\u063a\u0631\u0629",
+                "title": "\u0633\u064a\u0631\u062c\u064a\u0648 \u0628\u064a\u0631\u064a\u0632",
+                "width": "644",
+                "height": "366"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-09\/sergio-perez.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "394675a3-5020-46d0-96ba-d0434a3365d5"
+                    }
+                ],
+                "alt": "\u0633\u064a\u0631\u062c\u064a\u0648 \u0628\u064a\u0631\u064a\u0632",
+                "title": "",
+                "width": "644",
+                "height": "366"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": 1506419671
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506419671
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506419671
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new \u0627\u0644\u0635\u0648\u0631\u0629"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "| Varbase",
+                "shortlink": null,
+                "twitter_cards_type": "summary",
+                "canonical_url": null,
+                "og_site_name": "Varbase",
+                "schema_web_site_name": "Varbase",
+                "og_type": "website",
+                "schema_web_site_url": "http:\/\/default\/",
+                "twitter_cards_title": "| Varbase",
+                "google_plus_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "og_title": " | Varbase",
+                "rights": "\u00a92017 Varbase. All rights reserved.",
+                "referrer": "origin",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "twitter_cards_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "og_image": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "og_image_url": "http:\/\/default\/profiles\/uber_publisher\/themes\/uber_publisher_vanilla\/share-logo.png",
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "\u0646\u0639\u0645"
+            }
+        }
+    ]
+}

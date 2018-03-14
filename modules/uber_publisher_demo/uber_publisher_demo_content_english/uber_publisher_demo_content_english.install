@@ -1,0 +1,136 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+* Implements hook_install().
+*/
+function uber_publisher_demo_content_english_install() {
+  //Override homepage Articles view filters.
+  $config_factory = \Drupal::configFactory();
+
+  $article_view = $config_factory->get('views.view.articles');
+
+  $defaults = $article_view->get('display')['politics_articles']['display_options']['defaults'];
+  $defaults ['filters'] = false;
+  $defaults ['filter_groups'] = false;
+
+  $new_filter_groups = [
+    'operator' => 'AND',
+    'groups' => [ 1 => 'AND',],
+  ];
+
+  // Politics
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(9);
+
+  $config_factory->getEditable('views.view.articles')->set('display.politics_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.politics_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.politics_articles.display_options.filter_groups', $new_filter_groups)->save();
+
+  // Economy
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(10);
+
+  $config_factory->getEditable('views.view.articles')->set('display.economy_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.economy_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.economy_articles.display_options.filter_groups', $new_filter_groups)->save();
+
+  // Technology
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(13);
+
+  $config_factory->getEditable('views.view.articles')->set('display.technology_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.technology_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.technology_articles.display_options.filter_groups', $new_filter_groups)->save();
+
+  // Sport
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(12);
+
+  $config_factory->getEditable('views.view.articles')->set('display.sport_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.sport_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.sport_articles.display_options.filter_groups', $new_filter_groups)->save();
+
+  // Health
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(14);
+
+  $config_factory->getEditable('views.view.articles')->set('display.health_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.health_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.health_articles.display_options.filter_groups', $new_filter_groups)->save();
+
+  // Culture and Art
+  $new_filters = $article_view->get('display')['default']['display_options']['filters'];
+  $new_filters['field_section_target_id'] = _field_section_target_id(11);
+
+  $config_factory->getEditable('views.view.articles')->set('display.culture_art_articles.display_options.defaults', $defaults)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.culture_art_articles.display_options.filters', $new_filters)->save();
+
+  $config_factory->getEditable('views.view.articles')->set('display.culture_art_articles.display_options.filter_groups', $new_filter_groups)->save();
+}
+
+function _field_section_target_id($id) {
+  return [
+    'id' => 'field_section_target_id',
+    'table' => 'node__field_section',
+    'field' => 'field_section_target_id',
+    'relationship' => 'none',
+    'group_type' => 'group',
+    'admin_label' => '',
+    'operator' => 'or',
+    'value' => [ $id => $id, ],
+    'group' => 1,
+    'exposed' => false,
+    'expose' => [
+      'operator_id' => '',
+      'label' => '',
+      'description' => '',
+      'use_operator' => false,
+      'operator' => '',
+      'identifier' => '',
+      'required' => false,
+      'remember' => false,
+      'multiple' => false,
+      'remember_roles' => [
+        'authenticated' => 'authenticated',
+      ],
+      'reduce' => false,
+    ],
+    'is_grouped' => false,
+    'group_info' => [
+      'label' => '',
+      'description' => '',
+      'identifier' => '',
+      'optional' => true,
+      'widget' => 'select',
+      'multiple' => false,
+      'remember' => false,
+      'default_group' => 'All',
+      'default_group_multiple' =>
+      [],
+      'group_items' =>
+      [],
+    ],
+    'reduce_duplicates' => false,
+    'type' => 'select',
+    'limit' => true,
+    'vid' => 'section',
+    'hierarchy' => false,
+    'error_message' => true,
+    'plugin_id' => 'taxonomy_index_tid',
+  ];
+}

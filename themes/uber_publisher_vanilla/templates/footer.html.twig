@@ -1,0 +1,86 @@
+<footer id="footer" class="footer">
+  
+  {% if page.before_footer %}
+   <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="before_footer area">
+                {{ page.before_footer }}
+            </div>
+          </div>
+        </div>     
+      </div>   
+    </div> 
+   {% endif %}
+   
+   <div class="footer-center">
+      <div class="container">      
+         <div class="row">
+            {% set footer_count = 0 %}
+              
+              {% if page.footer_first %}
+                {% set footer_count = footer_count + 1 %}
+              {% endif %}  
+              
+              {% if page.footer_second %}
+                {% set footer_count = footer_count + 1 %}
+              {% endif %}  
+              
+              {% if page.footer_third %}
+                {% set footer_count = footer_count + 1 %}
+              {% endif %}  
+              
+              {% if page.footer_four %}
+                {% set footer_count = footer_count + 1 %}
+              {% endif %}   
+
+              {% set col_class = 'footer-1col col-lg-12 col-md-12 col-md-12 col-xs-12' %}
+
+              {% if footer_count == 2 %}
+                  {% set col_class = 'footer-2col col-lg-6 col-md-12 col-sm-12 col-xs-12' %}
+              {% elseif footer_count == 3 %}  
+                  {% set col_class = 'footer-3col col-lg-4 col-md-12 col-sm-12 col-xs-12' %}
+              {% elseif footer_count == 4 %}
+                   {% set col_class = 'footer-4col col-lg-3 col-md-12 col-sm-12 col-xs-12' %}
+              {% endif %}
+              
+              {% if page.footer_first %}
+                <div class="{{ col_class }} column">
+                  {{ page.footer_first }}
+                </div> 
+              {% endif %}
+
+              {% if page.footer_second %}
+                <div class="{{ col_class }} column">
+                  {{ page.footer_second }}
+                </div> 
+              {% endif %}
+
+              {% if page.footer_third %}
+                <div class="{{ col_class }} column">
+                  {{ page.footer_third }}
+                </div> 
+              {% endif %}
+
+              {% if page.footer_four %}
+                <div class="{{ col_class }} column">
+                  {{ page.footer_four }}
+                </div> 
+              {% endif %}
+         </div>   
+      </div>
+   </div>   
+
+   {% if page.copyright %}
+   <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+            {{ page.copyright }}
+        </div>   
+      </div>   
+   </div>
+ {% endif %}
+
+</footer>
+

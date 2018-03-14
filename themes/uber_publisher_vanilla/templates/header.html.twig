@@ -1,0 +1,75 @@
+<header id="header" class="header-class">
+
+  <div class="topbar">
+    {% if page.topbar %}
+        <div class="topbar">
+          {{ page.topbar }}
+        </div>
+    {% endif %}
+  </div>
+
+   <div class="header-main">
+      <div class="container">
+         <div class="header-main-inner">
+            <div class="row">
+               <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 block-logo">
+               {% if page.branding %}
+                  {{ page.branding }}
+               {% endif %}
+               </div>
+
+               <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 header-right">
+                  {% if page.header_right %}
+                     <div class="header-right-inner">
+                        {{ page.header_right }}
+                     </div>
+                   {% endif %}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+{% set sticky_menu = theme.settings.sticky_menu ? 'gv-sticky-menu' : '' %}
+
+    <div class="header-bottom">
+      {# <div class="sticky-wrapper"> #}
+        <div class="main-menu {{sticky_menu}}">
+          <div class="container">
+             <div class="row">
+                <div class="col-xs-12 area-main-menu">
+                  <div class="area-inner">
+                    {% if page.main_menu %}
+                      {{ page.main_menu }}
+                    {% endif %}
+                    {% if page.search %}
+                      <div class="gva-search-region search-region">
+                        <span class="search-icon"><i class="fa fa-search"></i></span>
+                        <div class="search-content">
+                          {{ page.search }}
+                        </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+             </div>
+          </div>
+       {# </div> #}
+      </div>
+
+      {% if page.breaking_news %}
+        <div class="breaking-news">
+          <div class="container">
+            <div class="content-inner clearfix">
+              <div class="title">
+                {{ 'Breaking news'|t }}
+              </div>
+              <div class="content">{{ page.breaking_news }}</div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+    </div>
+
+</header>

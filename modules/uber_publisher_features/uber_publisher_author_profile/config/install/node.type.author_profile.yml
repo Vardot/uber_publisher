@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Author profile'
+type: author_profile
+description: 'The <em>author profile</em> of <em>opinion articles</em>. Each author will have a dedicated page listing and highlighting their opinion articles. It can optionally be linked to a real user.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

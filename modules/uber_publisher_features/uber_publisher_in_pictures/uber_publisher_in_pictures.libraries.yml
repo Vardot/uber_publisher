@@ -1,0 +1,8 @@
+general-scripts:
+  js:
+    js/uber_publisher_js.scripts.js: { }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

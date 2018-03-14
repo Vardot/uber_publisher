@@ -1,0 +1,161 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/40?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/breaking_news"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/breaking_news\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/breaking_news\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f44a0c42-8071-41dc-86e7-79e55fdd811c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "breaking_news"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u0623\u0645\u0631\u0627\u0636 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0648\u0632\u0646 \u0642\u062f \u062a\u0635\u064a\u0628 \u0645\u0646 \u0644\u0627 \u064a\u0639\u0627\u0646\u0648\u0646 \u0645\u0646 \u0627\u0644\u0633\u0645\u0646\u0629",
+            "lang": "ar"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/breaking_news\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dadf7f04-4113-487d-b2d2-b49fbea5eff9"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/breaking_news\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dadf7f04-4113-487d-b2d2-b49fbea5eff9"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1500981933,
+            "lang": "ar"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1503563609,
+            "lang": "ar"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "ar"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "ar"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1503563609
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Updated the Summary field"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "rh_action": [
+        {
+            "value": "bundle_default"
+        }
+    ],
+    "rh_redirect_response": [
+        {
+            "value": 301
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "\u0623\u0645\u0631\u0627\u0636 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0648\u0632\u0646 \u0642\u062f \u062a\u0635\u064a\u0628 \u0645\u0646 \u0644\u0627 \u064a\u0639\u0627\u0646\u0648\u0646 \u0645\u0646 \u0627\u0644\u0633\u0645\u0646\u0629 | Varbase"
+            }
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "\u0623\u0645\u0631\u0627\u0636 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0648\u0632\u0646 \u0642\u062f \u062a\u0635\u064a\u0628 \u0645\u0646 \u0644\u0627 \u064a\u0639\u0627\u0646\u0648\u0646 \u0645\u0646 \u0627\u0644\u0633\u0645\u0646\u0629"
+        }
+    ],
+    "field_url": [
+        {
+            "uri": "internal:\/node\/16",
+            "title": "",
+            "options": []
+        }
+    ]
+}

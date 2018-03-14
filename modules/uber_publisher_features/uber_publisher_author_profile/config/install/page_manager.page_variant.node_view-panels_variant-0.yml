@@ -1,0 +1,72 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - panels
+    - views
+id: node_view-panels_variant-0
+label: 'Author profile'
+variant: panels_variant
+variant_settings:
+  blocks:
+    58f442f8-a23d-4cb8-baf1-7e38e17698b9:
+      id: 'entity_view:node'
+      label: 'Entity view (Content)'
+      provider: ctools
+      label_display: '0'
+      view_mode: full
+      region: top
+      weight: -10
+      uuid: 58f442f8-a23d-4cb8-baf1-7e38e17698b9
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: 29d5dfd6-135c-49ad-ae6b-b82e50998248
+  label: null
+  weight: 0
+  layout: bs_1col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          clearfix: clearfix
+        add_region_classes: 1
+        attributes: class|bg-edge2edge
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: null
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-0
+  builder: ipe
+page: node_view
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      author_profile: author_profile
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,327 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/culture-and-art\/mist-it-try-break-stephen-king-adaptation-curse?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/culture-and-art?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/57?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/themist?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/cultureandart?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/stephenking?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/tvspike?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/movie?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/show?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "140b34cb-380a-4414-a242-05bf3c9d5738"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "'The Mist,' 'It' try to break Stephen King adaptation curse",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/culture-and-art?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44ba090b-70ff-4c01-bcf5-3b0a3ecd7e95"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/57?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f7707a7b-8404-4a46-ac45-bb0862828be7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/themist?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "304628ca-c14e-490a-802d-2bb9d42207c5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/cultureandart?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f58aec75-21aa-41cf-bb1a-a2dcee9b4628"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/stephenking?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7cb88759-ef17-4cd3-8c2a-2335acd089ea"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/tvspike?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "282d1380-dafb-4601-b883-00dc58335c54"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/movie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "efbfb891-898d-405b-977e-ff3a5dca4e86"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/show?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0dede28d-fc68-4dd2-a710-be557dc09175"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498041076,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498066462,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498066462
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This is a big summer for Stephen King adaptations. \"The Mist\" becomes a Spike TV series June 22, \"Dark Tower\" hits theaters in August, and a new version of \"It\" will make clowns terrifying again (hopefully) in September.<\/p>\r\n\r\n<p>As prolific as King has been, though, the duds associated with bringing his writing to the screen have considerably outweighed the highlights. And for every \"The Stand,\" \"The Dead Zone,\" \"Christine\" or \"The Shawshank Redemption,\" there seem to be three like \"Under the Dome,\" \"The Langoliers,\" \"The Graveyard Shift\" and \"Pet Sematary.\"<\/p>\r\n\r\n<p>If there's a common theme among King projects, almost all of them start well. The TV series face a different and more formidable challenge than the miniseries (ABC produced a slew of those) and movies, which have the benefit of telling a clearly contained story, without being compelled to tease out a concept in the way that \"Dome\" awkwardly did.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>The sad truth is that as scary and often thought-provoking as King's work is on the page, something frequently gets lost in translation. Even the mostly good 1990 \"It\" miniseries, which featured Tim Curry as Pennywise, fell apart in its final few acts -- a recurring issue that's been fairly common across movies and television.<\/p>\r\n\r\n<p>\"The Mist\" -- previously a 2007 movie -- is one of those King projects that have generated more than one version, just as \"The Shining\" was turned into a Stanley Kubrick movie and later a miniseries. While watching the different takes and more expansive canvasses can be instructive, it hasn't solved the riddle of why King adaptations have so often been disappointing, which hasn't dissuaded producers from repeatedly trying.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/kya_uqiSQOY.jpg?itok=aNQPj8dM\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=kya_uqiSQOY\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>For his part, King has largely expressed indifference, or perhaps more accurately a sense of resignation, about Hollywood's treatment of his books and stories.<\/p>\r\n\r\n<p>\"I want a dollar, and I want approvals over the screenwriter, the director and the principal cast,\" the author&nbsp;told Deadline.com&nbsp;in an interview published last year, stressing that beyond those terms, he didn't want to interfere.<\/p>\r\n\r\n<p>As King put it, \"If it doesn't work so well, I can say, well, they went out and they gave their best shot but I didn't have anything to do with it. I'm just a bystander in this car wreck.\"<\/p>\r\n\r\n<p>\"The Mist\" reflects some of that latitude. The series has been \"re-envisioned\" with new storylines and characters, expanding on the original novella. But the basic template remains -- along with an almost instantly generic feel -- with ordinary people thrown into an extraordinary situation, as strange and deadly things happen as a creeping mist spreads over their Maine town.<\/p>\r\n\r\n<p>Obviously, even a series or miniseries can't accommodate every beat of King's lengthier novels, but King's laissez-faire attitude hasn't produced much in the way of quality control.<\/p>\r\n\r\n<p>Still, fidelity to the original material usually helps, and it's notable that in the Deadline interview King cited Ira Levin's \"Rosemary's Baby\" as an adaptation he admired, saying, \"That movie is the book. To the point where you can say to people, 'If you've seen the movie, you don't need to read the book.'\"<\/p>\r\n\r\n<p>\"It\" and \"Dark Tower\" lurk ahead, and for King aficionados, hope springs eternal. Yet with apologies to Pennywise, having watched those hopes sink more often than float, if they measure up to the anticipation, they'll be bucking the odds.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497782402,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

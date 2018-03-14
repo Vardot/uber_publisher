@@ -1,0 +1,54 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.term_view
+    - views.view.uber_puplisher_taxonomy_term
+  module:
+    - panels
+    - views
+id: term_view-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    7a437f0e-814b-417d-93b6-ed2304dad479:
+      id: 'views_block:uber_puplisher_taxonomy_term-taxonomy_term_page'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 7a437f0e-814b-417d-93b6-ed2304dad479
+      context_mapping:
+        tid: taxonomy_term
+  id: panels_variant
+  uuid: f9f8585f-184a-4952-b9b2-aee03f6326d9
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: '[term:name]'
+  storage_type: page_manager
+  storage_id: term_view-panels_variant-0
+  builder: standard
+page: term_view
+weight: -9
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

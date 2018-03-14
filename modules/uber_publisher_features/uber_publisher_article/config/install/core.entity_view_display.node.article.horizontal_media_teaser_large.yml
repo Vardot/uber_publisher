@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.horizontal_media_teaser_large
+    - field.field.node.article.body
+    - field.field.node.article.field_comments
+    - field.field.node.article.field_image
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_section
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - ds
+    - panelizer
+    - smart_trim
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_large
+      library: vmi/horizontal_media_teaser_large
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: article
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_image
+      right:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.article.horizontal_media_teaser_large
+targetEntityType: node
+bundle: article
+mode: horizontal_media_teaser_large
+content:
+  body:
+    type: smart_trim
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: '90'
+      trim_type: words
+      trim_suffix: ' ...'
+      more_link: '0'
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+    region: right
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: s6_standard
+      link: false
+    third_party_settings: {  }
+    region: left
+hidden:
+  field_comments: true
+  field_meta_tags: true
+  field_section: true
+  field_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

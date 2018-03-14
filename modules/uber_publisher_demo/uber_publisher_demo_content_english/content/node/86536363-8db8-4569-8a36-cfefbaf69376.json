@@ -1,0 +1,327 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/jeff-bezos-smartest-guy-business?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/47?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/jeff-bezos?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/business?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/money?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/amazon?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/customers?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "86536363-8db8-4569-8a36-cfefbaf69376"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Jeff Bezos is the smartest guy in business",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/47?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44139f2e-4241-45f3-8463-959c430480e4"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2830fc00-001d-4c90-83f2-7e3dafb752d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/jeff-bezos?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "212d4b09-c5ae-417d-ae7d-3dd0caf83e2a"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/business?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c33fc41e-4438-4dc3-afa7-d97f7c8c0406"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/money?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32dc8d7c-a690-4def-b02d-ffc0a9f3dca5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/amazon?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "594a7b72-6fc2-4077-ae4f-c93eea8c3f45"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/customers?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b34b5f5e-6aa3-47a0-b82f-c79a9c6d829e"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1497947660,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498033897,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498033897
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h3>Just when you think you know Amazon, the company goes and changes everything.<\/h3>\r\n\r\n<p>Amazon&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=AMZN&amp;source=story_quote_link\">AMZN<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;shook the retail world Friday with news that it has&nbsp;agreed to buy&nbsp;Whole Foods&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=WFM&amp;source=story_quote_link\">WFM<\/a>)&nbsp;for $13.7 billion. The deal instantly upended the supermarket industry and transformed the e-commerce company into a bricks-and-mortar giant.<\/p>\r\n\r\n<p>You could almost hear the jaws drop on Wall Street. But those who've worked at Amazon or followed the company closely over the years were less surprised. The reason: It's classic Jeff Bezos.<\/p>\r\n\r\n<p>Amazon's CEO and founder has spent the last two decades proving that his ambition knows no bounds. Originally founded as an online bookseller, Amazon has since expanded into hardware, cloud services and streaming shows -- often years ahead of its rivals.<\/p>\r\n\r\n<p>\"Jeff is crazy -- crazy like a fox,\" says Nadia Shouraboura, a former Amazon executive who left the company in 2012. \"He has a very clear vision and design.\"<\/p>\r\n\r\n<p>The core vision is essentially to transform the entire retail industry -- one sector at a time. It may have started with books, but Amazon sells its own line of clothing, has experimented with hotel booking and offers grocery deliveries through Amazon Fresh.<\/p>\r\n\r\n<p>With the Whole Foods acquisition, Amazon has the potential to take a bigger chunk of a market that does&nbsp;$600 billion in sales&nbsp;in the U.S. alone.<\/p>\r\n\r\n<blockquote>\r\n<p>\"Customers don't enjoy lugging large shopping carts down long supermarket aisles, but they enjoy picking quality meats and vegetables,\" says Shouraboura, who worked on Bezos' senior leadership team and helped oversee Amazon's global supply chain. \"By combining the best of bricks and mortar experiences with the efficiency of great technology, supermarkets will be transformed.\"<\/p>\r\n<\/blockquote>\r\n\r\n<p>Amazon can also use the allure of groceries to sell more Prime subscriptions. And a company built online will suddenly own nearly 500 physical stores, which it can use to grow its relationship with new and existing customers.<\/p>\r\n\r\n<drupal-entity alt=\"Amazon Whole Foods\" data-align=\"right\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"1a8a1d61-ce06-4888-b54b-8ad4fe79670e\" title=\"Amazon Whole Foods\"><\/drupal-entity>\r\n\r\n<p>Investors quickly recognized Bezos' brilliance with the deal. Amazon stock jumped 3% in early trading Friday, which is unusual for businesses announcing pricey acquisitions. At the same time, stocks for its&nbsp;retail and grocery<a href=\"http:\/\/money.cnn.com\/2017\/06\/16\/investing\/walmart-target-stocks-plunge-whole-foods-amazon\/index.html?iid=hp-toplead-dom\"> <\/a>competitors&nbsp;tanked.<\/p>\r\n\r\n<p>\"This is a great strategic move,\" says Michael Pachter, an analyst with Wedbush, noting its potential to expand Amazon's grocery delivery capability twentyfold. He added that Bezos is \"the smartest in any business.\"<\/p>\r\n\r\n<p>Bezos has earned that title. Most who compete directly with him get left in the dust. Borders shut down.&nbsp;Barnes &amp; Noble&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=BKS&amp;source=story_quote_link\">BKS<\/a>)&nbsp;continues to struggle.&nbsp;Walmart&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=WMT&amp;source=story_quote_link\">WMT<\/a>)&nbsp;effectively&nbsp;spent $3 billion&nbsp;to bring on a former Amazon exec to help it compete online.<\/p>\r\n\r\n<p>Even his tech peers now find themselves playing catchup.&nbsp;Google&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=GOOGL&amp;source=story_quote_link\">GOOGL<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;and&nbsp;Apple(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=AAPL&amp;source=story_quote_link\">AAPL<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;are both trying to&nbsp;copy the success&nbsp;Amazon found with the Echo smart speaker.&nbsp;Microsoft&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=MSFT&amp;source=story_quote_link\">MSFT<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;and Google are also trying to build up cloud services to rival Amazon Web Services, its wildly lucrative business.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<figure>\r\n<p>\"Jeff is a mix of relentless, creative, disciplined, multifaceted and audacious in size of his vision. And he has been able to apply this capacity across multiple large categories simultaneously,\" says Sukhinder Singh Cassidy, who worked at Amazon in the early years.<\/p>\r\n\r\n<p>\"Its what makes him able to buy Whole Foods at the same time he is reimagining content creation and delivery wholesale,\" she adds. And it's why \"the world [is] able to believe that Amazon uniquely can do both.\"<\/p>\r\n\r\n<p>To be sure, Amazon has had its flops. Remember the&nbsp;3-D Fire phone&nbsp;it launched with much fanfare only to discontinue the next year? Neither do we.<\/p>\r\n\r\n<p>But its string of successes has propelled Amazon to be one of the top five most valuable companies and made Bezos the&nbsp;second richest person in the world.<\/p>\r\n\r\n<p>With his billions, Bezos has proven his business acumen goes beyond retail. He acquired The Washington Post for&nbsp;$250 million&nbsp;in 2013. The paper is now&nbsp;profitable, growing staff and recently&nbsp;topped one billion&nbsp;monthly page views -- all at a difficult time for the media industry.<\/p>\r\n\r\n<p>And in his spare time, he's building an aerospace company called&nbsp;Blue Origin.<\/p>\r\n\r\n<p>The takeaway from these ventures is the same as with the blockbuster Whole Foods acquisition: Jeff Bezos has a limitless ambition and the funds to back it up.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n<\/figure>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497775598,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+    - views.view.articles
+  module:
+    - panels
+    - views
+id: homepage-panels_variant-0
+label: 'Home page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    c8e2f647-78b0-4c7f-b9b1-9e1c9639ad77:
+      id: 'views_block:articles-politics_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 1
+      context_mapping: {  }
+      uuid: c8e2f647-78b0-4c7f-b9b1-9e1c9639ad77
+    27de6be0-5e9f-4e44-bf2b-56e2902aab37:
+      id: 'views_block:articles-economy_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 2
+      context_mapping: {  }
+      uuid: 27de6be0-5e9f-4e44-bf2b-56e2902aab37
+    00f94f90-7b2b-46f8-bded-1d16fe652a32:
+      id: 'views_block:articles-technology_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 4
+      context_mapping: {  }
+      uuid: 00f94f90-7b2b-46f8-bded-1d16fe652a32
+    f11ec12a-e447-4b15-b017-f8b2ad287c60:
+      id: 'views_block:articles-editors_pick_article'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 3
+      context_mapping: {  }
+      uuid: f11ec12a-e447-4b15-b017-f8b2ad287c60
+    fd52ddd5-b5ee-418d-bc84-f34d6fc12d58:
+      id: 'views_block:articles-sport_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 5
+      context_mapping: {  }
+      uuid: fd52ddd5-b5ee-418d-bc84-f34d6fc12d58
+    8b92f0de-8325-4696-a433-c393e7c8fec8:
+      id: 'views_block:articles-health_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 6
+      context_mapping: {  }
+      uuid: 8b92f0de-8325-4696-a433-c393e7c8fec8
+    c5fe4d65-de41-4b09-bad2-4f8cfc419ae1:
+      id: 'views_block:articles-culture_art_articles'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 7
+      context_mapping: {  }
+      uuid: c5fe4d65-de41-4b09-bad2-4f8cfc419ae1
+  id: panels_variant
+  uuid: d61dddde-a5ea-42e0-841f-f5468212c9c8
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: homepage-panels_variant-0
+  builder: ipe
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

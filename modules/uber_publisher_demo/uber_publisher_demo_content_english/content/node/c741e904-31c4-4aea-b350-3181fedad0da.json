@@ -1,0 +1,363 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health\/white-bread-or-whole-wheat-it-may-depend-your-gut?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/health?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/30?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/health?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/bread?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/white-bread?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/nutrition?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/nutritionist?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/carbs?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/whole-wheat?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c741e904-31c4-4aea-b350-3181fedad0da"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "White bread or whole-wheat? It may depend on your gut",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4226f65-a221-4983-8745-9e5948742d54"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/30?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fa7b3b33-a8f4-45c0-a51a-429e51dfc99e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c13aaeb-413c-475b-bb8b-cb3b8ea3235e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/bread?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ac1363a8-661f-49f0-bada-c03bcac0527f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/white-bread?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "10fd2d49-0e7e-4207-af06-28d73920e5f3"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/nutrition?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c794c74-6b87-44ad-8c13-5ca05345a2ab"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/nutritionist?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "596c0d7d-9d2e-46ea-916e-0c9938b434e8"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/carbs?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a99be829-6c79-4b5c-949c-0565bf120b8a"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/studies?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "94913178-0119-4672-8708-cf1d9dc92fff"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/whole-wheat?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "65e71b05-69d7-4a94-ac47-2b12da32b3a1"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1497957454,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498036120,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498036120
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>As a popular staple, bread is consumed by billions of people around the world.<\/p>\r\n\r\n<p>But while most nutritionists recommend whole-wheat bread over white bread, one new study suggests that the type of bread that is best for you may have more to do with your own body than the bread itself.&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<h3><strong>In the study<\/strong><\/h3>\r\n\r\n<p>published in Cell Metabolism, 20 people ate either sourdough whole-grain bread or refined white bread for one week. After a two-week break, each participant switched breads for another week. Both breads had the same amount of carbohydrates.<\/p>\r\n\r\n<p>The researchers measured weight and blood pressure, and performed other blood tests before and after each bread type was consumed, but they didn't find any significant differences in these indicators for the breads studied.<\/p>\r\n\r\n<p>In other words, in terms of health outcomes, it didn't matter whether white or whole-wheat bread was consumed.<\/p>\r\n\r\n<p>\"We originally viewed (white and whole-wheat bread) as radical opposites in terms of their health benefits. But to our great surprise, we found no difference between the effects those two breads had on the various end points that we measured,\" said study author Eran Segal, a professor at the Weizmann Institute of Science in Israel.<\/p>\r\n\r\n<p>Consuming bread was associated with an improvement in cholesterol levels, as well as markers of inflammation. It was also associated with lower levels of some minerals. But the effects were similar for both bread types.<\/p>\r\n\r\n<p>What's more, despite the fact that whole-wheat bread has a higher fiber content -- and therefore would theoretically enter the bloodstream at a slower rate than white bread -- this wasn't the case for everyone in the study. Half of the participants had higher glycemic responses to white bread, as expected, but the other half had higher responses to whole-wheat bread. In fact, the glycemic response was more closely tied to the composition of bacteria in one's gut rather than the bread itself.<\/p>\r\n\r\n<p>\"We showed that we could have predicted, with fairly good accuracy, which bread induces lower glycemic responses for each subject personally, and (we could) do that based on their initial microbiome configurations,\" Segal said.&nbsp;<\/p>\r\n\r\n<h3><strong>A bread for every biome?<\/strong><\/h3>\r\n\r\n<p>The researchers found that the presence of two bacterial species helped predict the bread that induced the higher glycemic response.<\/p>\r\n\r\n<drupal-entity alt=\"Carbs\" data-align=\"left\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"6f6ec3e9-aa61-4c64-a0fc-c6acdb9fb7b8\" title=\"Carbs\"><\/drupal-entity>\r\n\r\n<p>\"We need more research and larger studies to validate this approach, but we envision a future where each of us would have their microbiome profiled and then receive personal nutrition advice,\" Segal said.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Health effects of carbs: Where do we stand?<\/p>\r\n\r\n<p>In other words, bread-related nutritional recommendations could potentially be made based on your subjective microbiome, not necessarily on the objective nutritional values of breads.<\/p>\r\n\r\n<p>\"We can't say which bread is better, and in fact, we present evidence that there may not be a better bread,\" Segal said. \"Perhaps the question we should be asking is not 'which is better' but rather 'which is better for you.' \"<\/p>\r\n\r\n<p>Segal and another of the study's authors are banking on these premlinary findings, literally. They are paid consultants for a company that offers personalized nutrition recommendations based on DNA sequencing of your microbiome.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<drupal-entity alt=\"Purple bread\" data-align=\"right\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"5559c680-be14-41a5-a6c4-aacc2e20359a\" title=\"Purple bread\"><\/drupal-entity>\r\n\r\n<p>Though they are confident about their findings, they are not alone in the way they view the new research. Angela Poole, an assistant professor in the Division of Nutritional Sciences at Cornell University who studies the gut microbiome and starch, sees growing evidence that nutrition is more subjective than most believe.<\/p>\r\n\r\n<p>\"These intriguing findings suggest that members of each individual's gut microbiota can serve as biomarkers to predict that person's glycemic response to particular foods, which is in agreement with their impressive,&nbsp;previously published study,\" she said.<\/p>\r\n\r\n<h3><strong>Whole-wheat still a winner, many experts say<\/strong><\/h3>\r\n\r\n<p>Despite these findings, some experts are convinced that whole-wheat should be the bread of choice for most people.<\/p>\r\n\r\n<p>\"When it comes to nutrient composition, whole-wheat bread wins the day,\" said Angel C. Planells, a registered dietitian and spokesman for the Academy of Nutrition and Dietetics. \"With the processing (of white), whole-wheat is the better choice because of the fiber, vitamins such as folic acid, B6 and E, and minerals including chromium, magnesium and zinc.\"<\/p>\r\n\r\n<p>The study also had its limitations: It was small and took place for a short period of time. Long-term effects of exposure to each bread type were not addressed, though they may have resulted in different outcomes.<\/p>\r\n\r\n<p>Join the conversation<\/p>\r\n\r\n<p>See the latest news and share your comments with CNN Health on<a href=\"https:\/\/www.facebook.com\/CNNHealth\" target=\"_blank\">&nbsp;<\/a>Facebook&nbsp;and&nbsp;Twitter.<\/p>\r\n\r\n<p>\"It should not be forgotten that the health benefits of whole grains may be much longer-term than a one-week study can show, especially in relation to gut health and prevention of conditions like bowel cancer.<\/p>\r\n\r\n<p>Therefore, this study does not imply that people should give up eating whole-grain foods based on these results,\" said Dr. Elizabeth Lund, an independent consultant in nutrition and gastrointestinal health who was previously a research leader at the Institute of Food Research in the UK.<\/p>\r\n\r\n<blockquote>\r\n<p>\"These results do not necessarily argue against the potential numerous and long-term benefits of increased fiber intake, including satiety,\" added Poole. \"There are multiple physiological effects, both short- and long-term, to consider before labeling a food 'good' or 'bad.' Personalized nutrition is certainly an achievable and worthwhile goal, but there is still a lot to be learned.\"<em>Lisa Drayer is a nutritionist, author and health journalist.&nbsp;<\/em><\/p>\r\n<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497784887,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

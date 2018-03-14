@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: author_profile
+label: 'Author profile'
+type: 'canonical_entities:node'
+pattern: 'authors/[node:title]'
+selection_criteria:
+  99cc46f0-4b92-4ef3-b8c8-0b2bfaf8a93d:
+    id: node_type
+    bundles:
+      author_profile: author_profile
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 99cc46f0-4b92-4ef3-b8c8-0b2bfaf8a93d
+selection_logic: and
+weight: -5
+relationships: {  }

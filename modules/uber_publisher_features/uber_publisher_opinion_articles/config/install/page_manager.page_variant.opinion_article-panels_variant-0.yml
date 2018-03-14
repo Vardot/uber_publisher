@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.opinion_article
+    - views.view.opinion_article
+  module:
+    - panels
+    - views
+id: opinion_article-panels_variant-0
+label: opinions
+variant: panels_variant
+variant_settings:
+  blocks:
+    39fb847b-1dc1-40e2-bb2b-5af525191e4f:
+      id: 'views_block:opinion_article-opinion_article_listing'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 39fb847b-1dc1-40e2-bb2b-5af525191e4f
+      context_mapping: {  }
+    5ac89735-8e8f-4084-983e-04265f94960c:
+      id: 'views_block:opinion_article-opinion_promoted_splash_area'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 5ac89735-8e8f-4084-983e-04265f94960c
+      context_mapping: {  }
+  id: panels_variant
+  uuid: e856c9e1-88b5-4789-8f91-3b12d7cfa86d
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: Opinions
+  storage_type: page_manager
+  storage_id: opinion_article-panels_variant-0
+  builder: standard
+page: opinion_article
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

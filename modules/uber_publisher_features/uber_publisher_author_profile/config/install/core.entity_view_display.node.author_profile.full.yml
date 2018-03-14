@@ -1,0 +1,223 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.author_profile.body
+    - field.field.node.author_profile.field_description
+    - field.field.node.author_profile.field_image
+    - field.field.node.author_profile.field_linked_user
+    - field.field.node.author_profile.field_meta_tags
+    - field.field.node.author_profile.field_profile_image
+    - image.style.thumbnail
+    - node.type.author_profile
+  module:
+    - ds
+    - field_group
+    - image
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - group_cover_image
+        - field_image
+        - field_profile_image
+        - group_content_wrapper
+        - node_title
+        - field_description
+        - group_content
+        - group_group_left
+        - group_group_right
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 3
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h2
+          class: node-title
+          link: false
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_group:
+    group_group_right:
+      children:
+        - node_title
+        - field_description
+      parent_name: group_content
+      weight: 22
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: group-right
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Group Right'
+    group_group_left:
+      children:
+        - field_profile_image
+      parent_name: group_content
+      weight: 21
+      format_type: html_element
+      format_settings:
+        label: 'Group Left'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: 'group-left pull-left'
+      label: 'Group Left'
+    group_cover_image:
+      children:
+        - field_image
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: cover-image-wrapper
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Cover image'
+    group_content_wrapper:
+      children:
+        - group_content
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        label: 'Content wrapper'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: 'content-wrapper container'
+      label: 'Content wrapper'
+    group_content:
+      children:
+        - group_group_left
+        - group_group_right
+      parent_name: group_content_wrapper
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Content
+id: node.author_profile.full
+targetEntityType: node
+bundle: author_profile
+mode: full
+content:
+  field_description:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: ds_content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: se2e_4_1
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: ds_content
+  field_profile_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: circle-img
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    type: image
+    region: ds_content
+hidden:
+  body: true
+  field_linked_user: true
+  field_meta_tags: true
+  langcode: true
+  links: true

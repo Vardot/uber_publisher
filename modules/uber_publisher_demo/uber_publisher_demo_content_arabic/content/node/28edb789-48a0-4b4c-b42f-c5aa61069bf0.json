@@ -1,0 +1,264 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86\/%D8%B7%D8%B1%D8%AD-%D8%A3%D8%AD%D8%AF%D8%AB-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A7%D8%AA-%D9%85%D9%8A%D9%84%D9%8A%D9%86%D9%8A%D8%A7%D9%85-%D9%84%D9%84%D8%B1%D8%A7%D8%AD%D9%84-%D8%B3%D8%AA%D9%8A%D8%AC-%D9%84%D8%A7%D8%B1%D8%B3%D9%88%D9%86?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/86?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A7%D8%AA?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/%D8%B3%D8%AA%D9%8A%D8%AC-%D9%84%D8%A7%D8%B1%D8%B3%D9%88%D9%86?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "28edb789-48a0-4b4c-b42f-c5aa61069bf0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u0637\u0631\u062d \u0623\u062d\u062f\u062b \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\" \u0644\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646",
+            "lang": "ar"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbdea106-3fa3-4835-914d-1e9e16e9e722"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e34d22d1-b89d-4595-8fad-877ad4116b79"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D9%81%D9%86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44ba090b-70ff-4c01-bcf5-3b0a3ecd7e95"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A7%D8%AA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4a2b0eaf-dc07-40cb-b533-56840382d130"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/%D8%B3%D8%AA%D9%8A%D8%AC-%D9%84%D8%A7%D8%B1%D8%B3%D9%88%D9%86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0ef87d92-89ec-443d-8f55-db4ddd6665d9"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506424118,
+            "lang": "ar"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506424157,
+            "lang": "ar"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "ar"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506424157
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new \u0645\u0642\u0627\u0644"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ar"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "\u0637\u0631\u062d \u0623\u062d\u062f\u062b \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\" \u0644\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646 | Varbase",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Varbase",
+                "schema_web_site_name": "Varbase",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "\u0628\u062f\u0623 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u062e\u0645\u064a\u0633 \u0637\u0631\u062d \u0628\u064a\u0639 \u0623\u062d\u062f\u062b \u0623\u062c\u0632\u0627\u0621 \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\"\u060c \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u060c \u0644\u0644\u0643\u0627\u062a\u0628 \u0627\u0644\u0633\u0648\u064a\u062f\u064a \u0627\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646.\n\n\u0648\u064a\u0642\u0648\u0644 \u062f\u064a\u0641\u062f \u0644\u0627\u062c\u0631\u0643\u0631\u0627\u0646\u062a\u0632\u00a0-\u0627\u0644\u0630\u064a \u0643\u062a\u0628 \u0627\u0644\u0631\u0648\u0627\u064a\u0629 \u0627\u0644\u0623\u062d\u062f\u062b \u0627\u0644\u062a\u064a \u062a\u062d\u0645\u0644 \u0627\u0633\u0645 \"\u0630\u0627 \u062c\u064a\u0631\u0644 \u0647\u0648 \u062a\u064a\u0643\u0633 \u0622\u0646 \u0622\u064a \u0641\u0648\u0631 \u0622\u0646 \u0622\u064a\"- - \u0641\u064a \u062d\u062f\u064a\u062b \u0644\u0644\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629 \"\u0644\u0642\u062f \u0643\u0627\u0646\u062a \u0627\u0644\u0643\u062a\u0627\u0628\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0629 \u0623\u0643\u062b\u0631 \u0645\u062a\u0639\u0629\".\n\n\u0648\u064a\u0636\u0645 \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633 \u0627\u0644\u0634\u062e\u0635\u064a\u062a\u064a\u0646 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u062a\u064a\u0646 \u0644\u0644\u0627\u0631\u0633\u0648\u0646\u060c \u0648\u0647\u0645\u0627 \u0627\u0644\u0645\u0642\u0631\u0635\u0646\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0644\u064a\u0632\u0628\u064a\u062b \u0633\u0627\u0644\u0627\u0646\u062f\u0631 \u0648\u0627\u0644\u0635\u062d\u0641\u064a \u0645\u064a\u0643\u0627\u064a\u0644 \u0628\u0644\u0648\u0645\u0643\u0641\u064a\u0633\u062a.",
+                "twitter_cards_title": "| Varbase",
+                "twitter_cards_description": "\u0628\u062f\u0623 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u062e\u0645\u064a\u0633 \u0637\u0631\u062d \u0628\u064a\u0639 \u0623\u062d\u062f\u062b \u0623\u062c\u0632\u0627\u0621 \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\"\u060c \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u060c \u0644\u0644\u0643\u0627\u062a\u0628 \u0627\u0644\u0633\u0648\u064a\u062f\u064a \u0627\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646.\n\n\u0648\u064a\u0642\u0648\u0644 \u062f\u064a\u0641\u062f \u0644\u0627\u062c\u0631\u0643\u0631\u0627\u0646\u062a\u0632\u00a0-\u0627\u0644\u0630\u064a \u0643\u062a\u0628 \u0627\u0644\u0631\u0648\u0627\u064a\u0629 \u0627\u0644\u0623\u062d\u062f\u062b \u0627\u0644\u062a\u064a \u062a\u062d\u0645\u0644 \u0627\u0633\u0645 \"\u0630\u0627 \u062c\u064a\u0631\u0644 \u0647\u0648 \u062a\u064a\u0643\u0633 \u0622\u0646 \u0622\u064a \u0641\u0648\u0631 \u0622\u0646 \u0622\u064a\"- - \u0641\u064a \u062d\u062f\u064a\u062b \u0644\u0644\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629 \"\u0644\u0642\u062f \u0643\u0627\u0646\u062a \u0627\u0644\u0643\u062a\u0627\u0628\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0629 \u0623\u0643\u062b\u0631 \u0645\u062a\u0639\u0629\".\n\n\u0648\u064a\u0636\u0645 \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633 \u0627\u0644\u0634\u062e\u0635\u064a\u062a\u064a\u0646 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u062a\u064a\u0646 \u0644\u0644\u0627\u0631\u0633\u0648\u0646\u060c \u0648\u0647\u0645\u0627 \u0627\u0644\u0645\u0642\u0631\u0635\u0646\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0644\u064a\u0632\u0628\u064a\u062b \u0633\u0627\u0644\u0627\u0646\u062f\u0631 \u0648\u0627\u0644\u0635\u062d\u0641\u064a \u0645\u064a\u0643\u0627\u064a\u0644 \u0628\u0644\u0648\u0645\u0643\u0641\u064a\u0633\u062a.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "\u0628\u062f\u0623 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u062e\u0645\u064a\u0633 \u0637\u0631\u062d \u0628\u064a\u0639 \u0623\u062d\u062f\u062b \u0623\u062c\u0632\u0627\u0621 \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\"\u060c \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u060c \u0644\u0644\u0643\u0627\u062a\u0628 \u0627\u0644\u0633\u0648\u064a\u062f\u064a \u0627\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646.\n\n\u0648\u064a\u0642\u0648\u0644 \u062f\u064a\u0641\u062f \u0644\u0627\u062c\u0631\u0643\u0631\u0627\u0646\u062a\u0632\u00a0-\u0627\u0644\u0630\u064a \u0643\u062a\u0628 \u0627\u0644\u0631\u0648\u0627\u064a\u0629 \u0627\u0644\u0623\u062d\u062f\u062b \u0627\u0644\u062a\u064a \u062a\u062d\u0645\u0644 \u0627\u0633\u0645 \"\u0630\u0627 \u062c\u064a\u0631\u0644 \u0647\u0648 \u062a\u064a\u0643\u0633 \u0622\u0646 \u0622\u064a \u0641\u0648\u0631 \u0622\u0646 \u0622\u064a\"- - \u0641\u064a \u062d\u062f\u064a\u062b \u0644\u0644\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629 \"\u0644\u0642\u062f \u0643\u0627\u0646\u062a \u0627\u0644\u0643\u062a\u0627\u0628\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0629 \u0623\u0643\u062b\u0631 \u0645\u062a\u0639\u0629\".\n\n\u0648\u064a\u0636\u0645 \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633 \u0627\u0644\u0634\u062e\u0635\u064a\u062a\u064a\u0646 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u062a\u064a\u0646 \u0644\u0644\u0627\u0631\u0633\u0648\u0646\u060c \u0648\u0647\u0645\u0627 \u0627\u0644\u0645\u0642\u0631\u0635\u0646\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0644\u064a\u0632\u0628\u064a\u062b \u0633\u0627\u0644\u0627\u0646\u062f\u0631 \u0648\u0627\u0644\u0635\u062d\u0641\u064a \u0645\u064a\u0643\u0627\u064a\u0644 \u0628\u0644\u0648\u0645\u0643\u0641\u064a\u0633\u062a.",
+                "og_title": " | Varbase",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Varbase. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "\u0628\u062f\u0623 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u062e\u0645\u064a\u0633 \u0637\u0631\u062d \u0628\u064a\u0639 \u0623\u062d\u062f\u062b \u0623\u062c\u0632\u0627\u0621 \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\"\u060c \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u060c \u0644\u0644\u0643\u0627\u062a\u0628 \u0627\u0644\u0633\u0648\u064a\u062f\u064a \u0627\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646.\n\n\u0648\u064a\u0642\u0648\u0644 \u062f\u064a\u0641\u062f \u0644\u0627\u062c\u0631\u0643\u0631\u0627\u0646\u062a\u0632\u00a0-\u0627\u0644\u0630\u064a \u0643\u062a\u0628 \u0627\u0644\u0631\u0648\u0627\u064a\u0629 \u0627\u0644\u0623\u062d\u062f\u062b \u0627\u0644\u062a\u064a \u062a\u062d\u0645\u0644 \u0627\u0633\u0645 \"\u0630\u0627 \u062c\u064a\u0631\u0644 \u0647\u0648 \u062a\u064a\u0643\u0633 \u0622\u0646 \u0622\u064a \u0641\u0648\u0631 \u0622\u0646 \u0622\u064a\"- - \u0641\u064a \u062d\u062f\u064a\u062b \u0644\u0644\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629 \"\u0644\u0642\u062f \u0643\u0627\u0646\u062a \u0627\u0644\u0643\u062a\u0627\u0628\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0629 \u0623\u0643\u062b\u0631 \u0645\u062a\u0639\u0629\".\n\n\u0648\u064a\u0636\u0645 \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633 \u0627\u0644\u0634\u062e\u0635\u064a\u062a\u064a\u0646 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u062a\u064a\u0646 \u0644\u0644\u0627\u0631\u0633\u0648\u0646\u060c \u0648\u0647\u0645\u0627 \u0627\u0644\u0645\u0642\u0631\u0635\u0646\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0644\u064a\u0632\u0628\u064a\u062b \u0633\u0627\u0644\u0627\u0646\u062f\u0631 \u0648\u0627\u0644\u0635\u062d\u0641\u064a \u0645\u064a\u0643\u0627\u064a\u0644 \u0628\u0644\u0648\u0645\u0643\u0641\u064a\u0633\u062a.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "\u0646\u0639\u0645"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u0628\u062f\u0623 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u062e\u0645\u064a\u0633 \u0637\u0631\u062d \u0628\u064a\u0639 \u0623\u062d\u062f\u062b \u0623\u062c\u0632\u0627\u0621 \u0633\u0644\u0633\u0644\u0629 \u0631\u0648\u0627\u064a\u0627\u062a \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\"\u060c \u0627\u0644\u0623\u0643\u062b\u0631 \u0645\u0628\u064a\u0639\u0627\u060c \u0644\u0644\u0643\u0627\u062a\u0628 \u0627\u0644\u0633\u0648\u064a\u062f\u064a \u0627\u0644\u0631\u0627\u062d\u0644 \u0633\u062a\u064a\u062c \u0644\u0627\u0631\u0633\u0648\u0646.<\/p>\r\n\r\n<p>\u0648\u064a\u0642\u0648\u0644 \u062f\u064a\u0641\u062f \u0644\u0627\u062c\u0631\u0643\u0631\u0627\u0646\u062a\u0632&nbsp;-\u0627\u0644\u0630\u064a \u0643\u062a\u0628 \u0627\u0644\u0631\u0648\u0627\u064a\u0629 \u0627\u0644\u0623\u062d\u062f\u062b \u0627\u0644\u062a\u064a \u062a\u062d\u0645\u0644 \u0627\u0633\u0645 \"\u0630\u0627 \u062c\u064a\u0631\u0644 \u0647\u0648 \u062a\u064a\u0643\u0633 \u0622\u0646 \u0622\u064a \u0641\u0648\u0631 \u0622\u0646 \u0622\u064a\"- - \u0641\u064a \u062d\u062f\u064a\u062b \u0644\u0644\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629 \"\u0644\u0642\u062f \u0643\u0627\u0646\u062a \u0627\u0644\u0643\u062a\u0627\u0628\u0629 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0629 \u0623\u0643\u062b\u0631 \u0645\u062a\u0639\u0629\".<\/p>\r\n\r\n<p>\u0648\u064a\u0636\u0645 \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062e\u0627\u0645\u0633 \u0627\u0644\u0634\u062e\u0635\u064a\u062a\u064a\u0646 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u062a\u064a\u0646 \u0644\u0644\u0627\u0631\u0633\u0648\u0646\u060c \u0648\u0647\u0645\u0627 \u0627\u0644\u0645\u0642\u0631\u0635\u0646\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0644\u064a\u0632\u0628\u064a\u062b \u0633\u0627\u0644\u0627\u0646\u062f\u0631 \u0648\u0627\u0644\u0635\u062d\u0641\u064a \u0645\u064a\u0643\u0627\u064a\u0644 \u0628\u0644\u0648\u0645\u0643\u0641\u064a\u0633\u062a.<\/p>\r\n\r\n<p>\u0648\u064a\u0634\u0627\u0631 \u0625\u0644\u0649 \u0623\u0646 \u0644\u0627\u0631\u0633\u0648\u0646 -\u0648\u0647\u0648 \u0635\u062d\u0641\u064a \u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0631\u0648\u0627\u0626\u064a \u0648\u062a\u0648\u0641\u064a \u0646\u062a\u064a\u062c\u0629 \u062a\u0639\u0631\u0636\u0647 \u0644\u0623\u0632\u0645\u0629 \u0642\u0644\u0628\u064a\u0629&nbsp;\u0639\u0627\u0645 2004- \u062d\u0642\u0642 \u0646\u062c\u0627\u062d\u0627 \u0628\u0639\u062f \u0648\u0641\u0627\u062a\u0647 \u0628\u0641\u0636\u0644 \u062b\u0644\u0627\u062b\u064a\u0629 \"\u0645\u064a\u0644\u064a\u0646\u064a\u0627\u0645\" \u0627\u0644\u0634\u0647\u064a\u0631\u0629 \u0627\u0644\u062a\u064a \u0643\u062a\u0628\u0647\u0627 \u0648\u0628\u064a\u0639\u062a \u0645\u0646\u0647\u0627 \u0623\u0643\u062b\u0631 \u0645\u0646 80 \u0645\u0644\u064a\u0648\u0646 \u0646\u0633\u062e\u0629 \u062d\u0648\u0644 \u0627\u0644\u0639\u0627\u0644\u0645.<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "ar"
+        }
+    ]
+}

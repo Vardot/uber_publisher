@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * @file
+ */
+
+ /**
+  * Implements hook_install().
+  */
+function uber_publisher_monthly_caricature_install() {
+  $config_factory = \Drupal::configFactory();
+
+  // Update cartoons path alias pattern
+  $config_factory->getEditable('pathauto.pattern.caricature')->set('pattern', 'cartoons/[node:field_date:date:custom:Ym]/[node:title]')->save();
+
+  // update 'Cartoon node' Display suite field
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.block', 'views_block:monthly_cartoons-monthly_cartoons_node')->save();
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.config.id', 'views_block:monthly_cartoons-monthly_cartoons_node')->save();
+
+  // update 'Cartoons List' Display suite field
+  $config_factory->getEditable('ds.field.cartoons_list')->set('properties.block', 'views_block:monthly_cartoons-monthly_cartoons_list')->save();
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.config.id', 'views_block:monthly_cartoons-monthly_cartoons_list')->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function uber_publisher_monthly_caricature_uninstall() {
+  $config_factory = \Drupal::configFactory();
+
+  // Update cartoons path alias pattern
+  $config_factory->getEditable('pathauto.pattern.caricature')->set('pattern', 'cartoons/[node:field_date:date:custom:Y-m-d]/[node:title]')->save();
+
+  // update 'Cartoon node' Display suite field
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.block', 'views_block:cartoons-cartoons_node')->save();
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.config.id', 'views_block:cartoons-cartoons_node')->save();
+
+  // update 'Cartoons List' Display suite field
+  $config_factory->getEditable('ds.field.cartoons_list')->set('properties.block', 'views_block:cartoons-cartoons_list')->save();
+  $config_factory->getEditable('ds.field.cartoon_node')->set('properties.config.id', 'views_block:cartoons-cartoons_list')->save();
+}

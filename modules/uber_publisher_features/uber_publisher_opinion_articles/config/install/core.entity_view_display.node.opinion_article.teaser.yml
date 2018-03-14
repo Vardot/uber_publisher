@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.opinion_article.body
+    - field.field.node.opinion_article.field_author_profile
+    - field.field.node.opinion_article.field_comments
+    - field.field.node.opinion_article.field_image
+    - field.field.node.opinion_article.field_meta_tags
+    - field.field.node.opinion_article.field_section
+    - field.field.node.opinion_article.field_tags
+    - field.field.node.opinion_article.field_yoast_seo
+    - node.type.opinion_article
+  module:
+    - text
+    - user
+id: node.opinion_article.teaser
+targetEntityType: node
+bundle: opinion_article
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_author_profile: true
+  field_comments: true
+  field_image: true
+  field_meta_tags: true
+  field_section: true
+  field_tags: true
+  field_yoast_seo: true
+  langcode: true

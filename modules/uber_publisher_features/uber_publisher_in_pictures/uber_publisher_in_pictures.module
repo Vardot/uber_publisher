@@ -1,0 +1,32 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Contains uber_publisher_in_pictures.module..
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function uber_publisher_in_pictures_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'uber_publisher_in_pictures/general-scripts';
+}
+
+/** * Implements hook_form_FORM_ID_alter().
+*/
+function uber_publisher_in_pictures_form_node_in_pictures_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+   $form['ds_switch_view_mode']['ds_switch']['#options'] = [];
+   $form['ds_switch_view_mode']['ds_switch']['#options']['full'] = t('Big picture');
+   $form['ds_switch_view_mode']['ds_switch']['#options']['grid_gallery'] = t('Grid gallery');
+   $form['ds_switch_view_mode']['ds_switch']['#default_value'] = 'full';
+}
+
+/** * Implements hook_form_FORM_ID_alter().
+*/
+function uber_publisher_in_pictures_form_node_in_pictures_edit_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+   $form['ds_switch_view_mode']['ds_switch']['#options'] = [];
+   $form['ds_switch_view_mode']['ds_switch']['#options']['full'] = t('Big picture');
+   $form['ds_switch_view_mode']['ds_switch']['#options']['grid_gallery'] = t('Grid gallery');
+}

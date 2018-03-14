@@ -1,0 +1,64 @@
+core: 8.x
+type: theme
+base theme: vartheme
+
+name: 'Uber Publisher Vanilla Theme (LESS)'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Varbase'
+
+regions:
+  branding: Branding
+  search: Search
+  header_right: 'Header Right'
+  breaking_news: 'Breaking News'
+  breadcrumbs: 'Breadcrumbs'
+  help: 'Help'
+  main_menu: 'Main menu'
+  promotion_first: 'Promotion First'
+  promotion: Promotion
+  promotion_second: 'Promotion Second'
+  before_content: 'Before Content'
+  content_top: 'Content Top'
+  content: 'Main content'
+  content_bottom: 'Content Bottom'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar Right'
+  after_content: 'After Content'
+  highlighted: 'Highlighted'
+  before_panel : 'Before Panel'
+  panel_first: 'Panel First'
+  panel_second: 'Panel Second'
+  panel_third: 'Panel Third'
+  panel_four: 'Panel Four'
+  after_panel : 'After Panel'
+  before_footer: 'Before Footer'
+  footer_first: 'Footer Fisrt'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_four: 'Footer Four'
+  after_footer: 'After Footer'
+  copyright: Copyright
+
+libraries:
+  - 'uber_publisher_vanilla/global-styles'
+  - 'uber_publisher_vanilla/global-scripts'
+  - 'uber_publisher_vanilla/bootstrap-scripts'
+  # uber_publisher_vanilla Varbase Bootstrap Paragraphs colors theme.
+  - uber_publisher_vanilla/vbp-colors
+
+# OPTIONALLY: You can choose to remove Vartheme base theme stylesheets and/or
+# Javascript files.
+# Uncomment these lines to exclude css and js files from vartheme.
+# libraries-override:
+#   vartheme/global-styling:
+#     css:
+#       theme:
+#         css/style.css: false
+#   vartheme/global-scripts:
+#     js:
+#       js/script.js: false
+  # Uncomment the following lines only for right to left.
+  # vartheme/global-styling-rtl:
+  #   css:
+  #     theme:
+  #       css/style-rtl.css: false

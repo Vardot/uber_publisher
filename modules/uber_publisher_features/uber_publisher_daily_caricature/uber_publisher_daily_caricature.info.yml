@@ -1,0 +1,39 @@
+name: 'Uber Publisher Daily Caricature'
+description: 'Uber Publisher caricature for give fun to the readers.'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - content_moderation
+  - ctools
+  - datetime
+  - ds
+  - field
+  - image
+  - language
+  - linked_field
+  - menu_ui
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - pathauto
+  - rabbit_hole
+  - responsive_image
+  - slick
+  - slick_views
+  - text
+  - uber_publisher_amp
+  - uber_publisher_article
+  - uber_publisher_author_profile
+  - uber_publisher_core
+  - user
+  - varbase_media
+  - varbase_seo
+  - views
+  - views_bootstrap
+  - views_infinite_scroll
+version: 8.x-1.x-dev
+package: 'Uber Publisher'

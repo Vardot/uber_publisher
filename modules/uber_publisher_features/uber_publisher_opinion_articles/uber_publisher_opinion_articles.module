@@ -1,0 +1,5 @@
+<?php
+
+function uber_publisher_opinion_articles_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'uber_publisher_opinion_articles/opinion.lib';
+}

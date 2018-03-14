@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the uber_publisher_daily_caricature module.
+ */
+
+ /**
+  * Implements hook_install().
+  */
+function uber_publisher_daily_caricature_install() {
+  // Add cartoons-cartoons_listing_per_user view to Author page.
+  $config_factory = \Drupal::configFactory();
+  $config = $config_factory->get('page_manager.page_variant.node_view-panels_variant-0');
+  $blocks = $config->get('variant_settings')['blocks'];
+  $blocks['7d76bfbd-42ee-4dca-a6cc-fb5c0bd61ac8'] = [
+    'id' => 'views_block:cartoons-cartoons_listing_per_user',
+    'label' => '',
+    'provider' => 'views',
+    'label_display' => 'visible',
+    'items_per_page' => 'none',
+    'region' => 'main',
+    'weight' => '0',
+    'uuid' => '7d76bfbd-42ee-4dca-a6cc-fb5c0bd61ac8',
+    'context_mapping' => [],
+  ];
+  $config_factory->getEditable('page_manager.page_variant.node_view-panels_variant-0')->set('variant_settings.blocks', $blocks)->save();
+
+  $moduleHandler = \Drupal::service ( 'module_handler' );
+  if ($moduleHandler->moduleExists ('uber_publisher_social_post')) {
+    $config_factory->getEditable('core.entity_form_display.node.caricature.default')->set('content.field_post_to_twitter', ['type' => 'boolean_checkbox', 'weight' => '11', 'region' => 'content', 'settings' => ['display_label' => 'true'], 'third_party_settings' => []] )->save();
+  }
+}

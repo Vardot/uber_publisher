@@ -1,0 +1,95 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.amp
+    - field.field.node.opinion_article.body
+    - field.field.node.opinion_article.field_author_profile
+    - field.field.node.opinion_article.field_comments
+    - field.field.node.opinion_article.field_image
+    - field.field.node.opinion_article.field_meta_tags
+    - field.field.node.opinion_article.field_section
+    - field.field.node.opinion_article.field_tags
+    - field.field.node.opinion_article.field_yoast_seo
+    - node.type.opinion_article
+  module:
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_section
+        - field_author_profile
+        - body
+        - field_tags
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.opinion_article.amp
+targetEntityType: node
+bundle: opinion_article
+mode: amp
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: main
+  field_author_profile:
+    type: entity_reference_entity_view
+    weight: 1
+    region: main
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+  field_section:
+    type: entity_reference_label
+    weight: 0
+    region: main
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_tags:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: main
+hidden:
+  field_comments: true
+  field_image: true
+  field_meta_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

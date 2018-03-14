@@ -1,0 +1,300 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/technology\/why-switching-fully-electric-cars-will-take-time?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/82?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/technology?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/car-industry?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/fully-electric-cars?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/toyota?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/volkswagen?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "580646b1-a595-4603-b434-0463bac29ffd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why switching to fully electric cars will take time",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/82?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b9f01e70-baaa-4b5b-9231-42e59fc28446"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7765ed7d-06d6-4f37-a26f-c5ac4a05c9f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/car-industry?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ae166b8b-681c-42a1-aa44-92dcec67f02a"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/fully-electric-cars?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "23baf7f1-d5e6-4409-b5a1-9e4ffe4ebc6d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/toyota?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cc273326-cffe-4498-be0b-e3bb7597e571"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/volkswagen?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "836f8ade-f3b2-4cd2-b95b-ec5440a43e0e"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506327634,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506327759,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506327759
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "Why switching to fully electric cars will take time | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "Are electric cars really about to take over from the old-fashioned internal combustion engine?\n\nJudging by some of the headlines we've seen recently, you could be forgiven for thinking petrol and diesel engines were about to be consigned to the scrap heap. Yet the reality is rather different.\n\nThere is no question that the car industry is undergoing a radical change.\n\nAt this year's Frankfurt Motor Show - currently under way in the German city - the buzzword throughout the cavernous exhibition halls has been \"electrification\".",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "Are electric cars really about to take over from the old-fashioned internal combustion engine?\n\nJudging by some of the headlines we've seen recently, you could be forgiven for thinking petrol and diesel engines were about to be consigned to the scrap heap. Yet the reality is rather different.\n\nThere is no question that the car industry is undergoing a radical change.\n\nAt this year's Frankfurt Motor Show - currently under way in the German city - the buzzword throughout the cavernous exhibition halls has been \"electrification\".",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "Are electric cars really about to take over from the old-fashioned internal combustion engine?\n\nJudging by some of the headlines we've seen recently, you could be forgiven for thinking petrol and diesel engines were about to be consigned to the scrap heap. Yet the reality is rather different.\n\nThere is no question that the car industry is undergoing a radical change.\n\nAt this year's Frankfurt Motor Show - currently under way in the German city - the buzzword throughout the cavernous exhibition halls has been \"electrification\".",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "Are electric cars really about to take over from the old-fashioned internal combustion engine?\n\nJudging by some of the headlines we've seen recently, you could be forgiven for thinking petrol and diesel engines were about to be consigned to the scrap heap. Yet the reality is rather different.\n\nThere is no question that the car industry is undergoing a radical change.\n\nAt this year's Frankfurt Motor Show - currently under way in the German city - the buzzword throughout the cavernous exhibition halls has been \"electrification\".",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Are electric cars really about to take over from the old-fashioned internal combustion engine?<\/p>\r\n\r\n<p>Judging by some of the headlines we've seen recently, you could be forgiven for thinking petrol and diesel engines were about to be consigned to the scrap heap. Yet the reality is rather different.<\/p>\r\n\r\n<p>There is no question that the car industry is undergoing a radical change.<\/p>\r\n\r\n<p>At this year's Frankfurt Motor Show - currently under way in the German city - the buzzword throughout the cavernous exhibition halls has been \"electrification\".<\/p>\r\n\r\n<p>The day before the show, for example,&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/news\/business-41231766\">Volkswagen said it would build electrified versions<\/a>&nbsp;of every model in its range - including those sold under the Audi, Skoda, Seat and Porsche brands - by 2030.<\/p>\r\n\r\n<p>The same evening, Mercedes' parent company Daimler said it would have electrified versions of its own models by 2022.<\/p>\r\n\r\n<p>Other companies, including Volvo, Jaguar Land Rover and Honda have made similar pledges.<\/p>\r\n\r\n<p>These are undoubtedly ambitious plans - but it is important to recognise their limitations.<\/p>\r\n\r\n<p>They are not saying they will get rid of diesel or petrol cars completely. They are simply promising to make electrified versions of them available.<\/p>\r\n\r\n<p>It is also important to recognise what \"electrified\" actually means.<\/p>\r\n\r\n<p>It can, of course, refer to fully electric battery powered vehicles. But it can also be used to describe hybrids - and hybrids come in many forms.<\/p>\r\n\r\n<p>A plug-in hybrid, for example, has a large battery capacity and is often capable of running entirely on electric power at least part of the time, though it will have a petrol engine as well.<\/p>\r\n\r\n<p>One type of plug-in hybrid, often referred to as a range-extended EV, is essentially an electric car with a small petrol engine that acts as an on-board generator.\"<\/p>\r\n\r\n<p>A strong or full hybrid, like the Toyota Prius, uses a relatively powerful electric motor alongside a conventional engine, but you don't need to plug it in for a recharge.<\/p>\r\n\r\n<p>A mild hybrid, meanwhile, is effectively a conventional car, equipped with a small electric motor that allows the engine to shut down temporarily when the car is stopped at traffic lights, for example. It can also be used to improve acceleration and power auxiliary systems.<\/p>\r\n\r\n<p>To fulfil their commitments, carmakers could simply offer a range of mild hybrids. They are cheaper to produce than full hybrids, yet they can offer significant benefits in terms of performance and fuel consumption.<\/p>\r\n\r\n<p>More and more cars are already being built in this way.<\/p>\r\n\r\n<p>Although their pledges may sound a bit more dramatic than they really are, it is true that carmakers are investing a great deal of money in new electric models.<\/p>\r\n\r\n<p>Volkswagen, for example, says that by 2025, one in four of its cars could be battery powered. BMW says it will be offering 12 pure-electric models by the same date.<\/p>\r\n\r\n<p>So what is driving the move towards electric vehicles? There are several factors at play.<\/p>\r\n\r\n<p>The launch of the Tesla Model S in 2012 proved that electric cars could perform as well as their petrol equivalents and have a decent battery range, albeit at a high price.<\/p>\r\n\r\n<p>Since then the cost of lithium-ion batteries has fallen significantly, while battery management technology has improved, making that kind of performance more affordable.<\/p>\r\n\r\n<p>Secondly, anti-pollution legislation is being tightened in key markets. Here in Europe, for example, there will be new limits in force for emissions of carbon dioxide from 2021.<\/p>\r\n\r\n<p>Those limits are much stricter than the current ones, and they are based on the average level of pollution produced by a manufacturer's entire fleet.<\/p>\r\n\r\n<p>So by producing zero-emissions cars, manufacturers will find it much easier to meet the targets. The same logic applies to building more hybrids.<\/p>\r\n\r\n<p>Both of these factors were already affecting the major manufacturers' long term thinking, when in September 2015, another factor came into play.<\/p>\r\n\r\n<p><a href=\"http:\/\/www.bbc.co.uk\/news\/business-34324772\">The diesel emissions scandal<\/a>&nbsp;cast an unwelcome spotlight on the industry - exposing not just sharp practice, but the fact that diesel cars in particular routinely produced far more harmful pollution than official figures would suggest.<\/p>\r\n\r\n<p>The result was a backlash from politicians and consumers - while Volkswagen, the architect of the scandal, tried to restore its reputation by becoming a leader in electric car technology.<\/p>\r\n\r\n<p>As the VW Group chief executive Matthias Mueller told me in Frankfurt: \"We've got the message of course. Consumers want clean vehicles. People want clean air, and we want to make our contribution.\"<\/p>\r\n\r\n<p>Electrification was on the cards long before the VW scandal erupted. But the events of two years ago may well have helped to accelerate the process.<\/p>\r\n\r\n<p>Now, it seems that carmakers are making a virtue out of a necessity, trying to gain some useful PR mileage from a process that was, in reality, more or less inevitable.<\/p>\r\n\r\n<p>So, too, are politicians. Talk of banning petrol and diesel cars may sound dramatic, draconian even. But here in the UK, for example, the proposed ban doesn't cover hybrids.<\/p>\r\n\r\n<p>Industry experts say that by 2040 - the date when the ban is due to take effect - it is highly unlikely there will be any non-hybrid cars left on the market anyway.<\/p>\r\n\r\n<p>Then there is the question of infrastructure.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<figure>\r\n<p>There are currently about 7,300 charging points for electric cars in the UK, and the number is increasing at a rate of about 10 per day, according to ZapMap. Globally, the figure is around two million, according to the International Energy Agency.<\/p>\r\n\r\n<p>Clearly, if millions of petrol and diesel cars are to be replaced by electric versions, then we will need a huge investment in charging infrastructure, or they won't be going anywhere.<\/p>\r\n\r\n<p>They will also need batteries - a lot of batteries. And the power to charge them has to be generated somewhere.<\/p>\r\n\r\n<p>That will take time and money.<\/p>\r\n\r\n<p>Meanwhile, hybrid cars offer a convenient and effective stop-gap. As BMW's chief executive Harald Krueger puts it, petrol and diesel cars \"are not dead yet\".<\/p>\r\n\r\n<p>\"You will see a transition time, with investments in combustion engines - petrol engines, diesel engines, very efficient engines,\" he says.<\/p>\r\n\r\n<p>\"But long term, we will see sustainable mobility with e-mobility.\"<\/p>\r\n\r\n<figure>\r\n<p>VW Group's Matthias Mueller agrees.<\/p>\r\n\r\n<p>\"There will be a coexistence between internal combustion engines and electric drive systems for a certain period. I can't tell you how long that will be,\" he says.<\/p>\r\n\r\n<p>\"And that's because we do have to get the right infrastructure in place... we have to create the battery capacity.<\/p>\r\n\r\n<p>\"We're talking about enormous capacity here, and it has yet to be created.\"<\/p>\r\n<\/figure>\r\n<\/figure>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+general-scripts:
+  js:
+    js/uber_publisher_core.scripts.js: { }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    - sharerich/sharerich
+    - sharerich/rrssb

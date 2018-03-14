@@ -1,0 +1,11 @@
+name: 'Uber Publisher Social Posting'
+description: 'Adds the ability to automatically post articles and posts to social media networks like Twitter and/or Facebook. You will have to authenticate your social media accounts after enabling this feature.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - social_post_twitter
+  - uber_publisher_core
+version: 8.x-1.x-dev
+package: 'Uber Publisher'

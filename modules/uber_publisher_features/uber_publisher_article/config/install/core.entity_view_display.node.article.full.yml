@@ -1,0 +1,104 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.article_comments.default
+    - core.entity_view_mode.node.full
+    - field.field.node.article.body
+    - field.field.node.article.field_comments
+    - field.field.node.article.field_image
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_section
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - comment
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_section
+        - field_image
+        - body
+        - field_tags
+        - field_comments
+id: node.article.full
+targetEntityType: node
+bundle: article
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: main
+  field_comments:
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: main
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: se2e
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+  field_section:
+    type: entity_reference_label
+    weight: 0
+    region: main
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_tags:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: main
+hidden:
+  field_meta_tags: true
+  field_yoast_seo: true
+  langcode: true
+  links: true

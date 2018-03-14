@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__articles_promoted_splash_area
+theme: uber_publisher_vanilla
+region: promotion
+weight: -11
+provider: null
+plugin: 'views_block:articles-promoted_splash_area'
+settings:
+  id: 'views_block:articles-promoted_splash_area'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

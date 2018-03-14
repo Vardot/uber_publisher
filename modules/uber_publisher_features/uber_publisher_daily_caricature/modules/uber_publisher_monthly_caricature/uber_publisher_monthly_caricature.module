@@ -1,0 +1,13 @@
+<?php
+
+/*
+ * Implements hook_ENTITY_TYPE_presave()
+ */
+function uber_publisher_monthly_caricature_node_presave(Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->getType() == 'caricature') {
+    if(!empty($entity->get('field_date')->getValue()[0]['value'])) {
+      $value = date("Ym", strtotime($entity->get('field_date')->getValue()[0]['value']));
+      $entity->set('field_year_month' , $value);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<article>
+  {% if content.header %}
+    <header>
+      {{ content.header }}
+    </header>
+  {% endif %}
+
+  {% if content.content %}
+    {{ content.content }}
+  {% endif %}
+
+  {% if content.footer %}
+    <footer>
+      {{ content.footer }}
+    </footer>
+  {% endif %}
+</article>

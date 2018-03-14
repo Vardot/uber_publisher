@@ -1,0 +1,5 @@
+entity.uber_publisher_core.collection:
+  title: Uber Publisher Article settings
+  route_name: uber_publisher_core.settings
+  parent: system.admin_structure
+  description: 'List and edit Uber Publisher Article settings.'

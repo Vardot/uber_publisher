@@ -1,0 +1,9 @@
+<?php
+
+function uber_publisher_daily_caricature_theme($existing, $type, $theme, $path) {
+  return [
+    'field__default__node__dynamic_block_field__node_cartoons_list' => [
+      'base hook' => 'field',
+    ]
+  ];
+}

@@ -1,0 +1,282 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/how-chinese-mulberry-bark-paved-way-paper-money?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/77?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/banking?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/chinese?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/marco-polo?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "5e780388-fc17-4dc8-a3f9-70efc6caba2c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How Chinese mulberry bark paved the way for paper money",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/77?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e42fa19f-26de-4784-b183-2086281dd143"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/banking?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09e926b2-35b0-4305-8411-13c611d2c500"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/chinese?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a3b1d81d-6967-4bfe-ae40-58c6063cab33"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/marco-polo?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d811a62d-998f-4f51-8a35-bf429bfcc6cc"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506326953,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506327084,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506327084
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "How Chinese mulberry bark paved the way for paper money | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "Almost 750 years ago, a young Venetian merchant named Marco Polo wrote a remarkable book chronicling his travels in China.\n\nThe Book of the Marvels of the World was full of strange foreign customs that Marco claimed to have seen.\n\nBut there was one that was so extraordinary, Marco Polo could barely contain himself: \"Tell it how I might,\" he wrote, \"you never would be satisfied that I was keeping within truth and reason.\"",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "Almost 750 years ago, a young Venetian merchant named Marco Polo wrote a remarkable book chronicling his travels in China.\n\nThe Book of the Marvels of the World was full of strange foreign customs that Marco claimed to have seen.\n\nBut there was one that was so extraordinary, Marco Polo could barely contain himself: \"Tell it how I might,\" he wrote, \"you never would be satisfied that I was keeping within truth and reason.\"",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "Almost 750 years ago, a young Venetian merchant named Marco Polo wrote a remarkable book chronicling his travels in China.\n\nThe Book of the Marvels of the World was full of strange foreign customs that Marco claimed to have seen.\n\nBut there was one that was so extraordinary, Marco Polo could barely contain himself: \"Tell it how I might,\" he wrote, \"you never would be satisfied that I was keeping within truth and reason.\"",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "Almost 750 years ago, a young Venetian merchant named Marco Polo wrote a remarkable book chronicling his travels in China.\n\nThe Book of the Marvels of the World was full of strange foreign customs that Marco claimed to have seen.\n\nBut there was one that was so extraordinary, Marco Polo could barely contain himself: \"Tell it how I might,\" he wrote, \"you never would be satisfied that I was keeping within truth and reason.\"",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Almost 750 years ago, a young Venetian merchant named Marco Polo wrote a remarkable book chronicling his travels in China.<\/p>\r\n\r\n<p>The Book of the Marvels of the World was full of strange foreign customs that Marco claimed to have seen.<\/p>\r\n\r\n<p>But there was one that was so extraordinary, Marco Polo could barely contain himself: \"Tell it how I might,\" he wrote, \"you never would be satisfied that I was keeping within truth and reason.\"<\/p>\r\n\r\n<p>What had excited Marco so much? He was one of the first Europeans to witness an invention that remains at the foundation of the modern economy: paper money.<\/p>\r\n\r\n<p><a href=\"http:\/\/www.bbc.co.uk\/programmes\/p04b1g3c\">50 Things That Made the Modern Economy<\/a>&nbsp;highlights the inventions, ideas and innovations which have helped create the economic world in which we live.<\/p>\r\n\r\n<p>It is broadcast on the BBC World Service. You can find&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p059c7g1\">more information about the programme's sources<\/a>&nbsp;and&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p059c7g1\">listen online<\/a>&nbsp;or&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p04b1g3c\/episodes\/downloads\">subscribe to the programme podcast<\/a>.<\/p>\r\n\r\n<hr \/>\r\n<p>Of course, the paper itself isn't the point. Modern paper money isn't made of paper - it's made of cotton fibres or plastic.<\/p>\r\n\r\n<p>And the Chinese money that so fascinated Marco Polo wasn't quite paper either.<\/p>\r\n\r\n<p>It was made from a black sheet derived from the bark of mulberry trees, signed by multiple officials and, with a seal smothered in bright red vermilion, authenticated by the Chinese emperor Kublai Khan himself.<\/p>\r\n\r\n<p>The chapter of Marco Polo's book was titled, somewhat breathlessly: \"How the great Khan Causes the Bark of Trees, Made into Something Like Paper, to Pass for Money All over His Country\".<\/p>\r\n\r\n<p>The point is, that whatever these notes were made of, their value didn't come from the preciousness of the substance, as with a gold or silver coin.<\/p>\r\n\r\n<p>Instead, the value was created purely by the authority of the government.<\/p>\r\n\r\n<h2>'Genius' system<\/h2>\r\n\r\n<p>Paper money is sometimes called fiat money - the Latin word \"fiat\" means \"let it be done\". The Great Khan announces that officially stamped mulberry bark is money - and lo, let it be done. Money it is.<\/p>\r\n\r\n<p>The genius of this system amazed Marco Polo, who explained that the paper money circulated as though it were gold or silver itself. Where was all the gold that wasn't circulating? Well, the emperor kept a tight hold of that.<\/p>\r\n\r\n<p>The Mulberry money itself wasn't new when Marco Polo heard about it. It had emerged nearly three centuries earlier, around the year 1000 in Sichuan, China.<\/p>\r\n\r\n<p>Sichuan was a frontier province, bordered by foreign and sometimes hostile states. China's rulers didn't want valuable gold and silver currency to leak into foreign lands, and so they imposed a bizarre rule. Sichuan had to use coins made of iron.<\/p>\r\n\r\n<p>Iron coins aren't terribly practical. If you traded in a handful of silver coins - 50g worth - you'd be given your own body weight in iron coins.<\/p>\r\n\r\n<p>Even something simple like salt was worth more, gram for gram, than iron - so if you went to the market for groceries, your sackful of coins on the way there would weigh more than the bag of goods that you brought back.<\/p>\r\n\r\n<p>Sichuan merchants had a problem, as William Goetzmann explains in his book Money Changes Everything. It was illegal to use gold and silver coins, and impractical to use iron coins. It's no surprise that they began to experiment with an alternative.<\/p>\r\n\r\n<p>That alternative was called \"jiaozi\", or \"exchange bills\". Instead of carrying around a wagonload of iron coins, a well-known and trusted merchant would write an IOU, and promise to pay his bill later when it was more convenient for everyone.<\/p>\r\n\r\n<p>That was a simple enough idea. But then there was a twist, a kind of economic magic. These \"jiaozi\", or IOUs, started to trade freely.<\/p>\r\n\r\n<p>Suppose I supply some goods to the eminently reputable Mr Zhang, and he gives me an IOU. When I go to your shop later, rather than paying you with iron coins - who does that? - I could write you an IOU.<\/p>\r\n\r\n<h2>Primitive paper money<\/h2>\r\n\r\n<p>But it might be simpler - and indeed you might prefer it - if instead I give you Mr Zhang's IOU. After all, we both know he's good for the money.<\/p>\r\n\r\n<p>Now you, and I, and Mr Zhang, have together created a kind of primitive paper money - it's a promise to repay that has a marketable value of its own - and can be passed around from person to person without being redeemed.<\/p>\r\n\r\n<p>This is very good news for Mr Zhang, because as long as people keep finding it convenient simply to pass on his IOU as a way of paying for things, Mr Zhang never actually has to stump up the iron coins.<\/p>\r\n\r\n<p>Effectively, he enjoys an interest-free loan for as long as his IOU continues to circulate. Better still, it's a loan that he may never be asked to repay.<\/p>\r\n\r\n<p>No wonder the Chinese authorities started to think these benefits ought to accrue to them, rather than to the likes of Mr Zhang.<\/p>\r\n\r\n<p>At first they regulated the issuance of jiaozi, but then outlawed private jiaozi and took over the whole business themselves.<\/p>\r\n\r\n<h2>Modern step<\/h2>\r\n\r\n<p>The official jiaozi currency was a huge hit, circulating across regions and even internationally. In fact, the jiaozi even traded at a premium, because they were so much easier to carry around than metal coins.<\/p>\r\n\r\n<p>Initially, the government-issued jiaozi could be redeemed for coins on demand, exactly as the private jiaozi had been. This was logical: it treated the paper notes as a placeholder for something of real value.<\/p>\r\n\r\n<p>But the government soon moved stealthily to a fiat system, maintaining the principle but abandoning the practice of redeeming jiaozi for metal. Bring an old jiaozi in to the government treasury to be redeemed, and you would receive a crisp new jiaozi.<\/p>\r\n\r\n<p>That was a very modern step. The money we use today all over the world is created by central banks and it's backed by nothing in particular except the promises to replace old notes with fresh ones.<\/p>\r\n\r\n<p>We've moved from a situation where Mr Zhang's IOU circulates without ever being redeemed, to the mind-bending situation where the government's IOUs circulate despite never being redeemed.<\/p>\r\n\r\n<h2>Temptation<\/h2>\r\n\r\n<p>For governments, fiat money represents a temptation: a government with bills to pay can simply print more money. And when more money chases the same amount of goods and services, prices tend to go up.<\/p>\r\n\r\n<p>The temptation quickly proved too great to resist.<\/p>\r\n\r\n<p>The Song dynasty issued too many jiaozi. Counterfeiting was also a problem. Within a few decades of its invention in the early 11th century, jiaozi was devalued and discredited, trading at just 10% of its face value.<\/p>\r\n\r\n<p>Other countries have since suffered much worse. Weimar Germany and Zimbabwe are famous examples of economies collapsing into chaos as excessive money-printing rendered prices meaningless.<\/p>\r\n\r\n<figure>\r\n<p>The abysmal world record for hyperinflation is held by Hungary in 1946, where prices trebled during the course of every day. Walk into a Budapest cafe back then, and it was better to pay for your coffee when you arrived, not when you left.<\/p>\r\n\r\n<h2>The gold standard<\/h2>\r\n\r\n<p>These rare but terrifying episodes have convinced some economic radicals that fiat money can never be stable.<\/p>\r\n\r\n<p>They yearn for a return to the days of the gold standard, when paper money could always be redeemed for a little piece of the precious metal held inside Fort Knox.<\/p>\r\n\r\n<p>But mainstream economists generally now believe that pegging the money supply to gold is a terrible idea. Most regard low and predictable inflation as no problem at all - perhaps even a useful lubricant to economic activity.<\/p>\r\n\r\n<p>And while we may not always be able to trust central bankers to print just the right amount of new money, it probably makes more sense than trusting miners to dig up just the right amount of new gold.<\/p>\r\n\r\n<p>The ability to fire up the printing presses is especially useful in crisis situations.<\/p>\r\n\r\n<p>After the 2007 financial crisis, the US Federal Reserve pumped trillions of dollars into the economy, without creating inflation. In fact, the printing presses were metaphorical: those trillions were simply created by key-strokes on computers in the global banking system.<\/p>\r\n\r\n<p>As a wide-eyed Marco Polo might have put it: \"The great Central Bank Causes the Digits on a Computer Screen, Made into Something Like Spreadsheets, to Pass for Money\".<\/p>\r\n\r\n<p>Technology has changed, but what passes for money continues to astonish.<\/p>\r\n\r\n<p>Tim Harford writes the Financial Times's Undercover Economist column.&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p04b1g3c\">50 Things That Made the Modern Economy<\/a>&nbsp;is broadcast on the BBC World Service. You can&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p059c7g1\">find more information about the programme's sources<\/a>&nbsp;and&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p059c7g1\">listen online<\/a>&nbsp;or&nbsp;<a href=\"http:\/\/www.bbc.co.uk\/programmes\/p04b1g3c\/episodes\/downloads\">subscribe to the programme podcast.<\/a><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n<\/figure>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

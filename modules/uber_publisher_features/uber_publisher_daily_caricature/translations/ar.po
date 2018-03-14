@@ -1,0 +1,28 @@
+# Arabic translation of Uber Publisher caricature content type
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-07-26 09:35+0200\n"
+"PO-Revision-Date: 2017-07-26 09:35+0200\n"
+"Last-Translator: NAME <m.eid@vardot.com>\n"
+"Language-Team: LANGUAGE <m.eid@vardot.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Caricature"
+msgstr "كاريكاتور"
+
+msgid "Author"
+msgstr "المؤلف"
+
+msgid "Caricature date"
+msgstr "تاريخ الكاريكاتير"
+
+msgid "Caricature image"
+msgstr "صورة الكاريكاتير"
+
+msgid "Description"
+msgstr "الوصف"

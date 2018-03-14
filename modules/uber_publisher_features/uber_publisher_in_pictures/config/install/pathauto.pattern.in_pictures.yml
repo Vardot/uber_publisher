@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: in_pictures
+label: 'In pictures'
+type: 'canonical_entities:node'
+pattern: '/in-pictures/[node:title]'
+selection_criteria:
+  93a9a825-b6a4-4755-bd6d-f29112067331:
+    id: node_type
+    bundles:
+      in_pictures: in_pictures
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 93a9a825-b6a4-4755-bd6d-f29112067331
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,45 @@
+.circle-img img {
+  border-radius: 50%;
+}
+
+.node--type-author-profile.node--view-mode-teaser {
+  display: flex;
+  align-items: center;
+}
+
+.node--type-author-profile.node--view-mode-teaser .node-title {
+  margin: 0px;
+}
+
+.node--type-author-profile.node--view-mode-teaser .group-left {
+  margin-right: 15px;
+}
+
+.node node--type-author-profile.node--view-mode-full {
+  position: relative;
+}
+
+.node--type-author-profile.node--view-mode-full .content-wrapper {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.node--type-author-profile.node--view-mode-full .content-wrapper .content { 
+  width: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.node--type-author-profile.node--view-mode-full .content-wrapper .content .group-left {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.node--type-author-profile.node--view-mode-full .content-wrapper .content .group-right .node-title {
+  margin: 10px 0px;
+}

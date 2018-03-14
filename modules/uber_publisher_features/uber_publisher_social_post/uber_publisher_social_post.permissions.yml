@@ -1,0 +1,4 @@
+access autotweet:
+  title: 'Content autotweet'
+  description: 'Autotweet content.'
+  restrict access: TRUE

@@ -1,0 +1,282 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/health\/new-antibody-attacks-99-hiv-strains?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/83?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/health?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/hivaids?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/medical-research?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/antibody?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3792ee25-cf10-40a9-a27a-9c88867d3acd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "New antibody attacks 99% of HIV strains",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "09b9e515-5feb-4972-97ef-3a05eab0094c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/83?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36a6914c-6705-4394-9270-5f3dd0975d70"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/health?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4226f65-a221-4983-8745-9e5948742d54"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/hivaids?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d2988950-269a-4cb0-8734-b1903cb47fe0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/medical-research?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "88383d95-58f5-4fc3-a3d1-2daa3e3c6b33"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/antibody?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fefe6233-def5-4edf-a653-b9918b876b3c"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1506327859,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1506327930,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1506327930
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Created new Article"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "schema_web_site_type": "WebSite",
+                "title": "New antibody attacks 99% of HIV strains | Up",
+                "shortlink": null,
+                "twitter_cards_type": "summary_large_image",
+                "og_site_name": "Up",
+                "schema_web_site_name": "Up",
+                "canonical_url": null,
+                "og_type": "article",
+                "schema_web_site_url": "http:\/\/default\/",
+                "description": "Scientists have engineered an antibody that attacks 99% of HIV strains and can prevent infection in primates.\n\nIt is built to attack three critical parts of the virus - making it harder for HIV to resist its effects.\n\nThe work is a collaboration between the US National Institutes of Health and the pharmaceutical company Sanofi.\n\nThe International Aids Society said it was an \"exciting breakthrough\". Human trials will start in 2018 to see if it can prevent or treat infection.",
+                "twitter_cards_title": "| Up",
+                "twitter_cards_description": "Scientists have engineered an antibody that attacks 99% of HIV strains and can prevent infection in primates.\n\nIt is built to attack three critical parts of the virus - making it harder for HIV to resist its effects.\n\nThe work is a collaboration between the US National Institutes of Health and the pharmaceutical company Sanofi.\n\nThe International Aids Society said it was an \"exciting breakthrough\". Human trials will start in 2018 to see if it can prevent or treat infection.",
+                "og_url": "http:\/\/default\/%3Cnone%3E",
+                "abstract": "Scientists have engineered an antibody that attacks 99% of HIV strains and can prevent infection in primates.\n\nIt is built to attack three critical parts of the virus - making it harder for HIV to resist its effects.\n\nThe work is a collaboration between the US National Institutes of Health and the pharmaceutical company Sanofi.\n\nThe International Aids Society said it was an \"exciting breakthrough\". Human trials will start in 2018 to see if it can prevent or treat infection.",
+                "og_title": " | Up",
+                "generator": "Varbase 8 (https:\/\/www.vardot.com)",
+                "rights": "\u00a92017 Up. All rights reserved.",
+                "referrer": "origin",
+                "og_description": "Scientists have engineered an antibody that attacks 99% of HIV strains and can prevent infection in primates.\n\nIt is built to attack three critical parts of the virus - making it harder for HIV to resist its effects.\n\nThe work is a collaboration between the US National Institutes of Health and the pharmaceutical company Sanofi.\n\nThe International Aids Society said it was an \"exciting breakthrough\". Human trials will start in 2018 to see if it can prevent or treat infection.",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E",
+                "schema_web_site_publisher": {
+                    "@type": "Organization",
+                    "name": "Vardot",
+                    "url": "www.vardot.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http:\/\/default\/logo.png"
+                    }
+                },
+                "mobileoptimized": "width",
+                "handheldfriendly": "true",
+                "apple_mobile_web_app_capable": "yes"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Scientists have engineered an antibody that attacks 99% of HIV strains and can prevent infection in primates.<\/p>\r\n\r\n<p>It is built to attack three critical parts of the virus - making it harder for HIV to resist its effects.<\/p>\r\n\r\n<p>The work is a collaboration between the US National Institutes of Health and the pharmaceutical company Sanofi.<\/p>\r\n\r\n<p>The International Aids Society said it was an \"exciting breakthrough\". Human trials will start in 2018 to see if it can prevent or treat infection.<\/p>\r\n\r\n<p>Our bodies struggle to fight HIV because of the virus' incredible ability to mutate and change its appearance.<\/p>\r\n\r\n<p>These varieties of HIV - or strains - in a single patient are comparable to those of influenza&nbsp;<a href=\"https:\/\/academic.oup.com\/bmb\/article\/58\/1\/19\/337203\/Evolutionary-and-immunological-implications-of\">during a worldwide flu season<\/a>.<\/p>\r\n\r\n<p>So the immune system finds itself in a fight against an insurmountable number of strains of HIV.<\/p>\r\n\r\n<h2>Super-antibodies<\/h2>\r\n\r\n<p>But after years of infection, a small number of patients develop powerful weapons called \"broadly neutralising antibodies\" that attack something fundamental to HIV and can kill large swathes of HIV strains.<\/p>\r\n\r\n<p>Researchers have been trying to use broadly neutralising antibodies as a way to treat HIV, or prevent infection in the first place.<\/p>\r\n\r\n<ul>\r\n\t<li><a href=\"http:\/\/www.bbc.co.uk\/news\/health-40661252\">'Mind-blowing' cows hold clue to beating HIV<\/a><\/li>\r\n\t<li><a href=\"http:\/\/www.bbc.co.uk\/news\/health-40717613\">Antibody helps keep man's HIV at bay for 10 months<\/a><\/li>\r\n<\/ul>\r\n\r\n<p>The study,&nbsp;<a href=\"http:\/\/science.sciencemag.org\/lookup\/doi\/10.1126\/science.aan8630\">published in the journal Science<\/a>, combines three such antibodies into an even more powerful \"tri-specific antibody\".<\/p>\r\n\r\n<p>Dr Gary Nabel, the chief scientific officer at Sanofi and one of the report authors, told the BBC News website: \"They are more potent and have greater breadth than any single naturally occurring antibody that's been discovered.\"<\/p>\r\n\r\n<p>The best naturally occurring antibodies will target 90% of HIV strains.<\/p>\r\n\r\n<p>\"We're getting 99% coverage, and getting coverage at very low concentrations of the antibody,\" said Dr Nabel.<\/p>\r\n\r\n<p>Experiments on 24 monkeys showed none of those given the tri-specific antibody developed an infection when they were later injected with the virus.<\/p>\r\n\r\n<p>Dr Nabel said: \"It was quite an impressive degree of protection.\"<\/p>\r\n\r\n<p>The work included scientists at Harvard Medical School, The Scripps Research Institute, and the Massachusetts Institute of Technology.<\/p>\r\n\r\n<h2>'Exciting'<\/h2>\r\n\r\n<p>Clinical trials to test the antibody in people will start next year.<\/p>\r\n\r\n<p>Prof Linda-Gail Bekker, the president of the International Aids Society, told the BBC: \"This paper reports an exciting breakthrough.<\/p>\r\n\r\n<p>\"These super-engineered antibodies seem to go beyond the natural and could have more applications than we have imagined to date.<\/p>\r\n\r\n<p>\"It's early days yet, and as a scientist I look forward to seeing the first trials get off the ground in 2018.<\/p>\r\n\r\n<p>\"As a doctor in Africa, I feel the urgency to confirm these findings in humans as soon as possible.\"<\/p>\r\n\r\n<p>Dr Anthony Fauci, the director of the US National Institute of Allergy and Infectious Diseases, said it was an intriguing approach.<\/p>\r\n\r\n<p>He added: \"Combinations of antibodies that each bind to a distinct site on HIV may best overcome the defences of the virus in the effort to achieve effective antibody-based treatment and prevention.\"<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

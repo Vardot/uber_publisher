@@ -1,0 +1,78 @@
+cdn_provider: ''
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://localhost/dev/uber_site/docroot/profiles/uber_publisher/themes/uber_publisher_vanilla/favicon.ico'
+  use_default: true
+schemas:
+  bootstrap: 8000
+  vartheme: 8000
+  uber_publisher_vanilla: 8000
+region_wells:
+  branding: ''
+  search: ''
+  header_right: ''
+  breaking_news: ''
+  breadcrumbs: ''
+  help: ''
+  main_menu: ''
+  promotion_first: ''
+  promotion: ''
+  promotion_second: ''
+  before_content: ''
+  content_top: ''
+  content: ''
+  content_bottom: ''
+  sidebar_left: ''
+  sidebar_right: ''
+  after_content: ''
+  highlighted: ''
+  before_panel: ''
+  panel_first: ''
+  panel_second: ''
+  panel_third: ''
+  panel_four: ''
+  after_panel: ''
+  before_footer: ''
+  footer_first: ''
+  footer_second: ''
+  footer_third: ''
+  footer_four: ''
+  after_footer: ''
+  copyright: ''
+button_colorize: null
+button_iconize: null
+fluid_container: null
+forms_has_error_value_toggle: null
+forms_required_has_error: null
+forms_smart_descriptions: null
+forms_smart_descriptions_allowed_tags: null
+forms_smart_descriptions_limit: null
+image_responsive: null
+image_shape: null
+table_bordered: null
+table_condensed: null
+table_hover: null
+table_striped: null
+table_responsive: '-1'
+header_skin: header-2
+sticky_menu: '1'
+site_layout: wide
+table: ''
+header_container: 0
+theme_skin: ''
+enable_panel: '0'
+customize_css: ''
+foo_example: asdasd
+example_select: '3'
+breadcrumb_title: 0
+breadcrumb_home: 0
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true

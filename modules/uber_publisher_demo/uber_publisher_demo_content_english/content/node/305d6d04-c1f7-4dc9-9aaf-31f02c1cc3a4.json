@@ -1,0 +1,267 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/technology\/girl-scouts-are-adding-cybersecurity-badge?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/technology?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/16?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/study?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/girl-scouts-program?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "305d6d04-c1f7-4dc9-9aaf-31f02c1cc3a4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Girl Scouts are adding a cybersecurity badge",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7765ed7d-06d6-4f37-a26f-c5ac4a05c9f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/16?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "053fa2c0-7f34-4eeb-adff-af2e7af02b9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c643bcf5-0a5c-40a9-b1fd-8034e4a313f2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/study?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8dd64a7f-1a32-46dc-8f95-79244accc2d2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/girl-scouts-program?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad9d1ec0-dac3-40e4-8186-8172d2fed0bc"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498131708,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498132516,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498132516
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>Alongside cooking and camping, Girl Scouts will soon be able to earn a cybersecurity badge.<\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The organization announced this week the first of 18 new badges debuting in the<strong>&nbsp;<\/strong>fall of 2018. The Girl Scouts, founded in 1912, have long received badges when they mastered certain topics or skills.<\/p>\r\n\r\n<p>The cybersecurity badge will launch in partnership with security firm Palo Alto Networks. The new badges will become available to participants in kindergarten through 12th grade over the next two years.<\/p>\r\n\r\n<p>Girl Scouts CEO Sylvia Acevedo said the organization surveyed its members<strong>&nbsp;<\/strong>to learn which skills they wanted to acquire. The findings showed a strong desire for technical education.<\/p>\r\n\r\n<blockquote>\r\n<p>\"What we were really pleasantly surprised about is they wanted more computer science, specifically cybersecurity,\" Acevedo told CNN Tech.<\/p>\r\n<\/blockquote>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/lU9lhDy4n3Q.jpg?itok=UZODRzNJ\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=lU9lhDy4n3Q\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The Girl Scout cyber-education programs will be designed to encourage girls to pursue a career in the field.<\/p>\r\n\r\n<p>The focus for younger Girl Scouts<strong>&nbsp;<\/strong>will include data privacy, cyberbullying and protecting themselves online. Older members will learn how to code, become white hat (or ethical) hackers and create and work around firewalls, Acevedo said.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The Girl Scouts program -- with more than 1.8 million girls enrolled -- could help narrow the gender gap in technical fields by exposing girls to these opportunities earlier. A 2016 IT trade association&nbsp;study&nbsp;found boys are more likely to express an interest in working in IT. Among those girls who don't consider it a career, 69% cited unfamiliarity with jobs in the field.<\/p>\r\n\r\n<p>Cybersecurity workers are in high demand. According to a report from Frost &amp; Sullivan and (ISC)\u00b2, there will be a shortage of 1.5 million cybersecurity workers globally by 2020.<\/p>\r\n\r\n<blockquote>\r\n<p>\"If the industry is going to tackle the cybersecurity problems of tomorrow, we're going to need a robust and diverse talent pool,\" said Rick Howard, chief security officer at Palo Alto Networks.<\/p>\r\n<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497779730,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

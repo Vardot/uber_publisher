@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.breaking_news.field_summary
+    - field.field.node.breaking_news.field_url
+    - node.type.breaking_news
+  module:
+    - user
+id: node.breaking_news.teaser
+targetEntityType: node
+bundle: breaking_news
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_summary: true
+  field_url: true
+  langcode: true

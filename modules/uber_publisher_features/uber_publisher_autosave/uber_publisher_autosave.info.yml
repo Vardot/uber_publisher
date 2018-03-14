@@ -1,0 +1,8 @@
+name: 'Uber Publisher Autosave'
+description: 'Keep your data save with Uber Publisher'
+type: module
+core: 8.x
+dependencies:
+  - autosave_form
+version: 8.x-1.0-dev
+package: 'Uber Publisher'

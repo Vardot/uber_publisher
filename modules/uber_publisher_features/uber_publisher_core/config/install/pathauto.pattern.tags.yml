@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: tags
+label: Tags
+type: 'canonical_entities:taxonomy_term'
+pattern: 'tags/[term:name]'
+selection_criteria:
+  10f56b88-8218-44e1-b9ad-f0d163a7467c:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 10f56b88-8218-44e1-b9ad-f0d163a7467c
+  8cdd7eb3-73b6-4551-93c3-d110fcf84c82:
+    id: language
+    langcodes:
+      en: en
+      ar: ar
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: 8cdd7eb3-73b6-4551-93c3-d110fcf84c82
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Language

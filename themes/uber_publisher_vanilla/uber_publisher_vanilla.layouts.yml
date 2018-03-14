@@ -1,0 +1,24 @@
+uber_publisher_autor_profile:
+  label: 'Uber publisher author profile'
+  category: 'Uber publisher Layouts'
+  template: 'templates/layouts/author_profile'
+  regions:
+   cover:
+     label: 'Cover'
+   top:
+     label: 'Top'
+   main:
+     label: 'Content'
+   bottom:
+     label: 'Bottom'
+up_fbia:
+  label: 'UP FBIA'
+  category: 'Uber publisher Layouts'
+  template: 'templates/layouts/up_fbia'
+  regions:
+    header:
+      label: 'Header'
+    content:
+      label: 'Body'
+    footer:
+      label: 'Footer'

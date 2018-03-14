@@ -1,0 +1,273 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/politics\/who-karen-handel?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/politics?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/56?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/news?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/karen-handel?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "70dd6993-b56c-4ca6-8b52-27ab9af9c998"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Who is Karen Handel?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78952062-48f7-4cb2-ba05-66ac4f3694e5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/56?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4d0f3c50-e136-4f01-ab69-f8c26b54194f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/news?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "10a3457c-bdd1-4f88-a71d-18664968502d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2e8f0cfb-372a-4fa8-806c-e68642f705e5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/karen-handel?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "105bfed1-b1df-4d6b-9b42-0643474c354c"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498043357,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498046111,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498046111
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>In Karen Handel, Republicans found an experienced political hand to take on Democratic online fundraising star Jon Ossoff in the runoff for a hotly contested House seat in Georgia.<\/p>\r\n\r\n<p>But with Handel's political experience comes baggage.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>The former Georgia secretary of state's stances on social issues are certain to be a focus in the runoff -- particularly her effort to stop the Susan G. Komen Foundation, the breast cancer charity where she was senior vice president for policy, from funding screenings through Planned Parenthood because she opposes abortion rights. She later wrote a book, \"Planned Bullyhood,\" about the episode.<\/p>\r\n\r\n<p>After finishing second out of 18 candidates with 19.8% of the vote<a href=\"http:\/\/www.cnn.com\/2017\/04\/18\/politics\/georgia-house-6th-special-election-jon-ossoff\/\">&nbsp;<\/a>in the special election -- and first among 11 Republicans -- Handel will now square off with Ossoff in a June runoff.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/bF5QHBThTIA.jpg?itok=vxbxpy02\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=bF5QHBThTIA\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The contest has largely been seen as a test of President Donald Trump's popularity -- particularly because he barely won the district, even though his pick for health and human services secretary, former Rep. Tom Price, was re-elected in 2016 by more than 20 points, and Mitt Romney had carried the district by 23 points in 2012.<\/p>\r\n\r\n<p>Handel raised eyebrows when she didn't mention Trump at all in her speech Tuesday night. But she tweeted Wednesday morning that the President had called her. And, asked on CNN's \"New Day\" whether Trump would campaign for her, she said: \"I would hope so.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>\"He just called to say, 'Congratulations' and encourage me and let me know that as we go into June 20, that it's all-hands-on-deck for Republicans and we take it very seriously,\" she said.<\/p>\r\n\r\n<p>Handel, 55, grew up in the Washington suburbs in Maryland and moved to Atlanta in the 1990s for her husband's work. She later became a Fulton County commissioner and then Georgia's secretary of state.<\/p>\r\n\r\n<p>Handel has twice run unsuccessfully for higher office, losing in GOP primaries both times. In 2010, she was defeated in a governor's race by Nathan Deal. And in 2014, she unsuccessfully sought a US Senate seat won by David Perdue.<\/p>\r\n\r\n<p>Since her 2010 campaign, Handel has been -- as the Atlanta Journal-Constitution put it -- on the outside of local Republican politics looking in.<\/p>\r\n\r\n<p>John Garst, a Handel consultant,&nbsp;told the Atlanta Journal-Constitution&nbsp;that it's now up to Georgia's Republican heavyweights to decide whether to rally behind Handel.<\/p>\r\n\r\n<p>\"Now we have the question: Will the Republican power crowd that isn't here right now, and they're not going to be here tonight -- there's going to be some talking done in the backroom. Do they get behind her or do they not?\"<\/p>\r\n\r\n<p>Handel was targeted by other Republicans during the 6th District jungle primary -- including Dan Moody, whose campaign aired a memorable ad portraying Handel, who often wears a pearl necklace, as an elephant wearing an enormous set of pearls.<\/p>\r\n\r\n<p>She was also attacked by the Club for Growth over what it called out-of-control spending -- particularly on her office budget -- as a Fulton County commissioner.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Democrats are already readying their attacks against Handel, signaling they are prepared to pick up on the spending-related attacks.<\/p>\r\n\r\n<p>\"Handel's career as a big-spending career politician will haunt her candidacy,\" Democratic Congressional Campaign Committee press secretary Evan Lukaske said in a memo.<\/p>\r\n\r\n<p>Handel's efforts as secretary of state to purge Georgia's voter rolls by requiring voters to prove their citizenship led to fights with the Justice Department's Civil Rights Division.<\/p>\r\n\r\n<p>In an interview last month, Democratic National Committee Chairman Tom Perez -- who led the Civil Rights Division during President Barack Obama's first term -- said voters would hear \"a lot\" about Handel's efforts to require voters to prove their citizenship if she advanced to the runoff.<\/p>\r\n\r\n<p>\"Secretaries of state matter, and when they're good, then people can actually vote who are eligible to vote. And when they're following the ALEC playbook of the far right, they make it harder for people to vote,\" Perez said, referring to the conservative American Legislative Exchange Council.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497784326,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

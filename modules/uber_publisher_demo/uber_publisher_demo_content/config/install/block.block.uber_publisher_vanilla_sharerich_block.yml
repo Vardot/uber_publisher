@@ -1,0 +1,42 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_class
+    - ctools
+    - node
+    - sharerich
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: uber_publisher_vanilla_sharerich_block
+theme: uber_publisher_vanilla
+region: content
+weight: -9
+provider: null
+plugin: sharerich
+settings:
+  id: sharerich_block
+  label: 'Share this'
+  provider: sharerich
+  label_display: '0'
+  sharerich_set: default
+  orientation: horizontal
+  sticky: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

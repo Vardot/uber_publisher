@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.grid_gallery
+label: 'Grid gallery'
+targetEntityType: node
+cache: true

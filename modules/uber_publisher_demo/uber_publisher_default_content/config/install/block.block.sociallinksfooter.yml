@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - uber_publisher_vanilla
+third_party_settings:
+  block_class:
+    classes: ''
+id: sociallinksfooter
+theme: uber_publisher_vanilla
+region: before_footer
+weight: 0
+provider: null
+plugin: 'block_content:cf53556a-2447-4295-926a-bd29d13af4e7'
+settings:
+  id: 'block_content:cf53556a-2447-4295-926a-bd29d13af4e7'
+  label: 'Social links footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

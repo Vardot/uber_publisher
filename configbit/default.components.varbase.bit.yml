@@ -1,0 +1,36 @@
+# ==============================================================================
+# List of default uber publisher components, which they will be
+# installed when we install varbase.
+# ==============================================================================
+config_bit:
+  type: list
+  for: uber_publisher.info.yml
+  when:
+    install_default_components: true
+    list:
+      dependencies:
+        - varbase_core
+        - varbase_admin
+        - varbase_total_control
+        - varbase_security
+        - varbase_seo
+        - varbase_editor
+        - varbase_media
+        - varbase_webform
+        - varbase_page
+        - varbase_landing
+        # Enable listed modules in order at this installation step.
+        - libraries
+        # Enable default Uber Publisher basic base modules and features.
+        - vmi
+        - varbase_carousels
+        # Enable default Uber Publisher basic features.
+        - uber_publisher_core
+        - uber_publisher_article
+        - uber_publisher_fbia
+        - uber_publisher_amp
+        - uber_publisher_open_weather
+        - uber_publisher_ads_system
+        - uber_publisher_search
+        - uber_publisher_translations
+        - uber_publisher_default_content

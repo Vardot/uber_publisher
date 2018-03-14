@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'In pictures article'
+type: in_pictures
+description: 'Create <em>In Pictures</em> article to post news stories told and displayed in a form of picture galleries.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

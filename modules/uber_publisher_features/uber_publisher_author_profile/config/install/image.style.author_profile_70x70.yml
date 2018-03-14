@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: author_profile_70x70
+label: 'Author profile 70x70'
+effects:
+  23a53ecc-80f9-4a3c-bc0b-ddd0bffaa015:
+    uuid: 23a53ecc-80f9-4a3c-bc0b-ddd0bffaa015
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 70
+      height: 70
+pipeline: ''

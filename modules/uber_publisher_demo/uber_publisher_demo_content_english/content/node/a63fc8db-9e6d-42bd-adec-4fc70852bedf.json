@@ -1,0 +1,363 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sport\/pyeongchang-2018-afghan-skiers-harboring-unlikely-olympic-dreams?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/sport?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/33?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/skiers?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/skiing?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/olympians?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/challenge?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/afghan?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/skiclub?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/saad-mohseni?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a63fc8db-9e6d-42bd-adec-4fc70852bedf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "PyeongChang 2018: The Afghan skiers harboring unlikely Olympic dreams",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60c9208d-6a19-4e6c-a880-9ea9a6639eaa"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0f13432a-c605-4d01-a760-77ff9cd4273b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/sport?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1572d446-10e9-49e8-935d-730b238b859e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/skiers?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "65986f86-d1a5-4713-a147-1bd2446312df"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/skiing?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b0e871e5-ee00-4892-81c4-14b743f4671e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/olympians?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "da1032ca-118e-4926-aac3-c22c42733c08"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/challenge?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ba221714-10f4-4a3b-a3c3-fe85c8870390"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/afghan?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "370799f8-7092-4829-94e2-45ad6582f125"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/skiclub?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0aee6947-7de9-4521-a0ac-a668a7805535"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/saad-mohseni?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de7f1bc3-988d-4103-abf7-e8d9874f7598"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498045434,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498062978,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498062978
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>In a sport often associated with&nbsp;glitz, glamor, and wealth, what's going on at Bamyan Ski Club in Afghanistan is something of an anomaly.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>There are no ski lifts in the remote region of Bamyan in central Afghanistan, no groomed slopes, no fancy ski huts and the skiers arduously trek up mountains to get their downhill thrills.<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<p>And until a Swiss charity brought in modern day ski equipment, skiers were crudely strapped to self-made wooden skis. Even so spirits are high and laughter is heard as those new to the sport clumsily tumble across the snow.<\/p>\r\n\r\n<p>For two skiers in particular, these humble beginnings have provided a platform for competing on the global stage. Alishah Farhang and Sajjad Husaini starred at<a href=\"http:\/\/cnn.com\/2017\/02\/20\/sport\/word-ski-championships-st-moritz\/\">&nbsp;<\/a>this year's&nbsp;Ski World Championships in St. Moritz<a href=\"http:\/\/edition.cnn.com\/videos\/world\/2017\/02\/18\/spc-alpine-edge-world-championships-st-moritz-wrap-pkg.cnn\/video\/playlists\/alpine-edge\/)\">.<\/a><\/p>\r\n\r\n<p>They've now set their sights on a greater goal: to become the very first Afghan Winter Olympians at the 2018 Games in PyeongChang.<\/p>\r\n\r\n<p>All this against a backdrop of the ongoing war against the Taliban in Afghanistan. It's the longest foreign conflict in US history, with little sign that the NATO allies can disentangle themselves from the country's continuing problems.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2>From a war zone to the winter olympics<\/h2>\r\n\r\n<article data-scribe=\"component:card\" dir=\"ltr\">\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/11578G-jJd4.jpg?itok=0yCF0kwM\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=11578G-jJd4\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n<\/article>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497786465,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

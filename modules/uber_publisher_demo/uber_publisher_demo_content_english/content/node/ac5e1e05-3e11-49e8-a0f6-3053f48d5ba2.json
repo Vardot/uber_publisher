@@ -1,0 +1,273 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/politics\/heres-some-what-mueller-might-look-if-he-investigates-obstruction?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/politics?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/29?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/washington?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/news?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ac5e1e05-3e11-49e8-a0f6-3053f48d5ba2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Here's some of what Mueller might look at if he investigates obstruction",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78952062-48f7-4cb2-ba05-66ac4f3694e5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2d8f5fc8-92bf-46d6-97f8-8eff09ab3333"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/washington?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "573e0668-02d0-4cf9-9dbb-62850266be25"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/news?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "10a3457c-bdd1-4f88-a71d-18664968502d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/politics?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2e8f0cfb-372a-4fa8-806c-e68642f705e5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498043612,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498043657,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498043657
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This is a timeline of what is known about President Donald Trump's actions regarding the Russia investigation -- from conversations and comments, to tweets and meetings. CNN has reported that special counsel Robert Mueller plans to interview three top intelligence officials about their interactions with Trump as part of the early stages of what could become an obstruction investigation.&nbsp;The Washington Post&nbsp;reported on Wednesday night that Mueller is investigating Trump for obstruction of justice.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>November 13, 2016<\/strong>:<\/h4>\r\n\r\n<p>For the first time after the election, President-elect Trump weighs in publicly about the job security of FBI Director James Comey.&nbsp;Trump tells CBS News&nbsp;he respects Comey but hasn't made up his mind. Trump says he \"would like to talk to him before\" deciding.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<ul>\r\n<\/ul>\r\n\r\n<h4><strong>January 6, 2017<\/strong>:<\/h4>\r\n\r\n<p>Top US intelligence officials brief Trump about Russian meddling in the election. After that finishes,&nbsp;Comey stays behind for a one-on-one meeting&nbsp;to tell Trump about a dossier by former British intelligence agent Christopher Steele containing salacious allegations. At some point, Trump tells Comey that he hopes Comey will stay on as FBI director, and at some point before Comey leaves, Trump's aides make it clear that Trump won't ask him to step down, according to The New York Times. Something happens during this meeting that compels Comey to immediately write a memo about the encounter upon leaving Trump Tower.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>January 22, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump and Comey embrace during a White House gathering for top officials from the law enforcement community.&nbsp;Trump tells Comey, \"I really look forward to working with you,\" according to Comey's June 8 Senate Intelligence Committee testimony.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>January 27, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump and Comey have dinner at the White House. During the dinner, according to Comey's June testimony, Trump asks Comey if he wants to stay on as FBI director. Trump later tells Comey, \"I need loyalty. I expect loyalty.\" Comey does not respond. Later in the dinner, Trump says again, \"I need loyalty.\" Comey promises to always give Trump honesty. Trump presses him and asks for \"honest loyalty.\" Comey agrees to that. (Comey later testifies that he felt like Trump was trying to \"create some sort of patronage relationship\" by bringing up his job security again. Trump later denies that he was the one who requested the dinner, and also denies that he asked for a loyalty oath from Comey.)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>February 13, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump fires national security adviser Michael Flynn.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>February 14, 2017<\/strong>:<\/h4>\r\n\r\n<p>After a counterterrorism briefing in the Oval Office, Trump asks everyone in the room except Comey to leave. During their one-on-one conversation, Trump says Flynn is a good guy who didn't do anything wrong by speaking to the Russians, according to Comey's June testimony. White House chief of staff Reince Priebus tries to re-enter the room, but Trump waves him away. Trump goes on to tell Comey, \"I hope you can see your way clear to letting this go, to letting Flynn go. He is a good guy. I hope you can let this go,\" Comey reported in the Senate Committee hearing. Comey says Flynn is a good guy, but nothing else. (Comey said in his June 8 testimony that he interpreted this comment from Trump as a \"direction\" from the president. Trump later denied he asked Comey to \"let Flynn go.\")<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>February 15, 2017<\/strong>:<\/h4>\r\n\r\n<p>On the sidelines of a separate White House meeting, Priebus asks FBI Deputy Director Andrew McCabe if the FBI will publicly knock down recent news reports about contacts between the Trump campaign and Russians. It's unclear when, but at some point after that conversation, Priebus again reaches out to McCabe, and also to Comey, asking them to call journalists and privately dispute the news reports. Comey refuses to comply with this request.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 1, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump calls Comey and tells him that he's \"doing an awesome job,\" according to Comey's June testimony. Comey later tells a friend that he thinks Trump was still trying to gain his loyalty, according to&nbsp;The New York Times.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 20, 2017<\/strong>:<\/h4>\r\n\r\n<p>Comey confirms publicly for the first time that the FBI is investigating Russian meddling in the 2016 election and possible collusion between Trump associates and Russia.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 22, 2017<\/strong>:<\/h4>\r\n\r\n<p>After a routine briefing at the White House, Trump asks everyone to leave the room except Director of National Intelligence Daniel Coats and CIA Director Mike Pompeo, according to&nbsp;The Washington Post. Trump reportedly complains about the FBI investigation and asks Coats if he can intervene with Comey about the Flynn investigation. Coats does not comply with the request. (Coats later testified before the Senate Intelligence that he's \"never been pressured\" or \"felt pressured\" by Trump, any members of his administration.)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 23 or 24, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump calls Coats and asks him to issue a public statement declaring that there is no evidence of coordination between the Trump campaign and Russia, according to<a href=\"https:\/\/www.washingtonpost.com\/world\/national-security\/top-intelligence-official-told-associates-trump-asked-him-if-he-could-intervene-with-comey-to-get-fbi-to-back-off-flynn\/2017\/06\/06\/cc879f14-4ace-11e7-9669-250d0b15f83b_story.html?tid=ss_tw&amp;utm_term=.80f55cae2481\" target=\"_blank\">&nbsp;<\/a>The Washington Post<a href=\"https:\/\/www.washingtonpost.com\/world\/national-security\/top-intelligence-official-told-associates-trump-asked-him-if-he-could-intervene-with-comey-to-get-fbi-to-back-off-flynn\/2017\/06\/06\/cc879f14-4ace-11e7-9669-250d0b15f83b_story.html?tid=ss_tw&amp;utm_term=.80f55cae2481\" target=\"_blank\">.<\/a>&nbsp;Coats does not comply with the request, and tells his top aides about it, according to the Post.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>Shortly after March 24, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump calls NSA Director Michael Rogers and asks him to speak out publicly if there is no evidence of collusion, according to the Washington Post. Rogers never does.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 30, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump calls Comey and asks him to \"lift the cloud,\" according to Comey's June testimony. Trump tells Comey a few times that he wants him to publicly declare that Trump wasn't under investigation. Trump mentions that he didn't make a big deal about \"the McCabe thing,\" referring to McCabe's wife's links to Clinton allies. (Comey later says this might have been an attempt by Trump to get something in return from him.)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>March 31, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump tweets that the Russia investigation is a \"witch hunt\" and that Flynn should ask for immunity. Flynn's lawyer said one day earlier that Flynn wanted an immunity deal.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>Late March 2017<\/strong>:<\/h4>\r\n\r\n<p>Senior White House officials talk to top intelligence officials about intervening directly with Comey to encourage him to drop the Flynn investigation, according to the Washington Post.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>Spring 2017<\/strong>:<\/h4>\r\n\r\n<p>The White House officials pressure Comey to prioritize leak investigations instead of the Russia investigation, according to&nbsp;The Washington Post.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>Spring 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump's longtime friend and adviser Roger Stone, who is under FBI investigation, advises Trump to fire Comey, according to a source familiar with the conversation. (Trump and Stone later denied that this ever happened.)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>April 11, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump calls Comey to follow up on his request that Comey publicly clear his name and announce that he's not under FBI investigation, according to Comey's testimony. Trump says, \"I have been very loyal to you, very loyal. We had that thing you know.\" Comey tells Trump to handle his request through the White House counsel and the DOJ. (Comey later says he doesn't know what \"that thing\" was referring to.)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>April 11, 2017<\/strong>:<\/h4>\r\n\r\n<p>In&nbsp;an interview with Fox News, Trump says \"it's not too late\" for him to fire Comey, but that he has confidence in him. Trump goes on to criticize Comey for clearing Hillary Clinton.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 2, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump attacks Comey on Twitter, saying he gave Clinton a \"free pass.\" Trump also says that the Russia story is \"phony\" and an excuse used by the Democrats to justify their election loss.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 8, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump meets with Attorney General Jeff Sessions, who recused himself from the Russia investigation, and Deputy Attorney General Rod Rosenstein. They discuss firing Comey.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 9, 2017<\/strong>:<\/h4>\r\n\r\n<p>After receiving a recommendation from Rosenstein, Sessions sends a letter to Trump recommending that he dismiss Comey. Later that day, Trump fires Comey. In his letter of dismissal, Trump says he was acting on the recommendation of Sessions and Rosenstein, whose decision was based on Comey's mishandling of the Clinton email investigation in 2016. Trump also says, \"I greatly appreciate you informing me, on three separate occasions, that I am not under investigation.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 9-10, 2017<\/strong>:<\/h4>\r\n\r\n<p>In interviews, top White House officials including Mike Pence, Kellyanne Conway, Sean Spicer, and Sarah Sanders, insist that Trump only decided to fire Comey after receiving Rosenstein's recommendation and that Comey's firing had nothing to do with the Russia investigation.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 10, 2017<\/strong>:<\/h4>\r\n\r\n<p>During an Oval Office meeting with Russian Foreign Minister Sergey Lavrov and Russian Ambassador Sergey Kislyak, Trump says Comey was \"crazy\" and \"a real nutjob.\" He also tells them, \"I faced great pressure because of Russia. That's taken off,\" according to&nbsp;The New York Times.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 11, 2017<\/strong>:<\/h4>\r\n\r\n<p>In an interview, Trump says he was going to fire Comey regardless of Rosenstein's recommendation, and that he was thinking about \"this Russia thing\" while deciding to fire Comey. He told NBC News: \"Regardless of recommendation, I was going to fire Comey knowing there was no good time to do it. And in fact, when I decided to just do it, I said to myself -- I said, you know, this Russia thing with Trump and Russia is a made-up story. It's an excuse by the Democrats.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 12, 2017<\/strong>:<\/h4>\r\n\r\n<p>In a tweet, Trump threatens Comey and suggests he might have recordings, saying: \"James Comey better hope that there are no \"tapes\" of our conversations before he starts leaking to the press.\" On the same day, Trump tweets that the collusion investigation is a \"witch hunt.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 17, 2017<\/strong>:<\/h4>\r\n\r\n<p>Rosenstein appoints former FBI Director Robert Mueller as special counsel to oversee the investigation into Russian interference in the 2016 election, including potential collusion between Trump's campaign associates and Russian officials.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 18, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump criticizes the special counsel appointment, saying that Obama and Clinton deserved special investigations. Trump tweets, \"this is the single greatest witch hunt of a politician in American history!\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>May 31, 2017<\/strong>:<\/h4>\r\n\r\n<p>In a series of tweets, Trump accuses Comey of lying under oath.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>June 8, 2017<\/strong>:<\/h4>\r\n\r\n<p>Comey testifies before the Senate intelligence committee, detailing his conversations with Trump, and repeatedly calling him a liar.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>June 9, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump again accuses Comey of perjury, saying in a tweet: \"Despite so many false statements and lies, total and complete vindication ... and WOW, Comey is a leaker.\" Trump goes on to say at a press conference that \"some of the things that [Comey] said just weren't true.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>Around June 10, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump considers firing Justice Department special counsel Robert Mueller, his friend and ally Christopher Ruddy says. Trump's advisers urge him not to do it, according to news reports.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>June 15, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump again says the Russia investigation is the \"single greatest witch hunt\" in US history.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4><strong>June 16, 2017<\/strong>:<\/h4>\r\n\r\n<p>Trump criticizes Rosenstein on Twitter, saying: \"I am being investigated for firing the FBI Director by the man who told me to fire the FBI Director! Witch Hunt.\"<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/azb9MgOpuW4.jpg?itok=VIyfI2oe\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=azb9MgOpuW4\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497784537,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

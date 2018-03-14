@@ -1,0 +1,291 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/technology\/walmart-buying-bonobos-310-million?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/technology?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/39?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/walmart?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/wmt?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/company?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "1c1b5c9b-cdd1-442d-a2ac-4f009e2377f5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Walmart is buying Bonobos for $310 million",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7765ed7d-06d6-4f37-a26f-c5ac4a05c9f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/39?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "86b7f38d-2946-47c8-8c72-188fa1ae7f37"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/walmart?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6a62617f-2d34-4b54-8614-5cb8212213ea"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/technology?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c643bcf5-0a5c-40a9-b1fd-8034e4a313f2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/wmt?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bce4e4db-a0f0-4a05-b2b7-7232b5b60cda"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/company?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c72af385-9d64-4b4d-aa7f-70f48a57c565"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498044981,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498060896,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498060896
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>The yellow smiley face is suiting up: Walmart is buying men's clothing company Bonobos.<\/h2>\r\n\r\n<p>Walmart&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=WMT&amp;source=story_quote_link\">WMT<\/a>)&nbsp;will pay $310 million in cash for the internet clothing brand. But Bonobos clothing won't be sold on Walmart's website or stores. Instead, it will be available on Jet.com, the online marketplace Walmart recently bought for $3 billion.<\/p>\r\n\r\n<p>Bonobos is just the latest online company&nbsp;that Walmart has purchased, joining women's retailer ModCloth, outdoor gear supplier Moosejaw and ShoeBuy. It's all part of a larger strategy to expand its online footprint against Amazon.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The strategy is beginning to take hold: Last quarter, Walmart's U.S. e-commerce sales grew by 63%, although most of that growth came from Walmart's flagship website.<\/p>\r\n\r\n<p>Bonobos grew in popularity over the past decade for offering high-quality clothing and a better fit than most online retailers. Bonobos founder and CEO Andy Dunn will remain with Walmart in an expanded role, overseeing its growing collection of \"digitally native vertical brands.\" The deal is expected to close later this year.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/XghmfP-9Wh4.jpg?itok=Cc2vc9JE\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=XghmfP-9Wh4\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Walmart buying Jet.com for $3.3 billion to take on Amazon<\/p>\r\n\r\n<p>On any other day, this would be the biggest retail news of the day.<\/p>\r\n\r\n<p>But Walmart's announcement came just minutes after&nbsp;Amazon&nbsp;(<a href=\"http:\/\/money.cnn.com\/quote\/quote.html?symb=AMZN&amp;source=story_quote_link\">AMZN<\/a>,&nbsp;<a href=\"http:\/\/money.cnn.com\/technology\/tech30\/index.html?iid=EL\">Tech30<\/a>)&nbsp;shocked the retail world by announcing its&nbsp;$13.7 billion purchase of Whole Foods.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497785889,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}

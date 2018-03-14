@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: article_comments
+label: 'Article comments'
+target_entity_type_id: node
+description: ''

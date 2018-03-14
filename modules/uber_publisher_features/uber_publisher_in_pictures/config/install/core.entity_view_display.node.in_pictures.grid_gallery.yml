@@ -1,0 +1,81 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.grid_gallery
+    - field.field.node.in_pictures.body
+    - field.field.node.in_pictures.field_images
+    - field.field.node.in_pictures.field_meta_tags
+    - node.type.in_pictures
+  module:
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - langcode
+        - links
+        - body
+        - 'dynamic_block_field:node-in_pictures_grid'
+    fields:
+      'dynamic_block_field:node-in_pictures_grid':
+        plugin_id: 'dynamic_block_field:node-in_pictures_grid'
+        weight: 3
+        label: hidden
+        formatter: default
+id: node.in_pictures.grid_gallery
+targetEntityType: node
+bundle: in_pictures
+mode: grid_gallery
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: main
+  langcode:
+    type: language
+    weight: 0
+    region: main
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: main
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_images: true
+  field_meta_tags: true

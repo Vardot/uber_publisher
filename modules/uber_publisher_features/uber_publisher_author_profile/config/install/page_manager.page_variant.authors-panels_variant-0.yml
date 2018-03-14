@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.authors
+    - views.view.authors
+  module:
+    - panels
+    - views
+id: authors-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    52a335d2-d9b4-402a-836e-8e657398eb72:
+      id: 'views_block:authors-authors'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 52a335d2-d9b4-402a-836e-8e657398eb72
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 3378a4e7-ef02-4f36-b6bf-b792f88e81e1
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: Authors
+  storage_type: page_manager
+  storage_id: authors-panels_variant-0
+  builder: standard
+page: authors
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

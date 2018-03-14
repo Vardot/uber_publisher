@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.cartoons
+    - views.view.monthly_cartoons
+  module:
+    - panels
+    - views
+id: cartoons-panels_variant-1
+label: 'Monthly Cartoons Panel'
+variant: panels_variant
+variant_settings:
+  blocks:
+    4db97f87-8030-4f43-994f-25c0ca454c7a:
+      id: 'views_block:monthly_cartoons-cartoons_list_landing_page'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 4db97f87-8030-4f43-994f-25c0ca454c7a
+      context_mapping: {  }
+    0709efb2-d0f8-4cc6-a8ea-2eac63359f0f:
+      id: 'views_block:monthly_cartoons-cartoons_month'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 0709efb2-d0f8-4cc6-a8ea-2eac63359f0f
+      context_mapping: {  }
+  id: panels_variant
+  uuid: bc13d5d5-503d-4e6a-ba9d-ade30e5e5bb3
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: 'Monthly Cartoons'
+  storage_type: page_manager
+  storage_id: cartoons-panels_variant-1
+  builder: standard
+page: cartoons
+weight: -10
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

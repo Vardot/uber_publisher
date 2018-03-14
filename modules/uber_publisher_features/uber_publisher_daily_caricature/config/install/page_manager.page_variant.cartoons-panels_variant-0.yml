@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.cartoons
+    - views.view.cartoons
+  module:
+    - panels
+    - views
+id: cartoons-panels_variant-0
+label: Panel
+variant: panels_variant
+variant_settings:
+  blocks:
+    c0dfbc58-c3b5-4356-81c8-e75635b42def:
+      id: 'views_block:cartoons-cartoons_today'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 1
+      uuid: c0dfbc58-c3b5-4356-81c8-e75635b42def
+      context_mapping: {  }
+    ef784a00-3a84-42a1-afa1-4179d8bdc174:
+      id: 'views_block:cartoons-cartoons_list_landing_page'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 2
+      uuid: ef784a00-3a84-42a1-afa1-4179d8bdc174
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 363b0655-b7d7-4234-983a-83ab32a9e5b8
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'Daily Cartoons [date:custom:F j, Y]'
+  storage_type: page_manager
+  storage_id: cartoons-panels_variant-0
+  builder: ipe
+page: cartoons
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

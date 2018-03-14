@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access simple amp'
+  - 'access sitemap'
+  - 'access user profiles'
+  - 'bypass honeypot protection'
+  - 'post comments'
+  - 'search content'
+  - 'use text format basic_html'
+  - userprotect.account.edit
+  - userprotect.mail.edit
+  - userprotect.pass.edit
+  - 'view enabled ad entities'
+  - 'view media'

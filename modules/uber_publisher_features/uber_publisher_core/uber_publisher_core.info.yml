@@ -1,0 +1,50 @@
+name: 'Uber Publisher Core'
+type: module
+core: 8.x
+version: 8.x-1.x-dev
+package: 'Uber Publisher'
+dependencies:
+  - advanced_text_formatter
+  - aggregator
+  - autocomplete_deluxe
+  - block
+  - block_class
+  - block_content
+  - comment
+  - content_moderation
+  - content_translation
+  - ctools
+  - datetime
+  - ds
+  - entity_browser
+  - entityqueue
+  - field
+  - field_group
+  - file
+  - image
+  - language
+  - linked_field
+  - locale
+  - maxlength
+  - media_entity
+  - menu_ui
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - pathauto
+  - rabbit_hole
+  - smart_trim
+  - system
+  - taxonomy
+  - text
+  - user
+  - varbase_media
+  - varbase_seo
+  - views
+  - views_bootstrap
+  - vmi
+  - yoast_seo
+description: 'Provides core components required by other features.'

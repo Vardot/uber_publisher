@@ -1,0 +1,155 @@
+<!doctype html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="{{ params.canonical }}">
+
+  {{ params.scripts|raw }}
+
+  {% if params.metadata %}
+  <script type="application/ld+json">
+    {{ params.metadata|raw }}
+  </script>
+  {% endif %}
+
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .heading {
+      padding: 8px 15px;
+    }
+    .heading h1 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      margin-bottom: 1rem;
+    }
+    .header {
+      padding: 20px;
+      background-color: #fff;
+      border-bottom: 5px solid #4698D5;
+    }
+    .hamburger {
+      height: 28px;
+      width: 36px;
+      position: relative;
+      cursor: pointer;
+      margin-top: 30px;
+      float: right;
+      top: -5px;
+      background: white;
+      display: block;
+      border: 0 none;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background-color: #328ec9;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      -webkit-transition: all .35s;
+      -o-transition: all .35s;
+      transition: all .35s;
+      -moz-transition: all .35s;
+      -ms-transition: all .35s;
+    }
+    .hamburger span.one {
+      top: 6px;
+    }
+    .hamburger span.two {
+      top: 0;
+      bottom: 0;
+    }
+    .hamburger span.three {
+      bottom: 6px;
+    }
+    #sidebar1 {
+      background-color: #4698D5;
+    }
+    #sidebar1 a {
+      color: #FFF;
+      font-size: 18px;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin: 5px 0;
+      display: block;
+    }
+    #sidebar1 .hamburger {
+      background: transparent;
+      color: white;
+      font-size: 25px;
+    }
+    #sidebar1 li {
+      list-style: none;
+    }
+    .content {
+      padding: 0 15px;
+    }
+    amp-img {
+      margin: 0 -15px;
+    }
+    .footer {
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      background-color: #313131;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  {{ uber_publisher_amp_header }}
+</div>
+
+<main>
+  <div class="heading">
+    <h1>{{ title }}</h1>
+
+    <div class="social-sharing">
+      <amp-social-share type="twitter" width="45" height="33"></amp-social-share>
+      <amp-social-share type="gplus" width="45" height="33"></amp-social-share>
+      <amp-social-share type="email" width="45" height="33"></amp-social-share>
+    </div>
+
+  </div>
+  <div class="content">
+
+    {{ content|raw }}
+
+  </div>
+
+  <div class="footer">
+    {{ uber_publisher_amp_footer }}
+  </div>
+</main>
+
+{% if params.ga %}
+<amp-analytics type="googleanalytics">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "{{ params.ga }}"
+    },
+    "triggers": {
+      "default pageview": {
+        "on": "visible",
+        "request": "pageview",
+        "vars": {
+          "title": "{{title}}"
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+{% endif %}
+
+</body>
+</html>

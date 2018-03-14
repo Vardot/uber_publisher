@@ -1,0 +1,327 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/economy\/china-has-worrying-habit-making-business-leaders-disappear?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "href": "http:\/\/default\/economy?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/36?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tags\/china?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/article?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/money?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/chinese-tycoons?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/tycoons?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/business?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d0268770-b5be-4ed2-a686-0be0ae886951"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "China has a worrying habit of making business leaders disappear",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7860c21-5c21-4729-ae97-124e602b6718"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_section": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "970882fb-874d-4986-9295-702aec58ec46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/36?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dc8fb8b4-a5d0-4f54-b722-53c66ef495cf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/china?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de55e6f5-880d-4e1c-a245-0ccf6757bf50"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/article?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02bb0d5a-6f32-45cc-8cb7-e88be5136934"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/economy?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2830fc00-001d-4c90-83f2-7e3dafb752d4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/money?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32dc8d7c-a690-4def-b02d-ffc0a9f3dca5"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/chinese-tycoons?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ff154b0d-69f2-468e-a33b-6aae6d297d58"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/tycoons?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d2d63287-2cc3-4593-b763-69d75ca41cbb"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/business?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c33fc41e-4438-4dc3-afa7-d97f7c8c0406"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1498045111,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1498045930,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1498045930
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h4>A top executive suddenly dropping off the radar would be alarming for any company. But in China, it's become a disturbingly familiar situation.<\/h4>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>The latest example is Wu Xiaohui, the chairman of a major insurance company that owns the Waldorf Astoria in New York and recently held talks with the Kushner family over a Manhattan office tower.<\/p>\r\n\r\n<p>He is&nbsp;reported to have been detained&nbsp;by authorities on Friday as part of a government investigation. His company, Anbang Insurance Group, said in a short statement that Wu \"cannot perform his duties due to personal reasons.\"<\/p>\r\n\r\n<p>His abrupt absence follows a string of cases in recent years in which business leaders were unceremoniously yanked from their duties by authorities, leaving employees and shareholders in the dark.<\/p>\r\n\r\n<p>{\"preview_thumbnail\":\"\/sites\/proden.uber.srv01.devcloud.vardot.io\/files\/styles\/video_embed_wysiwyg_preview\/public\/video_thumbnails\/u4yLwcvH6c4.jpg?itok=zlBC0VkW\",\"video_url\":\"https:\/\/www.youtube.com\/watch?v=u4yLwcvH6c4\",\"settings\":{\"responsive\":1,\"width\":\"854\",\"height\":\"480\",\"autoplay\":0},\"settings_summary\":[\"Embedded Video (Responsive).\"]}<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p><strong><em>In 2015<\/em><\/strong>, senior executives from dozens of Chinese companies disappeared. Some returned to their posts, others did not.<\/p>\r\n\r\n<p>The driving forces appeared to be President Xi Jinping's crackdown on corruption as well as government investigations into China's stunning stock market crash in the summer of 2015.<\/p>\r\n\r\n<p>Last year was relatively quiet, but a new push now seems to be unfolding ahead of an important meeting of China's political elite in the fall. Earlier this year, the head of the country's stock market watchdog reportedly&nbsp;vowed to capture<a href=\"http:\/\/www.scmp.com\/news\/china\/policies-politics\/article\/2069764\/chinas-stock-market-regulator-vows-capture-more-tycoons\" target=\"_blank\"> <\/a>more tycoons&nbsp;engaged in market manipulation.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Here are three of the most high-profile cases from the past 18 months:<\/p>\r\n\r\n<h3><strong>Nabbed from the Four Seasons<\/strong><\/h3>\r\n\r\n<p>Chinese billionaire Xiao Jianhua was&nbsp;seized from his apartment at the Four Seasons hotel in Hong Kong<a href=\"http:\/\/www.cnn.com\/2017\/02\/01\/asia\/china-hong-kong-billionaire-xiao-jianhua\/index.html?iid=EL\">&nbsp;<\/a>and taken to mainland China in late January, according to a source familiar with the situation.<\/p>\r\n\r\n<p>Xiao controls the Tomorrow Group, a massive holding company with stakes in banks, insurers and property developers.<\/p>\r\n\r\n<p>Days after he went missing, a front page ad published in a Hong Kong newspaper muddied the waters by appearing to deny he had been seized.<\/p>\r\n\r\n<p>The statement, which had Xiao's name printed at the bottom, said that he was \"recuperating overseas\" and hoped to meet with media once he had recovered.<\/p>\r\n\r\n<p>Nearly five months later, it's unclear what's happened to him.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h3><strong>China's Warren Buffett<\/strong><\/h3>\r\n\r\n<drupal-entity alt=\"China's Warren Buffett\" data-align=\"right\" data-caption=\"Guo Guangchang\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"15d6a38f-6a27-4281-bfea-36a8894fbf82\" title=\"China's Warren Buffett\"><\/drupal-entity>\r\n\r\n<p>Chinese conglomerate Fosun Group's investments include Club Med, Cirque de Soleil and Thomas Cook. Its chairman, Guo Guangchang, has been dubbed the Warren Buffett of China.<\/p>\r\n\r\n<p>But Guo's fame and fortune did not save him from&nbsp;going missing for several days&nbsp;at the end of 2015. Fosun suspended trading of its shares after his sudden disappearance.&nbsp;<\/p>\r\n\r\n<p>When Guo finally resurfaced, the company said in a statement that he had been assisting officials with investigations.<\/p>\r\n\r\n<p>His brief absence didn't derail Fosun's business. The company pulled in $11 billion in revenue last year.<\/p>\r\n\r\n<figure>\r\n<figcaption>&nbsp;<\/figcaption>\r\n<\/figure>\r\n\r\n<h3><strong>Clothing tycoon<\/strong><\/h3>\r\n\r\n<drupal-entity alt=\"Zhou Chengjian\" data-align=\"right\" data-caption=\"Zhou Chengjian\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.s3\" data-entity-type=\"media\" data-entity-uuid=\"eb37c1c4-cb0c-4e3b-8181-8b31618bc282\" title=\"Zhou Chengjian\"><\/drupal-entity>\r\n\r\n<p>Zhou Chengjian, the billionaire founder of one of China's leading clothing companies, went missing in January last year.<\/p>\r\n\r\n<p>After reports that Zhou had been detained by authorities, his company, Metersbonwe suspended trading of its shares.&nbsp;<\/p>\r\n\r\n<p>The textile tycoon suddenly returned to work 10 days later.<\/p>\r\n\r\n<p>The company gave no details about his disappearance.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1497786079,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": "a:0:{}",
+            "lang": "en"
+        }
+    ]
+}
