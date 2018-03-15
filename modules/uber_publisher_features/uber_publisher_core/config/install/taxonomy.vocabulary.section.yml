@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: Section
-vid: section
-description: ''
-hierarchy: 0
-weight: 0
