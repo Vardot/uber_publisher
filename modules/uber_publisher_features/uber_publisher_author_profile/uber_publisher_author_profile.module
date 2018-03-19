@@ -1,5 +1,0 @@
-<?php
-
-function uber_publisher_author_profile_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'uber_publisher_author_profile/author.lib';
-}
