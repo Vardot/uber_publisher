@@ -86,6 +86,34 @@
     "behatch/contexts": "3.1.0",
     "emuse/behat-html-formatter": "0.1.0"
   },
+  "config": {
+    "bin-dir": "bin/",
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "UberPublisher\\composer\\": "src/composer"
+    }
+  },
+  "scripts": {
+    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "post-install-cmd": [
+      "Varbase\\composer\\ScriptHandler::createRequiredFiles",
+      "Varbase\\composer\\ScriptHandler::removeGitDirectories",
+      "@composer drupal-scaffold"
+    ],
+    "post-update-cmd": [
+      "Varbase\\composer\\ScriptHandler::createRequiredFiles",
+      "Varbase\\composer\\ScriptHandler::removeGitDirectories"
+    ],
+    "post-drupal-scaffold-cmd": [
+      "Varbase\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
+      "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+    ]
+  },
+  "conflict": {
+    "drupal/drupal": "*"
+  },
   "extra": {
     "branch-alias": {
       "dev-8.x-4.x": "8.4.x-dev"
@@ -96,6 +124,8 @@
       "docroot/modules/contrib/{$name}": ["type:drupal-module"],
       "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
       "docroot/libraries/{$name}": ["type:drupal-library"],
+      "docroot/modules/custom/{$name}": ["type:drupal-custom-module"],
+      "docroot/themes/custom/{$name}": ["type:drupal-custom-theme"],
       "drush/contrib/{$name}": ["type:drupal-drush"]
     },
     "enable-patching": true,
