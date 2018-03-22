@@ -23,13 +23,13 @@
     }
   ],
   "require": {
-    "composer/installers": "1.4.0",
+    "composer/installers": "1.5.0",
     "cweagans/composer-patches": "1.6.4",
     "drupal-composer/drupal-scaffold": "2.4.0",
     "drupal/drupal-library-installer-plugin": "0.3",
     "webflo/drupal-finder": "1.0",
     "webmozart/path-util": "2.3",
-    "vardot/varbase": "8.4.16",
+    "vardot/varbase": "8.4.17",
     "vardot/uber_publisher_core": "8.4.x-dev",
     "vardot/uber_publisher_article": "8.4.x-dev",
     "vardot/uber_publisher_author_profile": "8.4.x-dev",
