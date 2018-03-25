@@ -64,7 +64,7 @@
     "drupal/better_normalizers": "1.0-beta3",
     "drupal/blocktabs": "1.0-alpha6",
     "drupal/social_post_twitter": "2.0-alpha2",
-    "drupal/views_exclude_previous": "1.0-rc1",
+    "drupal/views_exclude_previous": "1.0.0-rc1",
     "drupal/fb_instant_articles": "2.1",
     "drupal/ads_system": "1.0-alpha1",
     "drupal/simple_amp": "1.15",
