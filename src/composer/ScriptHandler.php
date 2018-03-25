@@ -8,7 +8,7 @@ use Composer\EventDispatcher\Event;
 use Symfony\Component\Yaml\Yaml;
 
 /**
- * Vardoc Composer Script Handler.
+ * UberPublisher Composer Script Handler.
  */
 class ScriptHandler {
 
@@ -153,8 +153,8 @@ class ScriptHandler {
    *  For Example:
    *  -------------------------------------------------------------------------
    *    "post-drupal-scaffold-cmd": [
-   *      "Vardoc\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-   *      "Vardoc\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+   *      "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
+   *      "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
    *    ],
    *  -------------------------------------------------------------------------
    *
