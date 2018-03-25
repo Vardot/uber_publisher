@@ -10,7 +10,7 @@ use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\varbase\Form\AssemblerForm;
 use Drupal\varbase\Form\ConfigureMultilingualForm;
 use Drupal\varbase\Config\ConfigBit;
-use Drupal\uber_publisher\Form\SubProfileAssemblerForm;
+use Drupal\uber_publisher\Form\UberPublisherAssemblerForm;
 use Drupal\uber_publisher\Helper\HelperFunctions;
 /**
 * Implements hook_form_FORM_ID_alter() for install_configure_form().
@@ -38,7 +38,7 @@ function uber_publisher_install_tasks(&$install_state) {
     'display_name' => t('Extra components'),
     'display' => TRUE,
     'type' => 'form',
-    'function' => SubProfileAssemblerForm::class,
+    'function' => UberPublisherAssemblerForm::class,
   ];
 
   $install_tasks['uber_publisher_assemble_extra_components'] = [
@@ -63,7 +63,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
   include_once drupal_get_path('profile', 'varbase') . '/varbase.profile';
 
   // Default Varbase components, which must be installed.
-  $default_components = ConfigBit::getList('configbit/default.components.varbase.bit.yml', 'install_default_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
+  $default_components = ConfigBit::getList('configbit/default.components.uber_publisher.bit.yml', 'install_default_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
 
   $batch = [];
 
@@ -85,7 +85,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
   }
 
   // Get the list of extra features config bits.
-  $extraFeatures = ConfigBit::getList('configbit/extra.components.varbase.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
+  $extraFeatures = ConfigBit::getList('configbit/extra.components.uber_publisher.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
 
   // If we do have selected extra features.
   if (count($selected_extra_features) && count($extraFeatures)) {
@@ -137,7 +137,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
   }
 
   // Get the list of demo content config bits.
-  $demoContent = ConfigBit::getList('configbit/demo.content.varbase.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
+  $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
 
   // If we do have demo_content and we have selected demo_content.
   if (count($selected_demo_content) && count($demoContent)) {

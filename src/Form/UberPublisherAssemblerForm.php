@@ -16,7 +16,7 @@ use Drupal\varbase\Form\AssemblerForm;
 /**
 * Defines form for selecting extra compoennts for the assembler to install.
 */
-class SubProfileAssemblerForm extends AssemblerForm {
+class UberPublisherAssemblerForm extends AssemblerForm {
   /**
   * Assembler Form constructor.
   *
@@ -60,7 +60,7 @@ class SubProfileAssemblerForm extends AssemblerForm {
     ];
 
     // Extra Features.
-    $extraFeatures = ConfigBit::getList('configbit/extra.components.varbase.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
+    $extraFeatures = ConfigBit::getList('configbit/extra.components.uber_publisher.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
     if (count($extraFeatures)) {
 
       $form['extra_features'] = [
@@ -136,7 +136,7 @@ class SubProfileAssemblerForm extends AssemblerForm {
     }
 
     // Demo Content.
-    $demoContent = ConfigBit::getList('configbit/demo.content.varbase.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
+    $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
     if (count($demoContent) > 0) {
       $form['demo_content'] = [
         '#type' => 'fieldset',
@@ -234,7 +234,7 @@ class SubProfileAssemblerForm extends AssemblerForm {
   public function submitForm(array &$form, FormStateInterface $form_state) {
 
     // Extra Features.
-    $extraFeatures = ConfigBit::getList('configbit/extra.components.varbase.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
+    $extraFeatures = ConfigBit::getList('configbit/extra.components.uber_publisher.bit.yml', 'show_extra_components', TRUE, 'dependencies', 'profile', 'uber_publisher');
     if (count($extraFeatures)) {
       $extra_features_values = [];
       foreach ($extraFeatures as $extra_feature_key => $extra_feature_info) {
@@ -270,7 +270,7 @@ class SubProfileAssemblerForm extends AssemblerForm {
       $GLOBALS['install_state']['varbase']['extra_features_values'] = $extra_features_values;
     }
     // Demo Content.
-    $demoContent = ConfigBit::getList('configbit/demo.content.varbase.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
+    $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
     if (count($demoContent)) {
       $demo_content_values = [];
       foreach ($demoContent as $demo_content_key => $demo_content_info) {

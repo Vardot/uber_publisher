@@ -60,6 +60,7 @@
     "vardot/uber_publisher_in_pictures": "8.4.x-dev",
     "vardot/uber_publisher_search": "8.4.x-dev",
     "vardot/uber_publisher_social_post": "8.4.x-dev",
+    "vardot/uber_publisher_demo": "8.4.x-dev",
     "drupal/linked_field": "1.1",
     "drupal/autosave_form": "1.x-dev#a4bf333f5898d7e01017b49f3c9e180cfb5a352b",
     "drupal/sharerich": "1.0",

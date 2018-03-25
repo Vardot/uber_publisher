@@ -16,7 +16,7 @@ config_bit:
           config_form: false
           excluded_lang: ar
         uber_publisher_demo_content_arabic:
-          title: "Install Demo Content"
+          title: "Install Arabic Demo Content"
           description: "If you're evaluating Uber Publisher, installing demo content will help you get an idea of how it works, and what features are included."
           selected: false
           config_form: false
