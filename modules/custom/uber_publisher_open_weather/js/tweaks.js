@@ -5,11 +5,12 @@
     attach: function (context, settings) {
 
       var html;
-      // Service to get log and lat from IP address
-      $.get("http://ip-api.com/json", function (response) {
-        loadWeather(response.lat + ',' + response.lon); //call weather function
-      }, "jsonp");
+      // Service to get log and lat from IP address, but currently doesn't work
+//      $.get("http://ip-api.com/json", function (response) {
+//        loadWeather(response.lat + ',' + response.lon); //call weather function
+//      }, "jsonp");
 
+      loadWeather('31.9454,35.9284'); //call weather function using Amman lat lon
 
       function loadWeather(location, woeid) {
         $.simpleWeather({
