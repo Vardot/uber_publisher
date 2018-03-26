@@ -63,7 +63,7 @@
     "vardot/uber_publisher_demo": "8.4.x-dev",
     "drupal/linked_field": "1.1",
     "drupal/autosave_form": "1.x-dev#a4bf333f5898d7e01017b49f3c9e180cfb5a352b",
-    "drupal/sharerich": "1.0",
+    "drupal/sharerich": "1.1",
     "drupal/better_normalizers": "1.0-beta3",
     "drupal/blocktabs": "1.0-alpha6",
     "drupal/social_post_twitter": "2.0-alpha2",
