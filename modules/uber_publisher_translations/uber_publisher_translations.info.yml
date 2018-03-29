@@ -1,8 +1,0 @@
-name: 'Uber Publisher translations'
-description: 'Import Uber Publisher translations.'
-type: module
-core: 8.x
-version: 8.x-1.x-dev
-package: 'Uber Publisher'
-'interface translation project': uber_publisher_translations
-'interface translation server pattern': profiles/uber_publisher/modules/uber_publisher_translations/translations/%language.po

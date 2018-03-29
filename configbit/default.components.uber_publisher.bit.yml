@@ -32,5 +32,4 @@ config_bit:
         - uber_publisher_open_weather
         - uber_publisher_ads_system
         - uber_publisher_search
-        - uber_publisher_translations
         - uber_publisher_default_content

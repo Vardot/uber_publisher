@@ -27,3 +27,6 @@ distribution:
   install:
     theme: vartheme_admin
 features: true
+
+interface translation project: uber_publisher
+interface translation server pattern: profiles/uber_publisher/translations/%language.po
