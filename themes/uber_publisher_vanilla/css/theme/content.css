@@ -246,14 +246,16 @@ ul {
   /* Fifth section. */
   /* 6th and 7th section. */
 }
-.block-region-main .block-views-blockarticles-politics-articles .item-list ul li {
+.block-region-main .block-views-blockarticles-politics-articles .item-list ul li,
+.block-region-main .block-views-blockarticles-politics-articles .views-row {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .block-region-main .block-views-blockarticles-politics-articles .item-list ul li {
+  .block-region-main .block-views-blockarticles-politics-articles .item-list ul li,
+  .block-region-main .block-views-blockarticles-politics-articles .views-row {
     float: left;
     width: 50%;
   }
