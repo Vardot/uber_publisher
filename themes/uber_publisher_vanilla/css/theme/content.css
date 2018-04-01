@@ -90,7 +90,9 @@ ul {
 }
 /* Promotion area. */
 .block-views-blockarticles-promoted-splash-area .item-list ul li,
-.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li {
+.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li,
+.block-views-blockarticles-promoted-splash-area .views-row,
+.block-views-blockarticles-promoted-splash-area-landing-pages .views-row {
   padding: 0 !important;
   position: relative;
   min-height: 1px;
@@ -99,18 +101,24 @@ ul {
 }
 @media (min-width: 768px) {
   .block-views-blockarticles-promoted-splash-area .item-list ul li,
-  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li {
+  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li,
+  .block-views-blockarticles-promoted-splash-area .views-row,
+  .block-views-blockarticles-promoted-splash-area-landing-pages .views-row {
     float: left;
     width: 25%;
   }
 }
 .block-views-blockarticles-promoted-splash-area .item-list ul li article.tout-view-mode,
-.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li article.tout-view-mode {
+.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li article.tout-view-mode,
+.block-views-blockarticles-promoted-splash-area .views-row article.tout-view-mode,
+.block-views-blockarticles-promoted-splash-area-landing-pages .views-row article.tout-view-mode {
   margin-right: 3px;
   margin-top: 3px;
 }
 .block-views-blockarticles-promoted-splash-area .item-list ul li:first-child,
-.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child {
+.block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child,
+.block-views-blockarticles-promoted-splash-area .views-row:first-child,
+.block-views-blockarticles-promoted-splash-area-landing-pages .views-row:first-child {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -118,14 +126,18 @@ ul {
 }
 @media (min-width: 768px) {
   .block-views-blockarticles-promoted-splash-area .item-list ul li:first-child,
-  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child {
+  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child,
+  .block-views-blockarticles-promoted-splash-area .views-row:first-child,
+  .block-views-blockarticles-promoted-splash-area-landing-pages .views-row:first-child {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 768px) {
   .block-views-blockarticles-promoted-splash-area .item-list ul li:first-child .field--name-node-title,
-  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child .field--name-node-title {
+  .block-views-blockarticles-promoted-splash-area-landing-pages .item-list ul li:first-child .field--name-node-title,
+  .block-views-blockarticles-promoted-splash-area .views-row:first-child .field--name-node-title,
+  .block-views-blockarticles-promoted-splash-area-landing-pages .views-row:first-child .field--name-node-title {
     font-size: 1.5em;
   }
 }

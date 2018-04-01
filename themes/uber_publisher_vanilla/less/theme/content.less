@@ -122,23 +122,22 @@ ul {
 /* Promotion area. */
 .block-views-blockarticles-promoted-splash-area,
 .block-views-blockarticles-promoted-splash-area-landing-pages {
-  .item-list ul {
-    li {
-      padding: 0 !important;
-      .make-sm-column(3);
+  .item-list ul li,
+  .views-row {
+    padding: 0 !important;
+    .make-sm-column(3);
 
-      article.tout-view-mode {
-        margin-right: 3px;
-        margin-top: 3px;
-      }
+    article.tout-view-mode {
+      margin-right: 3px;
+      margin-top: 3px;
+    }
 
-      &:first-child {
-        .make-sm-column(6);
+    &:first-child {
+      .make-sm-column(6);
 
-        @media (min-width: @screen-sm) {
-          .field--name-node-title {
-            font-size: 1.5em;
-          }
+      @media (min-width: @screen-sm) {
+        .field--name-node-title {
+          font-size: 1.5em;
         }
       }
     }
