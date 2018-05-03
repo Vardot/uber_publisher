@@ -34,8 +34,3 @@ config_bit:
           description: "News stories told and displayed in a form of picture galleries."
           selected: false
           config_form: false
-        uber_publisher_autosave:
-          title: "Autosave Functionality"
-          description: "Automatically saves changes or progress while adding or editing content."
-          selected: false
-          config_form: false
