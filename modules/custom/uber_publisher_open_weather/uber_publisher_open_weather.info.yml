@@ -1,5 +1,0 @@
-name: Uber publisher open weather
-type: module
-description: uber publisher
-package: A simple jQuery plugin to display current weather data for any location and doesn't get in your way. Now supports HTML5 GeoLocation!.
-core: 8.x

@@ -1,7 +1,0 @@
-up_open_weather.styling:
-  js:
-    js/weather.js: {}
-    js/tweaks.js: {}
-  css:
-    theme:
-     css/weather.css: {}
