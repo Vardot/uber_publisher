@@ -21,7 +21,6 @@ themes:
   # Custom themes.
   - vartheme
   - vartheme_admin
-  - uber_publisher_vanilla
 distribution:
   name: Uber Publisher
   install:
