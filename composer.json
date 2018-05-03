@@ -49,7 +49,6 @@
     "drupal/login_destination": "1.x-dev#54be8b89fdc073ca40af6b9b2eeb050e0aeb7908",
     "drupal/betterlogin": "1.x-dev#f7cf1c5c9ec5e80c6ac0ef04ed605e25495232cd",
     "vardot/uber_publisher_core": "8.4.x-dev",
-    "vardot/uber_publisher_article": "8.4.x-dev",
     "vardot/uber_publisher_author_profile": "8.4.x-dev",
     "vardot/uber_publisher_opinion_articles": "8.4.x-dev",
     "vardot/uber_publisher_amp": "8.4.x-dev",
