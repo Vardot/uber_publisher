@@ -23,8 +23,6 @@ Built on Drupal, Uber Publisher allows publishers to control the way their
 
 # [Install with Composer](https://github.com/Vardot/uber_publisher-project)
 
-# Install with Composer
-
 To install the dev version of Uber Publisher 8.5.x run this command:
 ```
 composer create-project vardot/uber_publisher-project:8.5.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
