@@ -63,7 +63,6 @@
     "drupal/uber_publisher_social_post": "5.x-dev",
     "drupal/linked_field": "1.1",
     "drupal/sharerich": "1.1",
-    "drupal/better_normalizers": "1.0-beta3",
     "drupal/blocktabs": "1.0-alpha6",
     "drupal/social_post_twitter": "2.0-alpha2",
     "drupal/views_exclude_previous": "1.0.0-rc1",
@@ -152,11 +151,11 @@
     "composer-exit-on-patch-failure": true,
     "patches": {
       "drupal/fb_instant_articles": {
-        "Issue #2912129:How to embed YouTube, Twitter & Instagram?":
+        "Issue #2912129: Fix embed YouTube, Twitter & Instagram?":
         "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
       },
       "drupal/facets": {
-        "Issue #2692027:All link in facets?":
+        "Issue #2692027: Fix All link in facets":
         "https://www.drupal.org/files/issues/all_link_in_facets_count-2692027-60.patch"
       }
     }

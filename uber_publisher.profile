@@ -173,7 +173,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
         // Enable extra feature demo content.
         $extra_feature_checked_demo_content = $extra_feature_key.'_demo_content';
         // If the extra feature demo_content was a module and not enabled, then enable it.
-        if (HelperFunctions::module_path_exists('uber_publisher', $extra_feature_checked_demo_content) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content)) {
+        if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content)) {
           // Add the checked extra feature to the batch process to be enabled.
           $batch['operations'][] = ['varbase_assemble_extra_component_then_install', (array) $extra_feature_checked_demo_content];
         }
@@ -182,7 +182,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
         $current_language = \Drupal::languageManager()->getCurrentLanguage()->getId();
         $extra_feature_checked_demo_content_current_language = $extra_feature_key.'_demo_content_'.$current_language;
         // If the extra feature demo_content_CURRENT_LANGUAGE was a module and not enabled, then enable it.
-        if (HelperFunctions::module_path_exists('uber_publisher', $extra_feature_checked_demo_content_current_language) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content_current_language)) {
+        if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content_current_language) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content_current_language)) {
           // Add the checked extra feature to the batch process to be enabled.
           $batch['operations'][] = ['varbase_assemble_extra_component_then_install', (array) $extra_feature_checked_demo_content_current_language];
         }
