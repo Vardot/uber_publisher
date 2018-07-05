@@ -70,7 +70,7 @@
     "drupal/ads_system": "1.0-alpha1",
     "drupal/simple_amp": "1.15",
     "drupal/subpathauto": "1.0-beta1",
-    "drupal/facets": "1.0-beta2",
+    "drupal/facets": "1.0-beta3",
     "lullabot/amp": "1.1"
   },
   "require-dev": {
@@ -155,8 +155,8 @@
         "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
       },
       "drupal/facets": {
-        "Issue #2692027: Fix All link in facets":
-        "https://www.drupal.org/files/issues/all_link_in_facets_count-2692027-60.patch"
+        "Issue #2692027: Have All link in facets":
+        "https://www.drupal.org/files/issues/2018-06-09/2692027-78.patch"
       }
     }
   }
