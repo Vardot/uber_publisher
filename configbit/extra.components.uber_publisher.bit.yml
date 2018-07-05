@@ -24,7 +24,7 @@ config_bit:
           description: "Adds a feature for publishing opinion and editorial articles (op-eds) to your site. Articles are written by authors who have a profile page to display their information and contributions. A real user can <em>optionally</em> be enabled and linked to an author profile."
           selected: false
           config_form: false
-        uber_publisher_daily_caricature:
+        uber_publisher_daily_cartoons:
           title: "Daily Cartoons"
           description: "Adds a section in your site to display and highlight daily cartoons."
           selected: false
