@@ -157,6 +157,10 @@
       "drupal/facets": {
         "Issue #2692027: Have All link in facets":
         "https://www.drupal.org/files/issues/2018-06-09/2692027-78.patch"
+      },
+      "drupal/ds": {
+        "Issue #2920868: Fixed fatal errors when we have missing layouts, on an update." :
+        "https://www.drupal.org/files/issues/error-when-layout-is-removed-2920868-4.patch"
       }
     }
   }
