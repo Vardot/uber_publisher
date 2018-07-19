@@ -135,86 +135,6 @@ class UberPublisherAssemblerForm extends AssemblerForm {
       }
     }
 
-    // Demo Content.
-    $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
-    if (count($demoContent) > 0) {
-      $form['demo_content'] = [
-        '#type' => 'fieldset',
-        '#title' => $this->t('Demo content'),
-      ];
-
-      foreach ($demoContent as $demo_content_key => $demo_content_info) {
-
-        $checkbox_title = '';
-        $checkbox_description = '';
-        $checkbox_selected = FALSE;
-        $excluded_feature = FALSE;
-
-        // Check if isset module target lang.
-        if (isset($demo_content_info['target_lang'])) {
-          // Check if target lang not equal current lang.
-          if ($demo_content_info['target_lang'] != \Drupal::languageManager()->getCurrentLanguage()->getId()) {
-            $excluded_feature = TRUE;
-          }
-        }
-
-        // Check if isset module excluded lang.
-        if (isset($demo_content_info['excluded_lang'])) {
-          // Check if excluded lang equal current lang.
-          if ($demo_content_info['excluded_lang'] == \Drupal::languageManager()->getCurrentLanguage()->getId()) {
-            $excluded_feature = TRUE;
-          }
-        }
-
-        if (isset($demo_content_info['title'])) {
-          $checkbox_title = $demo_content_info['title'];
-        }
-
-        if (isset($demo_content_info['description'])) {
-          $checkbox_description = $demo_content_info['description'];
-        }
-
-        if (isset($demo_content_info['selected'])) {
-          $checkbox_selected = $demo_content_info['selected'];
-        }
-
-        if($excluded_feature == FALSE){
-          $form['demo_content'][$demo_content_key] = [
-            '#type' => 'checkbox',
-            '#title' => $checkbox_title,
-            '#description' => $checkbox_description,
-            '#default_value' => $checkbox_selected,
-          ];
-        }
-
-        if (isset($demo_content_info['config_form']) &&
-        $demo_content_info['config_form'] == TRUE) {
-          $form['demo_content'][$demo_content_key . '_config'] = [
-            '#type' => 'fieldset',
-            '#title' => $checkbox_title,
-            '#states' => [
-              'visible' => [
-                ':input[name="' . $demo_content_key . '"]' => ['checked' => TRUE],
-              ],
-              'invisible' => [
-                ':input[name="' . $demo_content_key . '"]' => ['checked' => FALSE],
-              ],
-            ],
-          ];
-
-          if (isset($demo_content_info['formbit'])) {
-            $formbit_file_name = drupal_get_path('profile', 'varbase') . '/' . $demo_content_info['formbit'];
-            if (file_exists($formbit_file_name)) {
-              include_once $formbit_file_name;
-              // Add configuration form element in the formbit position.
-              call_user_func_array($demo_content_key . "_build_formbit", array(&$form['demo_content'][$demo_content_key . '_config'], &$form_state, &$install_state));
-            }
-          }
-
-        }
-      }
-    }
-
     $form['actions'] = [
       'continue' => [
         '#type' => 'submit',
@@ -268,42 +188,6 @@ class UberPublisherAssemblerForm extends AssemblerForm {
       }
 
       $GLOBALS['install_state']['varbase']['extra_features_values'] = $extra_features_values;
-    }
-    // Demo Content.
-    $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
-    if (count($demoContent)) {
-      $demo_content_values = [];
-      foreach ($demoContent as $demo_content_key => $demo_content_info) {
-
-        // if form state has got value for this demo content.
-        if ($form_state->hasValue($demo_content_key)) {
-          $demo_content_values[$demo_content_key] = $form_state->getValue($demo_content_key);
-        }
-
-        if (isset($demo_content_info['config_form']) &&
-        $demo_content_info['config_form'] == TRUE) {
-          $formbit_file_name = drupal_get_path('profile', 'varbase') . '/' . $demo_content_info['formbit'];
-          if (file_exists($formbit_file_name)) {
-
-            include_once $formbit_file_name;
-            $demo_content_editable_configs = call_user_func_array($demo_content_key . "_get_editable_config_names", array());
-
-            if (count($demo_content_editable_configs)) {
-              foreach($demo_content_editable_configs as $demo_content_editable_config_key => $demo_content_editable_config) {
-                foreach($demo_content_editable_config as $demo_content_config_item_key => $demo_content_config_item_value) {
-                  if ($form_state->hasValue($demo_content_config_item_key)) {
-                    $demo_content_editable_configs[$demo_content_editable_config_key][$demo_content_config_item_key] = $form_state->getValue($demo_content_config_item_key);
-                  }
-                }
-              }
-            }
-
-            $GLOBALS['install_state']['varbase']['demo_content_configs'] = $demo_content_editable_configs;
-          }
-        }
-      }
-
-      $GLOBALS['install_state']['varbase']['demo_content_values'] = $demo_content_values;
     }
   }
 }

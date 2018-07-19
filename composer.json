@@ -55,7 +55,6 @@
     "drupal/linked_field": "1.1",
     "drupal/sharerich": "1.1",
     "drupal/blocktabs": "1.0-alpha6",
-    "drupal/social_post_twitter": "2.0-alpha2",
     "drupal/views_exclude_previous": "1.0.0-rc1",
     "drupal/fb_instant_articles": "2.1",
     "drupal/ads_system": "1.0-alpha1",
@@ -70,8 +69,7 @@
     "drupal/uber_publisher_breaking_news": "5.x-dev",
     "drupal/uber_publisher_daily_cartoons": "5.x-dev",
     "drupal/uber_publisher_in_pictures": "5.x-dev",
-    "drupal/uber_publisher_search": "5.x-dev",
-    "drupal/uber_publisher_social_post": "5.x-dev"
+    "drupal/uber_publisher_search": "5.x-dev"
   },
   "require-dev": {
     "drush/drush": "8.1.16",
