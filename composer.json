@@ -55,6 +55,7 @@
     "drupal/linked_field": "1.1",
     "drupal/sharerich": "1.1",
     "drupal/blocktabs": "1.0-alpha6",
+    "drupal/social_post_twitter": "2.0-alpha2",
     "drupal/views_exclude_previous": "1.0.0-rc1",
     "drupal/fb_instant_articles": "2.1",
     "drupal/ads_system": "1.0-alpha1",
@@ -69,7 +70,8 @@
     "drupal/uber_publisher_breaking_news": "5.x-dev",
     "drupal/uber_publisher_daily_cartoons": "5.x-dev",
     "drupal/uber_publisher_in_pictures": "5.x-dev",
-    "drupal/uber_publisher_search": "5.x-dev"
+    "drupal/uber_publisher_search": "5.x-dev",
+    "drupal/uber_publisher_social_post": "5.x-dev"
   },
   "require-dev": {
     "drush/drush": "8.1.16",
@@ -148,6 +150,10 @@
     "enable-patching": true,
     "composer-exit-on-patch-failure": true,
     "patches": {
+      "drupal/core": {
+        "Issue #2936358: Layout Builder should be opt-in per display (entity type/bundle/view mode)":
+        "https://www.drupal.org/files/issues/2018-07-28/2936358-opt_in-2936358-64-do-not-test.patch"
+      },
       "drupal/fb_instant_articles": {
         "Issue #2912129: Fix embed YouTube, Twitter & Instagram?":
         "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
@@ -158,7 +164,9 @@
       },
       "drupal/ds": {
         "Issue #2920868: Fixed fatal errors when we have missing layouts, on an update." :
-        "https://www.drupal.org/files/issues/error-when-layout-is-removed-2920868-4.patch"
+        "https://www.drupal.org/files/issues/error-when-layout-is-removed-2920868-4.patch",
+        "Issue #2966959: Value Conflict with Layout Builder":
+        "https://www.drupal.org/files/issues/2018-04-27/2966959-ds-namespace_form_for_layout_builder-4.patch"
       }
     }
   }

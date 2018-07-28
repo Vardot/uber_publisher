@@ -124,6 +124,79 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
     $batch['operations'][] = ['varbase_fix_entity_update', (array) TRUE];
   }
 
+  // Install selected Demo content.
+  $selected_demo_content = [];
+  $selected_demo_content_configs = [];
+
+  if (isset($install_state['varbase']['demo_content_values'])) {
+    $selected_demo_content = $install_state['varbase']['demo_content_values'];
+  }
+
+  if (isset($install_state['varbase']['demo_content_configs'])) {
+    $selected_demo_content_configs = $install_state['varbase']['demo_content_configs'];
+  }
+
+  // Get the list of demo content config bits.
+  $demoContent = ConfigBit::getList('configbit/demo.content.uber_publisher.bit.yml', 'show_demo', TRUE, 'dependencies', 'profile', 'uber_publisher');
+
+  // If we do have demo_content and we have selected demo_content.
+  if (count($selected_demo_content) && count($demoContent)) {
+    // Have batch processes for each selected demo content.
+    foreach ($selected_demo_content as $demo_content_key => $demo_content_checked) {
+      if ($demo_content_checked) {
+
+        // If the demo content was a module and not enabled, then enable it.
+        if (!\Drupal::moduleHandler()->moduleExists($demo_content_key)) {
+          // Add the checked demo content to the batch process to be enabled.
+          $batch['operations'][] = ['varbase_assemble_extra_component_then_install', (array) $demo_content_key];
+        }
+
+        if (count($selected_demo_content_configs) &&
+        isset($demoContent[$demo_content_key]['config_form']) &&
+        $demoContent[$demo_content_key]['config_form'] == TRUE &&
+        isset($demoContent[$demo_content_key]['formbit'])) {
+
+          $formbit_file_name = drupal_get_path('profile', 'uber_publisher') . '/' . $demoContent[$demo_content_key]['formbit'];
+          if (file_exists($formbit_file_name)) {
+
+            // Added the selected development configs to the batch process
+            // with the same function name in the formbit.
+            $batch['operations'][] = ['varbase_save_editable_config_values', (array) [$demo_content_key, $formbit_file_name, $selected_demo_content_configs]];
+          }
+        }
+      }
+    }
+
+    // Auto detect selected extra features demo content.
+    foreach ($selected_extra_features as $extra_feature_key => $extra_feature_checked) {
+      if ($extra_feature_checked) {
+        // Enable extra feature demo content.
+        $extra_feature_checked_demo_content = $extra_feature_key.'_demo_content';
+        // If the extra feature demo_content was a module and not enabled, then enable it.
+        if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content)) {
+          // Add the checked extra feature to the batch process to be enabled.
+          $batch['operations'][] = ['varbase_assemble_extra_component_then_install', (array) $extra_feature_checked_demo_content];
+        }
+
+        // Enable extra feature demo content for current language.
+        $current_language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+        $extra_feature_checked_demo_content_current_language = $extra_feature_key.'_demo_content_'.$current_language;
+        // If the extra feature demo_content_CURRENT_LANGUAGE was a module and not enabled, then enable it.
+        if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content_current_language) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content_current_language)) {
+          // Add the checked extra feature to the batch process to be enabled.
+          $batch['operations'][] = ['varbase_assemble_extra_component_then_install', (array) $extra_feature_checked_demo_content_current_language];
+        }
+      }
+    }
+
+    // Hide Wornings and status messages.
+    $batch['operations'][] = ['varbase_hide_warning_and_status_messages', (array) TRUE];
+
+    // Fix entity updates to clear up any mismatched entity.
+    $batch['operations'][] = ['varbase_fix_entity_update', (array) TRUE];
+
+  }
+
   return $batch;
 }
 

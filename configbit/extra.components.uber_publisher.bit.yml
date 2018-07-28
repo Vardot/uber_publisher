@@ -9,6 +9,11 @@ config_bit:
     show_extra_components: true
     list:
       dependencies:
+        uber_publisher_social_post:
+          title: "Social Posting"
+          description: "Adds the ability to automatically post articles and posts to social media networks like Twitter and/or Facebook. You will have to authenticate your social media accounts after enabling this feature."
+          selected: false
+          config_form: false
         uber_publisher_breaking_news:
           title: "Breaking News"
           description: "Adds a feature for highlighting breaking news headlines. This feature adds an alert bar in the site's theme with different styles of your choice."

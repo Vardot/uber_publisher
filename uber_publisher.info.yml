@@ -10,7 +10,7 @@ dependencies:
   - tracker
   - aggregator
   - sharerich
-  - panelizer_quickedit
+  - layout_builder
   - fb_instant_articles
   - fb_instant_articles_views
 themes:
