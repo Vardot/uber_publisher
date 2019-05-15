@@ -140,10 +140,6 @@
       "drupal/fb_instant_articles": {
         "Issue #2912129: Fix embed YouTube, Twitter & Instagram?":
         "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
-      },
-      "drupal/facets": {
-        "Issue #2692027: Have All link in facets":
-        "https://www.drupal.org/files/issues/2018-06-09/2692027-78.patch"
       }
     }
   }
