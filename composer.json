@@ -34,7 +34,7 @@
     "drupal/drupal-library-installer-plugin": "^0.3",
     "webflo/drupal-finder": "^1.1.0",
     "webmozart/path-util": "^2.3.0",
-    "vardot/varbase": "~8.6.0",
+    "vardot/varbase": "~8.8.0",
     "drupal/linked_field": "^1.1",
     "drupal/sharerich": "^1.1",
     "drupal/blocktabs": "^1.0-alpha6",
