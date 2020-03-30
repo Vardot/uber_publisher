@@ -2,16 +2,14 @@
 
 namespace Drupal\uber_publisher\Form;
 
-use Drupal\Core\Extension\ExtensionDiscovery;
 use Drupal\Core\Extension\InfoParserInterface;
-use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\StringTranslation\TranslationInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\varbase\Config\ConfigBit;
-use Symfony\Component\Filesystem\Filesystem;
-use Drupal\varbase\Form\FormHelper;
 use Drupal\varbase\Form\AssemblerForm;
+use Drupal\varbase\Form\FormHelper;
+use Drupal\varbase\config\ConfigBit;
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\Filesystem\Filesystem;
 
 /**
 * Defines form for selecting extra compoennts for the assembler to install.

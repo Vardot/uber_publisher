@@ -2,9 +2,10 @@
 
 namespace UberPublisher\composer;
 
-use Composer\Semver\Comparator;
-use Symfony\Component\Filesystem\Filesystem;
 use Composer\EventDispatcher\Event;
+use Composer\Semver\Comparator;
+use DrupalFinder\DrupalFinder;
+use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Yaml\Yaml;
 
 /**
@@ -22,7 +23,16 @@ class ScriptHandler {
    *    Drupal root path.
    */
   protected static function getDrupalRoot($project_root) {
-    return $project_root . '/docroot';
+    $fs = new Filesystem();
+    $drupalFinder = new DrupalFinder();
+    $drupalFinder->locateRoot(getcwd());
+    $drupalRoot = $drupalFinder->getDrupalRoot();
+    if (!$fs->exists($drupalRoot . '/core')) {
+      return $project_root . '/docroot';
+    }
+    else {
+      return $drupalRoot;
+    }
   }
 
   /**
@@ -41,31 +51,35 @@ class ScriptHandler {
       'themes',
       'libraries',
     ];
-    // Required for unit testing
+
+    // Required for unit testing.
     foreach ($dirs as $dir) {
-      if (!$fs->exists($drupal_root . '/'. $dir)) {
-        $fs->mkdir($drupal_root . '/'. $dir);
-        $fs->touch($drupal_root . '/'. $dir . '/.gitkeep');
+      if (!$fs->exists($drupal_root . '/' . $dir)) {
+        $fs->mkdir($drupal_root . '/' . $dir);
+        $fs->touch($drupal_root . '/' . $dir . '/.gitkeep');
       }
     }
-    // Prepare the settings file for installation
+    // Prepare the settings file for installation.
     if (!$fs->exists($drupal_root . '/sites/default/settings.php') and $fs->exists($drupal_root . '/sites/default/default.settings.php')) {
       $fs->copy($drupal_root . '/sites/default/default.settings.php', $drupal_root . '/sites/default/settings.php');
       $fs->chmod($drupal_root . '/sites/default/settings.php', 0666);
-      $event->getIO()->write("Create a sites/default/settings.php file with chmod 0666");
+      $event->getIO()
+      ->write("Create a sites/default/settings.php file with chmod 0666");
     }
-    // Prepare the services file for installation
+    // Prepare the services file for installation.
     if (!$fs->exists($drupal_root . '/sites/default/services.yml') and $fs->exists($drupal_root . '/sites/default/default.services.yml')) {
       $fs->copy($drupal_root . '/sites/default/default.services.yml', $drupal_root . '/sites/default/services.yml');
       $fs->chmod($drupal_root . '/sites/default/services.yml', 0666);
-      $event->getIO()->write("Create a sites/default/services.yml file with chmod 0666");
+      $event->getIO()
+      ->write("Create a sites/default/services.yml file with chmod 0666");
     }
-    // Create the files directory with chmod 0777
+    // Create the files directory with chmod 0777.
     if (!$fs->exists($drupal_root . '/sites/default/files')) {
       $oldmask = umask(0);
       $fs->mkdir($drupal_root . '/sites/default/files', 0777);
       umask($oldmask);
-      $event->getIO()->write("Create a sites/default/files directory with chmod 0777");
+      $event->getIO()
+      ->write("Create a sites/default/files directory with chmod 0777");
     }
   }
 
@@ -153,8 +167,8 @@ class ScriptHandler {
    *  For Example:
    *  -------------------------------------------------------------------------
    *    "post-drupal-scaffold-cmd": [
-   *      "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-   *      "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+   *      "uber_publisher\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
+   *      "uber_publisher\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
    *    ],
    *  -------------------------------------------------------------------------
    *

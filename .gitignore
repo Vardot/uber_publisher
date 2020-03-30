@@ -6,6 +6,7 @@ nbproject
 .classpath
 .project
 .settings
+.buildpath
 *.tmp
 *.bak
 *.swp
@@ -22,3 +23,5 @@ bower_components
 .idea/
 *.iml
 *.iws
+/.editorconfig
+/.gitattributes

@@ -3,9 +3,19 @@ type: profile
 description: 'Uber Publisher profile.'
 core: 8.x
 version: 8.x-6.x-dev
+core_version_requirement: ^8 || ^9
 base profile: varbase
 dependencies:
+  - system
   - action
+  - user
+  - node
+  - block
+  - datetime
+  - help
+  - image
+  - views
+  - file
   - tracker
   - aggregator
   - sharerich
@@ -13,11 +23,8 @@ dependencies:
   - fb_instant_articles
   - fb_instant_articles_views
 themes:
-  # Contrib themes.
   - adminimal_theme
   - bootstrap
-
-  # Custom themes.
   - vartheme
   - vartheme_admin
 distribution:
@@ -25,6 +32,5 @@ distribution:
   install:
     theme: vartheme_admin
 features: true
-
 interface translation project: uber_publisher
 interface translation server pattern: profiles/uber_publisher/translations/%language.po

@@ -10,15 +10,17 @@ config_bit:
     list:
       dependencies:
         - varbase_core
+        - varbase_media
+        - varbase_editor
         - varbase_admin
-        - varbase_total_control
+        - varbase_email
         - varbase_security
         - varbase_seo
-        - varbase_editor
-        - varbase_media
         - varbase_webform
         - varbase_page
         - varbase_landing
+        - varbase_total_control
+        - varbase_update_helper
         # Enable listed modules in order at this installation step.
         - libraries
         # Enable default Uber Publisher basic base modules and features.
