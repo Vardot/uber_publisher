@@ -25,6 +25,7 @@ config_bit:
         - libraries
         # Enable default Uber Publisher basic base modules and features.
         - vmi
+        - features
         - varbase_carousels
         # Enable default Uber Publisher basic features.
         - uber_publisher_core
