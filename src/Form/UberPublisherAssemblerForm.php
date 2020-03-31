@@ -2,52 +2,25 @@
 
 namespace Drupal\uber_publisher\Form;
 
-use Drupal\Core\Extension\InfoParserInterface;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\StringTranslation\TranslationInterface;
-use Drupal\varbase\Form\AssemblerForm;
-use Drupal\varbase\Form\FormHelper;
-use Drupal\varbase\config\ConfigBit;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Component\Filesystem\Filesystem;
+use Drupal\varbase\Config\ConfigBit;
+use Drupal\varbase\Form\AssemblerForm as VarbaseAssemblerForm;
 
 /**
-* Defines form for selecting extra compoennts for the assembler to install.
-*/
-class UberPublisherAssemblerForm extends AssemblerForm {
-  /**
-  * Assembler Form constructor.
-  *
-  * @param string $root
-  *   The Drupal application root.
-  * @param InfoParserInterface $info_parser
-  *   The info parser service.
-  * @param TranslationInterface $translator
-  *   The string translation service.
-  * @param \Drupal\varbase\Form\FormHelper $form_helper
-  *   The form helper.
-  */
-  public function __construct($root, InfoParserInterface $info_parser, TranslationInterface $translator, FormHelper $form_helper) {
-    parent::__construct($root, $info_parser, $translator, $form_helper);
-  }
+ * Defines form for selecting extra compoennts for the assembler to install.
+ */
+class UberPublisherAssemblerForm extends VarbaseAssemblerForm {
 
   /**
-  * {@inheritdoc}
-  */
-  public static function create(ContainerInterface $container) {
-    return parent::create($container);
-  }
-
-  /**
-  * {@inheritdoc}
-  */
+   * {@inheritdoc}
+   */
   public function getFormId() {
     return 'uber_publisher_extra_components';
   }
 
   /**
-  * {@inheritdoc}
-  */
+   * {@inheritdoc}
+   */
   public function buildForm(array $form, FormStateInterface $form_state, array &$install_state = NULL) {
     $form['#title'] = $this->t('Extra components');
     $form['extra_components_introduction'] = [
@@ -227,8 +200,8 @@ class UberPublisherAssemblerForm extends AssemblerForm {
   }
 
   /**
-  * {@inheritdoc}
-  */
+   * {@inheritdoc}
+   */
   public function submitForm(array &$form, FormStateInterface $form_state) {
 
     // Extra Features.
