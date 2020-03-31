@@ -11,7 +11,7 @@ use Symfony\Component\Yaml\Yaml;
 /**
  * UberPublisher Composer Script Handler.
  */
-class ScriptHandler {
+class UberPublisherScriptHandler {
 
   /**
    * Get the Drupal root directory.

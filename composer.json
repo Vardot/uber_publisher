@@ -96,7 +96,7 @@
       ],
       "post-drupal-scaffold-cmd": [
         "Varbase\\composer\\ScriptHandler::postDrupalScaffoldProcedure",
-        "UberPublisher\\composer\\ScriptHandler::postDrupalScaffoldSubProfileProcedure"
+        "UberPublisher\\composer\\UberPublisherScriptHandler::postDrupalScaffoldSubProfileProcedure"
       ]
     },
   "extra": {
