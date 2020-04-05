@@ -7,7 +7,6 @@ core_version_requirement: ^8 || ^9
 base profile: varbase
 dependencies:
   - system
-  - features
   - action
   - user
   - node
@@ -32,6 +31,5 @@ distribution:
   name: Uber Publisher
   install:
     theme: vartheme_admin
-features: true
 interface translation project: uber_publisher
 interface translation server pattern: profiles/uber_publisher/translations/%language.po
