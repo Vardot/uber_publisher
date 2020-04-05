@@ -25,7 +25,6 @@ permissions:
   - 'access user profiles'
   - 'add terms in section'
   - 'add terms in tags'
-  - 'administer panelizer node landing_page content'
   - 'create article content'
   - 'create author_profile content'
   - 'create breaking_news content'

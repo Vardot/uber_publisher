@@ -45,8 +45,6 @@ permissions:
   - 'administer nodes'
   - 'administer pages'
   - 'administer pane access'
-  - 'administer panelizer node landing_page content'
-  - 'administer panelizer node landing_page layout'
   - 'administer redirects'
   - 'administer shortcuts'
   - 'administer taxonomy'
