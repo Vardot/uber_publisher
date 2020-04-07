@@ -33,4 +33,3 @@ config_bit:
         - uber_publisher_amp
         - uber_publisher_ads_system
         - uber_publisher_search
-        - uber_publisher_default_content
