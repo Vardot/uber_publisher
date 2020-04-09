@@ -40,4 +40,3 @@ Initial building, ongoing maintenance and development.
 ## [TO DO](https://github.com/Vardot/uber_publisher/blob/8.x-6.x/TODO.md)
 
 ## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/8.x-6.x/UPDATE.md)
-

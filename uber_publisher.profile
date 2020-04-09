@@ -1,30 +1,29 @@
 <?php
+
 /**
-* @file
-* Enables modules and site configuration for a Varbase sub profile basic
-* site installation.
-*/
+ * @file
+ * Enables modules and site configuration for a Varbase sub profile basic
+ * site installation.
+ */
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\language\Entity\ConfigurableLanguage;
-use Drupal\varbase\Form\AssemblerForm;
-use Drupal\varbase\Form\ConfigureMultilingualForm;
 use Drupal\varbase\Config\ConfigBit;
 use Drupal\uber_publisher\Form\UberPublisherAssemblerForm;
 use Drupal\uber_publisher\Helper\HelperFunctions;
+
 /**
-* Implements hook_form_FORM_ID_alter() for install_configure_form().
-*
-* Allows the profile to alter the site configuration form.
-*/
+ * Implements hook_form_FORM_ID_alter() for install_configure_form().
+ *
+ * Allows the profile to alter the site configuration form.
+ */
 function uber_publisher_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   include_once drupal_get_path('profile', 'varbase') . '/varbase.profile';
   varbase_form_install_configure_form_alter($form, $form_state);
 }
 
 /**
-* Implements hook_install_tasks().
-*/
+ * Implements hook_install_tasks().
+ */
 function uber_publisher_install_tasks(&$install_state) {
   include_once drupal_get_path('profile', 'varbase') . '/varbase.profile';
   $install_tasks = varbase_install_tasks($install_state);
@@ -51,14 +50,14 @@ function uber_publisher_install_tasks(&$install_state) {
 }
 
 /**
-* Batch job to assemble Varbase extra components.
-*
-* @param array $install_state
-*   The current install state.
-*
-* @return array
-*   The batch job definition.
-*/
+ * Batch job to assemble Varbase extra components.
+ *
+ * @param array $install_state
+ *   The current install state.
+ *
+ * @return array
+ *   The batch job definition.
+ */
 function uber_publisher_assemble_extra_components(array &$install_state) {
   include_once drupal_get_path('profile', 'varbase') . '/varbase.profile';
 
@@ -171,7 +170,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
     foreach ($selected_extra_features as $extra_feature_key => $extra_feature_checked) {
       if ($extra_feature_checked) {
         // Enable extra feature demo content.
-        $extra_feature_checked_demo_content = $extra_feature_key.'_demo_content';
+        $extra_feature_checked_demo_content = $extra_feature_key . '_demo_content';
         // If the extra feature demo_content was a module and not enabled, then enable it.
         if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content)) {
           // Add the checked extra feature to the batch process to be enabled.
@@ -180,7 +179,7 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
 
         // Enable extra feature demo content for current language.
         $current_language = \Drupal::languageManager()->getCurrentLanguage()->getId();
-        $extra_feature_checked_demo_content_current_language = $extra_feature_key.'_demo_content_'.$current_language;
+        $extra_feature_checked_demo_content_current_language = $extra_feature_key . '_demo_content_' . $current_language;
         // If the extra feature demo_content_CURRENT_LANGUAGE was a module and not enabled, then enable it.
         if (HelperFunctions::module_path_exists(DRUPAL_ROOT . '/modules', $extra_feature_checked_demo_content_current_language) && !\Drupal::moduleHandler()->moduleExists($extra_feature_checked_demo_content_current_language)) {
           // Add the checked extra feature to the batch process to be enabled.
@@ -201,10 +200,10 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
 }
 
 /**
-* Implements hook_form_FORM_ID_alter() for install_configure_form().
-*
-* Altering form_install_select_language show message for Other languages.
-*/
+ * Implements hook_form_FORM_ID_alter() for install_configure_form().
+ *
+ * Altering form_install_select_language show message for Other languages.
+ */
 function uber_publisher_form_install_select_language_form_alter(&$form, FormStateInterface $form_state) {
   $form['#prefix'] = "<div class='messages status other-lang-warn'>Uber Publisher is built on Drupal, which makes it available in all languages. However, right now Uber Publisher is fully available in <b>Arabic</b> and <b>English</b> only. If you install it in any other language, you will most likely find a lot of English-language text that you will need to translate.</br>You can contact Vardot’s sales team at <a href='mailto:sales@vardot.com'>sales@vardot.com</a> for assistance to make Uber Publisher available in your language.</div>";
 }

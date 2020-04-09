@@ -17,10 +17,10 @@ class UberPublisherScriptHandler {
    * Get the Drupal root directory.
    *
    * @param string $project_root
-   *    Project root.
+   *   Project root.
    *
    * @return string
-   *    Drupal root path.
+   *   Drupal root path.
    */
   protected static function getDrupalRoot($project_root) {
     $fs = new Filesystem();
@@ -38,7 +38,7 @@ class UberPublisherScriptHandler {
   /**
    * Create required files.
    *
-   * @param Event $event
+   * @param \Composer\EventDispatcher\Event $event
    */
   public static function createRequiredFiles(Event $event) {
 
@@ -64,14 +64,14 @@ class UberPublisherScriptHandler {
       $fs->copy($drupal_root . '/sites/default/default.settings.php', $drupal_root . '/sites/default/settings.php');
       $fs->chmod($drupal_root . '/sites/default/settings.php', 0666);
       $event->getIO()
-      ->write("Create a sites/default/settings.php file with chmod 0666");
+        ->write("Create a sites/default/settings.php file with chmod 0666");
     }
     // Prepare the services file for installation.
     if (!$fs->exists($drupal_root . '/sites/default/services.yml') and $fs->exists($drupal_root . '/sites/default/default.services.yml')) {
       $fs->copy($drupal_root . '/sites/default/default.services.yml', $drupal_root . '/sites/default/services.yml');
       $fs->chmod($drupal_root . '/sites/default/services.yml', 0666);
       $event->getIO()
-      ->write("Create a sites/default/services.yml file with chmod 0666");
+        ->write("Create a sites/default/services.yml file with chmod 0666");
     }
     // Create the files directory with chmod 0777.
     if (!$fs->exists($drupal_root . '/sites/default/files')) {
@@ -79,11 +79,11 @@ class UberPublisherScriptHandler {
       $fs->mkdir($drupal_root . '/sites/default/files', 0777);
       umask($oldmask);
       $event->getIO()
-      ->write("Create a sites/default/files directory with chmod 0777");
+        ->write("Create a sites/default/files directory with chmod 0777");
     }
   }
 
-    /**
+  /**
    * Checks if the installed version of Composer is compatible.
    *
    * Composer 1.0.0 and higher consider a `composer install` without having a

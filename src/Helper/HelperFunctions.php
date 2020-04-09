@@ -6,6 +6,7 @@ namespace Drupal\uber_publisher\Helper;
  * Defines some helpers functions that we may use in profile.
  */
 class HelperFunctions {
+
   /**
    * Check if module folder exists at modules directory and it's all sub Directories.
    *
@@ -14,13 +15,14 @@ class HelperFunctions {
    * @param string $module_name
    *   The module name that we need to check is exists or no.
    *
-   * @return boolean
+   * @return bool
    */
   public static function module_path_exists($root_search = DRUPAL_ROOT, $module_name) {
     $iterators = new \RecursiveIteratorIterator(
         new \RecursiveDirectoryIterator($root_search, \  RecursiveDirectoryIterator::SKIP_DOTS),
         \RecursiveIteratorIterator::SELF_FIRST,
-        \RecursiveIteratorIterator::CATCH_GET_CHILD // Ignore "Permission denied"
+    // Ignore "Permission denied".
+        \RecursiveIteratorIterator::CATCH_GET_CHILD
     );
 
     // Loop through all iterators.
@@ -35,4 +37,5 @@ class HelperFunctions {
     }
     return FALSE;
   }
+
 }
