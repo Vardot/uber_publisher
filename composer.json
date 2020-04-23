@@ -45,6 +45,7 @@
     "drupal/subpathauto": "^1.0",
     "drupal/facets": "^1.4",
     "lullabot/amp": "^1.1",
+    "drupal/varbase_content_planner": "1.x-dev",
     "drupal/uber_publisher_core": "6.x-dev",
     "drupal/uber_publisher_author_profile": "6.x-dev",
     "drupal/uber_publisher_opinion_articles": "6.x-dev",

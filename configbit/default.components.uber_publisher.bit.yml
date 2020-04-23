@@ -29,6 +29,7 @@ config_bit:
         # Enable default Uber Publisher basic features.
         - uber_publisher_core
         - uber_publisher_article
+        - varbase_content_planner
         - uber_publisher_fbia
         - uber_publisher_amp
         - uber_publisher_ads_system
