@@ -30,6 +30,6 @@ themes:
 distribution:
   name: Uber Publisher
   install:
-    theme: vartheme_admin
+    theme: claro
 interface translation project: uber_publisher
 interface translation server pattern: profiles/uber_publisher/translations/%language.po
