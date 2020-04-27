@@ -21,12 +21,10 @@ config_bit:
         - varbase_landing
         - varbase_total_control
         - varbase_update_helper
-        # Enable listed modules in order at this installation step.
         - libraries
-        # Enable default Uber Publisher basic base modules and features.
+        - scheduler
         - vmi
         - varbase_carousels
-        # Enable default Uber Publisher basic features.
         - uber_publisher_core
         - uber_publisher_article
         - varbase_content_planner
