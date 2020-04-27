@@ -207,3 +207,27 @@ function uber_publisher_assemble_extra_components(array &$install_state) {
 function uber_publisher_form_install_select_language_form_alter(&$form, FormStateInterface $form_state) {
   $form['#prefix'] = "<div class='messages status other-lang-warn'>Uber Publisher is built on Drupal, which makes it available in all languages. However, right now Uber Publisher is fully available in <b>Arabic</b> and <b>English</b> only. If you install it in any other language, you will most likely find a lot of English-language text that you will need to translate.</br>You can contact Vardot’s sales team at <a href='mailto:sales@vardot.com'>sales@vardot.com</a> for assistance to make Uber Publisher available in your language.</div>";
 }
+
+/**
+ * Implements hook_preprocess_install_page().
+ */
+function uber_publisher_preprocess_install_page(&$variables) {
+
+  // If you are accessing the value before it is written to configuration
+  // during the installer use the $install_state global.
+  global $install_state;
+  $profile_name = 'varbase';
+  // If the profile has been selected return it.
+  if (isset($install_state['parameters']['profile'])) {
+    $profile_name = $install_state['parameters']['profile'];
+  }
+
+  $current_profile_path = drupal_get_path('profile', $profile_name);
+  // Profile logo.
+  if (file_exists($current_profile_path . '/images/' . $profile_name . '-logo.png')) {
+    $variables['profile_logo'] = base_path() . $current_profile_path . '/images/' . $profile_name . '-logo.png';
+  }
+
+  // Attach install page library.
+  $variables['#attached']['library'][] = $profile_name . '/install_page';
+}

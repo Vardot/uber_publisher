@@ -17,3 +17,7 @@ body.install-page {
 .other-lang-warn.visible {
   display: block;
 }
+
+.install-page .layout-container {
+  max-width: 1000px;
+}
