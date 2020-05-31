@@ -22,13 +22,16 @@ dependencies:
   - layout_builder
   - fb_instant_articles
   - fb_instant_articles_views
+  - simple_sitemap_news
+  - linkchecker
 themes:
   - adminimal_theme
   - bootstrap
   - claro
+  - vartheme_claro
 distribution:
   name: Uber Publisher
   install:
-    theme: claro
+    theme: vartheme_claro
 interface translation project: uber_publisher
 interface translation server pattern: profiles/uber_publisher/translations/%language.po

@@ -51,6 +51,9 @@
     "drupal/media_entity_instagram": "^2.0",
     "drupal/media_entity_twitter": "^2.4",
     "drupal/media_entity_pinterest": "^2.2",
+    "drupal/vartheme_claro": "^8.1",
+    "drupal/simple_sitemap_news": "^1.0",
+    "drupal/linkchecker": "1.x-dev",
     "drupal/uber_publisher_core": "6.x-dev",
     "drupal/uber_publisher_author_profile": "6.x-dev",
     "drupal/uber_publisher_opinion_articles": "6.x-dev",
@@ -209,6 +212,14 @@
       "drupal/fb_instant_articles": {
         "Issue #2912129: Fix embed YouTube, Twitter & Instagram?":
         "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
+      },
+      "drupal/vartheme_claro": {
+        "Issue #3134364 Enhancements on the content types forms fields":
+        "https://www.drupal.org/files/issues/2020-05-19/enhancments_on_the_content_types_forms_fields_7.patch"
+      },
+      "drupal/linkchecker": {
+        "Issue #3118940 Route entity.linkcheckerlink.canonical does not exist":
+        "https://www.drupal.org/files/issues/2020-04-29/linkchecker-3118940-add-canonical-route.patch"
       }
     }
   }
