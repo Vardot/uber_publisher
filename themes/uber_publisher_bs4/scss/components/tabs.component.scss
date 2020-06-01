@@ -1,0 +1,11 @@
+// Theme styling for tabs.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // uber_publisher_bs4 variables.
+@import "../mixins";                      // uber_publisher_bs4 mixins.
+// -----------------------------------------------------------------------------
+ 
+nav.tabs {
+  margin-bottom: $spacer;
+}

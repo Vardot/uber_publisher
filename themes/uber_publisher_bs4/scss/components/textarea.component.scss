@@ -1,0 +1,14 @@
+// Visual styles for a resizable textarea.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // uber_publisher_bs4 variables.
+@import "../mixins";                      // uber_publisher_bs4 mixins.
+// -----------------------------------------------------------------------------
+ 
+.form-textarea-wrapper textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,17 @@
+// uber_publisher_bs4 Better Login styling (RTL).
+// -----------------------------------------------------------------------------
+@import "../../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../../variables";                // uber_publisher_bs4 variables.
+@import "../../mixins";                   // uber_publisher_bs4 mixins.
+// -----------------------------------------------------------------------------
+
+#auth-box {
+  .user-login-form {
+    text-align: right;
+
+    .option {
+      padding-right: 0;
+    }
+  }
+}

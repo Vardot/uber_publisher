@@ -1,0 +1,38 @@
+//
+// uber_publisher_bs4 Variables ovarrides.
+// --------------------------------------------------
+
+
+// #############################################################################
+// Bootstrap library standard variables.
+// #############################################################################
+// All variables which are used in the default bootstrap library.
+// You can change them in uber_publisher_bs4 for the bootstrap-variables.sass
+//
+@import "bootstrap-variables"; // Bootstrap custom variables ovarrides in uber_publisher_bs4.
+
+
+// #############################################################################
+// Barrio custom variables.
+// #############################################################################
+// All needed custom variables for Bootstrap Barrio theme.
+// You can change them in uber_publisher_bs4 in the bootstrap-variables.sass
+//
+@import "barrio-variables"; // Barrio custom variables ovarrides in uber_publisher_bs4.
+
+
+// #############################################################################
+// Vartheme BS4 custom variables
+// #############################################################################
+// All needed custom Vartheme bs4 variables
+// You can change them in uber_publisher_bs4 in the vartheme_bs4-variables.sass
+//
+@import "vartheme_bs4-variables"; // Vartheme BS4 custom variables ovarrides in uber_publisher_bs4.
+
+
+// #############################################################################
+// uber_publisher_bs4 custom needed variables
+// #############################################################################
+// Add custom needed uber_publisher_bs4 variables.
+// In the generated uber_publisher_bs4 not in Vartheme BS4 base theme.
+//

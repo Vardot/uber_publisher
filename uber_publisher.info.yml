@@ -23,7 +23,6 @@ dependencies:
   - fb_instant_articles
   - fb_instant_articles_views
   - simple_sitemap_news
-  - linkchecker
 themes:
   - adminimal_theme
   - bootstrap

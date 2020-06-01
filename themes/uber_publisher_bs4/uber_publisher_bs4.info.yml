@@ -1,0 +1,151 @@
+core: 8.x
+type: theme
+base theme: vartheme_bs4
+
+name: 'uber_publisher_bs4 - Subtheme of Vartheme (Bootstrap 4 - SASS)'
+description: 'Based on Bootstrap 4 framework using SASS, and extending Vartheme (Bootstrap 4 - SASS).'
+project: vartheme_bs4
+version: 8.x-6.x-dev
+core_version_requirement: ^8 || ^9
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  hero_slider: 'Media Hero Slider'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  # Bootstrap styles and scripts libraries.
+  - uber_publisher_bs4/bootstrap-styles
+  - uber_publisher_bs4/bootstrap-scripts
+
+  # uber_publisher_bs4 Global styles and scripts libraries.
+  - uber_publisher_bs4/global-styles
+  - uber_publisher_bs4/global-scripts
+  - uber_publisher_bs4/framework
+
+  # uber_publisher_bs4 Varbase Bootstrap Paragraphs colors style.
+  - uber_publisher_bs4/vbp-colors
+  
+  # uber_publisher_bs4 Varbase Layout Builder colors style.
+  - uber_publisher_bs4/vlb-colors
+
+  # uber_publisher_bs4 Better Login style.
+  - uber_publisher_bs4/betterlogin
+  
+  # uber_publisher_bs4 Varbase Media Hero Slider style.
+  - uber_publisher_bs4/heroslider
+
+  # Icons: Uncomment the following if you want to use icons.
+  #- uber_publisher_bs4/material_design_icons
+  #- uber_publisher_bs4/fontawesome
+
+  # Fonts: Uncomment the following if you want to use the roboto font.
+  #- uber_publisher_bs4/roboto
+
+libraries-override:
+  vartheme_bs4/framework: false
+  vartheme_bs4/bootstrap-styles: false
+  vartheme_bs4/bootstrap-scripts: false
+  vartheme_bs4/global-styles: false
+  vartheme_bs4/global-scripts: false
+  vartheme_bs4/vbp-colors: false
+  vartheme_bs4/vlb-colors: false
+  vartheme_bs4/betterlogin: false
+  # Heroslider: Uncomment the following to disable the vartheme_bs4/heroslider
+  #             Libraray if it was enabled in vartheme_bs4 heroslider styling.
+  # vartheme_bs4/heroslider: false
+
+  vartheme_bs4/breadcrumb: uber_publisher_bs4/breadcrumb
+  vartheme_bs4/dropbutton: uber_publisher_bs4/dropbutton
+  vartheme_bs4/file: uber_publisher_bs4/file
+  vartheme_bs4/form: uber_publisher_bs4/form
+  vartheme_bs4/indented: uber_publisher_bs4/indented
+  vartheme_bs4/maintenance_page: uber_publisher_bs4/maintenance_page
+  vartheme_bs4/node: uber_publisher_bs4/node
+  vartheme_bs4/sidebar-collapse: uber_publisher_bs4/sidebar-collapse
+  vartheme_bs4/tabs: uber_publisher_bs4/tabs
+  vartheme_bs4/verticaltabs: uber_publisher_bs4/verticaltabs
+  vartheme_bs4/alerts: uber_publisher_bs4/alerts
+
+  # Varbase module compnents overrides in uber_publisher_bs4.
+  varbase_bootstrap_paragraphs/vbp-colors: uber_publisher_bs4/vbp-colors
+  varbase_layout_builder/vlb-colors: uber_publisher_bs4/vlb-colors
+  betterlogin/betterlogin_css: uber_publisher_bs4/betterlogin
+  varbase_heroslider_media/general-styling: uber_publisher_bs4/heroslider
+
+  vbp_text_and_image/vbp_text_and_image_default:
+    css:
+      theme:
+        css/default.css: css/layout/vbp_text_and_image_default.layout.css
+
+ckeditor_stylesheets:
+  # Base
+  - css/base/bootstrap.base.css
+  - css/base/vartheme_bs4.base.css
+  - css/base/uber_publisher_bs4.base.css
+  # Components
+  - css/components/affix.component.css
+  - css/components/ajax.component.css
+  - css/components/alerts.component.css
+  - css/components/autocomplete.component.css
+  - css/components/book.component.css
+  - css/components/book-navigation.component.css
+  - css/components/breadcrumb.component.css
+  - css/components/bs-callouts.component.css
+  - css/components/comments.component.css
+  - css/components/contextual.component.css
+  - css/components/details.component.css
+  - css/components/dropbutton.component.css
+  - css/components/feed-icon.component.css
+  - css/components/field.component.css
+  - css/components/file.component.css
+  - css/components/form.component.css
+  - css/components/header.component.css
+  - css/components/help.component.css
+  - css/components/icons.component.css
+  - css/components/image-button.component.css
+  - css/components/indented.component.css
+  - css/components/item-list.component.css
+  - css/components/list-group.component.css
+  - css/components/navbar.admin.component.css
+  - css/components/navbar.component.css
+  - css/components/node.component.css
+  - css/components/node-preview.component.css
+  - css/components/page.component.css
+  - css/components/progress-bar.component.css
+  - css/components/search-form.component.css
+  - css/components/shortcut.component.css
+  - css/components/sidebar.component.css
+  - css/components/sidebar-collapse.component.css
+  - css/components/site-footer.component.css
+  - css/components/skip-link.component.css
+  - css/components/table.component.css
+  - css/components/tabledrag.component.css
+  - css/components/tableselect.component.css
+  - css/components/tablesort.component.css
+  - css/components/tablesort-indicator.component.css
+  - css/components/tabs.component.css
+  - css/components/textarea.component.css
+  - css/components/ui-dialog.component.css
+  - css/components/ui-widget.component.css
+  - css/components/user.component.css
+  - css/components/varicons.component.css
+  - css/components/vb-tags.component.css
+  - css/components/vertical-tabs.component.css
+  - css/components/views.component.css
+  # Layout
+  - css/layout/edge2edge.layout.css
+  - css/layout/equal-height.layout.css
+  # Theme
+  - css/theme/content.theme.css
+  - css/theme/vbp-colors.theme.css
+  - css/theme/vlb-colors.theme.css

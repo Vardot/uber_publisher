@@ -1,0 +1,16 @@
+// Styles for Bootstrap Barrio's image buttons.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // uber_publisher_bs4 variables.
+@import "../mixins";                      // uber_publisher_bs4 mixins.
+// -----------------------------------------------------------------------------
+
+.image-button.is-disabled:hover,
+.image-button.is-disabled:active,
+.image-button.is-disabled:focus,
+.image-button.is-disabled {
+  background: transparent;
+  opacity: 0.5;
+  cursor: default;
+}

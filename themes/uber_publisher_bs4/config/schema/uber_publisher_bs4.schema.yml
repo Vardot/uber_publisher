@@ -1,0 +1,4 @@
+# Schema for the configuration files of the uber_publisher_bs4.
+uber_publisher_bs4.settings:
+  type: theme_settings
+  label: 'uber_publisher_bs4 settings'
