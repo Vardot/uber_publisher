@@ -24,8 +24,6 @@ dependencies:
   - fb_instant_articles_views
   - simple_sitemap_news
 themes:
-  - adminimal_theme
-  - bootstrap
   - claro
   - vartheme_claro
 distribution:
