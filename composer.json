@@ -48,12 +48,14 @@
     "drupal/media_library_edit": "^1.0",
     "drupal/allowed_formats": "^1.2",
     "drupal/varbase_content_planner": "8.1.x-dev",
+    "drupal/varbase_youtube_import": "1.x-dev",
     "drupal/media_entity_instagram": "^2.0",
     "drupal/media_entity_twitter": "^2.4",
     "drupal/media_entity_pinterest": "^2.2",
     "drupal/vartheme_claro": "^8.1",
     "drupal/simple_sitemap_news": "^1.0",
     "drupal/linkchecker": "1.x-dev",
+    "drupal/prevent_homepage_deletion": "^1.2",
     "drupal/uber_publisher_core": "6.x-dev",
     "drupal/uber_publisher_author_profile": "6.x-dev",
     "drupal/uber_publisher_opinion_articles": "6.x-dev",
@@ -64,7 +66,7 @@
     "drupal/uber_publisher_search": "6.x-dev",
     "drupal/uber_publisher_social_post": "6.x-dev",
     "drupal/uber_publisher_indepth": "1.x-dev",
-    "drupal/varbase_youtube_import": "1.x-dev"
+    "drupal/uber_publisher_video": "1.x-dev"
   },
   "require-dev": {
     "drupal/core-dev": "^8.8.0",
