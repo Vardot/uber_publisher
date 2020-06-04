@@ -62,7 +62,9 @@
     "drupal/uber_publisher_daily_cartoons": "6.x-dev",
     "drupal/uber_publisher_in_pictures": "6.x-dev",
     "drupal/uber_publisher_search": "6.x-dev",
-    "drupal/uber_publisher_social_post": "6.x-dev"
+    "drupal/uber_publisher_social_post": "6.x-dev",
+    "drupal/uber_publisher_indepth": "1.x-dev",
+    "drupal/varbase_youtube_import": "1.x-dev"
   },
   "require-dev": {
     "drupal/core-dev": "^8.8.0",

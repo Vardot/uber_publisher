@@ -27,6 +27,7 @@ dependencies:
 themes:
   - claro
   - vartheme_claro
+  - uber_publisher_bs4
 distribution:
   name: Uber Publisher
   install:
