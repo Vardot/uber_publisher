@@ -230,9 +230,6 @@
       "drupal/media_library_edit": {
         "Issue #3034205: Open in modal": "https://www.drupal.org/files/issues/2020-02-28/open-in-modal-3034205-17.patch"
       },
-      "drupal/content_planner": {
-          "Issue #3129606 Access bypass in Kanban": "https://www.drupal.org/files/issues/2020-05-05/access_fix_bypass_in_Kanban-3129606-3.patch"
-      },
       "drupal/simple_amp": {
           "Issue #3134061: AMP Error - The tag 'amphead-placeholder' is disallowed": "https://www.drupal.org/files/issues/2020-05-06/3134061-fix-amphead-placeholder-tag.patch"
       },
