@@ -215,15 +215,13 @@
       },
       "drupal/vartheme_claro": {
         "Issue #3134364 Enhancements on the content types forms fields":
-        "https://www.drupal.org/files/issues/2020-06-02/enhancments_on_the_content_types_forms_fields_8_0.patch"
+        "https://www.drupal.org/files/issues/2020-06-02/enhancments_on_the_content_types_forms_fields_8_0.patch",
+        "Issue #3145615 Media library Insert selected button has no attr that behat can Presses on":
+        "https://www.drupal.org/files/issues/2020-06-04/add_attr_to_button-3145615-7.patch"
       },
       "drupal/linkchecker": {
         "Issue #3118940 Route entity.linkcheckerlink.canonical does not exist":
         "https://www.drupal.org/files/issues/2020-04-29/linkchecker-3118940-add-canonical-route.patch"
-      },
-      "drupal/vartheme_bs4": {
-        "Issue #3145615 Media library Insert selected button has no attr that behat can Presses on":
-        "https://www.drupal.org/files/issues/2020-06-04/add_attr_to_button-3145615-2.patch"
       },
       "drupal/media_library_edit": {
         "Issue #3034205: Open in modal": "https://www.drupal.org/files/issues/2020-02-28/open-in-modal-3034205-17.patch"
