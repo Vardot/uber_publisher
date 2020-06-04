@@ -23,6 +23,7 @@ dependencies:
   - fb_instant_articles
   - fb_instant_articles_views
   - simple_sitemap_news
+  - layout_library
 themes:
   - claro
   - vartheme_claro
