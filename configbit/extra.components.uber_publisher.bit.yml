@@ -9,11 +9,6 @@ config_bit:
     show_extra_components: true
     list:
       dependencies:
-        uber_publisher_social_post:
-          title: "Social Posting"
-          description: "Adds the ability to automatically post articles and posts to social media networks like Twitter and/or Facebook. You will have to authenticate your social media accounts after enabling this feature."
-          selected: false
-          config_form: false
         uber_publisher_breaking_news:
           title: "Breaking News"
           description: "Adds a feature for highlighting breaking news headlines. This feature adds an alert bar in the site's theme with different styles of your choice."
@@ -24,13 +19,18 @@ config_bit:
           description: "Adds a feature for publishing opinion and editorial articles (op-eds) to your site. Articles are written by authors who have a profile page to display their information and contributions. A real user can <em>optionally</em> be enabled and linked to an author profile."
           selected: false
           config_form: false
-        uber_publisher_daily_cartoons:
-          title: "Daily Cartoons"
-          description: "Adds a section in your site to display and highlight daily cartoons."
-          selected: false
-          config_form: false
         uber_publisher_in_pictures:
           title: "In Pictures"
           description: "News stories told and displayed in a form of picture galleries."
+          selected: false
+          config_form: false
+        uber_publisher_indepth:
+          title: "In-Depth Articles"
+          description: "Adds a section in your site to display In-Depth articles."
+          selected: false
+          config_form: false
+        uber_publisher_video:
+          title: "Video Articles"
+          description: "Adds a section in your site to display Video articles."
           selected: false
           config_form: false
