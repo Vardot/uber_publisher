@@ -66,7 +66,18 @@
     "drupal/uber_publisher_search": "6.x-dev",
     "drupal/uber_publisher_social_post": "6.x-dev",
     "drupal/uber_publisher_indepth": "1.x-dev",
-    "drupal/uber_publisher_video": "1.x-dev"
+    "drupal/uber_publisher_video": "1.x-dev",
+    "bower-asset/objectfitpolyfill": "~2.0",
+    "bower-asset/chartjs": "2.7.*",
+    "bower-asset/c3": "0.4.*",
+    "bower-asset/d3": "3.5.*",
+    "npm-asset/masonry-layout": "~4.0",
+    "npm-asset/imagesloaded": "~4.0",
+    "npm-asset/dropzone": "~4.0",
+    "npm-asset/blazy": "~1.0",
+    "npm-asset/slick-carousel": "~1.0",
+    "npm-asset/ace-builds": "~1.0",
+    "swagger-api/swagger-ui": "~3.0"
   },
   "require-dev": {
     "drupal/core-dev": "^8.8.0",
