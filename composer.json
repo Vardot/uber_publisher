@@ -239,7 +239,7 @@
         "https://www.drupal.org/files/issues/2020-04-29/linkchecker-3118940-add-canonical-route.patch"
       },
       "drupal/media_library_edit": {
-        "Issue #3034205: Open in modal": "https://www.drupal.org/files/issues/2020-02-28/open-in-modal-3034205-17.patch"
+        "Issue #3034205: Open in modal": "https://www.drupal.org/files/issues/2020-06-09/open-in-modal-3034205-36.patch"
       },
       "drupal/content_planner": {
         "Issue #3129606 Access bypass in Kanban": "https://www.drupal.org/files/issues/2020-06-07/access_fix_bypass_in_Kanban-3129606-4.patch",
