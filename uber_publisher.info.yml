@@ -24,6 +24,7 @@ dependencies:
   - fb_instant_articles_views
   - simple_sitemap_news
   - layout_library
+  - layout_builder_restrictions
   - prevent_homepage_deletion
 themes:
   - claro
