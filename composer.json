@@ -56,17 +56,17 @@
     "drupal/simple_sitemap_news": "^1.0",
     "drupal/linkchecker": "1.x-dev",
     "drupal/prevent_homepage_deletion": "^1.2",
-    "drupal/uber_publisher_core": "6.x-dev",
-    "drupal/uber_publisher_author_profile": "6.x-dev",
-    "drupal/uber_publisher_opinion_articles": "6.x-dev",
-    "drupal/uber_publisher_ads_system": "6.x-dev",
-    "drupal/uber_publisher_breaking_news": "6.x-dev",
+    "drupal/uber_publisher_core": "^7.0",
+    "drupal/uber_publisher_author_profile": "^7.0",
+    "drupal/uber_publisher_opinion_articles": "^7.0",
+    "drupal/uber_publisher_ads_system": "^7.0",
+    "drupal/uber_publisher_breaking_news": "^7.0",
     "drupal/uber_publisher_daily_cartoons": "6.x-dev",
-    "drupal/uber_publisher_in_pictures": "6.x-dev",
-    "drupal/uber_publisher_search": "6.x-dev",
-    "drupal/uber_publisher_social_post": "6.x-dev",
-    "drupal/uber_publisher_indepth": "1.x-dev",
-    "drupal/uber_publisher_video": "1.x-dev",
+    "drupal/uber_publisher_in_pictures": "^7.0",
+    "drupal/uber_publisher_search": "^7.0",
+    "drupal/uber_publisher_social_post": "^7.0",
+    "drupal/uber_publisher_indepth": "^7.0",
+    "drupal/uber_publisher_video": "^7.0",
     "bower-asset/objectfitpolyfill": "~2.0",
     "bower-asset/chartjs": "2.7.*",
     "bower-asset/c3": "0.4.*",
@@ -130,7 +130,7 @@
       }
     },
     "branch-alias": {
-      "dev-8.x-6.x": "8.6.x-dev"
+      "7.0.x": "7.0.x-dev"
     },
     "installer-types": [
       "bower-asset",
