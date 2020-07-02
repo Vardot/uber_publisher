@@ -182,10 +182,6 @@
         "Issue #3034205: Open in modal":
         "https://www.drupal.org/files/issues/2020-06-09/open-in-modal-3034205-36.patch"
       },
-      "drupal/simple_amp": {
-        "Issue #3134061: AMP Error - The tag 'amphead-placeholder' is disallowed":
-        "https://www.drupal.org/files/issues/2020-05-06/3134061-fix-amphead-placeholder-tag.patch"
-      },
       "drupal/subpathauto": {
         "Issue #2830425: Add option to ignore admin paths":
         "https://www.drupal.org/files/issues/2020-05-06/2830425-20.patch"
