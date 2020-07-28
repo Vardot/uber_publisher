@@ -184,7 +184,7 @@
       },
       "drupal/subpathauto": {
         "Issue #2830425: Add option to ignore admin paths":
-        "https://www.drupal.org/files/issues/2020-05-06/2830425-20.patch"
+        "https://www.drupal.org/files/issues/2020-07-28/2830425-21.patch"
       },
       "drupal/ctools": {
         "Issue #Add Configure Filter functionality to block views configuration.":
