@@ -59,7 +59,7 @@
     "drupal/simple_amp": "~1.0",
     "drupal/subpathauto": "~1.0",
     "drupal/facets": "~1.0",
-    "drupal/media_library_edit": "~1.0",
+    "drupal/media_library_edit": "~2.0",
     "drupal/media_entity_instagram": "~2.0",
     "drupal/media_entity_twitter": "~2.0",
     "drupal/media_entity_pinterest": "~2.0",
