@@ -3,6 +3,12 @@ type: profile
 description: 'Uber Publisher is a flexible and powerful solution designed to evolve the way publishers and media do business.'
 core_version_requirement: ^8 || ^9
 base profile: varbase
+project: uber_bublisher
+distribution:
+  name: 'Uber Publisher'
+  install:
+    theme: vartheme_claro
+version: 7.0.x-dev
 dependencies:
   - system
   - action
@@ -16,7 +22,6 @@ dependencies:
   - image
   - views
   - file
-  - fontawesome
   - block_class
   - menu_block
   - block_content
@@ -25,9 +30,6 @@ themes:
   - vartheme_claro
   - vartheme_bs4
   - uber_publisher_bs4
-distribution:
-  name: Uber Publisher
-  install:
-    theme: vartheme_claro
+
 interface translation project: uber_publisher
 interface translation server pattern: profiles/uber_publisher/translations/%language.po
