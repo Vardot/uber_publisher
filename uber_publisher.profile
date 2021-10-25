@@ -10,6 +10,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\varbase\Config\ConfigBit;
 use Drupal\uber_publisher\Form\UberPublisherAssemblerForm;
 use Drupal\uber_publisher\Helper\HelperFunctions;
+use Drupal\varbase\Entity\VarbaseEntityDefinitionUpdateManager;
 
 /**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
