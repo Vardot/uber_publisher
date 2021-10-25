@@ -1,6 +1,6 @@
 {
   "name": "vardot/uber_publisher",
-  "description": "Uper Publisher distribution for bulding enterprise publishing protals.",
+  "description": "Uber Publisher is a flexible and powerful solution designed to evolve the way publishers and media do business.",
   "type": "drupal-profile",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
@@ -27,15 +27,13 @@
     }
   },
   "require": {
-    "composer/installers": "~1.0",
-    "oomphinc/composer-installers-extender": "~1.0",
+    "composer/installers": "~1.0 || ~2.0",
+    "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
     "cweagans/composer-patches": "~1.0",
     "drupal/core-composer-scaffold": "^8.8.0",
-    "drupal/drupal-library-installer-plugin": "^0.3",
     "webflo/drupal-finder": "~1.0",
-    "vardot/varbase": "~8.8.0",
-    "drupal/varbase_workflow": "~2.0",
-    "drupal/vartheme_claro": "~2.0",
+    "drupal/core": "~8.0 || ~9.0",
+    "vardot/varbase": "~8.0 || 8.8.x-dev || ~9.0 || 9.0.x-dev",
     "drupal/varbase_youtube_import": "1.x-dev",
     "drupal/uber_publisher_core": "7.0.x-dev",
     "drupal/uber_publisher_author_profile": "7.0.x-dev",
@@ -46,45 +44,13 @@
     "drupal/uber_publisher_search": "7.0.x-dev",
     "drupal/uber_publisher_indepth": "7.0.x-dev",
     "drupal/uber_publisher_video": "7.0.x-dev",
-    "drupal/uber_publisher_social_post": "6.x-dev",
-    "drupal/uber_publisher_daily_cartoons": "6.x-dev",
-    "drupal/linkchecker": "1.x-dev",
-    "drupal/linked_field": "~1.0",
-    "drupal/sharerich": "~1.0",
-    "drupal/blocktabs": "~1.0",
-    "drupal/social_post_twitter": "~2.0",
-    "drupal/views_exclude_previous": "~1.0",
-    "drupal/fb_instant_articles": "~2.0",
-    "drupal/ads_system": "~1.0",
-    "drupal/simple_amp": "~1.0",
-    "drupal/subpathauto": "~1.0",
-    "drupal/facets": "~1.0",
-    "drupal/media_library_edit": "~2.0",
-    "drupal/media_entity_instagram": "~2.0",
-    "drupal/media_entity_twitter": "~2.0",
-    "drupal/media_entity_pinterest": "~2.0",
-    "drupal/simple_sitemap_news": "~1.0",
-    "drupal/prevent_homepage_deletion": "~1.0",
-    "lullabot/amp": "~1.0",
-    "bower-asset/objectfitpolyfill": "~2.0",
-    "bower-asset/chartjs": "2.7.*",
-    "bower-asset/c3": "0.4.*",
-    "bower-asset/d3": "3.5.*",
-    "npm-asset/masonry-layout": "~4.0",
-    "npm-asset/imagesloaded": "~4.0",
-    "npm-asset/dropzone": "~4.0",
-    "npm-asset/blazy": "~1.0",
-    "npm-asset/slick-carousel": "~1.0",
-    "npm-asset/ace-builds": "~1.0",
-    "swagger-api/swagger-ui": "~3.0"
+    "drupal/uber_publisher_social_post": "7.0.x-dev",
+    "drupal/uber_publisher_daily_cartoons": "7.0.x-dev"
   },
   "require-dev": {
-    "drupal/core-dev": "^8.8.0",
-    "drupal/console": "^1.0",
-    "drush/drush": "^9.0",
-    "behat/behat": "~3.0",
-    "phing/phing": "~2.0",
-    "drupal/drupal-extension": "^3.2",
+    "drupal/core-dev": "~8.0",
+    "drush/drush": "~9.0",
+    "drupal/drupal-extension": "~3.0",
     "emuse/behat-html-formatter": "^0.2.0"
   },
   "config": {
@@ -96,7 +62,7 @@
   },
   "autoload": {
     "psr-4": {
-    "Varbase\\composer\\": "src/composer"
+      "Varbase\\composer\\": "src/composer"
     }
   },
   "scripts": {
@@ -127,6 +93,11 @@
         "web-root": "docroot/"
       }
     },
+    "branch-alias": {
+      "dev-7.0.x": "7.0.x-dev",
+      "dev-8.x-8.x": "8.8.x-dev",
+      "dev-9.0.x-dev": "9.0.x-dev"
+    },
     "installer-types": [
       "bower-asset",
       "npm-asset"
@@ -138,7 +109,9 @@
       "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
       "docroot/libraries/slick": ["npm-asset/slick-carousel"],
       "docroot/libraries/ace": ["npm-asset/ace-builds"],
+      "docroot/libraries/jquery-ui-touch-punch": ["bower-asset/jqueryui-touch-punch"],
       "docroot/libraries/masonry": ["npm-asset/masonry-layout"],
+      "docroot/libraries/swagger-ui/dist": ["npm-asset/swagger-ui-dist"],
       "docroot/libraries/{$name}": [
         "type:drupal-library",
         "type:bower-asset",
@@ -159,33 +132,16 @@
         {"name": "blazy", "package": "npm-asset/blazy"},
         {"name": "slick", "package": "npm-asset/slick-carousel"},
         {"name": "ace", "package": "npm-asset/ace-builds"},
+        {"name": "jquery-ui-touch-punch", "package": "bower-asset/jqueryui-touch-punch"},
         {"name": "masonry", "package": "npm-asset/masonry-layout"},
         {"name": "imagesloaded", "package": "npm-asset/imagesloaded"},
-        {"name": "swagger-ui", "package": "swagger-api/swagger-ui"}
+        {"name": "swagger-ui", "package": "npm-asset/swagger-ui-dist"}
       ]
     },
     "enable-patching": true,
     "composer-exit-on-patch-failure": true,
     "patchLevel": {
       "drupal/core": "-p2"
-    },
-    "patches": {
-      "drupal/fb_instant_articles": {
-        "Issue #2912129: Fix embed YouTube, Twitter & Instagram?":
-        "https://www.drupal.org/files/issues/twitter_instagram_table_picture_transformer-2912129-7.patch"
-      },
-      "drupal/linkchecker": {
-        "Issue #3118940 Route entity.linkcheckerlink.canonical does not exist":
-        "https://www.drupal.org/files/issues/2020-04-29/linkchecker-3118940-add-canonical-route.patch"
-      },
-      "drupal/subpathauto": {
-        "Issue #2830425: Add option to ignore admin paths":
-        "https://www.drupal.org/files/issues/2020-07-28/2830425-21.patch"
-      },
-      "drupal/ctools": {
-        "Issue #Add Configure Filter functionality to block views configuration.":
-        "https://www.drupal.org/files/issues/2020-03-30/ctools-exposed-filter-block-config-2657060-111.patch"
-      }
     }
   }
 }

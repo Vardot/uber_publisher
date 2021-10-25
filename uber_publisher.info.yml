@@ -1,11 +1,13 @@
-name: Uber Publisher
+name: 'Uber Publisher'
 type: profile
-description: 'Uber Publisher profile.'
+description: 'Uber Publisher is a flexible and powerful solution designed to evolve the way publishers and media do business.'
 core_version_requirement: ^8 || ^9
 base profile: varbase
 dependencies:
   - system
   - action
+  - tracker
+  - aggregator
   - user
   - node
   - block
@@ -14,16 +16,10 @@ dependencies:
   - image
   - views
   - file
-  - tracker
-  - aggregator
-  - sharerich
-  - layout_builder
-  - fb_instant_articles
-  - fb_instant_articles_views
-  - simple_sitemap_news
-  - layout_library
-  - layout_builder_restrictions
-  - prevent_homepage_deletion
+  - fontawesome
+  - block_class
+  - menu_block
+  - block_content
 themes:
   - claro
   - vartheme_claro

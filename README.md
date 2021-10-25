@@ -1,6 +1,8 @@
 [![](https://www.drupal.org/files/styles/grid-3-2x/public/project-images/UBER-Logo-Final-2109-2015%20%281%29.png)](https://www.drupal.org/project/uber_publisher)
 
-# Uber Publisher: A Powerful Publishing Experience That Changes The Way Content is Curated.
+# Uber Publisher
+
+## A Powerful Publishing Experience That Changes The Way Content is Curated.
 
 ## Built Using [Varbase](https://www.drupal.org/project/varbase)
 This distribution is built using Varbase, the base distribution delivered
@@ -22,9 +24,9 @@ Built on Drupal, Uber Publisher allows publishers to control the way their
 
 # Install with Composer
 
-To install the dev version of Uber Publisher 8.6.x run this command:
+To install the dev version of Uber Publisher 7.0.x run this command:
 ```
-composer create-project vardot/uber_publisher-project:8.6.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
+composer create-project vardot/uber_publisher-project:7.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
 Built using [Varbase](https://www.drupal.org/project/varbase), the base
@@ -33,10 +35,10 @@ Built using [Varbase](https://www.drupal.org/project/varbase), the base
 This distribution is sponsored and developed by [Vardot](https://www.vardot.com).
 Initial building, ongoing maintenance and development.
 
-## [Varbase 8.6.x Developer Guide](https://docs.varbase.vardot.com)
+## [Varbase Developer Guide](https://docs.varbase.vardot.com)
 
-## [CHANGELOG for Uber Publisher](https://github.com/Vardot/uber_publisher/blob/8.x-6.x/CHANGELOG.md)
+## [CHANGELOG for Uber Publisher](https://github.com/Vardot/uber_publisher/blob/7.0.x/CHANGELOG.md)
 
-## [TO DO](https://github.com/Vardot/uber_publisher/blob/8.x-6.x/TODO.md)
+## [TO DO](https://github.com/Vardot/uber_publisher/blob/7.0.x/TODO.md)
 
-## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/8.x-6.x/UPDATE.md)
+## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/7.0.x/UPDATE.md)
