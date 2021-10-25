@@ -24,6 +24,11 @@ Built on Drupal, Uber Publisher allows publishers to control the way their
 
 # Install with Composer
 
+To install the most recent stable release of Uber Publisher 7.0.x run this command:
+```
+composer create-project vardot/uber_publisher-project:~7 PROJECT_DIR_NAME --stability dev --no-interaction
+```
+
 To install the dev version of Uber Publisher 7.0.x run this command:
 ```
 composer create-project vardot/uber_publisher-project:7.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
@@ -42,3 +47,18 @@ Initial building, ongoing maintenance and development.
 ## [TO DO](https://github.com/Vardot/uber_publisher/blob/7.0.x/TODO.md)
 
 ## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/7.0.x/UPDATE.md)
+
+## Local development with Lando
+
+1. Install Lando locally, steps for installing can be found [here](https://docs.lando.dev/basics/installation.html).
+2. Run Lando start.
+
+## Debugging using Lando
+
+- xDebug is enabled on Lando by default for PHP debugging.
+- The debugger is set to listen for the port 9003 but can be changed in .lando/.php.ini
+
+Join Our Slack Team for Feedback and Support
+http://slack.varbase.vardot.com/
+
+Sponsored and developed by [Vardot](https://www.drupal.org/vardot).
