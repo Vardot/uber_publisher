@@ -26,27 +26,23 @@ function uber_publisher_form_install_configure_form_alter(&$form, FormStateInter
  */
 function uber_publisher_install_tasks(&$install_state) {
   include_once drupal_get_path('profile', 'varbase') . '/varbase.profile';
-  $install_tasks = varbase_install_tasks($install_state);
-  $needs_configure_multilingual = FALSE;
+  $varbase_install_tasks = varbase_install_tasks($install_state);
 
-  unset($install_tasks['varbase_extra_components']);
-  unset($install_tasks['varbase_assemble_extra_components']);
-  unset($install_tasks['varbase_multilingual_configuration_form']);
-
-  $install_tasks['uber_publisher_extra_components'] = [
-    'display_name' => t('Extra components'),
-    'display' => TRUE,
-    'type' => 'form',
-    'function' => UberPublisherAssemblerForm::class,
+  return [
+    'uber_publisher_extra_components' => [
+      'display_name' => t('Extra components'),
+      'display' => TRUE,
+      'type' => 'form',
+      'function' => UberPublisherAssemblerForm::class,
+    ],
+    'uber_publisher_assemble_extra_components' => [
+      'display_name' => t('Assemble extra components'),
+      'display' => TRUE,
+      'type' => 'batch',
+    ],
+    'varbase_development_tools' => $varbase_install_tasks['varbase_development_tools'],
+    'varbase_assemble_development_tools' => $varbase_install_tasks['varbase_assemble_development_tools'],
   ];
-
-  $install_tasks['uber_publisher_assemble_extra_components'] = [
-    'display_name' => t('Assemble extra components'),
-    'display' => TRUE,
-    'type' => 'batch',
-  ];
-
-  return $install_tasks;
 }
 
 /**
@@ -230,4 +226,79 @@ function uber_publisher_preprocess_install_page(&$variables) {
 
   // Attach install page library.
   $variables['#attached']['library'][] = $profile_name . '/install_page';
+}
+
+
+/**
+ * Uber Publisher after install finished.
+ *
+ * @param array $install_state
+ *   The current install state.
+ *
+ * @return array
+ *   A renderable array with a redirect header.
+ */
+function uber_publisher_after_install_finished(array &$install_state) {
+
+  // Mark all updates by the update helper checklist as successful on install.
+  if (\Drupal::moduleHandler()->moduleExists('update_helper_checklist')) {
+    $checkList = \Drupal::service('update_helper_checklist.update_checklist');
+    $checkList->markAllUpdates();
+  }
+
+  // Entity updates to clear up any mismatched entity and/or field definitions
+  // And Fix changes were detected in the entity type and field definitions.
+  \Drupal::classResolver()
+    ->getInstanceFromDefinition(VarbaseEntityDefinitionUpdateManager::class)
+    ->applyUpdates();
+
+  // Full flash and clear cash and rebuilding newly created routes.
+  // After install of extra modules by install: in the .info.yml files.
+  // In Varbase profile and all Varbase components.
+  // ---------------------------------------------------------------------------
+  // * Necessary inlitilization for the entire system.
+  // * Account for changed config by the end install.
+  // * Flush all persistent caches.
+  // * Flush asset file caches.
+  // * Wipe the Twig PHP Storage cache.
+  // * Rebuild module and theme data.
+  // * Clear all plugin caches.
+  // * Rebuild the menu router based on all rebuilt data.
+  drupal_flush_all_caches();
+
+  global $base_url;
+
+  // After install direction.
+  $after_install_direction = $base_url . '/';
+
+  install_finished($install_state);
+  $output = [];
+
+  // Clear all messages.
+  \Drupal::service('messenger')->deleteAll();
+
+  $output = [
+    '#title' => t('Uber Publisher'),
+    'info' => [
+      '#markup' => t('<p>Congratulations, you have installed Uber Publisher!</p><p>If you are not redirected to the front page in 5 seconds, Please <a href="@url">click here</a> to proceed to your installed site.</p>', [
+        '@url' => $after_install_direction,
+      ]),
+    ],
+    '#attached' => [
+      'http_header' => [
+        ['Cache-Control', 'no-cache'],
+      ],
+    ],
+  ];
+
+  $meta_redirect = [
+    '#tag' => 'meta',
+    '#attributes' => [
+      'http-equiv' => 'refresh',
+      'content' => '0;url=' . $after_install_direction,
+    ],
+  ];
+  $output['#attached']['html_head'][] = [$meta_redirect, 'meta_redirect'];
+
+  return $output;
 }
