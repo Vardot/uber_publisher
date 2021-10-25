@@ -46,6 +46,14 @@ function uber_publisher_install_tasks(&$install_state) {
 }
 
 /**
+ * Implements hook_install_tasks_alter().
+ */
+function uber_publisher_install_tasks_alter(array &$tasks, array $install_state) {
+  $tasks['install_finished']['function'] = 'uber_publisher_after_install_finished';
+}
+
+
+/**
  * Batch job to assemble Varbase extra components.
  *
  * @param array $install_state
