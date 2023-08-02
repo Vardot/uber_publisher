@@ -30,10 +30,10 @@
     "composer/installers": "~1.0 || ~2.0",
     "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core-composer-scaffold": "^8.8.0",
+    "drupal/core-composer-scaffold": "^8.8.0 || ^9.0",
     "webflo/drupal-finder": "~1.0",
     "drupal/core": "~8.0 || ~9.0",
-    "vardot/varbase": "~8.0",
+    "vardot/varbase": "~8.0 || ~9.0",
     "drupal/uber_publisher_core": "7.0.x-dev",
     "drupal/uber_publisher_author_profile": "7.0.x-dev",
     "drupal/uber_publisher_opinion_articles": "7.0.x-dev",
@@ -47,7 +47,7 @@
     "drupal/uber_publisher_daily_cartoons": "7.0.x-dev"
   },
   "require-dev": {
-    "drupal/core-dev": "~8.0",
+    "drupal/core-dev": "~8.0 || ~9.0",
     "drush/drush": "~9.0",
     "drupal/drupal-extension": "~3.0",
     "emuse/behat-html-formatter": "^0.2.0"
