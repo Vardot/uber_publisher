@@ -1,7 +1,7 @@
 name: 'Uber Publisher'
 type: profile
 description: 'Uber Publisher is a flexible and powerful solution designed to evolve the way publishers and media do business.'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9
 base profile: varbase
 project: uber_bublisher
 distribution:
