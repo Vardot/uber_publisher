@@ -8,7 +8,7 @@ distribution:
   name: 'Uber Publisher'
   install:
     theme: vartheme_claro
-version: 7.0.x-dev
+version: 9.0.x-dev
 dependencies:
   - system
   - action
