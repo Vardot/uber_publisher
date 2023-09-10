@@ -24,14 +24,14 @@ Built on Drupal, Uber Publisher allows publishers to control the way their
 
 # Install with Composer
 
-To install the most recent stable release of Uber Publisher 7.0.x run this command:
+To install the most recent stable release of Uber Publisher 9.0.x run this command:
 ```
-composer create-project vardot/uber_publisher-project:~7 PROJECT_DIR_NAME --stability dev --no-interaction
+composer create-project vardot/uber_publisher-project:~9 PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-To install the dev version of Uber Publisher 7.0.x run this command:
+To install the dev version of Uber Publisher 9.0.x run this command:
 ```
-composer create-project vardot/uber_publisher-project:7.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
+composer create-project vardot/uber_publisher-project:9.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
 Built using [Varbase](https://www.drupal.org/project/varbase), the base
@@ -42,11 +42,11 @@ Initial building, ongoing maintenance and development.
 
 ## [Varbase Developer Guide](https://docs.varbase.vardot.com)
 
-## [CHANGELOG for Uber Publisher](https://github.com/Vardot/uber_publisher/blob/7.0.x/CHANGELOG.md)
+## [CHANGELOG for Uber Publisher](https://github.com/Vardot/uber_publisher/blob/9.0.x/CHANGELOG.md)
 
-## [TO DO](https://github.com/Vardot/uber_publisher/blob/7.0.x/TODO.md)
+## [TO DO](https://github.com/Vardot/uber_publisher/blob/9.0.x/TODO.md)
 
-## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/7.0.x/UPDATE.md)
+## [General instructions on how to update Uber Publisher](https://github.com/Vardot/uber_publisher/blob/9.0.x/UPDATE.md)
 
 ## Local development with Lando
 
