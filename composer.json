@@ -30,27 +30,27 @@
     "composer/installers": "~2.0",
     "oomphinc/composer-installers-extender": "~2.0",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core-composer-scaffold": "^9",
+    "drupal/core-composer-scaffold": "~10",
     "webflo/drupal-finder": "~1.0",
-    "drupal/core": "~9.0 || ~10.0",
-    "vardot/varbase": "~9.0",
-    "drupal/uber_publisher_core": "9.0.x-dev",
-    "drupal/uber_publisher_author_profile": "9.0.x-dev",
-    "drupal/uber_publisher_opinion_articles": "9.0.x-dev",
-    "drupal/uber_publisher_ads_system": "9.0.x-dev",
-    "drupal/uber_publisher_breaking_news": "9.0.x-dev",
-    "drupal/uber_publisher_in_pictures": "9.0.x-dev",
-    "drupal/uber_publisher_search": "9.0.x-dev",
-    "drupal/uber_publisher_indepth": "9.0.x-dev",
-    "drupal/uber_publisher_video": "9.0.x-dev",
-    "drupal/uber_publisher_social_post": "9.0.x-dev",
-    "drupal/uber_publisher_daily_cartoons": "9.0.x-dev"
+    "drupal/core": "~10.1.0",
+    "vardot/varbase": "~10.0",
+    "drupal/uber_publisher_core": "10.0.x-dev",
+    "drupal/uber_publisher_author_profile": "10.0.x-dev",
+    "drupal/uber_publisher_opinion_articles": "10.0.x-dev",
+    "drupal/uber_publisher_ads_system": "10.0.x-dev",
+    "drupal/uber_publisher_breaking_news": "10.0.x-dev",
+    "drupal/uber_publisher_in_pictures": "10.0.x-dev",
+    "drupal/uber_publisher_search": "10.0.x-dev",
+    "drupal/uber_publisher_indepth": "10.0.x-dev",
+    "drupal/uber_publisher_video": "10.0.x-dev",
+    "drupal/uber_publisher_social_post": "10.0.x-dev",
+    "drupal/uber_publisher_daily_cartoons": "10.0.x-dev"
   },
   "require-dev": {
-    "drupal/core-dev": "~9.0",
-    "drush/drush": "~10.0",
-    "drupal/drupal-extension": "~3.0",
-    "emuse/behat-html-formatter": "^0.2.0"
+    "drupal/core-dev": "~10",
+    "drush/drush": "~11.0",
+    "drupal/drupal-extension": "5.0.0alpha1",
+    "webship/behat-html-formatter": "~1.0"
   },
   "config": {
     "bin-dir": "bin/",
@@ -93,7 +93,8 @@
       }
     },
     "branch-alias": {
-      "dev-9.0.x": "9.0.x-dev"
+      "dev-10.0.x": "10.0.x-dev",
+      "dev-10.1.x": "10.1.x-dev"
     },
     "installer-types": [
       "bower-asset",

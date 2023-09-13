@@ -1,14 +1,14 @@
 name: 'Uber Publisher'
 type: profile
 description: 'Uber Publisher is a flexible and powerful solution designed to evolve the way publishers and media do business.'
-core_version_requirement: ^9 || ^10
+core_version_requirement: ~10.1.0
 base profile: varbase
 project: uber_publisher
 distribution:
   name: 'Uber Publisher'
   install:
     theme: vartheme_claro
-version: 9.0.x-dev
+version: 10.0.x-dev
 dependencies:
   - system
   - action

@@ -8,7 +8,7 @@ developers need to do to update the last release to the new release.
 
 
 #  For Example:
-* https://www.drupal.org/project/uber_publisher/releases/8.x-5.0-alpha1
+* https://www.drupal.org/project/uber_publisher/releases/10.0.x-dev
 
 
 # 2 - Backups
@@ -17,7 +17,7 @@ developers need to do to update the last release to the new release.
 * Backup your project files.
 * Test a restore for your backups, to make sure that your backups works.
 
-# 3 - Get the packaged files for the new version of Uber Publisher 8.5.x
+# 3 - Get the packaged files for the new version of Uber Publisher 10.0.x
 
 * Using uber_publisher-project: https://packagist.org/packages/vardot/uber_publisher-project
 
@@ -69,7 +69,7 @@ while working on the project.
    And you will be able to import new changes if you need them
 ```
 
-# 8 - Do your Drupal 8 database updates
+# 8 - Do your Drupal 10 database updates
 
 * By the terminal "drush updb".
 * By the web browser by going to "yousite.domain/update.php"
@@ -82,5 +82,5 @@ while working on the project.
 
 --------------------------------------------------------------------------------
 
-# No upgrade path to update old Uber PUblisher 8.x-5.x to 8.x-6.x yet
+# No upgrade path to update old Uber PUblisher 10.0.x yet
 You will need to manage a migration, or a hard update process.
