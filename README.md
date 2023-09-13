@@ -21,7 +21,6 @@ Built on Drupal, Uber Publisher allows publishers to control the way their
  to an app store with growing features Uber Publisher provides a full solution
  that allows our customers to focus on crafting their narratives.
 
-
 # Install with Composer
 
 To install the most recent stable release of Uber Publisher 10.0.x run this command:
