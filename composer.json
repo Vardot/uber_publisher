@@ -30,7 +30,7 @@
     "composer/installers": "~2.0",
     "oomphinc/composer-installers-extender": "~2.0",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core-composer-scaffold": "^9",
+    "drupal/core-composer-scaffold": "^9 || ^10",
     "webflo/drupal-finder": "~1.0",
     "drupal/core": "~9.0 || ~10.0",
     "vardot/varbase": "~9.0",
