@@ -33,7 +33,7 @@
     "drupal/core-composer-scaffold": "^9 || ^10",
     "webflo/drupal-finder": "~1.0",
     "drupal/core": "~9.0 || ~10.0",
-    "vardot/varbase": "~9.0",
+    "vardot/varbase": "~9.0 || ~10.0",
     "drupal/uber_publisher_core": "9.0.x-dev",
     "drupal/uber_publisher_author_profile": "9.0.x-dev",
     "drupal/uber_publisher_opinion_articles": "9.0.x-dev",
