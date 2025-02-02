@@ -48,7 +48,7 @@
   },
   "require-dev": {
     "drupal/core-dev": "~9.0 || ~10.0",
-    "drush/drush": "~10.0",
+    "drush/drush": "~10.0 || ~11.0 || ~12.0 || ~13.0",
     "drupal/drupal-extension": "~3.0",
     "emuse/behat-html-formatter": "^0.2.0"
   },
